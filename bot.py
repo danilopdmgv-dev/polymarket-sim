@@ -3,13 +3,13 @@ Polymarket Survival Sim - 1 ciclo por execucao (GitHub Actions). SO SIMULACAO.
 Estado em state.json, relatorio em report.md.
 Env (Secrets): LLM_API_KEY, LLM_BASE_URL, LLM_MODEL
 """
-import os, re, json, time, urllib.parse, datetime as dt
+import os, re, json, math, time, statistics, urllib.parse, datetime as dt
 import requests, feedparser
 from openai import OpenAI
 
 VERSION = "v3-alto-volume"
-START_CASH = 50.0
-KILL_FLOOR = 25.0
+START_CASH = 2000.0
+KILL_FLOOR = 1000.0
 
 # Entrada
 LLM_PER_CYCLE = 8
@@ -23,7 +23,9 @@ SHRINK = 0.5
 MIN_EDGE = 0.05
 KELLY_FRAC = 0.25
 POS_PCT = {"medium": 0.03, "high": 0.04}
-MIN_ORDER = 1.0
+MIN_ORDER = 5.0
+MAX_LIQ_FRAC = 0.01        # uma ordem nunca passa de 1% da liquidez do mercado
+IMPACT = 1.0               # impacto no preco = IMPACT * (ordem / liquidez); premissa, nao medido
 MAX_OPEN = 25
 MAX_PER_CAT = 6
 
@@ -35,6 +37,11 @@ BREAK_MIN_HOURS = 2
 BREAK_GAP = 0.05
 BREAK_MARGIN = 0.02
 BREAK_CONFIRM = 2
+
+# Clima (modelo de previsao, sem LLM)
+WEATHER_SHRINK = 0.6        # usa 60% da divergencia modelo vs mercado
+WEATHER_MIN_EDGE = 0.06     # edge minimo (apos shrink e slippage)
+SIGMA_C = {0: 1.2, 1: 1.6, 2: 2.0, 3: 2.4}   # erro tipico da maxima do dia (graus C) por antecedencia
 
 GAMMA = "https://gamma-api.polymarket.com"
 STATE, LOG, REPORT = "state.json", "trades.log", "report.md"
@@ -52,8 +59,8 @@ CATS = [
     ("Cripto", r"bitcoin|\bbtc\b|ethereum|\beth\b|solana|\bxrp\b|crypto|dogecoin"),
     ("Esportes", r"\bvs\.?\b|\bnba\b|\bnfl\b|\bmlb\b|\bnhl\b|\bufc\b|premier league|champions league|ballon|spread:|o/u|win on \d{4}-\d{2}-\d{2}|\bfc\b|\bcf\b|end in a draw|a-league|la liga|serie a|bundesliga|ligue 1|\bwta\b|\batp\b"),
     ("Politica", r"election|senate|house|president|congress|governor|trump|vote|minister|parliament|ceasefire|tariff"),
-    ("Economia/Dados", r"\bfed\b|interest rate|inflation|\bcpi\b|\bgdp\b|jobs report|unemployment|earnings|s&p|nasdaq|oil|key rate|central bank|bank of"),
-    ("Clima", r"temperature|hurricane|rain|snow|weather"),
+    ("Economia/Dados", r"\bfed\b|interest rate|inflation|\bcpi\b|\bgdp\b|jobs report|unemployment|earnings|s&p|nasdaq|\boil\b|key rate|central bank|bank of"),
+    ("Clima", r"temperature|hurricane|\brain\b|\bsnow\b|weather"),
     ("Entretenimento", r"oscar|grammy|movie|box office|album|song|tweet|netflix|emmy|billboard"),
 ]
 
@@ -155,6 +162,7 @@ def parse(m):
             return None
         q = m["question"]
         return dict(id=str(m["id"]), q=q, desc=(m.get("description") or "")[:600],
+                    desc_full=(m.get("description") or ""),
                     yes=prices[0], bid=bid, ask=ask, tokens=tokens, end=end,
                     days=(end - now()) / 86400,
                     liq=fnum(m.get("liquidityNum") or m.get("liquidity")),
@@ -268,8 +276,188 @@ def get_estimate(s, m, force=False):
     if m["id"] not in s["estimates"]:  # guarda a 1a estimativa (sem look-ahead)
         s["estimates"][m["id"]] = dict(q=m["q"], p=est["p"], yes=m["yes"], conf=est["conf"],
                                        cat=m["cat"], end=m["end"], t=now(), resolved=None,
-                                       version=VERSION)
+                                       version=VERSION, src="llm")
     return est, True
+
+
+# ---------------- CLIMA ----------------
+AIRPORTS = {
+    "KATL": (33.6407, -84.4277), "KLAX": (33.9416, -118.4085), "KJFK": (40.6413, -73.7781),
+    "KLGA": (40.7769, -73.8740), "KORD": (41.9742, -87.9073), "KMIA": (25.7959, -80.2870),
+    "KDFW": (32.8998, -97.0403), "KSEA": (47.4502, -122.3088), "KSFO": (37.6213, -122.3790),
+    "KDEN": (39.8561, -104.6737), "KBOS": (42.3656, -71.0096), "KDCA": (38.8512, -77.0402),
+    "EHAM": (52.3105, 4.7683), "LFPG": (49.0097, 2.5479), "LFPB": (48.9693, 2.4414),
+    "EGLC": (51.5053, 0.0553), "EGLL": (51.4700, -0.4543), "LTAC": (40.1281, 32.9951),
+    "LEMD": (40.4936, -3.5668), "RJTT": (35.5494, 139.7798), "RKSI": (37.4602, 126.4407),
+    "ZSPD": (31.1443, 121.8083), "EDDM": (48.3538, 11.7861), "EDDB": (52.3667, 13.5033),
+    "LIMC": (45.6306, 8.7281), "LLBG": (32.0114, 34.8867), "SBGR": (-23.4356, -46.4731),
+    "NZWN": (-41.3272, 174.8053), "CYYZ": (43.6777, -79.6248), "EPWA": (52.1657, 20.9671),
+    "UUWW": (55.5915, 37.2615), "VHHH": (22.3080, 113.9185), "WSSS": (1.3644, 103.9915),
+    "OMDB": (25.2532, 55.3657),
+}
+CITY_STATION = {  # so usado se a descricao do mercado nao trouxer a estacao
+    "atlanta": "KATL", "los angeles": "KLAX", "new york city": "KLGA", "nyc": "KLGA",
+    "chicago": "KORD", "miami": "KMIA", "dallas": "KDFW", "seattle": "KSEA",
+    "san francisco": "KSFO", "denver": "KDEN", "boston": "KBOS", "amsterdam": "EHAM",
+    "paris": "LFPG", "london": "EGLC", "ankara": "LTAC", "madrid": "LEMD", "tokyo": "RJTT",
+    "seoul": "RKSI", "shanghai": "ZSPD", "munich": "EDDM", "berlin": "EDDB", "milan": "LIMC",
+    "tel aviv": "LLBG", "sao paulo": "SBGR", "wellington": "NZWN", "toronto": "CYYZ",
+    "warsaw": "EPWA", "moscow": "UUWW", "hong kong": "VHHH", "singapore": "WSSS", "dubai": "OMDB",
+}
+WX_CACHE, GEO_CACHE = {}, {}
+Q_RX = re.compile(r"highest temperature in (?P<city>.+?)\s+be\s+(?P<cond>.+?)\s+on\s+(?P<md>[A-Za-z]+\.?\s+\d{1,2})", re.I)
+
+
+def parse_temp_q(q, year):
+    """Extrai cidade, tipo (exact/range/ge/le), limites, unidade e data da pergunta."""
+    m = Q_RX.search(q)
+    if not m:
+        return None
+    cond = m.group("cond")
+    kind = a = b = unit = None
+    r = re.search(r"between\s+(-?\d+)\s*[-\u2013]\s*(-?\d+)\s*\u00b0?\s*([CF])\b", cond, re.I)
+    if r:
+        kind, a, b, unit = "range", int(r.group(1)), int(r.group(2)), r.group(3)
+    if not kind:
+        r = re.search(r"(-?\d+)\s*\u00b0?\s*([CF])\s+or\s+(?:higher|above|more)", cond, re.I)
+        if r: kind, a, unit = "ge", int(r.group(1)), r.group(2)
+    if not kind:
+        r = re.search(r"(-?\d+)\s*\u00b0?\s*([CF])\s+or\s+(?:lower|below|less)", cond, re.I)
+        if r: kind, a, unit = "le", int(r.group(1)), r.group(2)
+    if not kind:
+        r = re.search(r"(?:higher|above|greater)\s+than\s+(-?\d+)\s*\u00b0?\s*([CF])\b", cond, re.I)
+        if r: kind, a, unit = "ge", int(r.group(1)) + 1, r.group(2)
+    if not kind:
+        r = re.search(r"(?:lower|below|less)\s+than\s+(-?\d+)\s*\u00b0?\s*([CF])\b", cond, re.I)
+        if r: kind, a, unit = "le", int(r.group(1)) - 1, r.group(2)
+    if not kind:
+        r = re.search(r"(-?\d+)\s*\u00b0?\s*([CF])\b", cond, re.I)
+        if r: kind, a, unit = "exact", int(r.group(1)), r.group(2)
+    if not kind:
+        return None
+    md = m.group("md").replace(".", "")
+    day = None
+    for fmt in ("%B %d %Y", "%b %d %Y"):
+        try:
+            day = dt.datetime.strptime(f"{md} {year}", fmt).date()
+            break
+        except ValueError:
+            pass
+    if not day:
+        return None
+    return dict(city=m.group("city").strip(), kind=kind, a=a, b=b, unit=unit.upper(), date=day)
+
+
+def ncdf(x):
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def temp_prob(kind, a, b, mu, sigma):
+    """Probabilidade da maxima (arredondada p/ inteiro) cair no bin do mercado."""
+    if kind == "exact":
+        lo, hi = a - 0.5, a + 0.5
+    elif kind == "range":
+        lo, hi = a - 0.5, b + 0.5
+    elif kind == "ge":
+        lo, hi = a - 0.5, None
+    else:
+        lo, hi = None, a + 0.5
+    p = (1.0 if hi is None else ncdf((hi - mu) / sigma)) - (0.0 if lo is None else ncdf((lo - mu) / sigma))
+    return min(max(p, 0.02), 0.98)
+
+
+def geocode(city):
+    if city in GEO_CACHE:
+        return GEO_CACHE[city]
+    out = None
+    try:
+        r = requests.get("https://geocoding-api.open-meteo.com/v1/search",
+                         params={"name": city, "count": 1}, timeout=15)
+        res = (r.json().get("results") or [])
+        if res:
+            out = (res[0]["latitude"], res[0]["longitude"])
+    except Exception as e:
+        log(f"erro geocode {city}: {str(e)[:100]}")
+    GEO_CACHE[city] = out
+    return out
+
+
+def find_station(m, city):
+    """Retorna (id, lat, lon, incerteza_extra_em_C) ou None."""
+    mm = re.search(r"wunderground\.com/history/daily/\S*?/([A-Z]{4})\b", m.get("desc_full") or "")
+    icao = mm.group(1) if mm else None
+    if icao in AIRPORTS:
+        return icao, *AIRPORTS[icao], 0.0
+    if not icao and city.lower() in CITY_STATION:
+        ic = CITY_STATION[city.lower()]
+        return ic, *AIRPORTS[ic], 0.5          # estacao presumida
+    g = geocode(city)
+    if g:
+        return (icao or "geo:" + city.lower()), g[0], g[1], 0.8   # centro da cidade
+    return None
+
+
+def wx_forecast(sid, lat, lon, unit):
+    key = (sid, unit)
+    if key in WX_CACHE:
+        return WX_CACHE[key]
+    out = None
+    base = {"latitude": lat, "longitude": lon, "daily": "temperature_2m_max",
+            "timezone": "auto", "forecast_days": 4,
+            "temperature_unit": "fahrenheit" if unit == "F" else "celsius"}
+    for extra in ({"models": "ecmwf_ifs025,gfs_seamless,icon_seamless"}, {}):
+        try:
+            r = requests.get("https://api.open-meteo.com/v1/forecast", params={**base, **extra}, timeout=20)
+            r.raise_for_status()
+            d = r.json()["daily"]
+            ks = [k for k in d if k.startswith("temperature_2m_max")]
+            vals = [[d[k][i] for k in ks if d[k][i] is not None] for i in range(len(d["time"]))]
+            out = {"dates": d["time"], "vals": vals}
+            break
+        except Exception as e:
+            log(f"erro previsao {sid}: {str(e)[:120]}")
+    WX_CACHE[key] = out
+    return out
+
+
+def weather_estimate(m):
+    """Estimativa de probabilidade por previsao numerica. None se nao der para modelar."""
+    year = dt.datetime.fromtimestamp(m["end"], dt.timezone.utc).year
+    q = parse_temp_q(m["q"], year)
+    if not q:
+        return None
+    stn = find_station(m, q["city"])
+    if not stn:
+        return None
+    sid, lat, lon, extra = stn
+    fc = wx_forecast(sid, lat, lon, q["unit"])
+    ds = q["date"].isoformat()
+    if not fc or ds not in fc["dates"]:
+        return None
+    i = fc["dates"].index(ds)
+    vals = fc["vals"][i]
+    if not vals:
+        return None
+    k = 1.8 if q["unit"] == "F" else 1.0
+    mu = statistics.mean(vals)
+    spread = statistics.pstdev(vals) if len(vals) > 1 else 0.0
+    sigma = math.sqrt((SIGMA_C.get(i, 2.4) * k) ** 2 + spread ** 2 + (extra * k) ** 2)
+    p = temp_prob(q["kind"], q["a"], q["b"], mu, sigma)
+    return dict(p=p, conf="medium", src="clima", event=f"{sid}|{ds}",
+                evidence=[f"Previsao Open-Meteo {sid} {ds}: maxima {mu:.1f}{q['unit']} "
+                          f"({len(vals)} modelos, sigma {sigma:.1f})"],
+                misprice=f"Modelo {p:.2f} vs mercado {m['yes']:.2f}",
+                reason=f"Previsao numerica {mu:.1f}{q['unit']} e sigma {sigma:.1f}")
+
+
+def reestimate(s, m):
+    """Reavaliacao de posicao aberta: clima usa o modelo, o resto usa o LLM."""
+    if m["cat"] == "Clima":
+        est = weather_estimate(m)
+        if est:
+            return est, False
+        raise RuntimeError("sem modelo de clima")
+    return get_estimate(s, m)
 
 
 # ---------------- CARTEIRA ----------------
@@ -277,8 +465,8 @@ def equity(s):
     return s["cash"] + sum(p["shares"] * p.get("mark", p["entry"]) for p in s["positions"])
 
 
-def sell_price(m, side, liq):
-    sl = slippage(liq)
+def sell_price(m, side, liq, usd=0.0):
+    sl = slippage(liq) + IMPACT * usd / max(liq, 1.0)
     px = m["bid"] if side == "YES" else 1 - m["ask"]
     return max(0.01, px - sl)
 
@@ -330,7 +518,7 @@ def manage_exits(s, st):
             if not m:
                 keep.append(pos)
                 continue
-            px = sell_price(m, pos["side"], m["liq"])
+            px = sell_price(m, pos["side"], m["liq"], pos["cost"])
             pos["mark"] = m["bid"] if pos["side"] == "YES" else 1 - m["ask"]
             held_h = (now() - pos["t"]) / 3600
             target = pos["entry"] + TP_CAPTURE * (pos["fair"] - pos["entry"])
@@ -341,8 +529,8 @@ def manage_exits(s, st):
                 reason = "stop-loss"
             elif held_h / 24 >= MAX_HOLD_DAYS:
                 reason = "tempo-maximo"
-            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL and not LLM_DOWN:
-                est, called = get_estimate(s, m)
+            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL and (m["cat"] == "Clima" or not LLM_DOWN):
+                est, called = reestimate(s, m)
                 reevals += 1 if called else 0
                 p_new = est["p"] if pos["side"] == "YES" else 1 - est["p"]
                 cond = (est["conf"] in ("medium", "high")
@@ -366,6 +554,48 @@ def manage_exits(s, st):
 
 
 # ---------------- ENTRADAS ----------------
+def record_estimate(s, m, est):
+    if m["id"] not in s["estimates"]:
+        s["estimates"][m["id"]] = dict(q=m["q"], p=est["p"], yes=m["yes"], conf=est["conf"],
+                                       cat=m["cat"], end=m["end"], t=now(), resolved=None,
+                                       version=VERSION, src=est.get("src", "llm"))
+
+
+def try_buy(s, st, m, est):
+    if est["conf"] == "low":
+        return
+    clima = est.get("src") == "clima"
+    shrink = WEATHER_SHRINK if clima else SHRINK
+    min_edge = WEATHER_MIN_EDGE if clima else MIN_EDGE
+    p_adj = m["yes"] + shrink * (est["p"] - m["yes"])
+    sl = slippage(m["liq"])
+    if p_adj >= m["yes"]:
+        side, price, p_side = "YES", min(0.99, m["ask"] + sl), p_adj
+    else:
+        side, price, p_side = "NO", min(0.99, 1 - m["bid"] + sl), 1 - p_adj
+    edge = p_side - price
+    if edge < min_edge:
+        return
+    usd = min(kelly_size(p_side, price, equity(s), est["conf"]), s["cash"], MAX_LIQ_FRAC * m["liq"])
+    if usd < MIN_ORDER:
+        return
+    price = min(0.99, price + IMPACT * usd / max(m["liq"], 1.0))   # impacto de mercado
+    edge = p_side - price
+    if edge < min_edge:
+        return
+    s["cash"] -= usd
+    s["positions"].append(dict(
+        mid=m["id"], q=m["q"], cat=m["cat"], side=side,
+        token=m["tokens"][0 if side == "YES" else 1], entry=price, fair=p_side,
+        shares=usd / price, cost=usd, t=now(), mark=price, conf=est["conf"],
+        llm_p=est["p"], mkt_yes=m["yes"], edge=edge, evidence=est["evidence"],
+        misprice=est["misprice"], version=VERSION, src=est.get("src", "llm"),
+        event=est.get("event")))
+    st["buys"] += 1
+    log(f"BUY {side} [{est.get('src', 'llm')}] {m['q'][:50]} @ {price:.3f} ${usd:.2f} "
+        f"edge={edge:.3f} conf={est['conf']} | {est['misprice']}")
+
+
 def find_entries(s, st):
     held = {p["mid"] for p in s["positions"]}
     raw = [parse(m) for m in fetch_markets()]
@@ -384,11 +614,33 @@ def find_entries(s, st):
     st["passed"] = len(cands)
     cands.sort(key=lambda m: (-m["vol"], m["ask"] - m["bid"]))
 
+    def cat_full(m):
+        return sum(1 for p in s["positions"] if p["cat"] == m["cat"]) >= MAX_PER_CAT
+
+    # 1) CLIMA: modelo numerico, sem LLM e sem gastar cota
+    open_events = {p.get("event") for p in s["positions"] if p.get("event")}
+    wx_n = 0
+    for m in [c for c in cands if c["cat"] == "Clima"]:
+        est = weather_estimate(m)
+        if not est:
+            st["filtered"]["clima_sem_modelo"] = st["filtered"].get("clima_sem_modelo", 0) + 1
+            continue
+        wx_n += 1
+        record_estimate(s, m, est)
+        if len(s["positions"]) >= MAX_OPEN or cat_full(m) or est["event"] in open_events:
+            continue
+        n0 = len(s["positions"])
+        try_buy(s, st, m, est)
+        if len(s["positions"]) > n0:
+            open_events.add(est["event"])
+    st["clima"] = wx_n
+
+    # 2) RESTO: LLM, com limite de consultas
     calls = 0
-    for m in cands:
+    for m in [c for c in cands if c["cat"] != "Clima"]:
         if calls >= LLM_PER_CYCLE or len(s["positions"]) >= MAX_OPEN or time.time() - T0 > 300:
             break
-        if sum(1 for p in s["positions"] if p["cat"] == m["cat"]) >= MAX_PER_CAT:
+        if cat_full(m):
             continue
         try:
             est, called = get_estimate(s, m)
@@ -399,30 +651,7 @@ def find_entries(s, st):
                 break
             continue
         calls += 1 if called else 0
-        if est["conf"] == "low":
-            continue
-        p_adj = m["yes"] + SHRINK * (est["p"] - m["yes"])
-        sl = slippage(m["liq"])
-        if p_adj >= m["yes"]:
-            side, price, p_side = "YES", min(0.99, m["ask"] + sl), p_adj
-        else:
-            side, price, p_side = "NO", min(0.99, 1 - m["bid"] + sl), 1 - p_adj
-        edge = p_side - price
-        if edge < MIN_EDGE:
-            continue
-        usd = min(kelly_size(p_side, price, equity(s), est["conf"]), s["cash"])
-        if usd < MIN_ORDER:
-            continue
-        s["cash"] -= usd
-        s["positions"].append(dict(
-            mid=m["id"], q=m["q"], cat=m["cat"], side=side,
-            token=m["tokens"][0 if side == "YES" else 1], entry=price, fair=p_side,
-            shares=usd / price, cost=usd, t=now(), mark=price, conf=est["conf"],
-            llm_p=est["p"], mkt_yes=m["yes"], edge=edge, evidence=est["evidence"],
-            misprice=est["misprice"], version=VERSION))
-        st["buys"] += 1
-        log(f"BUY {side} {m['q'][:50]} @ {price:.3f} ${usd:.2f} edge={edge:.3f} "
-            f"conf={est['conf']} | {est['misprice']}")
+        try_buy(s, st, m, est)
     st["llm"] = calls
 
 
@@ -462,6 +691,12 @@ def report(s):
             bl_k = sum((e["p"] - (e["resolved"] == "YES")) ** 2 for e in g) / len(g)
             bm_k = sum((e["yes"] - (e["resolved"] == "YES")) ** 2 for e in g) / len(g)
             L.append(f"  - {k} ({len(g)}): LLM {bl_k:.4f} vs mercado {bm_k:.4f}")
+    for k in sorted({e.get("src", "llm") for e in res}):
+        g = [e for e in res if e.get("src", "llm") == k]
+        bl_k = sum((e["p"] - (e["resolved"] == "YES")) ** 2 for e in g) / len(g)
+        bm_k = sum((e["yes"] - (e["resolved"] == "YES")) ** 2 for e in g) / len(g)
+        L.append(f"- Fonte {k} ({len(g)}): modelo {bl_k:.4f} vs mercado {bm_k:.4f} -> "
+                 + ("GANHANDO" if bl_k < bm_k else "PERDENDO"))
     if len(res) < 30:
         L.append(f"- Amostra pequena: conclusoes so com 30+ resolvidos (faltam {30 - len(res)}).")
     L += ["", "## Posicoes abertas"]
@@ -497,7 +732,7 @@ def main():
     s["history"] = s["history"][-2000:]
     s["cache"] = {k: v for k, v in s["cache"].items() if now() - v["t"] < 6 * 3600}
     log(f"ciclo {s['cycles']}: lidos={st['scanned']} filtro={st['passed']} llm={st['llm']} "
-        f"compras={st['buys']} vendas={st['sells']} descartados={st['filtered']} "
+        f"clima={st.get('clima', 0)} compras={st['buys']} vendas={st['sells']} descartados={st['filtered']} "
         f"equity=${equity(s):.2f}")
     report(s)
     save(s)
