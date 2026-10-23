@@ -92,3 +92,15 @@
 2026-10-23 20:01:29Z erro geocode Busan: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-23 20:01:40Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-23 20:02:29Z ciclo 8: lidos=700 filtro=17 llm=8 clima=4 compras=0 vendas=1 descartados={'esporte_vivo': 92, 'categoria_Esportes': 250, 'combinado': 3, 'cripto': 13, 'clima_sem_modelo': 4} equity=$1797.93
+2026-10-23 23:17:13Z SELL NO [stop-loss] Will the highest temperature in Wellington be 18°C @ 0.010 pnl=$-19.54
+2026-10-23 23:17:30Z erro geocode Mexico City: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 23:17:40Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:17:50Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:00Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:01Z BUY NO [clima] Will the highest temperature in New York City be b @ 0.376 $18.75 edge=0.212 conf=medium | Modelo 0.25 vs mercado 0.66
+2026-10-23 23:18:17Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:27Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:37Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:47Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 23:18:47Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-23 23:19:31Z ciclo 9: lidos=600 filtro=34 llm=7 clima=9 compras=1 vendas=1 descartados={'esporte_vivo': 38, 'categoria_Esportes': 208, 'cripto': 15, 'combinado': 3, 'clima_sem_modelo': 4} equity=$1785.86
