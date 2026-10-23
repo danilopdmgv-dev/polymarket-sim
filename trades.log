@@ -49,3 +49,16 @@
 2026-10-23 06:22:45Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-23 06:22:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-23 06:23:33Z ciclo 3: lidos=600 filtro=29 llm=8 clima=1 compras=1 vendas=1 descartados={'categoria_Esportes': 194, 'esporte_vivo': 7, 'cripto': 14, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1945.88
+2026-10-23 11:53:42Z SELL NO [stop-loss] Will the highest temperature in London be 16°C on  @ 0.424 pnl=$-20.98
+2026-10-23 11:53:45Z SELL NO [stop-loss] Will the highest temperature in Dallas be between  @ 0.310 pnl=$-26.68
+2026-10-23 11:53:45Z SELL YES [stop-loss] Will David Eby be the next Premier of British Colu @ 0.069 pnl=$-18.51
+2026-10-23 11:53:59Z erro geocode Mexico City: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 11:54:09Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 11:54:19Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 11:54:29Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 11:54:30Z BUY NO [clima] Will the highest temperature in Wellington be 18°C @ 0.621 $19.86 edge=0.130 conf=medium | Modelo 0.15 vs mercado 0.41
+2026-10-23 11:54:30Z BUY NO [clima] Will the highest temperature in Singapore be 33°C  @ 0.717 $19.86 edge=0.089 conf=medium | Modelo 0.12 vs mercado 0.30
+2026-10-23 11:54:48Z erro previsao geo:chongqing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 11:54:58Z erro previsao geo:chongqing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 11:55:50Z BUY YES [llm] Will Conservative win the second most seats in the @ 0.112 $56.75 edge=0.156 conf=medium | O mercado trata os Conservadores incorretamente como azarões extremos para o segundo lugar, ignorando que lideram as pesquisas e têm alta probabilidade de terminar em primeiro ou segundo.
+2026-10-23 11:55:50Z ciclo 4: lidos=600 filtro=24 llm=8 clima=11 compras=3 vendas=3 descartados={'esporte_vivo': 14, 'categoria_Esportes': 243, 'cripto': 19, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1891.56

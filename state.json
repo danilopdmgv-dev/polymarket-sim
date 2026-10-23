@@ -1,31 +1,6 @@
 {
- "cash": 1586.7419607362478,
+ "cash": 1603.4040595710671,
  "positions": [
-  {
-   "mid": "6035863",
-   "q": "Will the highest temperature in London be 16°C on October 24?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "70111236553299479365414400623232886473884444616057120849405232717447207462233",
-   "entry": 0.6512664268009277,
-   "fair": 0.7309621210661418,
-   "shares": 92.1281944391403,
-   "cost": 60.0,
-   "t": 1792727533.0264568,
-   "mark": 0.6,
-   "conf": "medium",
-   "llm_p": 0.201729798223097,
-   "mkt_yes": 0.37,
-   "edge": 0.07969569426521406,
-   "evidence": [
-    "Previsao Open-Meteo EGLC 2026-10-24: maxima 16.2C (3 modelos, sigma 1.9)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.37",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EGLC|2026-10-24",
-   "breakCount": 0
-  },
   {
    "mid": "6038975",
    "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
@@ -37,7 +12,7 @@
    "shares": 87.948280039741,
    "cost": 60.0,
    "t": 1792727534.1869555,
-   "mark": 0.64,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.17389363725638735,
    "mkt_yes": 0.34,
@@ -62,7 +37,7 @@
    "shares": 98.51189812724274,
    "cost": 60.0,
    "t": 1792727535.2855847,
-   "mark": 0.5700000000000001,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.19116873178967564,
    "mkt_yes": 0.42,
@@ -87,7 +62,7 @@
    "shares": 86.68453539048636,
    "cost": 60.0,
    "t": 1792727535.818808,
-   "mark": 0.6799999999999999,
+   "mark": 0.6599999999999999,
    "conf": "medium",
    "llm_p": 0.1830467441518575,
    "mkt_yes": 0.335,
@@ -102,57 +77,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6005142",
-   "q": "Will the highest temperature in Dallas be between 84-85°F on October 23?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "41166939447278427651965165531266988752311198111256941130592993922478543611602",
-   "entry": 0.5586652787986682,
-   "fair": 0.6653107310229621,
-   "shares": 107.39883482471227,
-   "cost": 60.0,
-   "t": 1792727536.3255336,
-   "mark": 0.55,
-   "conf": "medium",
-   "llm_p": 0.24448211496172984,
-   "mkt_yes": 0.47,
-   "edge": 0.10664545222429389,
-   "evidence": [
-    "Previsao Open-Meteo KDFW 2026-10-23: maxima 83.5F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KDFW|2026-10-23",
-   "breakCount": 0
-  },
-  {
-   "mid": "4881659",
-   "q": "Will David Eby be the next Premier of British Columbia?",
-   "cat": "Outros",
-   "side": "YES",
-   "token": "42008159329959973236740566202504646144442125447944791521323824274808966787827",
-   "entry": 0.10073148837935507,
-   "fair": 0.2675,
-   "shares": 588.6343557900642,
-   "cost": 59.29401476995601,
-   "t": 1792728237.9501872,
-   "mark": 0.09,
-   "conf": "medium",
-   "llm_p": 0.45,
-   "mkt_yes": 0.085,
-   "edge": 0.16676851162064493,
-   "evidence": [
-    "Angus Reid Institute poll on October 19, 2026 showed BC Conservatives leading slightly in a narrowing two-way race",
-    "B.C. general election is scheduled for October 24, 2026 following David Eby's snap election call on September 23, 2026"
-   ],
-   "misprice": "Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null,
-   "breakCount": 0
-  },
-  {
    "mid": "6037187",
    "q": "Will the highest temperature in Atlanta be between 70-71°F on October 24?",
    "cat": "Clima",
@@ -163,7 +87,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.4006467989983544,
+   "mark": 0.37,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -174,7 +98,82 @@
    "misprice": "Modelo 0.19 vs mercado 0.62",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "KATL|2026-10-24"
+   "event": "KATL|2026-10-24",
+   "breakCount": 0
+  },
+  {
+   "mid": "6035908",
+   "q": "Will the highest temperature in Wellington be 18°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "56687897139562809921679902489610008452502865201198578967782635717271941820610",
+   "entry": 0.6208612035924771,
+   "fair": 0.7506281513072235,
+   "shares": 31.99004106468208,
+   "cost": 19.861375398391285,
+   "t": 1792756470.3497596,
+   "mark": 0.6208612035924771,
+   "conf": "medium",
+   "llm_p": 0.14561974782129405,
+   "mkt_yes": 0.405,
+   "edge": 0.1297669477147464,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-24: maxima 16.4C (1 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.15 vs mercado 0.41",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-24"
+  },
+  {
+   "mid": "6035986",
+   "q": "Will the highest temperature in Singapore be 33°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "115530263198217527883184258503394590914471679775986433268977806322531053431933",
+   "entry": 0.7165921325463562,
+   "fair": 0.8057211098596395,
+   "shares": 27.716429606637437,
+   "cost": 19.861375398391285,
+   "t": 1792756470.8580706,
+   "mark": 0.7165921325463562,
+   "conf": "medium",
+   "llm_p": 0.12046481690060085,
+   "mkt_yes": 0.305,
+   "edge": 0.08912897731328329,
+   "evidence": [
+    "Previsao Open-Meteo WSSS 2026-10-24: maxima 31.0C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.12 vs mercado 0.30",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "WSSS|2026-10-24"
+  },
+  {
+   "mid": "4881580",
+   "q": "Will Conservative win the second most seats in the 2026 British Columbia general election?",
+   "cat": "Politica",
+   "side": "YES",
+   "token": "106686148044990716478696251667753459577992892251274445074465990474984257078836",
+   "entry": 0.11167618873122875,
+   "fair": 0.2675,
+   "shares": 508.1368508117617,
+   "cost": 56.74678685254653,
+   "t": 1792756550.9614804,
+   "mark": 0.11167618873122875,
+   "conf": "medium",
+   "llm_p": 0.45,
+   "mkt_yes": 0.085,
+   "edge": 0.15582381126877126,
+   "evidence": [
+    "As pesquisas de 20 a 22 de outubro de 2026 mostram os B.C. Conservatives liderando com vantagem estreita de 2 a 5 pontos sobre o NDP.",
+    "A eleição provincial de British Columbia está marcada para 24 de outubro de 2026, com 93 assentos em disputa.",
+    "O mercado precifica os Conservadores em apenas 8.5% para o segundo lugar, subestimando a probabilidade de ficarem logo atrás do vencedor em um cenário de disputa bipartidária polarizada."
+   ],
+   "misprice": "O mercado trata os Conservadores incorretamente como azarões extremos para o segundo lugar, ignorando que lideram as pesquisas e têm alta probabilidade de terminar em primeiro ou segundo.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null
   }
  ],
  "closed": [
@@ -206,6 +205,97 @@
    "pnl": -33.532271401448284,
    "closed_t": 1792736501.2017274,
    "held_h": 2.490997616317537
+  },
+  {
+   "mid": "6035863",
+   "q": "Will the highest temperature in London be 16°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "70111236553299479365414400623232886473884444616057120849405232717447207462233",
+   "entry": 0.6512664268009277,
+   "fair": 0.7309621210661418,
+   "shares": 92.1281944391403,
+   "cost": 60.0,
+   "t": 1792727533.0264568,
+   "mark": 0.51,
+   "conf": "medium",
+   "llm_p": 0.201729798223097,
+   "mkt_yes": 0.37,
+   "edge": 0.07969569426521406,
+   "evidence": [
+    "Previsao Open-Meteo EGLC 2026-10-24: maxima 16.2C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.37",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EGLC|2026-10-24",
+   "breakCount": 0,
+   "exit": 0.4235890779242167,
+   "reason": "stop-loss",
+   "pnl": -20.975503066701613,
+   "closed_t": 1792756422.5787158,
+   "held_h": 8.024875627491209
+  },
+  {
+   "mid": "6005142",
+   "q": "Will the highest temperature in Dallas be between 84-85°F on October 23?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "41166939447278427651965165531266988752311198111256941130592993922478543611602",
+   "entry": 0.5586652787986682,
+   "fair": 0.6653107310229621,
+   "shares": 107.39883482471227,
+   "cost": 60.0,
+   "t": 1792727536.3255336,
+   "mark": 0.39,
+   "conf": "medium",
+   "llm_p": 0.24448211496172984,
+   "mkt_yes": 0.47,
+   "edge": 0.10664545222429389,
+   "evidence": [
+    "Previsao Open-Meteo KDFW 2026-10-23: maxima 83.5F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KDFW|2026-10-23",
+   "breakCount": 0,
+   "exit": 0.31024837072839195,
+   "reason": "stop-loss",
+   "pnl": -26.679686477505335,
+   "closed_t": 1792756425.23538,
+   "held_h": 8.024697179595629
+  },
+  {
+   "mid": "4881659",
+   "q": "Will David Eby be the next Premier of British Columbia?",
+   "cat": "Outros",
+   "side": "YES",
+   "token": "42008159329959973236740566202504646144442125447944791521323824274808966787827",
+   "entry": 0.10073148837935507,
+   "fair": 0.2675,
+   "shares": 588.6343557900642,
+   "cost": 59.29401476995601,
+   "t": 1792728237.9501872,
+   "mark": 0.08,
+   "conf": "medium",
+   "llm_p": 0.45,
+   "mkt_yes": 0.085,
+   "edge": 0.16676851162064493,
+   "evidence": [
+    "Angus Reid Institute poll on October 19, 2026 showed BC Conservatives leading slightly in a narrowing two-way race",
+    "B.C. general election is scheduled for October 24, 2026 following David Eby's snap election call on September 23, 2026"
+   ],
+   "misprice": "Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "breakCount": 0,
+   "exit": 0.06929059717150135,
+   "reason": "stop-loss",
+   "pnl": -18.507188741600466,
+   "closed_t": 1792756425.4115086,
+   "held_h": 7.829850367108981
   }
  ],
  "cache": {
@@ -222,19 +312,6 @@
     "reason": "A faixa de 260 a 279 tweets representa uma janela estreita de contagem para o comportamento tipico de Musk no X."
    }
   },
-  "5640344": {
-   "t": 1792727727.8744552,
-   "yes": 0.41,
-   "est": {
-    "p": 0.38,
-    "conf": "low",
-    "evidence": [
-     "Sem dados em tempo real sobre a contagem exata de tweets de Elon Musk para o período de 16 a 23 de outubro de 2026."
-    ],
-    "misprice": "O preço atual de 0.41 está próximo da faixa histórica esperada, sem evidências fortes de desvio.",
-    "reason": "A contagem exata de tweets nos momentos finais é altamente volátil e difícil de prever com alta precisão sem dados de rastreamento ao vivo."
-   }
-  },
   "3081958": {
    "t": 1792736578.0310266,
    "yes": 0.26,
@@ -249,114 +326,88 @@
     "reason": "A taxa foi mantida em 14% em setembro após sucessivos cortes, tornando um novo corte em outubro estatisticamente menos provável."
    }
   },
-  "3081959": {
-   "t": 1792727740.846667,
-   "yes": 0.795,
-   "est": {
-    "p": 0.8,
-    "conf": "low",
-    "evidence": [
-     "Bank of Russia kept the key rate at 14.00% p.a. on September 11, 2026.",
-     "Market is currently pricing SIM at 0.795."
-    ],
-    "misprice": "O mercado está essencialmente alinhado com a probabilidade esperada de manutenção da taxa.",
-    "reason": "A ausência de choques macroeconômicos recentes sustenta a continuidade da taxa fixa."
-   }
-  },
   "5929768": {
-   "t": 1792736584.1207159,
-   "yes": 0.205,
+   "t": 1792756504.4674351,
+   "yes": 0.21,
    "est": {
-    "p": 0.21,
+    "p": 0.22,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos sobre a taxa exata de postagens de Elon Musk para este periodo de 48 horas em outubro de 2026."
+     "Historical averages show Elon Musk typically fluctuates outside the 40-64 range during standard 48-hour windows."
     ],
-    "misprice": "O preco atual reflete adequadamente a incerteza sobre a volatilidade do comportamento de postagem dele em uma janela curta de dois dias.",
-    "reason": "A faixa de 40 a 64 tweets em 48 horas exige uma media de 20 a 32 tweets por dia, o que e possivel mas representa uma faixa estreita com alta variancia estatistica."
+    "misprice": "Market is efficiently priced near historical baseline frequencies for his posting volume.",
+    "reason": "Base rate for posting volume in a 48-hour window makes this bracket moderately unlikely."
    }
   },
   "4881547": {
-   "t": 1792736590.0117743,
-   "yes": 0.1,
+   "t": 1792756537.549733,
+   "yes": 0.085,
    "est": {
-    "p": 0.12,
+    "p": 0.08,
     "conf": "low",
     "evidence": [
-     "As of October 22, 2026, polling and trackers indicate significant headwinds for David Eby's BC NDP following the recent snap election call."
+     "B.C. Conservatives hold a narrow lead over the NDP heading into election day based on polls reported on Oct 22, 2026.",
+     "The B.C. Conservatives maintained a two-point lead less than two weeks from the election per polls on Oct 15, 2026."
     ],
-    "misprice": "Market is reacting heavily to anti-incumbent sentiment, though the probability might slightly underestimate late-breaking shifts.",
-    "reason": "Polling aggregates and recent analysis show the BC NDP struggling significantly in this election cycle, keeping their chances low."
+    "misprice": "O mercado já reflete com precisão a desvantagem nas pesquisas na véspera da eleição.",
+    "reason": "As pesquisas recentes mostram o NDP atrás dos Conservadores na véspera da eleição de 24 de outubro de 2026."
    }
   },
   "4881660": {
-   "t": 1792736595.9590166,
-   "yes": 0.905,
+   "t": 1792756519.1337898,
+   "yes": 0.915,
    "est": {
     "p": 0.9,
-    "conf": "low",
+    "conf": "high",
     "evidence": [
-     "The BC Conservatives hold a slight edge over the NDP in the latest CTV News poll published on Oct 20, 2026.",
-     "Lorne Doerkson leads the party heading into the final stretch of the election scheduled for Oct 24, 2026."
+     "The 2026 British Columbia general election is scheduled for October 24, 2026.",
+     "BC Conservatives hold a slight edge over the NDP in the latest poll published on October 20, 2026.",
+     "Lorne Doerkson is widely covered as the unexpected leader and primary contender on the eve of the election, as reported on October 20-22, 2026."
     ],
-    "misprice": "O mercado já reflete adequadamente a liderança conservadora nas vésperas da eleição.",
-    "reason": "A alta probabilidade atual reflete o favoritismo dos Conservadores de BC nas pesquisas recentes a poucos dias da eleição."
+    "misprice": "The market slightly overprices certainty given the inherent volatility of final election day outcomes and polling margins.",
+    "reason": "Lorne Doerkson leads the surging BC Conservatives on the eve of the October 24, 2026 election, making him the strong favorite to form government."
    }
   },
   "4881548": {
-   "t": 1792736607.7617283,
-   "yes": 0.91,
+   "t": 1792756543.7817776,
+   "yes": 0.92,
    "est": {
-    "p": 0.93,
-    "conf": "medium",
-    "evidence": [
-     "As of October 20, 2026, the BC Conservatives maintain a five-point lead in the polls according to Global News.",
-     "The BC NDP fell short of a full candidate slate ahead of the snap election called for October 24, 2026, as reported on October 4, 2026."
-    ],
-    "misprice": "O mercado subestima ligeiramente a consolidação da vantagem conservadora na reta final e as vulnerabilidades operacionais do NDP.",
-    "reason": "Com liderança consistente nas pesquisas na véspera da eleição e falhas na formação de chapas do principal oponente, a probabilidade de vitória em cadeiras dos Conservadores é muito alta."
-   }
-  },
-  "5686977": {
-   "t": 1792728225.1709445,
-   "yes": 0.915,
-   "est": {
-    "p": 0.92,
+    "p": 0.58,
     "conf": "low",
     "evidence": [
-     "Ceasefire conditions remain on the table as of Oct 18, 2026.",
-     "Only 2 days remaining until resolution on Oct 24, 2026.",
-     "No reports of direct US air or missile strikes against Iran as of Oct 23, 2026."
+     "Pesquisas recentes em 20-22 de outubro de 2026 mostram os Conservadores de BC com liderança estreita de 2 a 5 pontos sobre o NDP",
+     "Eleição provincial agendada para 24 de outubro de 2026 com 93 assentos na Assembleia Legislativa"
     ],
-    "misprice": "O mercado avalia adequadamente a alta probabilidade de manutencao do cessar-fogo por falta de incidentes recentes.",
-    "reason": "Faltando apenas dois dias para o vencimento sem indicios de ataques diretos dos EUA ao Ira, a tendencia historica e de continuidade."
+    "misprice": "O mercado de 0.92 parece excessivamente otimista e precifica uma vitória certa, ignorando a volatilidade histórica de lideranças estreitas e a margem de erro das pesquisas.",
+    "reason": "Com os Conservadores liderando por margens estreitas nas vésperas da eleição, a corrida está muito mais competitiva do que o preço de 92% sugere."
    }
   },
   "4881659": {
-   "t": 1792736511.5267756,
-   "yes": 0.095,
+   "t": 1792756531.5194628,
+   "yes": 0.085,
    "est": {
-    "p": 0.48,
+    "p": 0.08,
     "conf": "medium",
     "evidence": [
-     "Angus Reid Institute poll published on Mon, 19 Oct 2026 shows BC Conservatives leading slightly as the two-way race narrows in final campaign days.",
-     "Provincial election scheduled for Oct. 24, 2026, following David Eby's early snap election call on Wed, 23 Sep 2026."
+     "Angus Reid Institute poll on Oct 19, 2026, shows BC Conservatives lead slightly in a narrowing two-way race.",
+     "CTV News report on Oct 20, 2026, indicates BC Conservatives have a slight edge over the NDP entering the final days.",
+     "The 2026 British Columbia general election is scheduled for October 24, 2026, with current polling showing him behind."
     ],
-    "misprice": "Market underprices the incumbent's chances in a tight two-way race where narrow polling leads can easily shift on election day.",
-    "reason": "With the BC Conservatives leading slightly in late polls just days before the Oct. 24, 2026 election, Eby's chances remain a competitive coin-flip despite trailing."
+    "misprice": "The market is accurately reflecting the polling disadvantage and high risk of an NDP defeat just days before the vote.",
+    "reason": "Recent late-campaign polls show David Eby's NDP trailing slightly behind the BC Conservatives, making him an underdog to be sworn in as the next premier."
    }
   },
   "5929770": {
-   "t": 1792736601.8123085,
+   "t": 1792756525.1557064,
    "yes": 0.205,
    "est": {
     "p": 0.22,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo de 22 a 24 de outubro de 2026."
+     "Nao ha dados novos especificos sobre a frequencia de tweets de Elon Musk para o periodo de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza padrao para a faixa de volume de postagens do usuario.",
-    "reason": "A media historica de tweets em periodos de 48 horas oscila amplamente, tornando a faixa de 90-114 um cenario de probabilidade menor."
+    "misprice": "O mercado reflete adequadamente a taxa media de atividade recente de Elon Musk na plataforma X.",
+    "reason": "A faixa de 90-114 tweets em 48 horas representa uma media de 45-57 tweets por dia, o que e ligeiramente superior ao padrao habitual, tornando o 'NAO' o favorito obvio."
    }
   },
   "5789178": {
@@ -372,6 +423,35 @@
     ],
     "misprice": "O mercado esta precificado de forma eficiente refletindo a baixa probabilidade de um movimento abrupto tao especifico no curto prazo.",
     "reason": "A probabilidade de o ouro/prata atingir uma minima extrema exata na janela restante e baixa com base na volatilidade recente."
+   }
+  },
+  "5167164": {
+   "t": 1792756510.757904,
+   "yes": 0.865,
+   "est": {
+    "p": 0.89,
+    "conf": "low",
+    "evidence": [
+     "The SOFX Report on Oct 23, 2026 reported Russia bombards Kyiv with cluster warheads.",
+     "Ejércitos reported ongoing attacks against Kyiv on Day 1702 of the war (Oct 23, 2026)."
+    ],
+    "misprice": "O mercado já precifica adequadamente a alta frequência de ataques recentes e a continuidade da ofensiva contra a capital.",
+    "reason": "A alta incidência de bombardeios recentes em Kyiv sustenta a probabilidade elevada de o evento ocorrer ou já ter ocorrido no dia estipulado."
+   }
+  },
+  "4881580": {
+   "t": 1792756550.961457,
+   "yes": 0.085,
+   "est": {
+    "p": 0.45,
+    "conf": "medium",
+    "evidence": [
+     "As pesquisas de 20 a 22 de outubro de 2026 mostram os B.C. Conservatives liderando com vantagem estreita de 2 a 5 pontos sobre o NDP.",
+     "A eleição provincial de British Columbia está marcada para 24 de outubro de 2026, com 93 assentos em disputa.",
+     "O mercado precifica os Conservadores em apenas 8.5% para o segundo lugar, subestimando a probabilidade de ficarem logo atrás do vencedor em um cenário de disputa bipartidária polarizada."
+    ],
+    "misprice": "O mercado trata os Conservadores incorretamente como azarões extremos para o segundo lugar, ignorando que lideram as pesquisas e têm alta probabilidade de terminar em primeiro ou segundo.",
+    "reason": "Com os Conservadores liderando as pesquisas na véspera da eleição, a chance de terminarem exatamente em segundo lugar é substancial, tornando o preço atual de 8.5% excessivamente pessimista."
    }
   }
  },
@@ -825,6 +905,147 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6035908": {
+   "q": "Will the highest temperature in Wellington be 18°C on October 24?",
+   "p": 0.14561974782129405,
+   "yes": 0.405,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756470.3497226,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.07568401999773888
+  },
+  "6035986": {
+   "q": "Will the highest temperature in Singapore be 33°C on October 24?",
+   "p": 0.12046481690060085,
+   "yes": 0.305,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756470.8580334,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.0662531056317629
+  },
+  "6037807": {
+   "q": "Will the highest temperature in Dallas be between 84-85°F on October 24?",
+   "p": 0.2293030850407889,
+   "yes": 0.615,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756471.4001122,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.31333856363720425
+  },
+  "6035972": {
+   "q": "Will the highest temperature in Shanghai be 22°C on October 24?",
+   "p": 0.21610230061675006,
+   "yes": 0.365,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756472.8935685,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.32259573666769803
+  },
+  "6037851": {
+   "q": "Will the highest temperature in Houston be between 84-85°F on October 24?",
+   "p": 0.20313313787640608,
+   "yes": 0.615,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756473.8833022,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2745532935227213
+  },
+  "6035962": {
+   "q": "Will the highest temperature in Hong Kong be 31°C on October 24?",
+   "p": 0.1833103873408506,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756474.4148505,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.24686052504151257
+  },
+  "6036128": {
+   "q": "Will the highest temperature in Busan be 19°C on October 24?",
+   "p": 0.19117324299174537,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756475.487666,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3076052974534958
+  },
+  "6036139": {
+   "q": "Will the highest temperature in Amsterdam be 13°C on October 24?",
+   "p": 0.22850020898364048,
+   "yes": 0.655,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756475.9991412,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3642149240386585
+  },
+  "6036017": {
+   "q": "Will the highest temperature in Warsaw be 12°C on October 24?",
+   "p": 0.17542084244018247,
+   "yes": 0.1545,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792756477.354101,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.19369859690730612
+  },
+  "5167164": {
+   "q": "Will Russia target Kyiv on October 23, 2026?",
+   "p": 0.89,
+   "yes": 0.865,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792814340.0,
+   "t": 1792756510.7579076,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4881580": {
+   "q": "Will Conservative win the second most seats in the 2026 British Columbia general election?",
+   "p": 0.45,
+   "yes": 0.085,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1792886340.0,
+   "t": 1792756550.9614615,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -839,11 +1060,15 @@
   {
    "t": 1792736613.6711454,
    "equity": 1945.88
+  },
+  {
+   "t": 1792756550.9623015,
+   "equity": 1891.56
   }
  ],
  "llm_calls": {
-  "2026-10-23": 20
+  "2026-10-23": 28
  },
  "killed": false,
- "cycles": 3
+ "cycles": 4
 }
