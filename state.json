@@ -1,5 +1,5 @@
 {
- "cash": 1589.071111001574,
+ "cash": 1620.9058952270752,
  "positions": [
   {
    "mid": "6038975",
@@ -37,7 +37,7 @@
    "shares": 98.51189812724274,
    "cost": 60.0,
    "t": 1792727535.2855847,
-   "mark": 0.5800000000000001,
+   "mark": 0.51,
    "conf": "medium",
    "llm_p": 0.19116873178967564,
    "mkt_yes": 0.42,
@@ -62,7 +62,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.36,
+   "mark": 0.39,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -87,7 +87,7 @@
    "shares": 31.99004106468208,
    "cost": 19.861375398391285,
    "t": 1792756470.3497596,
-   "mark": 0.6599999999999999,
+   "mark": 0.6,
    "conf": "medium",
    "llm_p": 0.14561974782129405,
    "mkt_yes": 0.405,
@@ -112,7 +112,7 @@
    "shares": 27.716429606637437,
    "cost": 19.861375398391285,
    "t": 1792756470.8580706,
-   "mark": 0.6799999999999999,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.12046481690060085,
    "mkt_yes": 0.305,
@@ -137,7 +137,7 @@
    "shares": 43.13469427010644,
    "cost": 19.252434310847715,
    "t": 1792771971.5248435,
-   "mark": 0.4,
+   "mark": 0.39,
    "conf": "medium",
    "llm_p": 0.17009618299570672,
    "mkt_yes": 0.585,
@@ -148,32 +148,8 @@
    "misprice": "Modelo 0.17 vs mercado 0.58",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "KATL|2026-10-25"
-  },
-  {
-   "mid": "4881548",
-   "q": "Will Conservative win the most seats in the 2026 British Columbia general election?",
-   "cat": "Politica",
-   "side": "NO",
-   "token": "103260758221019261190568249958083274029384820061909611626197177871555415590776",
-   "entry": 0.1014429706978582,
-   "fair": 0.25,
-   "shares": 541.5594701684636,
-   "cost": 54.93740146344706,
-   "t": 1792772645.4044418,
-   "mark": 0.1014429706978582,
-   "conf": "medium",
-   "llm_p": 0.58,
-   "mkt_yes": 0.92,
-   "edge": 0.14855702930214182,
-   "evidence": [
-    "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026",
-    "Global News reported Conservatives lead by five points with no sign of late NDP surge on Oct 20, 2026"
-   ],
-   "misprice": "O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null
+   "event": "KATL|2026-10-25",
+   "breakCount": 0
   }
  ],
  "closed": [
@@ -357,6 +333,36 @@
    "pnl": -34.857842651751454,
    "closed_t": 1792771952.7791655,
    "held_h": 12.338044543796116
+  },
+  {
+   "mid": "4881548",
+   "q": "Will Conservative win the most seats in the 2026 British Columbia general election?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "103260758221019261190568249958083274029384820061909611626197177871555415590776",
+   "entry": 0.1014429706978582,
+   "fair": 0.25,
+   "shares": 541.5594701684636,
+   "cost": 54.93740146344706,
+   "t": 1792772645.4044418,
+   "mark": 0.06999999999999995,
+   "conf": "medium",
+   "llm_p": 0.58,
+   "mkt_yes": 0.92,
+   "edge": 0.14855702930214182,
+   "evidence": [
+    "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026",
+    "Global News reported Conservatives lead by five points with no sign of late NDP surge on Oct 20, 2026"
+   ],
+   "misprice": "O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "exit": 0.058783542674636195,
+   "reason": "stop-loss",
+   "pnl": -23.102617237945815,
+   "closed_t": 1792785632.5980697,
+   "held_h": 3.6075537855757607
   }
  ],
  "cache": {
@@ -375,17 +381,17 @@
    }
   },
   "4881547": {
-   "t": 1792772025.1323197,
+   "t": 1792785738.1732726,
    "yes": 0.08,
    "est": {
-    "p": 0.09,
+    "p": 0.08,
     "conf": "low",
     "evidence": [
-     "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026.",
-     "B.C. Conservatives maintained a two-point lead less than two weeks from the provincial election per National Post on Oct 15, 2026."
+     "National Post poll from Oct 15, 2026 shows BC Conservatives maintaining a two-point lead.",
+     "The Writ tracker updated Oct 22, 2026 reflects tightening race with opposition ahead of Oct 24 vote."
     ],
-    "misprice": "O mercado já reflete com precisão a desvantagem nas pesquisas recentes e o momento desfavorável do NDP.",
-    "reason": "As pesquisas na véspera da eleição de 24 de outubro de 2026 indicam liderança conservadora, tornando improvável que o NDP conquiste mais assentos."
+    "misprice": "O mercado já reflete com precisão a desvantagem nas pesquisas recentes para a eleição de amanhã.",
+    "reason": "As pesquisas na reta final indicam leve vantagem conservadora, alinhando-se à baixa probabilidade implícita no mercado."
    }
   },
   "4881660": {
@@ -403,17 +409,17 @@
    }
   },
   "4881548": {
-   "t": 1792772645.4044168,
+   "t": 1792785731.8940802,
    "yes": 0.92,
    "est": {
-    "p": 0.58,
-    "conf": "medium",
+    "p": 0.92,
+    "conf": "low",
     "evidence": [
-     "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026",
-     "Global News reported Conservatives lead by five points with no sign of late NDP surge on Oct 20, 2026"
+     "Global News poll on Oct 20, 2026 shows Conservatives leading by five points with no sign of late NDP surge.",
+     "BC general election scheduled for October 24, 2026."
     ],
-    "misprice": "O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.",
-    "reason": "Embora liderem as pesquisas nas vesperas da eleicao de 2024/2026, uma margem estreita e incertezas de distritos tornam uma probabilidade acima de 90% excessivamente otimista."
+    "misprice": "O mercado já reflete adequadamente a liderança consolidada dos Conservadores nas pesquisas recentes de outubro de 2026.",
+    "reason": "A probabilidade implícita de 92% é consistente com a liderança de 5 pontos nas pesquisas a 1 dia da eleição."
    }
   },
   "4881659": {
@@ -431,16 +437,17 @@
    }
   },
   "5929770": {
-   "t": 1792766886.1672328,
-   "yes": 0.185,
+   "t": 1792785719.7726645,
+   "yes": 0.255,
    "est": {
-    "p": 0.18,
+    "p": 0.22,
     "conf": "low",
     "evidence": [
-     "Nao ha dados recentes especificos sobre a taxa de postagem de Elon Musk para o periodo de outubro de 2026."
+     "Elon Musk's historical average output over a 48-hour period typically ranges between 40 to 80 total posts and reposts.",
+     "The current market price implies a 25.5% probability for the 90-114 range, which sits above his typical median baseline."
     ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade historica de uma contagem especifica entre 90 e 114 tweets em um intervalo de 48 horas.",
-    "reason": "A faixa de 90 a 114 posts em dois dias exige uma media superior a 45 tweets por dia, o que e estatisticamente incomum mesmo para ele, mantendo a probabilidade baixa."
+    "misprice": "O mercado pode estar subestimando a variancia normal da atividade de tweets do Elon Musk em periodos de 48 horas.",
+    "reason": "A faixa de 90 a 114 tweets em exatamente 48 horas exige um ritmo diario medio superior ao padrao historico recente de Musk."
    }
   },
   "5167164": {
@@ -457,33 +464,18 @@
     "reason": "Relatórios confirmados de bombardeios recentes em Kyiv em 23 de outubro tornam o ataque qualificado altamente provável antes do fim do dia."
    }
   },
-  "4881580": {
-   "t": 1792756550.961457,
-   "yes": 0.085,
-   "est": {
-    "p": 0.45,
-    "conf": "medium",
-    "evidence": [
-     "As pesquisas de 20 a 22 de outubro de 2026 mostram os B.C. Conservatives liderando com vantagem estreita de 2 a 5 pontos sobre o NDP.",
-     "A eleição provincial de British Columbia está marcada para 24 de outubro de 2026, com 93 assentos em disputa.",
-     "O mercado precifica os Conservadores em apenas 8.5% para o segundo lugar, subestimando a probabilidade de ficarem logo atrás do vencedor em um cenário de disputa bipartidária polarizada."
-    ],
-    "misprice": "O mercado trata os Conservadores incorretamente como azarões extremos para o segundo lugar, ignorando que lideram as pesquisas e têm alta probabilidade de terminar em primeiro ou segundo.",
-    "reason": "Com os Conservadores liderando as pesquisas na véspera da eleição, a chance de terminarem exatamente em segundo lugar é substancial, tornando o preço atual de 8.5% excessivamente pessimista."
-   }
-  },
   "5686977": {
-   "t": 1792772012.6713984,
-   "yes": 0.905,
+   "t": 1792785707.9106846,
+   "yes": 0.88,
    "est": {
-    "p": 0.93,
+    "p": 0.88,
     "conf": "low",
     "evidence": [
-     "Ceasefire conditions and Strait of Hormuz reopening reported on table as of Oct 18, 2026",
-     "Market currently prices YES at 0.905 with only 1.49 days remaining until resolution"
+     "Iran stated on Oct 18, 2026, that seven-day ceasefire conditions and Strait of Hormuz reopening remain on the table.",
+     "No reports of qualifying US air or surface-to-surface missile strikes on Iran have emerged as of Oct 23, 2026."
     ],
-    "misprice": "Market underprices the high inertial probability of holding a fragile ceasefire for just under 36 hours.",
-    "reason": "With less than two days remaining and ongoing diplomatic talks, the base rate heavily favors maintaining the ceasefire absent sudden escalation."
+    "misprice": "O mercado já reflete adequadamente a alta probabilidade de o cessar-fogo se manter nas últimas 36 horas restantes.",
+    "reason": "Faltando pouco mais de um dia para o encerramento e sem incidentes militares recentes relatados, o cenário atual favorece a manutenção do cessar-fogo."
    }
   },
   "5789186": {
@@ -554,6 +546,61 @@
     ],
     "misprice": "Market price reflects accurate probability given the short timeframe and current distance to the $630 low threshold.",
     "reason": "The probability of META hitting a specific low intraday during the remaining hours of the week is low based on current price action."
+   }
+  },
+  "5929769": {
+   "t": 1792785713.7525902,
+   "yes": 0.66,
+   "est": {
+    "p": 0.65,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma nova evidência quantitativa ou dado de rastreamento de tweets disponível para o período específico de 22 a 24 de outubro de 2026."
+    ],
+    "misprice": "O mercado já reflete adequadamente a média histórica de postagens de Elon Musk para janelas de 48 horas.",
+    "reason": "A estimativa baseia-se na taxa média de atividade de Elon Musk na plataforma X, que frequentemente se alinha com a faixa de 65-89 publicações em dois dias."
+   }
+  },
+  "6091318": {
+   "t": 1792785725.8637595,
+   "yes": 0.505,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "O mercado de apostas indica uma linha de 27.5 kills para o Jogo 1 entre LOS e T1 no Worlds 2026 em 23 de outubro de 2026.",
+     "As notícias recentes não contêm dados específicos sobre o meta atual de LoL ou taxas de kills por partida para este confronto específico."
+    ],
+    "misprice": "Não há evidências concretas de que o mercado esteja incorreto, pois a linha de 27.5 reflete a média estatística padrão para jogos profissionais de LoL.",
+    "reason": "Com base na ausência de informações específicas sobre o patch atual e dados de duração das partidas, a probabilidade de o total de kills ficar acima ou abaixo de 27.5 permanece próxima de 50%."
+   }
+  },
+  "5516770": {
+   "t": 1792785743.9944947,
+   "yes": 0.1,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada para 23 de outubro de 2026 pelo Campeonato Brasileiro Série B",
+     "Preço atual de mercado para o placar exato de 2-1 em 0.100"
+    ],
+    "misprice": "O mercado já reflete adequadamente a baixa probabilidade estatística de um placar exato específico no futebol.",
+    "reason": "Placares exatos específicos como 2-1 são altamente improváveis por natureza, e o preço atual está alinhado com a média histórica da Série B."
+   }
+  },
+  "5523028": {
+   "t": 1792785749.9316797,
+   "yes": 0.23,
+   "est": {
+    "p": 0.21,
+    "conf": "low",
+    "evidence": [
+     "Merab Dvalishvili's historical durability includes zero career TKO/KO losses across his professional MMA record as of October 2026.",
+     "Petr Yan relies heavily on decision victories and technical striking rather than one-punch knockout power in high-level championship bouts."
+    ],
+    "misprice": "O mercado avalia adequadamente a baixa probabilidade de Petr Yan vencer por nocaute contra um grappler extremamente resistente como Merab Dvalishvili.",
+    "reason": "A durabilidade lendária de Merab Dvalishvili torna uma vitória por KO/TKO de Petr Yan um resultado estatisticamente improvável."
    }
   }
  },
@@ -794,7 +841,7 @@
    "cat": "Entretenimento",
    "end": 1792771200.0,
    "t": 1792727721.7295256,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -806,7 +853,7 @@
    "cat": "Entretenimento",
    "end": 1792771200.0,
    "t": 1792727727.874458,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1273,6 +1320,80 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6037186": {
+   "q": "Will the highest temperature in Atlanta be between 68-69°F on October 24?",
+   "p": 0.24792965698573877,
+   "yes": 0.265,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792785670.8992352,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.39432894042340527
+  },
+  "6037850": {
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 24?",
+   "p": 0.2366885164928717,
+   "yes": 0.34,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792785701.0845928,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.365478434382361
+  },
+  "5929769": {
+   "q": "Will Elon Musk post 65-89 tweets from October 22 to October 24, 2026?",
+   "p": 0.65,
+   "yes": 0.66,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792857600.0,
+   "t": 1792785713.752593,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6091318": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.5,
+   "yes": 0.505,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792818000.0,
+   "t": 1792785725.863764,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5516770": {
+   "q": "Exact Score: Operário Ferroviário EC 2 - 1 Athletic Club?",
+   "p": 0.08,
+   "yes": 0.1,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792794600.0,
+   "t": 1792785743.9944985,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5523028": {
+   "q": "Will Petr Yan win by KO or TKO?",
+   "p": 0.21,
+   "yes": 0.23,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792900799.999,
+   "t": 1792785749.9316826,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1303,11 +1424,15 @@
   {
    "t": 1792772671.3276606,
    "equity": 1831.25
+  },
+  {
+   "t": 1792785749.9323952,
+   "equity": 1797.93
   }
  ],
  "llm_calls": {
-  "2026-10-23": 46
+  "2026-10-23": 54
  },
  "killed": false,
- "cycles": 7
+ "cycles": 8
 }

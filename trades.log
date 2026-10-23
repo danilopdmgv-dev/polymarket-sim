@@ -84,3 +84,11 @@
 2026-10-23 16:23:52Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-23 16:24:05Z BUY NO [llm] Will Conservative win the most seats in the 2026 B @ 0.101 $54.94 edge=0.149 conf=medium | O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.
 2026-10-23 16:24:31Z ciclo 7: lidos=700 filtro=27 llm=4 clima=0 compras=1 vendas=0 descartados={'esporte_vivo': 28, 'categoria_Esportes': 301, 'cripto': 13, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1831.25
+2026-10-23 20:00:32Z SELL NO [stop-loss] Will Conservative win the most seats in the 2026 B @ 0.059 pnl=$-23.10
+2026-10-23 20:00:49Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 20:01:00Z erro previsao geo:guangzhou: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 20:01:10Z erro previsao geo:guangzhou: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 20:01:21Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 20:01:29Z erro geocode Busan: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 20:01:40Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 20:02:29Z ciclo 8: lidos=700 filtro=17 llm=8 clima=4 compras=0 vendas=1 descartados={'esporte_vivo': 92, 'categoria_Esportes': 250, 'combinado': 3, 'cripto': 13, 'clima_sem_modelo': 4} equity=$1797.93
