@@ -38,9 +38,11 @@ BREAK_CONFIRM = 2
 
 GAMMA = "https://gamma-api.polymarket.com"
 STATE, LOG, REPORT = "state.json", "trades.log", "report.md"
+T0 = time.time()
 
 llm = OpenAI(api_key=os.getenv("LLM_API_KEY") or "missing",
-             base_url=os.getenv("LLM_BASE_URL") or "https://api.openai.com/v1")
+             base_url=os.getenv("LLM_BASE_URL") or "https://api.openai.com/v1",
+             timeout=30, max_retries=1)
 MODEL = os.getenv("LLM_MODEL") or "gpt-4o-mini"
 
 CATS = [
@@ -59,7 +61,7 @@ def now():
 
 
 def log(msg):
-    line = f"{dt.datetime.utcnow():%Y-%m-%d %H:%M:%S}Z {msg}"
+    line = f"{dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M:%S}Z {msg}"
     print(line)
     with open(LOG, "a") as f:
         f.write(line + "\n")
@@ -196,7 +198,7 @@ def base_ok(m):
 def news(q, n=6):
     url = "https://news.google.com/rss/search?q=" + urllib.parse.quote(q) + "&hl=en-US"
     try:
-        f = feedparser.parse(url)
+        f = feedparser.parse(requests.get(url, timeout=15).content)
         return [f"- {e.title} ({e.get('published', '')})" for e in f.entries[:n]]
     except Exception:
         return []
@@ -205,7 +207,7 @@ def news(q, n=6):
 # ---------------- LLM ----------------
 def ask_llm(m):
     heads = "\n".join(news(m["q"])) or "(sem noticias encontradas)"
-    today = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    today = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     prompt = f"""Voce e um superforecaster calibrado e CETICO. Estime a probabilidade de SIM.
 Agora: {today}
 Mercado: {m['q']}
@@ -243,7 +245,7 @@ def get_estimate(s, m, force=False):
     if c and not force and now() - c["t"] < LLM_CACHE_MIN * 60 and abs(c["yes"] - m["yes"]) < 0.03:
         return c["est"], False
     est = ask_llm(m)
-    day = dt.datetime.utcnow().strftime("%Y-%m-%d")
+    day = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     s["llm_calls"][day] = s["llm_calls"].get(day, 0) + 1
     s["cache"][m["id"]] = dict(t=now(), yes=m["yes"], est=est)
     if m["id"] not in s["estimates"]:  # guarda a 1a estimativa (sem look-ahead)
@@ -365,7 +367,7 @@ def find_entries(s, st):
 
     calls = 0
     for m in cands:
-        if calls >= LLM_PER_CYCLE or len(s["positions"]) >= MAX_OPEN:
+        if calls >= LLM_PER_CYCLE or len(s["positions"]) >= MAX_OPEN or time.time() - T0 > 300:
             break
         if sum(1 for p in s["positions"] if p["cat"] == m["cat"]) >= MAX_PER_CAT:
             continue
@@ -408,9 +410,9 @@ def report(s):
     eq = equity(s)
     cl = s["closed"]
     wins = [c for c in cl if c["pnl"] > 0]
-    day = dt.datetime.utcnow().strftime("%Y-%m-%d")
+    day = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     L = [f"# Polymarket Survival Sim ({VERSION})",
-         f"_Atualizado {dt.datetime.utcnow():%Y-%m-%d %H:%M} UTC. SIMULACAO, sem dinheiro real._", "",
+         f"_Atualizado {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC. SIMULACAO, sem dinheiro real._", "",
          f"**Equity:** ${eq:.2f} ({(eq / START_CASH - 1) * 100:+.1f}%) | **Cash:** ${s['cash']:.2f} | "
          f"**Abertas:** {len(s['positions'])} | **Ciclos:** {s['cycles']}"
          + (" | **KILL SWITCH ATIVO**" if s["killed"] else ""),
