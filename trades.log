@@ -22,3 +22,19 @@
 2026-10-23 02:07:34Z ciclo 4: lidos=500 filtro=47 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 130, 'cripto': 13, 'esporte_vivo': 1} equity=$50.00
 2026-10-23 02:15:02Z ciclo 5: lidos=500 filtro=37 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 146, 'cripto': 13, 'esporte_vivo': 1} equity=$50.00
 2026-10-23 02:58:38Z ciclo 6: lidos=500 filtro=39 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 153, 'cripto': 10, 'esporte_vivo': 1} equity=$50.00
+2026-10-23 03:52:13Z BUY NO [clima] Will the highest temperature in London be 16°C on  @ 0.651 $60.00 edge=0.080 conf=medium | Modelo 0.20 vs mercado 0.37
+2026-10-23 03:52:13Z BUY NO [clima] Will the highest temperature in Ankara be 22°C on  @ 0.489 $60.00 edge=0.199 conf=medium | Modelo 0.15 vs mercado 0.55
+2026-10-23 03:52:14Z BUY NO [clima] Will the highest temperature in Los Angeles be bet @ 0.682 $60.00 edge=0.077 conf=medium | Modelo 0.17 vs mercado 0.34
+2026-10-23 03:52:15Z BUY NO [clima] Will the highest temperature in Chengdu be 19°C on @ 0.609 $60.00 edge=0.108 conf=medium | Modelo 0.19 vs mercado 0.42
+2026-10-23 03:52:15Z BUY NO [clima] Will the highest temperature in Atlanta be between @ 0.692 $60.00 edge=0.064 conf=medium | Modelo 0.18 vs mercado 0.34
+2026-10-23 03:52:16Z BUY NO [clima] Will the highest temperature in Dallas be between  @ 0.559 $60.00 edge=0.107 conf=medium | Modelo 0.24 vs mercado 0.47
+2026-10-23 03:52:39Z erro previsao LLBG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:52:59Z erro previsao LLBG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:53:15Z erro geocode Jeddah: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=15
+2026-10-23 03:53:35Z erro previsao geo:panama city: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:53:56Z erro previsao geo:panama city: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:54:16Z erro previsao geo:guangzhou: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:54:36Z erro previsao geo:guangzhou: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:54:53Z erro geocode Shenzhen: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=15
+2026-10-23 03:55:13Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
+2026-10-23 03:56:04Z ciclo 1: lidos=500 filtro=33 llm=8 clima=19 compras=6 vendas=0 descartados={'categoria_Esportes': 162, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 5} equity=$2000.00

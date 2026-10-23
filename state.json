@@ -1,0 +1,599 @@
+{
+ "cash": 1640.0,
+ "positions": [
+  {
+   "mid": "6035863",
+   "q": "Will the highest temperature in London be 16°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "70111236553299479365414400623232886473884444616057120849405232717447207462233",
+   "entry": 0.6512664268009277,
+   "fair": 0.7309621210661418,
+   "shares": 92.1281944391403,
+   "cost": 60.0,
+   "t": 1792727533.0264568,
+   "mark": 0.6512664268009277,
+   "conf": "medium",
+   "llm_p": 0.201729798223097,
+   "mkt_yes": 0.37,
+   "edge": 0.07969569426521406,
+   "evidence": [
+    "Previsao Open-Meteo EGLC 2026-10-24: maxima 16.2C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.37",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EGLC|2026-10-24"
+  },
+  {
+   "mid": "6003553",
+   "q": "Will the highest temperature in Ankara be 22°C on October 23?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "114603532875768509197332589584342446223968096056228665383141715322825659132493",
+   "entry": 0.4889773139316424,
+   "fair": 0.6884728082287146,
+   "shares": 122.70507913254197,
+   "cost": 60.0,
+   "t": 1792727533.610309,
+   "mark": 0.4889773139316424,
+   "conf": "medium",
+   "llm_p": 0.1525453196188089,
+   "mkt_yes": 0.55,
+   "edge": 0.1994954942970722,
+   "evidence": [
+    "Previsao Open-Meteo LTAC 2026-10-23: maxima 20.4C (3 modelos, sigma 1.4)"
+   ],
+   "misprice": "Modelo 0.15 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LTAC|2026-10-23"
+  },
+  {
+   "mid": "6038975",
+   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "79625244171333820351021734832382178283108965882146268900349832430762204108655",
+   "entry": 0.6822191403048239,
+   "fair": 0.7596638176461676,
+   "shares": 87.948280039741,
+   "cost": 60.0,
+   "t": 1792727534.1869555,
+   "mark": 0.6822191403048239,
+   "conf": "medium",
+   "llm_p": 0.17389363725638735,
+   "mkt_yes": 0.34,
+   "edge": 0.07744467734134375,
+   "evidence": [
+    "Previsao Open-Meteo KLAX 2026-10-24: maxima 76.8F (3 modelos, sigma 3.8)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLAX|2026-10-24"
+  },
+  {
+   "mid": "6036078",
+   "q": "Will the highest temperature in Chengdu be 19°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "15097935265958073175447764223273374044971036905208282998668733541764202962776",
+   "entry": 0.6090634851284775,
+   "fair": 0.7172987609261946,
+   "shares": 98.51189812724274,
+   "cost": 60.0,
+   "t": 1792727535.2855847,
+   "mark": 0.6090634851284775,
+   "conf": "medium",
+   "llm_p": 0.19116873178967564,
+   "mkt_yes": 0.42,
+   "edge": 0.10823527579771708,
+   "evidence": [
+    "Previsao Open-Meteo geo:chengdu 2026-10-24: maxima 19.6C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:chengdu|2026-10-24"
+  },
+  {
+   "mid": "6005154",
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 23?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "70550787785519006808700807983573547587425357031218295972160022782504946097963",
+   "entry": 0.6921649834046986,
+   "fair": 0.7561719535088856,
+   "shares": 86.68453539048636,
+   "cost": 60.0,
+   "t": 1792727535.818808,
+   "mark": 0.6921649834046986,
+   "conf": "medium",
+   "llm_p": 0.1830467441518575,
+   "mkt_yes": 0.335,
+   "edge": 0.06400697010418699,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-10-23: maxima 72.0F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-10-23"
+  },
+  {
+   "mid": "6005142",
+   "q": "Will the highest temperature in Dallas be between 84-85°F on October 23?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "41166939447278427651965165531266988752311198111256941130592993922478543611602",
+   "entry": 0.5586652787986682,
+   "fair": 0.6653107310229621,
+   "shares": 107.39883482471227,
+   "cost": 60.0,
+   "t": 1792727536.3255336,
+   "mark": 0.5586652787986682,
+   "conf": "medium",
+   "llm_p": 0.24448211496172984,
+   "mkt_yes": 0.47,
+   "edge": 0.10664545222429389,
+   "evidence": [
+    "Previsao Open-Meteo KDFW 2026-10-23: maxima 83.5F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KDFW|2026-10-23"
+  }
+ ],
+ "closed": [],
+ "cache": {
+  "5640340": {
+   "t": 1792727721.7295237,
+   "yes": 0.525,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "Historical posting frequency averages around 35-40 posts per day.",
+     "Current market pricing reflects a narrow range of 260-279 tweets over 7 days."
+    ],
+    "misprice": "O mercado está razoavelmente precificado próximo à média histórica esperada para o período.",
+    "reason": "A contagem projetada para 7 dias com base na taxa diária habitual de Elon Musk recai justamente na faixa de 260 a 279 tweets."
+   }
+  },
+  "5640344": {
+   "t": 1792727727.8744552,
+   "yes": 0.41,
+   "est": {
+    "p": 0.38,
+    "conf": "low",
+    "evidence": [
+     "Sem dados em tempo real sobre a contagem exata de tweets de Elon Musk para o período de 16 a 23 de outubro de 2026."
+    ],
+    "misprice": "O preço atual de 0.41 está próximo da faixa histórica esperada, sem evidências fortes de desvio.",
+    "reason": "A contagem exata de tweets nos momentos finais é altamente volátil e difícil de prever com alta precisão sem dados de rastreamento ao vivo."
+   }
+  },
+  "3081958": {
+   "t": 1792727734.767235,
+   "yes": 0.195,
+   "est": {
+    "p": 0.15,
+    "conf": "low",
+    "evidence": [
+     "Bank of Russia kept the key rate at 14.00% p.a. on 11 Sep 2026 after lowering it to 14% on 24 Jul 2026.",
+     "Current market price for a rate decrease in October 2026 is at 0.195."
+    ],
+    "misprice": "O mercado subestima a cautela recente do Banco Central da Rússia após a pausa de setembro em 14,00%.",
+    "reason": "A probabilidade de um corte imediato é baixa dado o histórico recente de manutenção da taxa em 14% em setembro."
+   }
+  },
+  "3081959": {
+   "t": 1792727740.846667,
+   "yes": 0.795,
+   "est": {
+    "p": 0.8,
+    "conf": "low",
+    "evidence": [
+     "Bank of Russia kept the key rate at 14.00% p.a. on September 11, 2026.",
+     "Market is currently pricing SIM at 0.795."
+    ],
+    "misprice": "O mercado está essencialmente alinhado com a probabilidade esperada de manutenção da taxa.",
+    "reason": "A ausência de choques macroeconômicos recentes sustenta a continuidade da taxa fixa."
+   }
+  },
+  "5929768": {
+   "t": 1792727746.6604183,
+   "yes": 0.34,
+   "est": {
+    "p": 0.35,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados recentes ou estatisticas especificas sobre a frequencia de tweets de Elon Musk para o periodo exato de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incrustada volatilidade na atividade de postagem de Elon Musk.",
+    "reason": "A faixa de 40-64 tweets em 48 horas representa uma media diaria plausivel, mas a alta variabilidade do comportamento do usuario torna a probabilidade minoritaria."
+   }
+  },
+  "4881547": {
+   "t": 1792727753.0930984,
+   "yes": 0.115,
+   "est": {
+    "p": 0.1,
+    "conf": "medium",
+    "evidence": [
+     "Global News poll on Oct 20, 2026 shows BC Conservatives leading by five points with no late NDP surge",
+     "BC general election scheduled for October 24, 2026, with the legislature sitting at 93 total seats"
+    ],
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a resiliência histórica do NDP frente ao ímpeto conservador recente nas sondagens de véspera.",
+    "reason": "As sondagens finais apontam vantagem conservadora de cinco pontos a 24 horas da eleição de 24 de outubro de 2026, tornando improvável a vitória do NDP."
+   }
+  },
+  "4881660": {
+   "t": 1792727758.9904735,
+   "yes": 0.915,
+   "est": {
+    "p": 0.91,
+    "conf": "low",
+    "evidence": [
+     "The 2026 British Columbia general election is scheduled for October 24, 2026.",
+     "Recent media coverage on October 20-22, 2026 highlights Lorne Doerkson as the frontrunner for the BC Conservatives."
+    ],
+    "misprice": "O mercado está precificando corretamente a forte posição de liderança de Doerkson na véspera da eleição.",
+    "reason": "Lorne Doerkson é amplamente apontado como o favorito para vencer e se tornar Premier, conforme indicado pelas notícias recentes de meados de outubro de 2026."
+   }
+  },
+  "4881548": {
+   "t": 1792727764.5954742,
+   "yes": 0.885,
+   "est": {
+    "p": 0.88,
+    "conf": "low",
+    "evidence": [
+     "Global News poll from Oct 20, 2026 shows Conservatives leading by five points with no sign of late BC NDP surge.",
+     "BC general election scheduled for October 24, 2026 with 93 legislative seats."
+    ],
+    "misprice": "The market is already pricing in a strong Conservative lead, closely reflecting current polling data.",
+    "reason": "Consistent polling leads and late-campaign tracker data strongly favor a Conservative plurality of seats."
+   }
+  }
+ },
+ "estimates": {
+  "6035863": {
+   "q": "Will the highest temperature in London be 16°C on October 24?",
+   "p": 0.201729798223097,
+   "yes": 0.37,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727533.026439,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6003553": {
+   "q": "Will the highest temperature in Ankara be 22°C on October 23?",
+   "p": 0.1525453196188089,
+   "yes": 0.55,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727533.6102893,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6038975": {
+   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
+   "p": 0.17389363725638735,
+   "yes": 0.34,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727534.1869395,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6036078": {
+   "q": "Will the highest temperature in Chengdu be 19°C on October 24?",
+   "p": 0.19116873178967564,
+   "yes": 0.42,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727535.2855685,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6005154": {
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 23?",
+   "p": 0.1830467441518575,
+   "yes": 0.335,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727535.8187928,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6005142": {
+   "q": "Will the highest temperature in Dallas be between 84-85°F on October 23?",
+   "p": 0.24448211496172984,
+   "yes": 0.47,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727536.3255162,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6007844": {
+   "q": "Will the highest temperature in San Francisco be between 68-69°F on October 23?",
+   "p": 0.2425267742191563,
+   "yes": 0.35,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727536.8378513,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6037187": {
+   "q": "Will the highest temperature in Atlanta be between 70-71°F on October 24?",
+   "p": 0.17118754851727835,
+   "yes": 0.625,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727536.8381183,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6005141": {
+   "q": "Will the highest temperature in Dallas be between 82-83°F on October 23?",
+   "p": 0.2428030345050634,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727536.838177,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6037820": {
+   "q": "Will the highest temperature in Miami be between 84-85°F on October 24?",
+   "p": 0.15278936385704567,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727537.3845954,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6010917": {
+   "q": "Will the highest temperature in Mexico City be 23°C on October 23?",
+   "p": 0.21486433222042195,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727538.4599125,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6035919": {
+   "q": "Will the highest temperature in Lucknow be 31°C on October 24?",
+   "p": 0.20812359698204752,
+   "yes": 0.625,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727539.5102856,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6041468": {
+   "q": "Will the highest temperature in Toronto be 14°C on October 24?",
+   "p": 0.15613367647235366,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727677.4323044,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6035997": {
+   "q": "Will the highest temperature in Milan be 17°C on October 24?",
+   "p": 0.2215854932956014,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727678.0382385,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6035971": {
+   "q": "Will the highest temperature in Shanghai be 21°C on October 24?",
+   "p": 0.20369745097744935,
+   "yes": 0.35,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727678.5982962,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6010916": {
+   "q": "Will the highest temperature in Mexico City be 22°C on October 23?",
+   "p": 0.19491117394340535,
+   "yes": 0.215,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792727678.5985613,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6037806": {
+   "q": "Will the highest temperature in Dallas be between 82-83°F on October 24?",
+   "p": 0.2056929560678128,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727678.5986295,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6035928": {
+   "q": "Will the highest temperature in Munich be 10°C on October 24?",
+   "p": 0.2245960643868824,
+   "yes": 0.34,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727714.4206712,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "6036038": {
+   "q": "Will the highest temperature in Chongqing be 21°C on October 24?",
+   "p": 0.1850776884158355,
+   "yes": 0.355,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792727715.4527984,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima"
+  },
+  "5640340": {
+   "q": "Will Elon Musk post 260-279 tweets from October 16 to October 23, 2026?",
+   "p": 0.52,
+   "yes": 0.525,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792771200.0,
+   "t": 1792727721.7295256,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5640344": {
+   "q": "Will Elon Musk post 280-299 tweets from October 16 to October 23, 2026?",
+   "p": 0.38,
+   "yes": 0.41,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792771200.0,
+   "t": 1792727727.874458,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "3081958": {
+   "q": "Will the Bank of Russia decrease the key rate after the October Meeting?",
+   "p": 0.15,
+   "yes": 0.195,
+   "conf": "low",
+   "cat": "Economia/Dados",
+   "end": 1792814340.0,
+   "t": 1792727734.7672377,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "3081959": {
+   "q": "Will the Bank of Russia make no change to the key rate after the October Meeting?",
+   "p": 0.8,
+   "yes": 0.795,
+   "conf": "low",
+   "cat": "Economia/Dados",
+   "end": 1792814340.0,
+   "t": 1792727740.846669,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5929768": {
+   "q": "Will Elon Musk post 40-64 tweets from October 22 to October 24, 2026?",
+   "p": 0.35,
+   "yes": 0.34,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792857600.0,
+   "t": 1792727746.6604216,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4881547": {
+   "q": "Will NDP win the most seats in the 2026 British Columbia general election?",
+   "p": 0.1,
+   "yes": 0.115,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1792886340.0,
+   "t": 1792727753.0931015,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4881660": {
+   "q": "Will Lorne Doerkson be the next Premier of British Columbia?",
+   "p": 0.91,
+   "yes": 0.915,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792886340.0,
+   "t": 1792727758.9904764,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4881548": {
+   "q": "Will Conservative win the most seats in the 2026 British Columbia general election?",
+   "p": 0.88,
+   "yes": 0.885,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792886340.0,
+   "t": 1792727764.595476,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  }
+ },
+ "history": [
+  {
+   "t": 1792727764.5959203,
+   "equity": 2000.0
+  }
+ ],
+ "llm_calls": {
+  "2026-10-23": 8
+ },
+ "killed": false,
+ "cycles": 1
+}
