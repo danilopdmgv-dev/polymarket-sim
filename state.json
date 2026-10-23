@@ -1,5 +1,5 @@
 {
- "cash": 1638.1187894276204,
+ "cash": 1644.008512465021,
  "positions": [
   {
    "mid": "6038975",
@@ -37,7 +37,7 @@
    "shares": 98.51189812724274,
    "cost": 60.0,
    "t": 1792727535.2855847,
-   "mark": 0.56,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.19116873178967564,
    "mkt_yes": 0.42,
@@ -52,31 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6005154",
-   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 23?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "70550787785519006808700807983573547587425357031218295972160022782504946097963",
-   "entry": 0.6921649834046986,
-   "fair": 0.7561719535088856,
-   "shares": 86.68453539048636,
-   "cost": 60.0,
-   "t": 1792727535.818808,
-   "mark": 0.64,
-   "conf": "medium",
-   "llm_p": 0.1830467441518575,
-   "mkt_yes": 0.335,
-   "edge": 0.06400697010418699,
-   "evidence": [
-    "Previsao Open-Meteo KATL 2026-10-23: maxima 72.0F (3 modelos, sigma 3.2)"
-   ],
-   "misprice": "Modelo 0.18 vs mercado 0.34",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KATL|2026-10-23",
-   "breakCount": 0
-  },
-  {
    "mid": "6037187",
    "q": "Will the highest temperature in Atlanta be between 70-71°F on October 24?",
    "cat": "Clima",
@@ -87,7 +62,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.37,
+   "mark": 0.36,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -112,7 +87,7 @@
    "shares": 31.99004106468208,
    "cost": 19.861375398391285,
    "t": 1792756470.3497596,
-   "mark": 0.5700000000000001,
+   "mark": 0.6699999999999999,
    "conf": "medium",
    "llm_p": 0.14561974782129405,
    "mkt_yes": 0.405,
@@ -137,7 +112,7 @@
    "shares": 27.716429606637437,
    "cost": 19.861375398391285,
    "t": 1792756470.8580706,
-   "mark": 0.6599999999999999,
+   "mark": 0.6799999999999999,
    "conf": "medium",
    "llm_p": 0.12046481690060085,
    "mkt_yes": 0.305,
@@ -150,6 +125,30 @@
    "src": "clima",
    "event": "WSSS|2026-10-24",
    "breakCount": 0
+  },
+  {
+   "mid": "6076523",
+   "q": "Will the highest temperature in Atlanta be between 70-71°F on October 25?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "39952859175229588885996484182501931846582741955627612688873746450187180568065",
+   "entry": 0.4463329261195249,
+   "fair": 0.663942290202576,
+   "shares": 43.13469427010644,
+   "cost": 19.252434310847715,
+   "t": 1792771971.5248435,
+   "mark": 0.4463329261195249,
+   "conf": "medium",
+   "llm_p": 0.17009618299570672,
+   "mkt_yes": 0.585,
+   "edge": 0.2176093640830511,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-10-25: maxima 68.4F (3 modelos, sigma 4.1)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.58",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-10-25"
   }
  ],
  "closed": [
@@ -303,6 +302,36 @@
    "pnl": -22.03205699599325,
    "closed_t": 1792766778.5318308,
    "held_h": 2.8409917640686033
+  },
+  {
+   "mid": "6005154",
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 23?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "70550787785519006808700807983573547587425357031218295972160022782504946097963",
+   "entry": 0.6921649834046986,
+   "fair": 0.7561719535088856,
+   "shares": 86.68453539048636,
+   "cost": 60.0,
+   "t": 1792727535.818808,
+   "mark": 0.63,
+   "conf": "medium",
+   "llm_p": 0.1830467441518575,
+   "mkt_yes": 0.335,
+   "edge": 0.06400697010418699,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-10-23: maxima 72.0F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-10-23",
+   "breakCount": 0,
+   "exit": 0.2900420153951463,
+   "reason": "stop-loss",
+   "pnl": -34.857842651751454,
+   "closed_t": 1792771952.7791655,
+   "held_h": 12.338044543796116
   }
  ],
  "cache": {
@@ -321,17 +350,17 @@
    }
   },
   "4881547": {
-   "t": 1792766892.1399171,
-   "yes": 0.085,
+   "t": 1792772025.1323197,
+   "yes": 0.08,
    "est": {
-    "p": 0.08,
-    "conf": "high",
+    "p": 0.09,
+    "conf": "low",
     "evidence": [
-     "Global News poll on Oct 20, 2026 shows BC Conservatives leading by five points with no sign of late NDP surge.",
-     "National Post poll on Oct 15, 2026 confirms B.C. Conservatives maintaining a lead less than two weeks from the election."
+     "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026.",
+     "B.C. Conservatives maintained a two-point lead less than two weeks from the provincial election per National Post on Oct 15, 2026."
     ],
-    "misprice": "O mercado avalia corretamente a baixa probabilidade de vitória do NDP com base nas pesquisas recentes que mostram os Conservadores liderando na reta final.",
-    "reason": "As pesquisas recentes apontam consistente vantagem dos Conservadores a dias da eleição de 24 de outubro de 2026, tornando a vitória do NDP improvável."
+    "misprice": "O mercado já reflete com precisão a desvantagem nas pesquisas recentes e o momento desfavorável do NDP.",
+    "reason": "As pesquisas na véspera da eleição de 24 de outubro de 2026 indicam liderança conservadora, tornando improvável que o NDP conquiste mais assentos."
    }
   },
   "4881660": {
@@ -419,32 +448,72 @@
    }
   },
   "5686977": {
-   "t": 1792766850.624215,
+   "t": 1792772012.6713984,
    "yes": 0.905,
+   "est": {
+    "p": 0.93,
+    "conf": "low",
+    "evidence": [
+     "Ceasefire conditions and Strait of Hormuz reopening reported on table as of Oct 18, 2026",
+     "Market currently prices YES at 0.905 with only 1.49 days remaining until resolution"
+    ],
+    "misprice": "Market underprices the high inertial probability of holding a fragile ceasefire for just under 36 hours.",
+    "reason": "With less than two days remaining and ongoing diplomatic talks, the base rate heavily favors maintaining the ceasefire absent sudden escalation."
+   }
+  },
+  "5789186": {
+   "t": 1792772018.9809573,
+   "yes": 0.1255,
+   "est": {
+    "p": 0.08,
+    "conf": "medium",
+    "evidence": [
+     "WTI dropped more than 2% on Mon, 19 Oct 2026, with Brent falling below $105",
+     "Oil prices fell on Tue, 20 Oct 2026 due to hopes for diplomatic progress in the Middle East",
+     "Market closes in less than a day with WTI having peaked near $100 earlier in the week without reaching $105"
+    ],
+    "misprice": "Market underappreciates how quickly geopolitical risk premium is fading amid diplomatic progress and softening momentum.",
+    "reason": "With only hours left in the trading week and prices retreating from earlier highs below the $105 threshold, reaching $105 is statistically improbable."
+   }
+  },
+  "6040670": {
+   "t": 1792772031.2253578,
+   "yes": 0.355,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informação macroeconômica extraordinária ou catalisador de última hora foi divulgado até as 16:13 UTC de 23 de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete uma distribuição estatisticamente neutra para o movimento diário de fechamento do SPY.",
+    "reason": "A movimentação diária do S&P 500 no curto prazo é essencialmente um passeio aleatório sem evidência direcional forte."
+   }
+  },
+  "6040699": {
+   "t": 1792772037.2342377,
+   "yes": 0.72,
+   "est": {
+    "p": 0.74,
+    "conf": "low",
+    "evidence": [
+     "WTI crude oil hits $100 as Saudi supply fears keep oil markets on edge on October 23, 2026.",
+     "Brent tops $113 on Saudi supply risk according to reports on Friday, October 23, 2026."
+    ],
+    "misprice": "O mercado já precifica alta probabilidade com o WTI operando em torno de US$ 100 com riscos de oferta saudita.",
+    "reason": "Com o petróleo já testando a faixa de US$ 100 hoje, há forte momentum de alta impulsionado por riscos geopolíticos de oferta."
+   }
+  },
+  "5443769": {
+   "t": 1792772043.2288342,
+   "yes": 0.915,
    "est": {
     "p": 0.92,
     "conf": "low",
     "evidence": [
-     "Iran stated on Oct 18, 2026, that seven-day ceasefire conditions are still on the table",
-     "Only 1.55 days remain until the resolution deadline of October 24, 2026",
-     "Recent news shows no reports of active US air or missile strikes against Iran as of Oct 23, 2026"
+     "Global News reported on October 22, 2026, regarding the ongoing Vernon-Lumby election results."
     ],
-    "misprice": "The market slightly discounts the extreme time-decay and lack of imminent escalation triggers.",
-    "reason": "With less than 36 hours remaining and no reports of US kinetic strikes, the ceasefire is overwhelmingly likely to hold through the deadline."
-   }
-  },
-  "5789186": {
-   "t": 1792766867.8240926,
-   "yes": 0.1175,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "WTI dropped more than 2% on October 19, 2026, amid easing geopolitical concerns.",
-     "News on October 20, 2026, highlighted falling oil prices due to diplomatic progress in the Middle East."
-    ],
-    "misprice": "O mercado subestima ligeiramente a descompressao rapida dos precos apos a queda de mais de 2% no inicio da semana e o alivio diplomatico.",
-    "reason": "Com o WTI abaixo de $105 e noticias recentes de recuo nos precos, a probabilidade de atingir $105 nos dias restantes e baixa."
+    "misprice": "O mercado já reflete adequadamente a alta probabilidade do favorito com base nas tendências atuais.",
+    "reason": "A probabilidade implícita de 91.5% está alinhada com a posição dominante de Kevin Acton nas notícias recentes de outubro de 2026."
    }
   }
  },
@@ -1051,6 +1120,107 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6076523": {
+   "q": "Will the highest temperature in Atlanta be between 70-71°F on October 25?",
+   "p": 0.17009618299570672,
+   "yes": 0.585,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792771971.5248008,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.22599925112734887
+  },
+  "6037829": {
+   "q": "Will the highest temperature in Chicago be between 70-71°F on October 24?",
+   "p": 0.2595327913191854,
+   "yes": 0.53,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792771993.17248,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.41872221652503144
+  },
+  "6036163": {
+   "q": "Will the highest temperature in Kuala Lumpur be 32°C on October 24?",
+   "p": 0.2152576581677994,
+   "yes": 0.355,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792772004.5555823,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.24018637438351054
+  },
+  "6036082": {
+   "q": "Will the highest temperature in Chengdu be 20°C on October 24?",
+   "p": 0.1940059065187465,
+   "yes": 0.35,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792772005.1569438,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3010550642704912
+  },
+  "6076501": {
+   "q": "Will the highest temperature in New York City be between 66-67°F on October 25?",
+   "p": 0.2058137826108698,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792772005.7396088,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.325821269946419
+  },
+  "6040670": {
+   "q": "SPY (SPY) Up or Down on October 23?",
+   "p": 0.5,
+   "yes": 0.355,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792785600.0,
+   "t": 1792772031.225362,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6040699": {
+   "q": "WTI Crude Oil (WTI) closes above $102 on October 23?",
+   "p": 0.74,
+   "yes": 0.72,
+   "conf": "low",
+   "cat": "Economia/Dados",
+   "end": 1792792800.0,
+   "t": 1792772037.2342427,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5443769": {
+   "q": "Will Kevin Acton win the next Vernon-Lumby British Columbia Legislative Assembly election?",
+   "p": 0.92,
+   "yes": 0.915,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792900740.0,
+   "t": 1792772043.2288377,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1073,11 +1243,15 @@
   {
    "t": 1792766908.5404367,
    "equity": 1858.69
+  },
+  {
+   "t": 1792772043.2296374,
+   "equity": 1833.57
   }
  ],
  "llm_calls": {
-  "2026-10-23": 36
+  "2026-10-23": 42
  },
  "killed": false,
- "cycles": 5
+ "cycles": 6
 }

@@ -70,3 +70,10 @@
 2026-10-23 14:47:14Z erro previsao geo:beijing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-23 14:47:14Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-23 14:48:28Z ciclo 5: lidos=600 filtro=34 llm=8 clima=0 compras=0 vendas=1 descartados={'categoria_Esportes': 317, 'esporte_vivo': 14, 'cripto': 8, 'combinado': 5, 'clima_sem_modelo': 3} equity=$1858.69
+2026-10-23 16:12:32Z SELL NO [stop-loss] Will the highest temperature in Atlanta be between @ 0.290 pnl=$-34.86
+2026-10-23 16:12:50Z erro geocode Mexico City: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 16:12:51Z BUY NO [clima] Will the highest temperature in Atlanta be between @ 0.446 $19.25 edge=0.218 conf=medium | Modelo 0.17 vs mercado 0.58
+2026-10-23 16:13:01Z erro previsao VHHH: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 16:13:12Z erro previsao KORD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 16:13:23Z erro previsao geo:kuala lumpur: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 16:14:03Z ciclo 6: lidos=700 filtro=15 llm=6 clima=7 compras=1 vendas=1 descartados={'esporte_vivo': 36, 'categoria_Esportes': 307, 'cripto': 11, 'combinado': 5, 'clima_sem_modelo': 2} equity=$1833.57
