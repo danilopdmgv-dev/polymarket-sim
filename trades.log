@@ -40,3 +40,12 @@
 2026-10-23 03:56:04Z ciclo 1: lidos=500 filtro=33 llm=8 clima=19 compras=6 vendas=0 descartados={'categoria_Esportes': 162, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 5} equity=$2000.00
 2026-10-23 04:03:57Z BUY YES [llm] Will David Eby be the next Premier of British Colu @ 0.101 $59.29 edge=0.167 conf=medium | Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.
 2026-10-23 04:03:57Z ciclo 2: lidos=500 filtro=17 llm=3 clima=10 compras=1 vendas=0 descartados={'categoria_Esportes': 176, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1} equity=$1976.47
+2026-10-23 06:21:41Z SELL NO [stop-loss] Will the highest temperature in Ankara be 22°C on  @ 0.216 pnl=$-33.53
+2026-10-23 06:22:04Z erro geocode Mexico City: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-23 06:22:14Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 06:22:25Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 06:22:25Z BUY NO [clima] Will the highest temperature in Atlanta be between @ 0.401 $20.43 edge=0.238 conf=medium | Modelo 0.19 vs mercado 0.62
+2026-10-23 06:22:35Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 06:22:45Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-23 06:22:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-23 06:23:33Z ciclo 3: lidos=600 filtro=29 llm=8 clima=1 compras=1 vendas=1 descartados={'categoria_Esportes': 194, 'esporte_vivo': 7, 'cripto': 14, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1945.88
