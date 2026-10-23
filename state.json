@@ -1,5 +1,5 @@
 {
- "cash": 1644.008512465021,
+ "cash": 1589.071111001574,
  "positions": [
   {
    "mid": "6038975",
@@ -87,7 +87,7 @@
    "shares": 31.99004106468208,
    "cost": 19.861375398391285,
    "t": 1792756470.3497596,
-   "mark": 0.6699999999999999,
+   "mark": 0.6599999999999999,
    "conf": "medium",
    "llm_p": 0.14561974782129405,
    "mkt_yes": 0.405,
@@ -137,7 +137,7 @@
    "shares": 43.13469427010644,
    "cost": 19.252434310847715,
    "t": 1792771971.5248435,
-   "mark": 0.4463329261195249,
+   "mark": 0.4,
    "conf": "medium",
    "llm_p": 0.17009618299570672,
    "mkt_yes": 0.585,
@@ -149,6 +149,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "KATL|2026-10-25"
+  },
+  {
+   "mid": "4881548",
+   "q": "Will Conservative win the most seats in the 2026 British Columbia general election?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "103260758221019261190568249958083274029384820061909611626197177871555415590776",
+   "entry": 0.1014429706978582,
+   "fair": 0.25,
+   "shares": 541.5594701684636,
+   "cost": 54.93740146344706,
+   "t": 1792772645.4044418,
+   "mark": 0.1014429706978582,
+   "conf": "medium",
+   "llm_p": 0.58,
+   "mkt_yes": 0.92,
+   "edge": 0.14855702930214182,
+   "evidence": [
+    "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026",
+    "Global News reported Conservatives lead by five points with no sign of late NDP surge on Oct 20, 2026"
+   ],
+   "misprice": "O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null
   }
  ],
  "closed": [
@@ -378,17 +403,17 @@
    }
   },
   "4881548": {
-   "t": 1792756543.7817776,
+   "t": 1792772645.4044168,
    "yes": 0.92,
    "est": {
     "p": 0.58,
-    "conf": "low",
+    "conf": "medium",
     "evidence": [
-     "Pesquisas recentes em 20-22 de outubro de 2026 mostram os Conservadores de BC com liderança estreita de 2 a 5 pontos sobre o NDP",
-     "Eleição provincial agendada para 24 de outubro de 2026 com 93 assentos na Assembleia Legislativa"
+     "B.C. Conservatives hold a narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026",
+     "Global News reported Conservatives lead by five points with no sign of late NDP surge on Oct 20, 2026"
     ],
-    "misprice": "O mercado de 0.92 parece excessivamente otimista e precifica uma vitória certa, ignorando a volatilidade histórica de lideranças estreitas e a margem de erro das pesquisas.",
-    "reason": "Com os Conservadores liderando por margens estreitas nas vésperas da eleição, a corrida está muito mais competitiva do que o preço de 92% sugere."
+    "misprice": "O mercado precifica uma vitoria conservadora com quase certeza (92%), ignorando a volatilidade historica e a estreita margem das pesquisas na reta final.",
+    "reason": "Embora liderem as pesquisas nas vesperas da eleicao de 2024/2026, uma margem estreita e incertezas de distritos tornam uma probabilidade acima de 90% excessivamente otimista."
    }
   },
   "4881659": {
@@ -462,31 +487,32 @@
    }
   },
   "5789186": {
-   "t": 1792772018.9809573,
-   "yes": 0.1255,
+   "t": 1792772638.9092999,
+   "yes": 0.174,
    "est": {
-    "p": 0.08,
-    "conf": "medium",
+    "p": 0.15,
+    "conf": "low",
     "evidence": [
-     "WTI dropped more than 2% on Mon, 19 Oct 2026, with Brent falling below $105",
-     "Oil prices fell on Tue, 20 Oct 2026 due to hopes for diplomatic progress in the Middle East",
-     "Market closes in less than a day with WTI having peaked near $100 earlier in the week without reaching $105"
+     "WTI dropped more than 2% and fell below key levels on Oct 19, 2026",
+     "Recent news on Oct 20, 2026 highlights falling oil prices due to diplomatic progress in the Middle East",
+     "WTI touched around $100 recently, but upside momentum is cooling as of Oct 22-23, 2026"
     ],
-    "misprice": "Market underappreciates how quickly geopolitical risk premium is fading amid diplomatic progress and softening momentum.",
-    "reason": "With only hours left in the trading week and prices retreating from earlier highs below the $105 threshold, reaching $105 is statistically improbable."
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a volatilidade de alta de curto prazo em um contexto de desmobilizacao de precos e diplomacia no Oriente Medio.",
+    "reason": "Com o WTI recuando dos picos recentes e o tempo util de negociacao quase esgotado para esta semana, a probabilidade de atingir US$ 105 nas sessoes restantes e baixa."
    }
   },
   "6040670": {
-   "t": 1792772031.2253578,
-   "yes": 0.355,
+   "t": 1792772665.2905192,
+   "yes": 0.28,
    "est": {
     "p": 0.5,
     "conf": "low",
     "evidence": [
-     "Nenhuma informação macroeconômica extraordinária ou catalisador de última hora foi divulgado até as 16:13 UTC de 23 de outubro de 2026."
+     "Data atual de 23 de outubro de 2026 sem dados intradiários concretos da sessão.",
+     "Notícias recentes mostram volatilidade geral sem direcionamento macroeconômico sistêmico divulgado hoje."
     ],
-    "misprice": "O mercado reflete uma distribuição estatisticamente neutra para o movimento diário de fechamento do SPY.",
-    "reason": "A movimentação diária do S&P 500 no curto prazo é essencialmente um passeio aleatório sem evidência direcional forte."
+    "misprice": "O mercado a 0.28 reflete apostas especulativas direcionais e não uma precificação fundamentalista de curto prazo.",
+    "reason": "Na ausência de informações direcionais definitivas para o fechamento de hoje, o movimento diário do SPY tende a se comportar de forma próxima a um passeio aleatório de 50%."
    }
   },
   "6040699": {
@@ -514,6 +540,20 @@
     ],
     "misprice": "O mercado já reflete adequadamente a alta probabilidade do favorito com base nas tendências atuais.",
     "reason": "A probabilidade implícita de 91.5% está alinhada com a posição dominante de Kevin Acton nas notícias recentes de outubro de 2026."
+   }
+  },
+  "6051418": {
+   "t": 1792772671.3269343,
+   "yes": 0.085,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Meta current trading price and volatility data as of October 2026",
+     "Yahoo Finance article from July 10, 2026 discussing Meta at $630 level"
+    ],
+    "misprice": "Market price reflects accurate probability given the short timeframe and current distance to the $630 low threshold.",
+    "reason": "The probability of META hitting a specific low intraday during the remaining hours of the week is low based on current price action."
    }
   }
  },
@@ -1221,6 +1261,18 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6051418": {
+   "q": "Will Meta Platforms, Inc. (META) hit (LOW) $630 Week of October 19 2026?",
+   "p": 0.08,
+   "yes": 0.085,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792785600.0,
+   "t": 1792772671.326938,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1247,11 +1299,15 @@
   {
    "t": 1792772043.2296374,
    "equity": 1833.57
+  },
+  {
+   "t": 1792772671.3276606,
+   "equity": 1831.25
   }
  ],
  "llm_calls": {
-  "2026-10-23": 42
+  "2026-10-23": 46
  },
  "killed": false,
- "cycles": 6
+ "cycles": 7
 }
