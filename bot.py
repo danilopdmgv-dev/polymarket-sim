@@ -39,6 +39,9 @@ BREAK_CONFIRM = 2
 GAMMA = "https://gamma-api.polymarket.com"
 STATE, LOG, REPORT = "state.json", "trades.log", "report.md"
 T0 = time.time()
+LLM_DOWN = False            # vira True se o LLM der 429/503 (limite ou instabilidade)
+DAILY_LLM_BUDGET = 400      # teto de consultas por dia
+SKIP_CATS = {"Esportes"}    # categorias que NAO vao ao LLM (deixe vazio {} para incluir)
 
 llm = OpenAI(api_key=os.getenv("LLM_API_KEY") or "missing",
              base_url=os.getenv("LLM_BASE_URL") or "https://api.openai.com/v1",
@@ -206,6 +209,9 @@ def news(q, n=6):
 
 # ---------------- LLM ----------------
 def ask_llm(m):
+    global LLM_DOWN
+    if LLM_DOWN:
+        raise RuntimeError("LLM indisponivel neste ciclo")
     heads = "\n".join(news(m["q"])) or "(sem noticias encontradas)"
     today = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     prompt = f"""Voce e um superforecaster calibrado e CETICO. Estime a probabilidade de SIM.
@@ -223,8 +229,14 @@ So se afaste do preco se a evidencia trouxer informacao NOVA que o mercado prova
 Descrever o favorito ou o consenso NAO e evidencia de erro de preco.
 Responda SOMENTE JSON:
 {{"p": 0-1, "confidence": "low|medium|high", "evidence": ["1 a 3 fatos concretos e recentes com numero ou data"], "market_misprice_reason": "uma frase: por que o mercado esta errado", "reason": "uma frase"}}"""
-    r = llm.chat.completions.create(model=MODEL, temperature=0,
-                                    messages=[{"role": "user", "content": prompt}])
+    try:
+        r = llm.chat.completions.create(model=MODEL, temperature=0,
+                                        messages=[{"role": "user", "content": prompt}])
+    except Exception as e:
+        if any(k in str(e) for k in ("429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "quota")):
+            LLM_DOWN = True
+            log("LLM com limite/instabilidade: pulando as consultas restantes deste ciclo.")
+        raise
     txt = r.choices[0].message.content or ""
     d = json.loads(txt[txt.find("{"): txt.rfind("}") + 1])
     p = min(max(float(d["p"]), 0.01), 0.99)
@@ -241,11 +253,16 @@ Responda SOMENTE JSON:
 
 
 def get_estimate(s, m, force=False):
+    global LLM_DOWN
     c = s["cache"].get(m["id"])
     if c and not force and now() - c["t"] < LLM_CACHE_MIN * 60 and abs(c["yes"] - m["yes"]) < 0.03:
         return c["est"], False
-    est = ask_llm(m)
     day = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    if s["llm_calls"].get(day, 0) >= DAILY_LLM_BUDGET:
+        LLM_DOWN = True
+        raise RuntimeError("orcamento diario de consultas atingido")
+    time.sleep(4.5)  # respeita ~15 consultas/minuto do plano gratuito
+    est = ask_llm(m)
     s["llm_calls"][day] = s["llm_calls"].get(day, 0) + 1
     s["cache"][m["id"]] = dict(t=now(), yes=m["yes"], est=est)
     if m["id"] not in s["estimates"]:  # guarda a 1a estimativa (sem look-ahead)
@@ -324,7 +341,7 @@ def manage_exits(s, st):
                 reason = "stop-loss"
             elif held_h / 24 >= MAX_HOLD_DAYS:
                 reason = "tempo-maximo"
-            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL:
+            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL and not LLM_DOWN:
                 est, called = get_estimate(s, m)
                 reevals += 1 if called else 0
                 p_new = est["p"] if pos["side"] == "YES" else 1 - est["p"]
@@ -358,6 +375,8 @@ def find_entries(s, st):
         if not m or m["id"] in held or not base_ok(m):
             continue
         why = discard_reason(m)
+        if not why and m["cat"] in SKIP_CATS:
+            why = "categoria_" + m["cat"]
         if why:
             st["filtered"][why] = st["filtered"].get(why, 0) + 1
             continue
@@ -374,8 +393,10 @@ def find_entries(s, st):
         try:
             est, called = get_estimate(s, m)
         except Exception as e:
-            log(f"erro LLM {m['q'][:40]}: {e}")
+            log(f"erro LLM {m['q'][:40]}: {str(e)[:150]}")
             calls += 1
+            if LLM_DOWN:
+                break
             continue
         calls += 1 if called else 0
         if est["conf"] == "low":
