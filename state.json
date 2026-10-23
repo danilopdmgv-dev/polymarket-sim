@@ -88,6 +88,118 @@
     "misprice": "Nenhum desvio detectado em relacao ao preco eficiente de mercado.",
     "reason": "Nao ha informacoes novas de lesoes ou escalacao que o mercado liquido ainda nao tenha incorporado."
    }
+  },
+  "3081958": {
+   "t": 1792721212.5648324,
+   "yes": 0.19,
+   "est": {
+    "p": 0.19,
+    "conf": "low",
+    "evidence": [
+     "AKM.RU reported on Oct 20, 2026, that the Bank of Russia is expected to keep its key rate at 14% at the October 23 meeting.",
+     "The key rate was previously held at 14.00% p.a. on Sep 11, 2026, following a reduction to 14% on Jul 24, 2026."
+    ],
+    "misprice": "O pre\u00e7o de mercado reflete adequadamente o consenso atual de manuten\u00e7\u00e3o da taxa.",
+    "reason": "O mercado j\u00e1 incorpora a alta probabilidade de manuten\u00e7\u00e3o da taxa em 14% baseada nas not\u00edcias recentes."
+   }
+  },
+  "5533914": {
+   "t": 1792721218.9577942,
+   "yes": 0.595,
+   "est": {
+    "p": 0.595,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada entre Aston Villa e Manchester City para 24 de outubro de 2026."
+    ],
+    "misprice": "O preco atual reflete adequadamente as probabilidades para este confronto fora de casa.",
+    "reason": "Nao ha evidencias novas suficientes para justificar desvio do preco consensual de mercado."
+   }
+  },
+  "5534599": {
+   "t": 1792721224.7734928,
+   "yes": 0.565,
+   "est": {
+    "p": 0.565,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada entre Chelsea FC e Tottenham Hotspur em 24 de outubro de 2026.",
+     "Preco atual do mercado em 0.565 para SIM em 23 de outubro de 2026."
+    ],
+    "misprice": "O preco atual reflete adequadamente o equilibrio tradicional entre duas equipes de alto nivel sem informacoes novas suficientes para justifica desvio.",
+    "reason": "Como um superforecaster cetico, na ausencia de noticias de ultima hora sobre les\u00f5es de ultima hora ou alteracoes drasticas, mantenho a calibracao alinhada ao preco de mercado eficiente."
+   }
+  },
+  "5474423": {
+   "t": 1792721230.4628644,
+   "yes": 0.415,
+   "est": {
+    "p": 0.415,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada para 23 de outubro de 2026 entre Brisbane Roar e Perth Glory pela A-League Men.",
+     "Preco atual de mercado para SIM esta em 0.415."
+    ],
+    "misprice": "O preco atual ja reflete adequadamente o consenso publico e as probabilidades equilibradas para este confronto.",
+    "reason": "Ausencia de informacao nova ou assimetria informacional relevante que justifique desviar do preco de mercado estabelecido."
+   }
+  },
+  "4881547": {
+   "t": 1792721236.4551082,
+   "yes": 0.09,
+   "est": {
+    "p": 0.09,
+    "conf": "low",
+    "evidence": [
+     "Pesquisa da Global News de 20 de outubro de 2026 mostra conservadores liderando por cinco pontos sem sinal de alta tardia do NDP.",
+     "Elei\u00e7\u00e3o geral na Col\u00fambia Brit\u00e2nica agendada para 24 de outubro de 2026."
+    ],
+    "misprice": "O pre\u00e7o atual de 0.09 j\u00e1 reflete adequadamente a desvantagem nas pesquisas e o pessimismo generalizado sobre o NDP na v\u00e9spera da elei\u00e7\u00e3o.",
+    "reason": "Como o pre\u00e7o de mercado j\u00e1 incorpora o consenso das pesquisas recentes, mantenho o valor alinhado com a cota\u00e7\u00e3o atual."
+   }
+  },
+  "4881660": {
+   "t": 1792721242.2668138,
+   "yes": 0.915,
+   "est": {
+    "p": 0.915,
+    "conf": "low",
+    "evidence": [
+     "The Tyee reported on Oct 21, 2026, about Lorne Doerkson's potential premiership.",
+     "The Globe and Mail noted on Oct 20, 2026, that Doerkson is leading the BC Conservatives into the election."
+    ],
+    "misprice": "O mercado j\u00e1 reflete amplamente o favoritismo de Lorne Doerkson nas v\u00e9speras da elei\u00e7\u00e3o.",
+    "reason": "O pre\u00e7o atual est\u00e1 perfeitamente alinhado com o consenso p\u00fablico e as not\u00edcias recentes de outubro de 2026."
+   }
+  },
+  "6003790": {
+   "t": 1792721248.3827121,
+   "yes": 0.275,
+   "est": {
+    "p": 0.275,
+    "conf": "low",
+    "evidence": [
+     "Previs\u00e3o de longo prazo para Amsterd\u00e3 em outubro",
+     "Dados clim\u00e1ticos hist\u00f3ricos da esta\u00e7\u00e3o EHAM",
+     "Pre\u00e7o atual de mercado em 0.275"
+    ],
+    "misprice": "O mercado j\u00e1 reflete adequadamente a incerteza meteorol\u00f3gica padr\u00e3o para o final de outubro em Schiphol.",
+    "reason": "Aus\u00eancia de dados meteorol\u00f3gicos de alta precis\u00e3o em tempo real para a data espec\u00edfica que justifiquem divergir do pre\u00e7o atual."
+   }
+  },
+  "4881659": {
+   "t": 1792721254.6656713,
+   "yes": 0.085,
+   "est": {
+    "p": 0.085,
+    "conf": "low",
+    "evidence": [
+     "Angus Reid Institute poll on Oct 19, 2026 shows BC Conservatives leading slightly in the final days of the campaign.",
+     "BC general election is scheduled for October 24, 2026, with current market pricing at 8.5% for Eby."
+    ],
+    "misprice": "O mercado j\u00e1 reflete com precis\u00e3o o risco elevado para Eby com base nas pesquisas recentes que apontam vantagem conservadora na reta final.",
+    "reason": "O pre\u00e7o atual de 0.085 est\u00e1 alinhado com o consenso p\u00fablico e as not\u00edcias recentes de desvantagem eleitoral, n\u00e3o havendo evid\u00eancia nova n\u00e3o precificada."
+   }
   }
  },
  "estimates": {
@@ -156,6 +268,94 @@
    "t": 1792720420.3372698,
    "resolved": null,
    "version": "v3-alto-volume"
+  },
+  "3081958": {
+   "q": "Will the Bank of Russia decrease the key rate after the October Meeting?",
+   "p": 0.19,
+   "yes": 0.19,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792814340.0,
+   "t": 1792721212.5648344,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5533914": {
+   "q": "Will Manchester City FC win on 2026-10-24?",
+   "p": 0.595,
+   "yes": 0.595,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792841400.0,
+   "t": 1792721218.9577968,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5534599": {
+   "q": "Will Chelsea FC win on 2026-10-24?",
+   "p": 0.565,
+   "yes": 0.565,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792859400.0,
+   "t": 1792721224.773496,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5474423": {
+   "q": "Will Brisbane Roar FC win on 2026-10-23?",
+   "p": 0.415,
+   "yes": 0.415,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792746000.0,
+   "t": 1792721230.462867,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "4881547": {
+   "q": "Will NDP win the most seats in the 2026 British Columbia general election?",
+   "p": 0.09,
+   "yes": 0.09,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792886340.0,
+   "t": 1792721236.4551115,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "4881660": {
+   "q": "Will Lorne Doerkson be the next Premier of British Columbia?",
+   "p": 0.915,
+   "yes": 0.915,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792886340.0,
+   "t": 1792721242.266816,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6003790": {
+   "q": "Will the highest temperature in Amsterdam be 14\u00b0C on October 23?",
+   "p": 0.275,
+   "yes": 0.275,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792721248.3827145,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "4881659": {
+   "q": "Will David Eby be the next Premier of British Columbia?",
+   "p": 0.085,
+   "yes": 0.085,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1792886340.0,
+   "t": 1792721254.6656742,
+   "resolved": null,
+   "version": "v3-alto-volume"
   }
  },
  "history": [
@@ -170,11 +370,15 @@
   {
    "t": 1792720681.4784982,
    "equity": 50.0
+  },
+  {
+   "t": 1792721254.666313,
+   "equity": 50.0
   }
  ],
  "llm_calls": {
-  "2026-10-23": 6
+  "2026-10-23": 14
  },
  "killed": false,
- "cycles": 3
+ "cycles": 4
 }
