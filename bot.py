@@ -41,6 +41,9 @@ BREAK_CONFIRM = 2
 # Clima (modelo de previsao, sem LLM)
 WEATHER_SHRINK = 0.6        # usa 60% da divergencia modelo vs mercado
 WEATHER_MIN_EDGE = 0.06     # edge minimo (apos shrink e slippage)
+SIGMA_TIGHT = 0.6           # variante "sigma estreito" gravada so para comparar calibracao
+WEATHER_CALIB_N = 30        # ate haver 30 mercados de clima resolvidos, aposta menor
+WEATHER_EARLY_MULT = 0.35   # fator do tamanho da ordem nessa fase (~1% do banco)
 SIGMA_C = {0: 1.2, 1: 1.6, 2: 2.0, 3: 2.4}   # erro tipico da maxima do dia (graus C) por antecedencia
 
 GAMMA = "https://gamma-api.polymarket.com"
@@ -72,7 +75,7 @@ def now():
 
 def log(msg):
     line = f"{dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M:%S}Z {msg}"
-    print(line)
+    print(line, flush=True)
     with open(LOG, "a") as f:
         f.write(line + "\n")
 
@@ -305,6 +308,7 @@ CITY_STATION = {  # so usado se a descricao do mercado nao trouxer a estacao
     "warsaw": "EPWA", "moscow": "UUWW", "hong kong": "VHHH", "singapore": "WSSS", "dubai": "OMDB",
 }
 WX_CACHE, GEO_CACHE = {}, {}
+WX_FAILS = 0            # falhas seguidas do Open-Meteo; 4 ou mais pausa o clima no ciclo
 Q_RX = re.compile(r"highest temperature in (?P<city>.+?)\s+be\s+(?P<cond>.+?)\s+on\s+(?P<md>[A-Za-z]+\.?\s+\d{1,2})", re.I)
 
 
@@ -367,16 +371,18 @@ def temp_prob(kind, a, b, mu, sigma):
 
 
 def geocode(city):
+    global WX_FAILS
     if city in GEO_CACHE:
         return GEO_CACHE[city]
     out = None
     try:
         r = requests.get("https://geocoding-api.open-meteo.com/v1/search",
-                         params={"name": city, "count": 1}, timeout=15)
+                         params={"name": city, "count": 1}, timeout=8)
         res = (r.json().get("results") or [])
         if res:
             out = (res[0]["latitude"], res[0]["longitude"])
     except Exception as e:
+        WX_FAILS += 1
         log(f"erro geocode {city}: {str(e)[:100]}")
     GEO_CACHE[city] = out
     return out
@@ -398,6 +404,7 @@ def find_station(m, city):
 
 
 def wx_forecast(sid, lat, lon, unit):
+    global WX_FAILS
     key = (sid, unit)
     if key in WX_CACHE:
         return WX_CACHE[key]
@@ -407,14 +414,16 @@ def wx_forecast(sid, lat, lon, unit):
             "temperature_unit": "fahrenheit" if unit == "F" else "celsius"}
     for extra in ({"models": "ecmwf_ifs025,gfs_seamless,icon_seamless"}, {}):
         try:
-            r = requests.get("https://api.open-meteo.com/v1/forecast", params={**base, **extra}, timeout=20)
+            r = requests.get("https://api.open-meteo.com/v1/forecast", params={**base, **extra}, timeout=10)
             r.raise_for_status()
             d = r.json()["daily"]
             ks = [k for k in d if k.startswith("temperature_2m_max")]
             vals = [[d[k][i] for k in ks if d[k][i] is not None] for i in range(len(d["time"]))]
             out = {"dates": d["time"], "vals": vals}
+            WX_FAILS = 0
             break
         except Exception as e:
+            WX_FAILS += 1
             log(f"erro previsao {sid}: {str(e)[:120]}")
     WX_CACHE[key] = out
     return out
@@ -443,7 +452,8 @@ def weather_estimate(m):
     spread = statistics.pstdev(vals) if len(vals) > 1 else 0.0
     sigma = math.sqrt((SIGMA_C.get(i, 2.4) * k) ** 2 + spread ** 2 + (extra * k) ** 2)
     p = temp_prob(q["kind"], q["a"], q["b"], mu, sigma)
-    return dict(p=p, conf="medium", src="clima", event=f"{sid}|{ds}",
+    p_alt = temp_prob(q["kind"], q["a"], q["b"], mu, sigma * SIGMA_TIGHT)
+    return dict(p=p, p_alt=p_alt, conf="medium", src="clima", event=f"{sid}|{ds}",
                 evidence=[f"Previsao Open-Meteo {sid} {ds}: maxima {mu:.1f}{q['unit']} "
                           f"({len(vals)} modelos, sigma {sigma:.1f})"],
                 misprice=f"Modelo {p:.2f} vs mercado {m['yes']:.2f}",
@@ -558,7 +568,7 @@ def record_estimate(s, m, est):
     if m["id"] not in s["estimates"]:
         s["estimates"][m["id"]] = dict(q=m["q"], p=est["p"], yes=m["yes"], conf=est["conf"],
                                        cat=m["cat"], end=m["end"], t=now(), resolved=None,
-                                       version=VERSION, src=est.get("src", "llm"))
+                                       version=VERSION, src=est.get("src", "llm"), p_alt=est.get("p_alt"))
 
 
 def try_buy(s, st, m, est):
@@ -577,6 +587,10 @@ def try_buy(s, st, m, est):
     if edge < min_edge:
         return
     usd = min(kelly_size(p_side, price, equity(s), est["conf"]), s["cash"], MAX_LIQ_FRAC * m["liq"])
+    if clima:
+        n_cal = sum(1 for e in s["estimates"].values() if e.get("src") == "clima" and e["resolved"] in ("YES", "NO"))
+        if n_cal < WEATHER_CALIB_N:
+            usd *= WEATHER_EARLY_MULT
     if usd < MIN_ORDER:
         return
     price = min(0.99, price + IMPACT * usd / max(m["liq"], 1.0))   # impacto de mercado
@@ -621,6 +635,12 @@ def find_entries(s, st):
     open_events = {p.get("event") for p in s["positions"] if p.get("event")}
     wx_n = 0
     for m in [c for c in cands if c["cat"] == "Clima"]:
+        if time.time() - T0 > 200:
+            log("limite de tempo do clima neste ciclo; continua no proximo")
+            break
+        if WX_FAILS >= 4:
+            log("Open-Meteo falhando/lento: pausando o clima neste ciclo")
+            break
         est = weather_estimate(m)
         if not est:
             st["filtered"]["clima_sem_modelo"] = st["filtered"].get("clima_sem_modelo", 0) + 1
@@ -638,7 +658,7 @@ def find_entries(s, st):
     # 2) RESTO: LLM, com limite de consultas
     calls = 0
     for m in [c for c in cands if c["cat"] != "Clima"]:
-        if calls >= LLM_PER_CYCLE or len(s["positions"]) >= MAX_OPEN or time.time() - T0 > 300:
+        if calls >= LLM_PER_CYCLE or len(s["positions"]) >= MAX_OPEN or time.time() - T0 > 420:
             break
         if cat_full(m):
             continue
@@ -697,6 +717,11 @@ def report(s):
         bm_k = sum((e["yes"] - (e["resolved"] == "YES")) ** 2 for e in g) / len(g)
         L.append(f"- Fonte {k} ({len(g)}): modelo {bl_k:.4f} vs mercado {bm_k:.4f} -> "
                  + ("GANHANDO" if bl_k < bm_k else "PERDENDO"))
+    wres = [e for e in res if e.get("src") == "clima" and e.get("p_alt") is not None]
+    if wres:
+        def br(key):
+            return sum((e[key] - (1 if e["resolved"] == "YES" else 0)) ** 2 for e in wres) / len(wres)
+        L.append(f"- Clima ({len(wres)}): sigma largo {br('p'):.4f} | sigma estreito {br('p_alt'):.4f} | mercado {br('yes'):.4f}")
     if len(res) < 30:
         L.append(f"- Amostra pequena: conclusoes so com 30+ resolvidos (faltam {30 - len(res)}).")
     L += ["", "## Posicoes abertas"]
