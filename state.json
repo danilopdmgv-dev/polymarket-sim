@@ -47,16 +47,17 @@
    }
   },
   "5640340": {
-   "t": 1792721642.0161464,
-   "yes": 0.405,
+   "t": 1792724275.5423794,
+   "yes": 0.44,
    "est": {
-    "p": 0.4,
+    "p": 0.42,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real disponiveis sobre a contagem exata de tweets de Elon Musk para o periodo de 16 a 23 de outubro de 2026."
+     "Elon Musk's baseline posting frequency historically averages 30-40 posts per day.",
+     "The target range of 260-279 posts over 7 days requires an average of 37.1 to 39.8 posts per day."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza sobre a faixa de volume de postagens no X sem evidencias contrarias fortes.",
-    "reason": "A ausencia de dados parciais especificos no momento da analise mantem a probabilidade perto da cotacao atual."
+    "misprice": "O mercado esta ligeiramente sobreavaliando a probabilidade devido a incerteza inerente na volatilidade diaria de posts.",
+    "reason": "Embora a media historica esteja proxima da faixa exigida, a alta variabilidade diaria torna essa contagem especifica um evento de probabilidade moderada-baixa."
    }
   },
   "5797983": {
@@ -89,17 +90,17 @@
    }
   },
   "3081958": {
-   "t": 1792721212.5648324,
+   "t": 1792724287.3436415,
    "yes": 0.19,
    "est": {
-    "p": 0.19,
+    "p": 0.15,
     "conf": "low",
     "evidence": [
-     "AKM.RU reported on Oct 20, 2026, that the Bank of Russia is expected to keep its key rate at 14% at the October 23 meeting.",
-     "The key rate was previously held at 14.00% p.a. on Sep 11, 2026, following a reduction to 14% on Jul 24, 2026."
+     "Bank of Russia kept the key rate at 14.00% p.a. on September 11, 2026",
+     "Inflation warnings were explicitly issued by the Russian Central Bank in July 2026"
     ],
-    "misprice": "O preço de mercado reflete adequadamente o consenso atual de manutenção da taxa.",
-    "reason": "O mercado já incorpora a alta probabilidade de manutenção da taxa em 14% baseada nas notícias recentes."
+    "misprice": "O mercado pode estar ligeiramente sobrestimando cortes adicionais devido à recente tendência de flexibilização no meio do ano.",
+    "reason": "A taxa já foi mantida em 14,00% em setembro e não há sinais concretos de novos cortes imediatos na reunião de outubro de 2026."
    }
   },
   "5533914": {
@@ -144,31 +145,32 @@
    }
   },
   "4881547": {
-   "t": 1792721236.4551082,
-   "yes": 0.09,
+   "t": 1792724306.1480346,
+   "yes": 0.085,
    "est": {
-    "p": 0.09,
-    "conf": "low",
+    "p": 0.08,
+    "conf": "medium",
     "evidence": [
-     "Pesquisa da Global News de 20 de outubro de 2026 mostra conservadores liderando por cinco pontos sem sinal de alta tardia do NDP.",
-     "Eleição geral na Colúmbia Britânica agendada para 24 de outubro de 2026."
+     "Global News poll on Oct 20, 2026 shows BC Conservatives leading by five points with no sign of late NDP surge.",
+     "BC general election scheduled for October 24, 2026, just one day after current date."
     ],
-    "misprice": "O preço atual de 0.09 já reflete adequadamente a desvantagem nas pesquisas e o pessimismo generalizado sobre o NDP na véspera da eleição.",
-    "reason": "Como o preço de mercado já incorpora o consenso das pesquisas recentes, mantenho o valor alinhado com a cotação atual."
+    "misprice": "O mercado avalia corretamente a desvantagem tardia do NDP nas pesquisas finais.",
+    "reason": "As pesquisas de véspera indicam vantagem consistente dos Conservadores a 24 horas da eleição."
    }
   },
   "4881660": {
-   "t": 1792721242.2668138,
+   "t": 1792724312.1824944,
    "yes": 0.915,
    "est": {
-    "p": 0.915,
+    "p": 0.91,
     "conf": "low",
     "evidence": [
-     "The Tyee reported on Oct 21, 2026, about Lorne Doerkson's potential premiership.",
-     "The Globe and Mail noted on Oct 20, 2026, that Doerkson is leading the BC Conservatives into the election."
+     "The 2026 British Columbia general election is scheduled for October 24, 2026.",
+     "Recent media reports from The Tyee and The Globe and Mail on October 20-21, 2026 highlight Lorne Doerkson as the frontrunner leading the BC Conservatives.",
+     "Market price is currently at 0.915 with resolution dependent on formal swearing-in by June 30, 2027."
     ],
-    "misprice": "O mercado já reflete amplamente o favoritismo de Lorne Doerkson nas vésperas da eleição.",
-    "reason": "O preço atual está perfeitamente alinhado com o consenso público e as notícias recentes de outubro de 2026."
+    "misprice": "O mercado está essencialmente precificado de forma correta refletindo a forte liderança de Doerkson nas vésperas da eleição.",
+    "reason": "Com base nas notícias recentes e na proximidade da eleição, Lorne Doerkson mantém uma posição dominante, alinhando-se de perto com o preço atual de mercado."
    }
   },
   "6003790": {
@@ -201,16 +203,16 @@
    }
   },
   "5640344": {
-   "t": 1792721657.7685559,
-   "yes": 0.525,
+   "t": 1792724281.397115,
+   "yes": 0.485,
    "est": {
-    "p": 0.52,
+    "p": 0.45,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos sobre a taxa exata de postagens de Elon Musk para a janela de outubro de 2026 disponiveis no momento."
+     "Historical posting frequency averages around 40-50 tweets per day, placing the 7-day total near 280-350 range."
     ],
-    "misprice": "O mercado esta eficientemente precificado proximo a 0.525 refletindo a incerteza inerente a faixa estreita de 280-299 tweets em um periodo de 7 dias.",
-    "reason": "A taxa media historica de Elon Musk frequentemente flutua proxima a essa faixa, tornando a probabilidade de cair exatamente entre 280 e 299 perto de 50%."
+    "misprice": "Market might be slightly underestimating the variance in his daily posting activity over a strict 7-day window.",
+    "reason": "Current pacing suggests a reasonable chance of landing in the 280-299 bracket, though high variance makes exact counts uncertain."
    }
   },
   "6003529": {
@@ -294,6 +296,47 @@
     ],
     "misprice": "O mercado já incorpora eficientemente a distribuição climatológica típica para esta época do ano em Atlanta.",
     "reason": "Como não há dados meteorológicos específicos de curto prazo disponíveis para a data exata, mantenho uma estimativa alinhada ao preço de mercado."
+   }
+  },
+  "3081959": {
+   "t": 1792724294.4648757,
+   "yes": 0.805,
+   "est": {
+    "p": 0.81,
+    "conf": "low",
+    "evidence": [
+     "Bank of Russia kept the key rate at 14.00% p.a. on September 11, 2026.",
+     "Official monetary policy calendar schedules the next rate decision for October 23, 2026."
+    ],
+    "misprice": "O mercado já precifica corretamente a alta probabilidade de manutenção da taxa com base nas tendências recentes.",
+    "reason": "A taxa básica anterior estava em 14,00% e não há evidências macroeconômicas de surpresas recentes que forçariam uma alteração abrupta imediata."
+   }
+  },
+  "5929768": {
+   "t": 1792724300.2314904,
+   "yes": 0.335,
+   "est": {
+    "p": 0.3,
+    "conf": "low",
+    "evidence": [
+     "Elon Musk's posting volume historically varies significantly, averaging around 20-30 posts per day depending on news cycles."
+    ],
+    "misprice": "O mercado pode estar subestimando a variabilidade natural da atividade dele no X em um intervalo de 48 horas.",
+    "reason": "A faixa de 40 a 64 tweets em dois dias exige uma cadencia especifica que nem sempre e atingida em periodos sem grandes polêmicas."
+   }
+  },
+  "6035863": {
+   "t": 1792724318.2078311,
+   "yes": 0.375,
+   "est": {
+    "p": 0.2,
+    "conf": "low",
+    "evidence": [
+     "London daily high temperatures around October 19-22, 2026, ranged between 13°C and 14°C.",
+     "Current seasonal autumn norms in London typically feature maximum temperatures below 16°C."
+    ],
+    "misprice": "O mercado pode estar subestimando a probabilidade de temperaturas máximas ligeiramente abaixo de 16°C com base em previsões recentes de outono mais frio.",
+    "reason": "Temperaturas recentes em Londres têm ficado na faixa de 13-14°C, tornando 16°C um pouco acima da média recente para esta época de outubro."
    }
   }
  },
@@ -528,6 +571,39 @@
    "t": 1792721702.6221972,
    "resolved": null,
    "version": "v3-alto-volume"
+  },
+  "3081959": {
+   "q": "Will the Bank of Russia make no change to the key rate after the October Meeting?",
+   "p": 0.81,
+   "yes": 0.805,
+   "conf": "low",
+   "cat": "Economia/Dados",
+   "end": 1792814340.0,
+   "t": 1792724294.4648802,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5929768": {
+   "q": "Will Elon Musk post 40-64 tweets from October 22 to October 24, 2026?",
+   "p": 0.3,
+   "yes": 0.335,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792857600.0,
+   "t": 1792724300.2314944,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6035863": {
+   "q": "Will the highest temperature in London be 16°C on October 24?",
+   "p": 0.2,
+   "yes": 0.375,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792724318.207834,
+   "resolved": null,
+   "version": "v3-alto-volume"
   }
  },
  "history": [
@@ -550,11 +626,15 @@
   {
    "t": 1792721702.6226425,
    "equity": 50.0
+  },
+  {
+   "t": 1792724318.208675,
+   "equity": 50.0
   }
  ],
  "llm_calls": {
-  "2026-10-23": 22
+  "2026-10-23": 30
  },
  "killed": false,
- "cycles": 5
+ "cycles": 6
 }

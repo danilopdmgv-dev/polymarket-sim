@@ -21,3 +21,4 @@
 2026-10-23 01:58:01Z ciclo 3: lidos=500 filtro=170 llm=8 compras=0 vendas=0 descartados={'cripto': 13, 'esporte_vivo': 1} equity=$50.00
 2026-10-23 02:07:34Z ciclo 4: lidos=500 filtro=47 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 130, 'cripto': 13, 'esporte_vivo': 1} equity=$50.00
 2026-10-23 02:15:02Z ciclo 5: lidos=500 filtro=37 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 146, 'cripto': 13, 'esporte_vivo': 1} equity=$50.00
+2026-10-23 02:58:38Z ciclo 6: lidos=500 filtro=39 llm=8 compras=0 vendas=0 descartados={'categoria_Esportes': 153, 'cripto': 10, 'esporte_vivo': 1} equity=$50.00
