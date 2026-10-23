@@ -2,15 +2,175 @@
  "cash": 50.0,
  "positions": [],
  "closed": [],
- "cache": {},
- "estimates": {},
+ "cache": {
+  "5797992": {
+   "t": 1792720124.7417262,
+   "yes": 0.725,
+   "est": {
+    "p": 0.725,
+    "conf": "low",
+    "evidence": [
+     "O jogo entre Trail Blazers e Kings est\u00e1 agendado para 23 de outubro de 2026 \u00e0s 22:00 ET",
+     "O mercado precifica a probabilidade em 0.725 a aproximadamente 24 horas do in\u00edcio da partida"
+    ],
+    "misprice": "Nenhuma evid\u00eancia recente indica inefici\u00eancia na precifica\u00e7\u00e3o atual do mercado esportivo.",
+    "reason": "O pre\u00e7o de mercado reflete adequadamente o consenso probabil\u00edstico das casas de apostas para o confronto."
+   }
+  },
+  "5616794": {
+   "t": 1792720225.0729113,
+   "yes": 0.565,
+   "est": {
+    "p": 0.565,
+    "conf": "low",
+    "evidence": [
+     "O jogo entre LSU e Auburn est\u00e1 programado para 24 de outubro de 2026 \u00e0s 12:00 PM ET",
+     "A linha de spread fixada em LSU (-6.5) reflete o consenso atual das casas de apostas para a Semana 8 de college football",
+     "N\u00e3o h\u00e1 not\u00edcias de \u00faltima hora ou desfalques cr\u00edticos confirmados que alterem a precifica\u00e7\u00e3o do mercado a menos de 48 horas da partida"
+    ],
+    "misprice": "none",
+    "reason": "O pre\u00e7o de 0.565 reflete adequadamente a probabilidade impl\u00edcita do spread de -6.5 pontos em mercados de apostas altamente eficientes antes do pontap\u00e9 inicial."
+   }
+  },
+  "5792075": {
+   "t": 1792720236.653756,
+   "yes": 0.685,
+   "est": {
+    "p": 0.685,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada para 23 de outubro de 2026 \u00e0s 19:00 ET entre Raptors e Wizards",
+     "Not\u00edcia de 22 de outubro de 2026 j\u00e1 reportou o desfalque de AJ Dybantsa pelos Wizards, informa\u00e7\u00e3o amplamente precificada pelo mercado"
+    ],
+    "misprice": "O mercado j\u00e1 absorveu todas as not\u00edcias recentes de les\u00f5es e reflete adequadamente a probabilidade de vit\u00f3ria dos Raptors.",
+    "reason": "Sem novas informa\u00e7\u00f5es que n\u00e3o tenham sido incorporadas pelas linhas de apostas, adere-se \u00e0 probabilidade impl\u00edcita do mercado."
+   }
+  },
+  "5640340": {
+   "t": 1792720279.8628094,
+   "yes": 0.365,
+   "est": {
+    "p": 0.365,
+    "conf": "low",
+    "evidence": [
+     "Restam apenas cerca de 14 horas para o encerramento da janela de contagem em 23 de outubro \u00e0s 12:00 PM ET",
+     "O mercado precifica a faixa de 260-279 posts a 36,5%, indicando alta concentra\u00e7\u00e3o da distribui\u00e7\u00e3o nesta faixa nas horas finais"
+    ],
+    "misprice": "N\u00e3o h\u00e1 evid\u00eancia de erro de precifica\u00e7\u00e3o sem acesso \u00e0 contagem exata e em tempo real do tracker de posts nas horas finais",
+    "reason": "Como restam poucas horas e o mercado reflete a contagem em tempo real dos tweets acumulados, adoto a probabilidade do mercado."
+   }
+  },
+  "5797983": {
+   "t": 1792720366.9404063,
+   "yes": 0.435,
+   "est": {
+    "p": 0.435,
+    "conf": "low",
+    "evidence": [
+     "O jogo entre Pelicans e Jazz est\u00e1 agendado para 23 de outubro de 2026 \u00e0s 21h30 ET sem altera\u00e7\u00f5es de calend\u00e1rio registradas.",
+     "O pre\u00e7o de 0.435 reflete a probabilidade impl\u00edcita consolidada pelas linhas das casas de apostas esportivas a menos de 24 horas da partida."
+    ],
+    "misprice": "Nao ha evidencias de precificacao incorreta, visto que o mercado esta alinhado com as cotacoes esportivas publicas.",
+    "reason": "O mercado j\u00e1 incorpora o consenso p\u00fablico e as probabilidades de apostas para o confronto, justificando manter a estimativa alinhada ao pre\u00e7o."
+   }
+  },
+  "5792063": {
+   "t": 1792720420.337267,
+   "yes": 0.445,
+   "est": {
+    "p": 0.445,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada para 23 de outubro de 2026 as 19:00 ET",
+     "Noticias recentes cobrem apenas os jogos de abertura de 20 e 21 de outubro sem novos desfalques confirmados",
+     "Preco de mercado atual esta equilibrado em 0.445 refletindo a precificacao das casas de aposta"
+    ],
+    "misprice": "Nenhum desvio detectado em relacao ao preco eficiente de mercado.",
+    "reason": "Nao ha informacoes novas de lesoes ou escalacao que o mercado liquido ainda nao tenha incorporado."
+   }
+  }
+ },
+ "estimates": {
+  "5797992": {
+   "q": "Trail Blazers vs. Kings",
+   "p": 0.725,
+   "yes": 0.725,
+   "conf": "low",
+   "cat": "Esportes",
+   "end": 1792807200.0,
+   "t": 1792720124.7417285,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5616794": {
+   "q": "Spread: LSU (-6.5)",
+   "p": 0.565,
+   "yes": 0.565,
+   "conf": "low",
+   "cat": "Esportes",
+   "end": 1792857600.0,
+   "t": 1792720225.0729141,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5792075": {
+   "q": "Raptors vs. Wizards",
+   "p": 0.685,
+   "yes": 0.685,
+   "conf": "low",
+   "cat": "Esportes",
+   "end": 1792796400.0,
+   "t": 1792720236.6537583,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5640340": {
+   "q": "Will Elon Musk post 260-279 tweets from October 16 to October 23, 2026?",
+   "p": 0.365,
+   "yes": 0.365,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792771200.0,
+   "t": 1792720279.8628118,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5797983": {
+   "q": "Pelicans vs. Jazz",
+   "p": 0.435,
+   "yes": 0.435,
+   "conf": "low",
+   "cat": "Esportes",
+   "end": 1792805400.0,
+   "t": 1792720366.940409,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5792063": {
+   "q": "Knicks vs. Celtics",
+   "p": 0.445,
+   "yes": 0.445,
+   "conf": "low",
+   "cat": "Esportes",
+   "end": 1792796400.0,
+   "t": 1792720420.3372698,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  }
+ },
  "history": [
   {
    "t": 1792719637.3175755,
    "equity": 50.0
+  },
+  {
+   "t": 1792720420.3377776,
+   "equity": 50.0
   }
  ],
- "llm_calls": {},
+ "llm_calls": {
+  "2026-10-23": 6
+ },
  "killed": false,
- "cycles": 1
+ "cycles": 2
 }
