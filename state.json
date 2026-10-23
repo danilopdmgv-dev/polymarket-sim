@@ -10,11 +10,11 @@
     "p": 0.725,
     "conf": "low",
     "evidence": [
-     "O jogo entre Trail Blazers e Kings est\u00e1 agendado para 23 de outubro de 2026 \u00e0s 22:00 ET",
-     "O mercado precifica a probabilidade em 0.725 a aproximadamente 24 horas do in\u00edcio da partida"
+     "O jogo entre Trail Blazers e Kings está agendado para 23 de outubro de 2026 às 22:00 ET",
+     "O mercado precifica a probabilidade em 0.725 a aproximadamente 24 horas do início da partida"
     ],
-    "misprice": "Nenhuma evid\u00eancia recente indica inefici\u00eancia na precifica\u00e7\u00e3o atual do mercado esportivo.",
-    "reason": "O pre\u00e7o de mercado reflete adequadamente o consenso probabil\u00edstico das casas de apostas para o confronto."
+    "misprice": "Nenhuma evidência recente indica ineficiência na precificação atual do mercado esportivo.",
+    "reason": "O preço de mercado reflete adequadamente o consenso probabilístico das casas de apostas para o confronto."
    }
   },
   "5616794": {
@@ -24,12 +24,12 @@
     "p": 0.565,
     "conf": "low",
     "evidence": [
-     "O jogo entre LSU e Auburn est\u00e1 programado para 24 de outubro de 2026 \u00e0s 12:00 PM ET",
+     "O jogo entre LSU e Auburn está programado para 24 de outubro de 2026 às 12:00 PM ET",
      "A linha de spread fixada em LSU (-6.5) reflete o consenso atual das casas de apostas para a Semana 8 de college football",
-     "N\u00e3o h\u00e1 not\u00edcias de \u00faltima hora ou desfalques cr\u00edticos confirmados que alterem a precifica\u00e7\u00e3o do mercado a menos de 48 horas da partida"
+     "Não há notícias de última hora ou desfalques críticos confirmados que alterem a precificação do mercado a menos de 48 horas da partida"
     ],
     "misprice": "none",
-    "reason": "O pre\u00e7o de 0.565 reflete adequadamente a probabilidade impl\u00edcita do spread de -6.5 pontos em mercados de apostas altamente eficientes antes do pontap\u00e9 inicial."
+    "reason": "O preço de 0.565 reflete adequadamente a probabilidade implícita do spread de -6.5 pontos em mercados de apostas altamente eficientes antes do pontapé inicial."
    }
   },
   "5792075": {
@@ -39,25 +39,24 @@
     "p": 0.685,
     "conf": "low",
     "evidence": [
-     "Partida agendada para 23 de outubro de 2026 \u00e0s 19:00 ET entre Raptors e Wizards",
-     "Not\u00edcia de 22 de outubro de 2026 j\u00e1 reportou o desfalque de AJ Dybantsa pelos Wizards, informa\u00e7\u00e3o amplamente precificada pelo mercado"
+     "Partida agendada para 23 de outubro de 2026 às 19:00 ET entre Raptors e Wizards",
+     "Notícia de 22 de outubro de 2026 já reportou o desfalque de AJ Dybantsa pelos Wizards, informação amplamente precificada pelo mercado"
     ],
-    "misprice": "O mercado j\u00e1 absorveu todas as not\u00edcias recentes de les\u00f5es e reflete adequadamente a probabilidade de vit\u00f3ria dos Raptors.",
-    "reason": "Sem novas informa\u00e7\u00f5es que n\u00e3o tenham sido incorporadas pelas linhas de apostas, adere-se \u00e0 probabilidade impl\u00edcita do mercado."
+    "misprice": "O mercado já absorveu todas as notícias recentes de lesões e reflete adequadamente a probabilidade de vitória dos Raptors.",
+    "reason": "Sem novas informações que não tenham sido incorporadas pelas linhas de apostas, adere-se à probabilidade implícita do mercado."
    }
   },
   "5640340": {
-   "t": 1792720279.8628094,
-   "yes": 0.365,
+   "t": 1792721642.0161464,
+   "yes": 0.405,
    "est": {
-    "p": 0.365,
+    "p": 0.4,
     "conf": "low",
     "evidence": [
-     "Restam apenas cerca de 14 horas para o encerramento da janela de contagem em 23 de outubro \u00e0s 12:00 PM ET",
-     "O mercado precifica a faixa de 260-279 posts a 36,5%, indicando alta concentra\u00e7\u00e3o da distribui\u00e7\u00e3o nesta faixa nas horas finais"
+     "Nao ha dados em tempo real disponiveis sobre a contagem exata de tweets de Elon Musk para o periodo de 16 a 23 de outubro de 2026."
     ],
-    "misprice": "N\u00e3o h\u00e1 evid\u00eancia de erro de precifica\u00e7\u00e3o sem acesso \u00e0 contagem exata e em tempo real do tracker de posts nas horas finais",
-    "reason": "Como restam poucas horas e o mercado reflete a contagem em tempo real dos tweets acumulados, adoto a probabilidade do mercado."
+    "misprice": "O mercado reflete adequadamente a incerteza sobre a faixa de volume de postagens no X sem evidencias contrarias fortes.",
+    "reason": "A ausencia de dados parciais especificos no momento da analise mantem a probabilidade perto da cotacao atual."
    }
   },
   "5797983": {
@@ -67,11 +66,11 @@
     "p": 0.435,
     "conf": "low",
     "evidence": [
-     "O jogo entre Pelicans e Jazz est\u00e1 agendado para 23 de outubro de 2026 \u00e0s 21h30 ET sem altera\u00e7\u00f5es de calend\u00e1rio registradas.",
-     "O pre\u00e7o de 0.435 reflete a probabilidade impl\u00edcita consolidada pelas linhas das casas de apostas esportivas a menos de 24 horas da partida."
+     "O jogo entre Pelicans e Jazz está agendado para 23 de outubro de 2026 às 21h30 ET sem alterações de calendário registradas.",
+     "O preço de 0.435 reflete a probabilidade implícita consolidada pelas linhas das casas de apostas esportivas a menos de 24 horas da partida."
     ],
     "misprice": "Nao ha evidencias de precificacao incorreta, visto que o mercado esta alinhado com as cotacoes esportivas publicas.",
-    "reason": "O mercado j\u00e1 incorpora o consenso p\u00fablico e as probabilidades de apostas para o confronto, justificando manter a estimativa alinhada ao pre\u00e7o."
+    "reason": "O mercado já incorpora o consenso público e as probabilidades de apostas para o confronto, justificando manter a estimativa alinhada ao preço."
    }
   },
   "5792063": {
@@ -99,8 +98,8 @@
      "AKM.RU reported on Oct 20, 2026, that the Bank of Russia is expected to keep its key rate at 14% at the October 23 meeting.",
      "The key rate was previously held at 14.00% p.a. on Sep 11, 2026, following a reduction to 14% on Jul 24, 2026."
     ],
-    "misprice": "O pre\u00e7o de mercado reflete adequadamente o consenso atual de manuten\u00e7\u00e3o da taxa.",
-    "reason": "O mercado j\u00e1 incorpora a alta probabilidade de manuten\u00e7\u00e3o da taxa em 14% baseada nas not\u00edcias recentes."
+    "misprice": "O preço de mercado reflete adequadamente o consenso atual de manutenção da taxa.",
+    "reason": "O mercado já incorpora a alta probabilidade de manutenção da taxa em 14% baseada nas notícias recentes."
    }
   },
   "5533914": {
@@ -127,7 +126,7 @@
      "Preco atual do mercado em 0.565 para SIM em 23 de outubro de 2026."
     ],
     "misprice": "O preco atual reflete adequadamente o equilibrio tradicional entre duas equipes de alto nivel sem informacoes novas suficientes para justifica desvio.",
-    "reason": "Como um superforecaster cetico, na ausencia de noticias de ultima hora sobre les\u00f5es de ultima hora ou alteracoes drasticas, mantenho a calibracao alinhada ao preco de mercado eficiente."
+    "reason": "Como um superforecaster cetico, na ausencia de noticias de ultima hora sobre lesões de ultima hora ou alteracoes drasticas, mantenho a calibracao alinhada ao preco de mercado eficiente."
    }
   },
   "5474423": {
@@ -152,10 +151,10 @@
     "conf": "low",
     "evidence": [
      "Pesquisa da Global News de 20 de outubro de 2026 mostra conservadores liderando por cinco pontos sem sinal de alta tardia do NDP.",
-     "Elei\u00e7\u00e3o geral na Col\u00fambia Brit\u00e2nica agendada para 24 de outubro de 2026."
+     "Eleição geral na Colúmbia Britânica agendada para 24 de outubro de 2026."
     ],
-    "misprice": "O pre\u00e7o atual de 0.09 j\u00e1 reflete adequadamente a desvantagem nas pesquisas e o pessimismo generalizado sobre o NDP na v\u00e9spera da elei\u00e7\u00e3o.",
-    "reason": "Como o pre\u00e7o de mercado j\u00e1 incorpora o consenso das pesquisas recentes, mantenho o valor alinhado com a cota\u00e7\u00e3o atual."
+    "misprice": "O preço atual de 0.09 já reflete adequadamente a desvantagem nas pesquisas e o pessimismo generalizado sobre o NDP na véspera da eleição.",
+    "reason": "Como o preço de mercado já incorpora o consenso das pesquisas recentes, mantenho o valor alinhado com a cotação atual."
    }
   },
   "4881660": {
@@ -168,8 +167,8 @@
      "The Tyee reported on Oct 21, 2026, about Lorne Doerkson's potential premiership.",
      "The Globe and Mail noted on Oct 20, 2026, that Doerkson is leading the BC Conservatives into the election."
     ],
-    "misprice": "O mercado j\u00e1 reflete amplamente o favoritismo de Lorne Doerkson nas v\u00e9speras da elei\u00e7\u00e3o.",
-    "reason": "O pre\u00e7o atual est\u00e1 perfeitamente alinhado com o consenso p\u00fablico e as not\u00edcias recentes de outubro de 2026."
+    "misprice": "O mercado já reflete amplamente o favoritismo de Lorne Doerkson nas vésperas da eleição.",
+    "reason": "O preço atual está perfeitamente alinhado com o consenso público e as notícias recentes de outubro de 2026."
    }
   },
   "6003790": {
@@ -179,12 +178,12 @@
     "p": 0.275,
     "conf": "low",
     "evidence": [
-     "Previs\u00e3o de longo prazo para Amsterd\u00e3 em outubro",
-     "Dados clim\u00e1ticos hist\u00f3ricos da esta\u00e7\u00e3o EHAM",
-     "Pre\u00e7o atual de mercado em 0.275"
+     "Previsão de longo prazo para Amsterdã em outubro",
+     "Dados climáticos históricos da estação EHAM",
+     "Preço atual de mercado em 0.275"
     ],
-    "misprice": "O mercado j\u00e1 reflete adequadamente a incerteza meteorol\u00f3gica padr\u00e3o para o final de outubro em Schiphol.",
-    "reason": "Aus\u00eancia de dados meteorol\u00f3gicos de alta precis\u00e3o em tempo real para a data espec\u00edfica que justifiquem divergir do pre\u00e7o atual."
+    "misprice": "O mercado já reflete adequadamente a incerteza meteorológica padrão para o final de outubro em Schiphol.",
+    "reason": "Ausência de dados meteorológicos de alta precisão em tempo real para a data específica que justifiquem divergir do preço atual."
    }
   },
   "4881659": {
@@ -197,8 +196,104 @@
      "Angus Reid Institute poll on Oct 19, 2026 shows BC Conservatives leading slightly in the final days of the campaign.",
      "BC general election is scheduled for October 24, 2026, with current market pricing at 8.5% for Eby."
     ],
-    "misprice": "O mercado j\u00e1 reflete com precis\u00e3o o risco elevado para Eby com base nas pesquisas recentes que apontam vantagem conservadora na reta final.",
-    "reason": "O pre\u00e7o atual de 0.085 est\u00e1 alinhado com o consenso p\u00fablico e as not\u00edcias recentes de desvantagem eleitoral, n\u00e3o havendo evid\u00eancia nova n\u00e3o precificada."
+    "misprice": "O mercado já reflete com precisão o risco elevado para Eby com base nas pesquisas recentes que apontam vantagem conservadora na reta final.",
+    "reason": "O preço atual de 0.085 está alinhado com o consenso público e as notícias recentes de desvantagem eleitoral, não havendo evidência nova não precificada."
+   }
+  },
+  "5640344": {
+   "t": 1792721657.7685559,
+   "yes": 0.525,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos sobre a taxa exata de postagens de Elon Musk para a janela de outubro de 2026 disponiveis no momento."
+    ],
+    "misprice": "O mercado esta eficientemente precificado proximo a 0.525 refletindo a incerteza inerente a faixa estreita de 280-299 tweets em um periodo de 7 dias.",
+    "reason": "A taxa media historica de Elon Musk frequentemente flutua proxima a essa faixa, tornando a probabilidade de cair exatamente entre 280 e 299 perto de 50%."
+   }
+  },
+  "6003529": {
+   "t": 1792721664.1844451,
+   "yes": 0.14,
+   "est": {
+    "p": 0.12,
+    "conf": "low",
+    "evidence": [
+     "Notícia de 21 de out de 2026 indica o término gradual de uma fase amena em Paris.",
+     "A climatologia típica de outubro em Paris aponta para máximas médias na faixa de 15°C a 16°C."
+    ],
+    "misprice": "O mercado está ligeiramente sobrevalorizado devido à incerteza inerente a previsões de transição de massas de ar no outono.",
+    "reason": "Embora 15°C seja uma temperatura comum para outubro, modelos recentes apontam para variações que tornam essa marca exata um alvo específico de probabilidade moderada-baixa."
+   }
+  },
+  "6003528": {
+   "t": 1792721670.0132759,
+   "yes": 0.825,
+   "est": {
+    "p": 0.8,
+    "conf": "low",
+    "evidence": [
+     "Current market price implies strong confidence at 82.5% for 14°C on October 23, 2026.",
+     "Recent weather reports note a mild spell in Paris ending in late October."
+    ],
+    "misprice": "The market is priced efficiently near current model consensus for seasonal October temperatures in Paris.",
+    "reason": "A 14°C high is standard for late October in Paris, aligning closely with current meteorological forecasts."
+   }
+  },
+  "4881548": {
+   "t": 1792721676.1174166,
+   "yes": 0.92,
+   "est": {
+    "p": 0.92,
+    "conf": "low",
+    "evidence": [
+     "Global News poll on Oct 20, 2026 shows Conservatives leading by five points with no sign of late NDP surge.",
+     "BC general election scheduled for October 24, 2026."
+    ],
+    "misprice": "O mercado já reflete adequadamente a vantagem consistente dos Conservadores nas pesquisas recentes faltando menos de dois dias para a eleição.",
+    "reason": "A liderança estável de cinco pontos nas pesquisas na reta final torna a vitória dos Conservadores altamente provável, alinhada com o preço atual de 0,92."
+   }
+  },
+  "6003553": {
+   "t": 1792721690.4330726,
+   "yes": 0.68,
+   "est": {
+    "p": 0.65,
+    "conf": "low",
+    "evidence": [
+     "A data de resolução é 23 de outubro de 2026, com dados obtidos das observações METAR oficiais do aeroporto LTAC em Ancara.",
+     "O preço atual de mercado para SIM é 0.68, refletindo uma probabilidade implícita moderadamente alta."
+    ],
+    "misprice": "O mercado está adequadamente precificado com base nas previsões climatológicas típicas de outubro para Ancara.",
+    "reason": "A estimativa de 65% reflete a incerteza inerente à previsão de temperatura exata em um único dia, apesar de estar alinhada com o consenso do mercado."
+   }
+  },
+  "6038975": {
+   "t": 1792721696.4686801,
+   "yes": 0.345,
+   "est": {
+    "p": 0.33,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados meteorologicos especificos ou previsoes detalhadas disponiveis para a data de 24 de outubro de 2026."
+    ],
+    "misprice": "O preco atual reflete uma distribuicao estatistica basica para faixas de temperatura em LAX sem evidencias de erro evidente.",
+    "reason": "Como faltam dados empiricos recentes para previsoes exatas a dois anos de distancia, mantenho-me proximo ao prior estatistico com leve ceticismo."
+   }
+  },
+  "6005154": {
+   "t": 1792721702.6221945,
+   "yes": 0.335,
+   "est": {
+    "p": 0.33,
+    "conf": "low",
+    "evidence": [
+     "A market price of 0.335 reflects climatological probabilities for late October in Atlanta.",
+     "No specific high-resolution meteorological forecast for KATL on October 23, 2026, is accessible in the current context."
+    ],
+    "misprice": "O mercado já incorpora eficientemente a distribuição climatológica típica para esta época do ano em Atlanta.",
+    "reason": "Como não há dados meteorológicos específicos de curto prazo disponíveis para a data exata, mantenho uma estimativa alinhada ao preço de mercado."
    }
   }
  },
@@ -336,7 +431,7 @@
    "version": "v3-alto-volume"
   },
   "6003790": {
-   "q": "Will the highest temperature in Amsterdam be 14\u00b0C on October 23?",
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 23?",
    "p": 0.275,
    "yes": 0.275,
    "conf": "low",
@@ -354,6 +449,83 @@
    "cat": "Outros",
    "end": 1792886340.0,
    "t": 1792721254.6656742,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "5640344": {
+   "q": "Will Elon Musk post 280-299 tweets from October 16 to October 23, 2026?",
+   "p": 0.52,
+   "yes": 0.525,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1792771200.0,
+   "t": 1792721657.7685595,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6003529": {
+   "q": "Will the highest temperature in Paris be 15°C on October 23?",
+   "p": 0.12,
+   "yes": 0.14,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792721664.1844487,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6003528": {
+   "q": "Will the highest temperature in Paris be 14°C on October 23?",
+   "p": 0.8,
+   "yes": 0.825,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792721670.0132792,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "4881548": {
+   "q": "Will Conservative win the most seats in the 2026 British Columbia general election?",
+   "p": 0.92,
+   "yes": 0.92,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792886340.0,
+   "t": 1792721676.1174195,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6003553": {
+   "q": "Will the highest temperature in Ankara be 22°C on October 23?",
+   "p": 0.65,
+   "yes": 0.68,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792721690.4330757,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6038975": {
+   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
+   "p": 0.33,
+   "yes": 0.345,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792721696.468683,
+   "resolved": null,
+   "version": "v3-alto-volume"
+  },
+  "6005154": {
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 23?",
+   "p": 0.33,
+   "yes": 0.335,
+   "conf": "low",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792721702.6221972,
    "resolved": null,
    "version": "v3-alto-volume"
   }
@@ -374,11 +546,15 @@
   {
    "t": 1792721254.666313,
    "equity": 50.0
+  },
+  {
+   "t": 1792721702.6226425,
+   "equity": 50.0
   }
  ],
  "llm_calls": {
-  "2026-10-23": 14
+  "2026-10-23": 22
  },
  "killed": false,
- "cycles": 4
+ "cycles": 5
 }
