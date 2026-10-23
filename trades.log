@@ -38,3 +38,5 @@
 2026-10-23 03:54:53Z erro geocode Shenzhen: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=15
 2026-10-23 03:55:13Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)
 2026-10-23 03:56:04Z ciclo 1: lidos=500 filtro=33 llm=8 clima=19 compras=6 vendas=0 descartados={'categoria_Esportes': 162, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 5} equity=$2000.00
+2026-10-23 04:03:57Z BUY YES [llm] Will David Eby be the next Premier of British Colu @ 0.101 $59.29 edge=0.167 conf=medium | Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.
+2026-10-23 04:03:57Z ciclo 2: lidos=500 filtro=17 llm=3 clima=10 compras=1 vendas=0 descartados={'categoria_Esportes': 176, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1} equity=$1976.47

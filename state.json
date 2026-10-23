@@ -1,5 +1,5 @@
 {
- "cash": 1640.0,
+ "cash": 1580.705985230044,
  "positions": [
   {
    "mid": "6035863",
@@ -12,7 +12,7 @@
    "shares": 92.1281944391403,
    "cost": 60.0,
    "t": 1792727533.0264568,
-   "mark": 0.6512664268009277,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.201729798223097,
    "mkt_yes": 0.37,
@@ -36,7 +36,7 @@
    "shares": 122.70507913254197,
    "cost": 60.0,
    "t": 1792727533.610309,
-   "mark": 0.4889773139316424,
+   "mark": 0.43000000000000005,
    "conf": "medium",
    "llm_p": 0.1525453196188089,
    "mkt_yes": 0.55,
@@ -60,7 +60,7 @@
    "shares": 87.948280039741,
    "cost": 60.0,
    "t": 1792727534.1869555,
-   "mark": 0.6822191403048239,
+   "mark": 0.65,
    "conf": "medium",
    "llm_p": 0.17389363725638735,
    "mkt_yes": 0.34,
@@ -84,7 +84,7 @@
    "shares": 98.51189812724274,
    "cost": 60.0,
    "t": 1792727535.2855847,
-   "mark": 0.6090634851284775,
+   "mark": 0.5700000000000001,
    "conf": "medium",
    "llm_p": 0.19116873178967564,
    "mkt_yes": 0.42,
@@ -108,7 +108,7 @@
    "shares": 86.68453539048636,
    "cost": 60.0,
    "t": 1792727535.818808,
-   "mark": 0.6921649834046986,
+   "mark": 0.65,
    "conf": "medium",
    "llm_p": 0.1830467441518575,
    "mkt_yes": 0.335,
@@ -132,7 +132,7 @@
    "shares": 107.39883482471227,
    "cost": 60.0,
    "t": 1792727536.3255336,
-   "mark": 0.5586652787986682,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.24448211496172984,
    "mkt_yes": 0.47,
@@ -144,6 +144,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "KDFW|2026-10-23"
+  },
+  {
+   "mid": "4881659",
+   "q": "Will David Eby be the next Premier of British Columbia?",
+   "cat": "Outros",
+   "side": "YES",
+   "token": "42008159329959973236740566202504646144442125447944791521323824274808966787827",
+   "entry": 0.10073148837935507,
+   "fair": 0.2675,
+   "shares": 588.6343557900642,
+   "cost": 59.29401476995601,
+   "t": 1792728237.9501872,
+   "mark": 0.10073148837935507,
+   "conf": "medium",
+   "llm_p": 0.45,
+   "mkt_yes": 0.085,
+   "edge": 0.16676851162064493,
+   "evidence": [
+    "Angus Reid Institute poll on October 19, 2026 showed BC Conservatives leading slightly in a narrowing two-way race",
+    "B.C. general election is scheduled for October 24, 2026 following David Eby's snap election call on September 23, 2026"
+   ],
+   "misprice": "Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null
   }
  ],
  "closed": [],
@@ -204,16 +229,16 @@
    }
   },
   "5929768": {
-   "t": 1792727746.6604183,
-   "yes": 0.34,
+   "t": 1792728231.7564564,
+   "yes": 0.31,
    "est": {
-    "p": 0.35,
+    "p": 0.28,
     "conf": "low",
     "evidence": [
-     "Nao ha dados recentes ou estatisticas especificas sobre a frequencia de tweets de Elon Musk para o periodo exato de outubro de 2026."
+     "Nao ha dados novos especificos sobre a frequencia exata de posts de Elon Musk para o intervalo de 22 a 24 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incrustada volatilidade na atividade de postagem de Elon Musk.",
-    "reason": "A faixa de 40-64 tweets em 48 horas representa uma media diaria plausivel, mas a alta variabilidade do comportamento do usuario torna a probabilidade minoritaria."
+    "misprice": "O mercado esta ligeiramente ineficiente devido ao ruido habitual de atividade na rede social.",
+    "reason": "A faixa de 40 a 64 tweets em 48 horas exige uma media de 20 a 32 tweets por dia, o que e um pouco acima da mediana historica recente dele, tornando o cenario desfavoravel."
    }
   },
   "4881547": {
@@ -256,6 +281,35 @@
     ],
     "misprice": "The market is already pricing in a strong Conservative lead, closely reflecting current polling data.",
     "reason": "Consistent polling leads and late-campaign tracker data strongly favor a Conservative plurality of seats."
+   }
+  },
+  "5686977": {
+   "t": 1792728225.1709445,
+   "yes": 0.915,
+   "est": {
+    "p": 0.92,
+    "conf": "low",
+    "evidence": [
+     "Ceasefire conditions remain on the table as of Oct 18, 2026.",
+     "Only 2 days remaining until resolution on Oct 24, 2026.",
+     "No reports of direct US air or missile strikes against Iran as of Oct 23, 2026."
+    ],
+    "misprice": "O mercado avalia adequadamente a alta probabilidade de manutencao do cessar-fogo por falta de incidentes recentes.",
+    "reason": "Faltando apenas dois dias para o vencimento sem indicios de ataques diretos dos EUA ao Ira, a tendencia historica e de continuidade."
+   }
+  },
+  "4881659": {
+   "t": 1792728237.9501622,
+   "yes": 0.085,
+   "est": {
+    "p": 0.45,
+    "conf": "medium",
+    "evidence": [
+     "Angus Reid Institute poll on October 19, 2026 showed BC Conservatives leading slightly in a narrowing two-way race",
+     "B.C. general election is scheduled for October 24, 2026 following David Eby's snap election call on September 23, 2026"
+    ],
+    "misprice": "Market overreacts to recent polling deficits, underestimating the incumbency advantage and potential for late vote consolidation in tight ridings.",
+    "reason": "With the election occurring tomorrow and polls showing a narrow, highly competitive two-way race, Eby retaining power remains a viable outcome despite opposition momentum."
    }
   }
  },
@@ -583,17 +637,123 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6005208": {
+   "q": "Will the highest temperature in Houston be between 86-87°F on October 23?",
+   "p": 0.2098074136804322,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792728213.502456,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3039193223313017
+  },
+  "6010927": {
+   "q": "Will the highest temperature in Panama City be 32°C on October 23?",
+   "p": 0.21034105532659236,
+   "yes": 0.625,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792728215.3279326,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.34302176639174276
+  },
+  "6005164": {
+   "q": "Will the highest temperature in Miami be between 82-83°F on October 23?",
+   "p": 0.14266119741862704,
+   "yes": 0.555,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792756800.0,
+   "t": 1792728215.724622,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.067998708266505
+  },
+  "6036195": {
+   "q": "Will the highest temperature in Guangzhou be 32°C on October 24?",
+   "p": 0.18393368140972832,
+   "yes": 0.225,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792728216.5039995,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2632869020537555
+  },
+  "6037197": {
+   "q": "Will the highest temperature in Austin be between 86-87°F on October 24?",
+   "p": 0.18595577021815013,
+   "yes": 0.615,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792728217.4312727,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.26517219952438353
+  },
+  "6036096": {
+   "q": "Will the highest temperature in Shenzhen be 32°C on October 24?",
+   "p": 0.19119227315207582,
+   "yes": 0.36,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792728219.0291934,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3115322899565782
+  },
+  "5686977": {
+   "q": "US x Iran ceasefire continues through October 24?",
+   "p": 0.92,
+   "yes": 0.915,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792900740.0,
+   "t": 1792728225.1709473,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4881659": {
+   "q": "Will David Eby be the next Premier of British Columbia?",
+   "p": 0.45,
+   "yes": 0.085,
+   "conf": "medium",
+   "cat": "Outros",
+   "end": 1792886340.0,
+   "t": 1792728237.9501667,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
   {
    "t": 1792727764.5959203,
    "equity": 2000.0
+  },
+  {
+   "t": 1792728237.9509833,
+   "equity": 1976.47
   }
  ],
  "llm_calls": {
-  "2026-10-23": 8
+  "2026-10-23": 11
  },
  "killed": false,
- "cycles": 1
+ "cycles": 2
 }
