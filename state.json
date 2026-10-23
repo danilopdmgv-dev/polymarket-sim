@@ -1,0 +1,16 @@
+{
+ "cash": 50.0,
+ "positions": [],
+ "closed": [],
+ "cache": {},
+ "estimates": {},
+ "history": [
+  {
+   "t": 1792719637.3175755,
+   "equity": 50.0
+  }
+ ],
+ "llm_calls": {},
+ "killed": false,
+ "cycles": 1
+}
