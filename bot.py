@@ -50,9 +50,9 @@ MODEL = os.getenv("LLM_MODEL") or "gpt-4o-mini"
 
 CATS = [
     ("Cripto", r"bitcoin|\bbtc\b|ethereum|\beth\b|solana|\bxrp\b|crypto|dogecoin"),
-    ("Esportes", r"\bvs\.?\b|\bnba\b|\bnfl\b|\bmlb\b|\bnhl\b|\bufc\b|premier league|champions league|ballon|spread:|o/u"),
+    ("Esportes", r"\bvs\.?\b|\bnba\b|\bnfl\b|\bmlb\b|\bnhl\b|\bufc\b|premier league|champions league|ballon|spread:|o/u|win on \d{4}-\d{2}-\d{2}|\bfc\b|\bcf\b|end in a draw|a-league|la liga|serie a|bundesliga|ligue 1|\bwta\b|\batp\b"),
     ("Politica", r"election|senate|house|president|congress|governor|trump|vote|minister|parliament|ceasefire|tariff"),
-    ("Economia/Dados", r"\bfed\b|interest rate|inflation|\bcpi\b|\bgdp\b|jobs report|unemployment|earnings|s&p|nasdaq|oil"),
+    ("Economia/Dados", r"\bfed\b|interest rate|inflation|\bcpi\b|\bgdp\b|jobs report|unemployment|earnings|s&p|nasdaq|oil|key rate|central bank|bank of"),
     ("Clima", r"temperature|hurricane|rain|snow|weather"),
     ("Entretenimento", r"oscar|grammy|movie|box office|album|song|tweet|netflix|emmy|billboard"),
 ]
@@ -98,13 +98,13 @@ def parse_ts(v):
 
 def load():
     if os.path.exists(STATE):
-        return json.load(open(STATE))
+        return json.load(open(STATE, encoding="utf-8"))
     return {"cash": START_CASH, "positions": [], "closed": [], "cache": {},
             "estimates": {}, "history": [], "llm_calls": {}, "killed": False, "cycles": 0}
 
 
 def save(s):
-    json.dump(s, open(STATE, "w"), indent=1)
+    json.dump(s, open(STATE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
 
 def slippage(liq):
@@ -224,9 +224,9 @@ Noticias recentes:
 {heads}
 
 Considere dados oficiais agendados, resultados parciais, escalacoes, previsoes meteorologicas e comunicados recentes.
-Se o preco do mercado ja reflete o consenso publico, responda com p igual ao preco e confidence="low".
-So se afaste do preco se a evidencia trouxer informacao NOVA que o mercado provavelmente ainda nao incorporou.
-Descrever o favorito ou o consenso NAO e evidencia de erro de preco.
+De a sua melhor estimativa INDEPENDENTE de p com base nos fatos. Nao copie o preco do mercado por padrao.
+confidence mede a qualidade da evidencia: use "low" se nao houver informacao nova e concreta que o mercado possa ter deixado de incorporar; use "medium" ou "high" SOMENTE com evidencia nova e concreta (com numero ou data) que justifique divergir do preco.
+Descrever o favorito, o consenso ou o proprio preco do mercado NAO e evidencia de erro de preco.
 Responda SOMENTE JSON:
 {{"p": 0-1, "confidence": "low|medium|high", "evidence": ["1 a 3 fatos concretos e recentes com numero ou data"], "market_misprice_reason": "uma frase: por que o mercado esta errado", "reason": "uma frase"}}"""
     try:
