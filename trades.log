@@ -104,3 +104,12 @@
 2026-10-23 23:18:47Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-23 23:18:47Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-23 23:19:31Z ciclo 9: lidos=600 filtro=34 llm=7 clima=9 compras=1 vendas=1 descartados={'esporte_vivo': 38, 'categoria_Esportes': 208, 'cripto': 15, 'combinado': 3, 'clima_sem_modelo': 4} equity=$1785.86
+2026-10-24 01:45:52Z SELL NO [stop-loss] Will the highest temperature in Chengdu be 19°C on @ 0.314 pnl=$-29.03
+2026-10-24 01:45:53Z SELL NO [stop-loss] Will the highest temperature in Singapore be 33°C  @ 0.418 pnl=$-8.28
+2026-10-24 01:46:14Z erro previsao geo:mexico city: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 01:46:24Z erro previsao geo:mexico city: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 01:46:33Z erro geocode Houston: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-24 01:46:43Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 01:46:44Z BUY NO [clima] Will the highest temperature in Amsterdam be 13°C  @ 0.598 $18.45 edge=0.096 conf=medium | Modelo 0.21 vs mercado 0.45
+2026-10-24 01:46:45Z BUY NO [clima] Will the highest temperature in Lucknow be 31°C on @ 0.496 $18.45 edge=0.132 conf=medium | Modelo 0.26 vs mercado 0.55
+2026-10-24 01:47:46Z ciclo 10: lidos=600 filtro=40 llm=8 clima=19 compras=2 vendas=2 descartados={'categoria_Esportes': 210, 'cripto': 11, 'combinado': 4, 'esporte_vivo': 1, 'clima_sem_modelo': 4} equity=$1756.76

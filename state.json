@@ -1,5 +1,5 @@
 {
- "cash": 1602.4742539378292,
+ "cash": 1608.1404075288892,
  "positions": [
   {
    "mid": "6038975",
@@ -12,7 +12,7 @@
    "shares": 87.948280039741,
    "cost": 60.0,
    "t": 1792727534.1869555,
-   "mark": 0.61,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.17389363725638735,
    "mkt_yes": 0.34,
@@ -27,31 +27,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6036078",
-   "q": "Will the highest temperature in Chengdu be 19°C on October 24?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "15097935265958073175447764223273374044971036905208282998668733541764202962776",
-   "entry": 0.6090634851284775,
-   "fair": 0.7172987609261946,
-   "shares": 98.51189812724274,
-   "cost": 60.0,
-   "t": 1792727535.2855847,
-   "mark": 0.53,
-   "conf": "medium",
-   "llm_p": 0.19116873178967564,
-   "mkt_yes": 0.42,
-   "edge": 0.10823527579771708,
-   "evidence": [
-    "Previsao Open-Meteo geo:chengdu 2026-10-24: maxima 19.6C (3 modelos, sigma 2.0)"
-   ],
-   "misprice": "Modelo 0.19 vs mercado 0.42",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:chengdu|2026-10-24",
-   "breakCount": 0
-  },
-  {
    "mid": "6037187",
    "q": "Will the highest temperature in Atlanta be between 70-71°F on October 24?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.47,
+   "mark": 0.48,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -77,31 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6035986",
-   "q": "Will the highest temperature in Singapore be 33°C on October 24?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "115530263198217527883184258503394590914471679775986433268977806322531053431933",
-   "entry": 0.7165921325463562,
-   "fair": 0.8057211098596395,
-   "shares": 27.716429606637437,
-   "cost": 19.861375398391285,
-   "t": 1792756470.8580706,
-   "mark": 0.6799999999999999,
-   "conf": "medium",
-   "llm_p": 0.12046481690060085,
-   "mkt_yes": 0.305,
-   "edge": 0.08912897731328329,
-   "evidence": [
-    "Previsao Open-Meteo WSSS 2026-10-24: maxima 31.0C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.12 vs mercado 0.30",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "WSSS|2026-10-24",
-   "breakCount": 0
-  },
-  {
    "mid": "6076523",
    "q": "Will the highest temperature in Atlanta be between 70-71°F on October 25?",
    "cat": "Clima",
@@ -112,7 +62,7 @@
    "shares": 43.13469427010644,
    "cost": 19.252434310847715,
    "t": 1792771971.5248435,
-   "mark": 0.37,
+   "mark": 0.44999999999999996,
    "conf": "medium",
    "llm_p": 0.17009618299570672,
    "mkt_yes": 0.585,
@@ -137,7 +87,7 @@
    "shares": 49.840392850210975,
    "cost": 18.751541699892925,
    "t": 1792797481.1466403,
-   "mark": 0.37623181976611464,
+   "mark": 0.31999999999999995,
    "conf": "medium",
    "llm_p": 0.24628134384748257,
    "mkt_yes": 0.66,
@@ -148,7 +98,56 @@
    "misprice": "Modelo 0.25 vs mercado 0.66",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "KLGA|2026-10-24"
+   "event": "KLGA|2026-10-24",
+   "breakCount": 0
+  },
+  {
+   "mid": "6074197",
+   "q": "Will the highest temperature in Amsterdam be 13°C on October 25?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "3934487539333009731908567387119292347496392978212488330014494196801759272721",
+   "entry": 0.5984256998211996,
+   "fair": 0.6940210686415449,
+   "shares": 30.82417595236139,
+   "cost": 18.445979065703657,
+   "t": 1792806404.5647938,
+   "mark": 0.5984256998211996,
+   "conf": "medium",
+   "llm_p": 0.2099648855974251,
+   "mkt_yes": 0.45,
+   "edge": 0.09559536882034525,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-25: maxima 12.2C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-25"
+  },
+  {
+   "mid": "6035919",
+   "q": "Will the highest temperature in Lucknow be 31°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "32624960139860663687270368663620147579146122869622156747812062954749141115108",
+   "entry": 0.4960558311547487,
+   "fair": 0.6281784230288397,
+   "shares": 37.18528824218031,
+   "cost": 18.44597906570366,
+   "t": 1792806405.801418,
+   "mark": 0.4960558311547487,
+   "conf": "medium",
+   "llm_p": 0.2563692949519337,
+   "mkt_yes": 0.545,
+   "edge": 0.13212259187409103,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-10-24: maxima 30.8C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.26 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-10-24"
   }
  ],
  "closed": [
@@ -392,6 +391,66 @@
    "pnl": -19.541474987744465,
    "closed_t": 1792797433.2003362,
    "held_h": 11.37856960468822
+  },
+  {
+   "mid": "6036078",
+   "q": "Will the highest temperature in Chengdu be 19°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "15097935265958073175447764223273374044971036905208282998668733541764202962776",
+   "entry": 0.6090634851284775,
+   "fair": 0.7172987609261946,
+   "shares": 98.51189812724274,
+   "cost": 60.0,
+   "t": 1792727535.2855847,
+   "mark": 0.53,
+   "conf": "medium",
+   "llm_p": 0.19116873178967564,
+   "mkt_yes": 0.42,
+   "edge": 0.10823527579771708,
+   "evidence": [
+    "Previsao Open-Meteo geo:chengdu 2026-10-24: maxima 19.6C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:chengdu|2026-10-24",
+   "breakCount": 0,
+   "exit": 0.31442664736370357,
+   "reason": "stop-loss",
+   "pnl": -29.025234146416356,
+   "closed_t": 1792806352.6502545,
+   "held_h": 21.893712408277725
+  },
+  {
+   "mid": "6035986",
+   "q": "Will the highest temperature in Singapore be 33°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "115530263198217527883184258503394590914471679775986433268977806322531053431933",
+   "entry": 0.7165921325463562,
+   "fair": 0.8057211098596395,
+   "shares": 27.716429606637437,
+   "cost": 19.861375398391285,
+   "t": 1792756470.8580706,
+   "mark": 0.49,
+   "conf": "medium",
+   "llm_p": 0.12046481690060085,
+   "mkt_yes": 0.305,
+   "edge": 0.08912897731328329,
+   "evidence": [
+    "Previsao Open-Meteo WSSS 2026-10-24: maxima 31.0C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.12 vs mercado 0.30",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "WSSS|2026-10-24",
+   "breakCount": 0,
+   "exit": 0.41792344949471755,
+   "reason": "stop-loss",
+   "pnl": -8.27802952950785,
+   "closed_t": 1792806353.7440305,
+   "held_h": 13.85635721107324
   }
  ],
  "cache": {
@@ -452,17 +511,17 @@
    }
   },
   "5929770": {
-   "t": 1792797539.943111,
-   "yes": 0.235,
+   "t": 1792806460.75877,
+   "yes": 0.165,
    "est": {
-    "p": 0.22,
+    "p": 0.15,
     "conf": "low",
     "evidence": [
-     "O mercado abrange o período de 22 a 24 de outubro de 2026, faltando menos de um dia para o encerramento.",
-     "A faixa de 90 a 114 tweets em 48 horas exige uma média diária de 45 a 57 tweets, ritmo ligeiramente superior à média histórica recente de Elon Musk."
+     "The market tracks tweets from October 22 12:00 PM ET to October 24, 2026 12:00 PM ET.",
+     "Current market price implies a 16.5% probability for 90-114 tweets in this window."
     ],
-    "misprice": "O mercado está essencialmente alinhado com a taxa esperada de postagens, sem evidência forte de desvio na contagem parcial.",
-    "reason": "A contagem projetada para o período está ligeiramente abaixo da faixa estipulada de 90-114 tweets, tornando o 'SIM' um resultado improvável, mas plausível."
+    "misprice": "O mercado ja reflete adequadamente a taxa media de postagem historica de Elon Musk para um intervalo de dois dias.",
+    "reason": "A faixa de 90-114 tweets em 48 horas exige uma media de 45 a 57 posts por dia, o que e estatisticamente acima da atividade usual recente sem um catalisador extraordinario."
    }
   },
   "5686977": {
@@ -480,16 +539,17 @@
    }
   },
   "5929769": {
-   "t": 1792785713.7525902,
-   "yes": 0.66,
+   "t": 1792806448.642863,
+   "yes": 0.805,
    "est": {
-    "p": 0.65,
+    "p": 0.8,
     "conf": "low",
     "evidence": [
-     "Nenhuma nova evidência quantitativa ou dado de rastreamento de tweets disponível para o período específico de 22 a 24 de outubro de 2026."
+     "The market tracks Elon Musk's posting volume from October 22 to October 24, 2026.",
+     "Current market price for YES is 0.805 with no recent concrete data to contradict the baseline rate."
     ],
-    "misprice": "O mercado já reflete adequadamente a média histórica de postagens de Elon Musk para janelas de 48 horas.",
-    "reason": "A estimativa baseia-se na taxa média de atividade de Elon Musk na plataforma X, que frequentemente se alinha com a faixa de 65-89 publicações em dois dias."
+    "misprice": "O mercado esta essencialmente precificado corretamente com base na taxa media de postagens historica para o periodo.",
+    "reason": "A probabilidade estimada esta alinhada com o preco atual de mercado na ausencia de dados em tempo real sobre a contagem exata de tweets."
    }
   },
   "6091318": {
@@ -546,6 +606,93 @@
     ],
     "misprice": "O mercado subestima a cadencia recente e implacavel de ataques balisticos diarios relatados em Kiev.",
     "reason": "A alta frequencia de ataques russos recentes com misseis balisticos e drones contra Kiev torna um novo ataque em 24 de outubro altamente provavel."
+   }
+  },
+  "4824600": {
+   "t": 1792806420.4613316,
+   "yes": 0.715,
+   "est": {
+    "p": 0.72,
+    "conf": "low",
+    "evidence": [
+     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026, com o mercado precificando o bloco de Vučić em 0.715 a dois dias do pleito.",
+     "Relatórios de mídia de 23 de outubro de 2026 apontam forte mobilização da oposição e protestos estudantis, mas mantêm o partido governista como o principal concorrente."
+    ],
+    "misprice": "O mercado já reflete adequadamente a dominância histórica de Vučić equilibrada com o risco elevado de protestos recentes.",
+    "reason": "Apesar da pressão sem precedentes dos protestos estudantis relatados em outubro de 2026, a máquina partidária governista mantém a maior probabilidade estatística de assegurar a pluralidade de assentos"
+   }
+  },
+  "2757891": {
+   "t": 1792806429.797154,
+   "yes": 0.6895,
+   "est": {
+    "p": 0.72,
+    "conf": "medium",
+    "evidence": [
+     "Aleksandar Vucic officially launched his campaign for prime minister on October 4, 2026, following his resignation as president on September 27, 2026.",
+     "Early parliamentary elections were called in October 2026 amid ongoing protests and political maneuvering to secure his hold on power."
+    ],
+    "misprice": "The market slightly underestimates Vucic's entrenched political machinery and control despite significant student-led protests.",
+    "reason": "Having resigned the presidency to run in the October 2026 parliamentary elections, Vucic remains the dominant political figure heavily favored to assume the prime minister post."
+   }
+  },
+  "4824602": {
+   "t": 1792806436.7775598,
+   "yes": 0.285,
+   "est": {
+    "p": 0.29,
+    "conf": "low",
+    "evidence": [
+     "Al Jazeera reported on Oct 23, 2026, regarding the student-led electoral challenge against Vucic's party.",
+     "Reuters noted on Oct 21, 2026, that students have emerged as a significant threat in the parliamentary elections."
+    ],
+    "misprice": "Market efficiently aggregates the high polling baseline of the incumbent SNS party versus the momentum of the student coalition.",
+    "reason": "While student movement momentum is high, the incumbent party retains structural advantages making an outright seat plurality unlikely though possible."
+   }
+  },
+  "2757900": {
+   "t": 1792806442.698438,
+   "yes": 0.14,
+   "est": {
+    "p": 0.16,
+    "conf": "low",
+    "evidence": [
+     "Serbia's snap election is scheduled for October 25, 2026, as per recent reports.",
+     "Professor Ilija Srdanović tops the Student List slate of 250 candidates announced on September 15, 2026.",
+     "The market currently prices the outcome at 0.140 ahead of the election."
+    ],
+    "misprice": "O mercado pode estar subestimando o ímpeto da revolta estudantil liderada por Srdanović nas eleições de 25 de outubro de 2026.",
+    "reason": "Embora Srdanović encabeça a lista estudantil nas eleições iminentes, derrubar o domínio de 12 anos do bloco de Vučić continua sendo um desafio estatístico improvável."
+   }
+  },
+  "4890265": {
+   "t": 1792806454.707834,
+   "yes": 0.635,
+   "est": {
+    "p": 0.61,
+    "conf": "low",
+    "evidence": [
+     "Market Links poll on Oct 21, 2026 shows Yotova at 47.3% and Gyurov at 30.6%, a 16.7% margin.",
+     "Alpha Research poll on Oct 5, 2026 shows Yotova at 44.5% and Gyurov at 26.1%, an 18.4% margin.",
+     "ProtoThema report on Oct 23, 2026 confirms Iliana Iotova leading the polls ahead of the Sunday vote."
+    ],
+    "misprice": "O mercado precifica uma probabilidade ligeiramente superior ao centro da faixa de margem de 10-20% das pesquisas recentes.",
+    "reason": "As pesquisas mais recentes indicam uma margem entre 16.7% e 18.4%, o que se encaixa na faixa de 10-20%, mas com volatilidade inerente na reta final."
+   }
+  },
+  "4890264": {
+   "t": 1792806466.8846304,
+   "yes": 0.14,
+   "est": {
+    "p": 0.22,
+    "conf": "medium",
+    "evidence": [
+     "Market Links poll on Oct 21, 2026 showed Yotova at 47.3% and Gyurov at 30.6%, resulting in a 16.7% margin.",
+     "Alpha Research poll on Oct 5, 2026 showed Yotova at 44.5% and Gyurov at 26.1%, resulting in an 18.4% margin.",
+     "Recent polls indicate Yotova's lead is trending near or slightly below the 20% threshold required for this market."
+    ],
+    "misprice": "The market underestimates the probability that the actual vote margin falls into the 20%-30% range given current high-end poll gaps.",
+    "reason": "Latest poll margins of 16.7% and 18.4% sit just below 20%, but polling error and late swing could easily land the final result within the 20%-30% bracket."
    }
   }
  },
@@ -1149,7 +1296,7 @@
    "cat": "Economia/Dados",
    "end": 1792792800.0,
    "t": 1792766867.8240962,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1226,7 +1373,7 @@
    "cat": "Outros",
    "end": 1792785600.0,
    "t": 1792772031.225362,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1238,7 +1385,7 @@
    "cat": "Economia/Dados",
    "end": 1792792800.0,
    "t": 1792772037.2342427,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1403,6 +1550,273 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6041470": {
+   "q": "Will the highest temperature in Toronto be 16°C on October 24?",
+   "p": 0.1703223135130535,
+   "yes": 0.205,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806385.0132759,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.18876678097260802
+  },
+  "6075856": {
+   "q": "Will the highest temperature in London be 15°C on October 25?",
+   "p": 0.20372134797918484,
+   "yes": 0.305,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806385.635843,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2849758565740199
+  },
+  "6075855": {
+   "q": "Will the highest temperature in London be 14°C on October 25?",
+   "p": 0.2214822551800129,
+   "yes": 0.54,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806405.8020089,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3555765247160386
+  },
+  "6038963": {
+   "q": "Will the highest temperature in Seattle be between 56-57°F on October 24?",
+   "p": 0.2149611617358167,
+   "yes": 0.365,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806406.3621738,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3486476892950317
+  },
+  "6036149": {
+   "q": "Will the highest temperature in Helsinki be 11°C on October 24?",
+   "p": 0.25704537148309786,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806407.63269,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.38244187829648063
+  },
+  "6074058": {
+   "q": "Will the highest temperature in Milan be 14°C on October 25?",
+   "p": 0.21088766911356904,
+   "yes": 0.4,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806408.1975117,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.29584051975716696
+  },
+  "6076534": {
+   "q": "Will the highest temperature in Chicago be between 74-75°F on October 25?",
+   "p": 0.11171380258003738,
+   "yes": 0.36,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806408.7640927,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.06786784770068799
+  },
+  "6074198": {
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 25?",
+   "p": 0.13399610110579285,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806408.7645795,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.08698322086384036
+  },
+  "6035998": {
+   "q": "Will the highest temperature in Milan be 18°C on October 24?",
+   "p": 0.1832639603530648,
+   "yes": 0.4,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806408.7646575,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1598864144053418
+  },
+  "6076522": {
+   "q": "Will the highest temperature in Atlanta be between 68-69°F on October 25?",
+   "p": 0.1929746826049542,
+   "yes": 0.205,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806408.7647393,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.31520720702936006
+  },
+  "6036150": {
+   "q": "Will the highest temperature in Helsinki be 12°C on October 24?",
+   "p": 0.2531463824161252,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806408.7648284,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36761229544035
+  },
+  "6074284": {
+   "q": "Will the highest temperature in Manila be 32°C on October 25?",
+   "p": 0.20729076730200774,
+   "yes": 0.485,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806409.973745,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.33860666758729563
+  },
+  "6036006": {
+   "q": "Will the highest temperature in Madrid be 19°C on October 24?",
+   "p": 0.221318629161958,
+   "yes": 0.61,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792806410.5546336,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2228671896535701
+  },
+  "6074208": {
+   "q": "Will the highest temperature in Helsinki be 11°C on October 25?",
+   "p": 0.2054046728950648,
+   "yes": 0.615,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806410.5550015,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3209925869931864
+  },
+  "6074059": {
+   "q": "Will the highest temperature in Milan be 15°C on October 25?",
+   "p": 0.22800235742774094,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792806410.5551126,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3634912163343228
+  },
+  "4824600": {
+   "q": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+   "p": 0.72,
+   "yes": 0.715,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806420.4613357,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2757891": {
+   "q": "Will Aleksandar Vučić be the next Prime Minister of Serbia?",
+   "p": 0.72,
+   "yes": 0.6895,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806429.7971566,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4824602": {
+   "q": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?",
+   "p": 0.29,
+   "yes": 0.285,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806436.777563,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2757900": {
+   "q": "Will Ilija Srdanović be the next prime minister of Serbia?",
+   "p": 0.16,
+   "yes": 0.14,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806442.6984417,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4890265": {
+   "q": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?",
+   "p": 0.61,
+   "yes": 0.635,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806454.7078369,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4890264": {
+   "q": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?",
+   "p": 0.22,
+   "yes": 0.14,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1792972740.0,
+   "t": 1792806466.884634,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1441,11 +1855,16 @@
   {
    "t": 1792797571.405465,
    "equity": 1785.86
+  },
+  {
+   "t": 1792806466.8853076,
+   "equity": 1756.76
   }
  ],
  "llm_calls": {
-  "2026-10-23": 61
+  "2026-10-23": 61,
+  "2026-10-24": 8
  },
  "killed": false,
- "cycles": 9
+ "cycles": 10
 }
