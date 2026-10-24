@@ -129,3 +129,11 @@
 2026-10-24 11:46:07Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-24 11:46:07Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-24 11:47:10Z ciclo 12: lidos=700 filtro=44 llm=8 clima=1 compras=0 vendas=0 descartados={'categoria_Esportes': 263, 'esporte_vivo': 36, 'cripto': 9, 'combinado': 8, 'clima_sem_modelo': 2} equity=$1734.50
+2026-10-24 15:08:40Z SELL NO [stop-loss] Will the highest temperature in New York City be b @ 0.205 pnl=$-8.54
+2026-10-24 15:08:58Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 15:09:08Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 15:09:20Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 15:09:21Z BUY NO [clima] Will the highest temperature in Shanghai be 23°C o @ 0.561 $18.21 edge=0.114 conf=medium | Modelo 0.23 vs mercado 0.47
+2026-10-24 15:09:30Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-24 15:10:13Z BUY NO [llm] Will Flávio Bolsonaro win the second round of the  @ 0.651 $52.02 edge=0.107 conf=medium | Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.
+2026-10-24 15:11:16Z ciclo 13: lidos=700 filtro=44 llm=8 clima=7 compras=2 vendas=1 descartados={'esporte_vivo': 44, 'categoria_Esportes': 271, 'cripto': 9, 'combinado': 5, 'clima_sem_modelo': 2} equity=$1733.98
