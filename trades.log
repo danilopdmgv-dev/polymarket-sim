@@ -123,3 +123,9 @@
 2026-10-24 06:44:52Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-24 06:45:02Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-24 06:45:52Z ciclo 11: lidos=800 filtro=44 llm=8 clima=9 compras=1 vendas=1 descartados={'categoria_Esportes': 298, 'esporte_vivo': 10, 'cripto': 14, 'combinado': 6, 'clima_sem_modelo': 4} equity=$1747.89
+2026-10-24 11:45:37Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 11:45:47Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 11:45:57Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 11:46:07Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 11:46:07Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-24 11:47:10Z ciclo 12: lidos=700 filtro=44 llm=8 clima=1 compras=0 vendas=0 descartados={'categoria_Esportes': 263, 'esporte_vivo': 36, 'cripto': 9, 'combinado': 8, 'clima_sem_modelo': 2} equity=$1734.50

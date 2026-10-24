@@ -12,7 +12,7 @@
    "shares": 87.948280039741,
    "cost": 60.0,
    "t": 1792727534.1869555,
-   "mark": 0.75,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.17389363725638735,
    "mkt_yes": 0.34,
@@ -37,7 +37,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.4,
+   "mark": 0.41000000000000003,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -87,7 +87,7 @@
    "shares": 49.840392850210975,
    "cost": 18.751541699892925,
    "t": 1792797481.1466403,
-   "mark": 0.36,
+   "mark": 0.31000000000000005,
    "conf": "medium",
    "llm_p": 0.24628134384748257,
    "mkt_yes": 0.66,
@@ -112,7 +112,7 @@
    "shares": 30.82417595236139,
    "cost": 18.445979065703657,
    "t": 1792806404.5647938,
-   "mark": 0.49,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.2099648855974251,
    "mkt_yes": 0.45,
@@ -137,7 +137,7 @@
    "shares": 26.95774291279206,
    "cost": 18.35288629487798,
    "t": 1792824262.9978924,
-   "mark": 0.6808020372569514,
+   "mark": 0.6699999999999999,
    "conf": "medium",
    "llm_p": 0.19970953416952053,
    "mkt_yes": 0.345,
@@ -148,7 +148,8 @@
    "misprice": "Modelo 0.20 vs mercado 0.34",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:helsinki|2026-10-25"
+   "event": "geo:helsinki|2026-10-25",
+   "breakCount": 0
   }
  ],
  "closed": [
@@ -484,177 +485,104 @@
   }
  ],
  "cache": {
-  "5929770": {
-   "t": 1792806460.75877,
-   "yes": 0.165,
-   "est": {
-    "p": 0.15,
-    "conf": "low",
-    "evidence": [
-     "The market tracks tweets from October 22 12:00 PM ET to October 24, 2026 12:00 PM ET.",
-     "Current market price implies a 16.5% probability for 90-114 tweets in this window."
-    ],
-    "misprice": "O mercado ja reflete adequadamente a taxa media de postagem historica de Elon Musk para um intervalo de dois dias.",
-    "reason": "A faixa de 90-114 tweets em 48 horas exige uma media de 45 a 57 posts por dia, o que e estatisticamente acima da atividade usual recente sem um catalisador extraordinario."
-   }
-  },
-  "5929769": {
-   "t": 1792806448.642863,
-   "yes": 0.805,
-   "est": {
-    "p": 0.8,
-    "conf": "low",
-    "evidence": [
-     "The market tracks Elon Musk's posting volume from October 22 to October 24, 2026.",
-     "Current market price for YES is 0.805 with no recent concrete data to contradict the baseline rate."
-    ],
-    "misprice": "O mercado esta essencialmente precificado corretamente com base na taxa media de postagens historica para o periodo.",
-    "reason": "A probabilidade estimada esta alinhada com o preco atual de mercado na ausencia de dados em tempo real sobre a contagem exata de tweets."
-   }
-  },
   "4824600": {
-   "t": 1792824308.8603556,
-   "yes": 0.74,
-   "est": {
-    "p": 0.75,
-    "conf": "low",
-    "evidence": [
-     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026, com o partido de Aleksandar Vučić liderando historicamente as pesquisas.",
-     "Notícias recentes de 22 a 23 de outubro de 2026 destacam protestos estudantis e alertas de observadores sobre a volatilidade na reta final."
-    ],
-    "misprice": "O mercado de 0.74 reflete adequadamente a dominância contínua do partido governista apesar do aumento da oposição e protestos recentes.",
-    "reason": "Apesar da pressão dos protestos estudantis e alertas recentes, a máquina partidária de Vučić mantém a probabilidade histórica de garantir a maioria dos assentos."
-   }
-  },
-  "2757891": {
-   "t": 1792824315.3316278,
-   "yes": 0.7095,
+   "t": 1792842379.261064,
+   "yes": 0.715,
    "est": {
     "p": 0.73,
     "conf": "low",
     "evidence": [
-     "Aleksandar Vučić formally resigned as president on September 27, 2026, to launch his campaign for prime minister in early elections.",
-     "Major international media outlets including Al Jazeera and The Guardian reported his active campaign launch and candidate status by October 4, 2026.",
-     "Recent reports from October 23, 2026, highlight growing student-led protests and opposition challenges aimed at stopping his bid."
+     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026.",
+     "O partido associado a Aleksandar Vučić lidera consistentemente as pesquisas e o cenário político nacional."
     ],
-    "misprice": "O mercado subestima ligeiramente a forte máquina partidária e o controle institucional de Vučić, que tornam sua vitória o cenário mais provável apesar dos protestos.",
-    "reason": "Apesar da forte mobilização da oposição e protestos estudantis recentes em outubro de 2026, o histórico de controle político de Vučić mantém sua candidatura amplamente favorita."
+    "misprice": "O mercado avalia adequadamente a dominância contínua da coalizão governista liderada por Vučić.",
+    "reason": "Apesar da forte mobilização da oposição estudantil relatada em outubro de 2026, a máquina partidária governista mantém uma vantagem estrutural sólida na corrida por assentos."
+   }
+  },
+  "2757891": {
+   "t": 1792842397.0300908,
+   "yes": 0.7115,
+   "est": {
+    "p": 0.65,
+    "conf": "medium",
+    "evidence": [
+     "Artigos de 22-23 de outubro de 2026 indicam que Aleksandar Vucic enfrenta seu maior desafio eleitoral com forte mobilizacao estudantil.",
+     "Relatorios de Reuters e RFE/RL em 22-23 de outubro de 2026 apontam fraudes e forte contestacao nas eleicoes atuais.",
+     "O mercado avalia SIM em 0.712, mas a pressao opositora e protestos recentes aumentam a incerteza sobre o controle absoluto do cargo."
+    ],
+    "misprice": "O mercado subestima o risco real de derrota ou de uma transicao politica forcada pelo movimento estudantil e oposicao unida.",
+    "reason": "Embora Vucic seja o favorito historico, a intensidade sem precedentes dos protestos de outubro de 2026 reduz sua probabilidade de reeleicao como primeiro-ministro."
    }
   },
   "4824602": {
-   "t": 1792824321.452355,
-   "yes": 0.265,
+   "t": 1792842388.1970356,
+   "yes": 0.285,
    "est": {
-    "p": 0.25,
+    "p": 0.27,
     "conf": "low",
     "evidence": [
-     "Snap elections scheduled for October 25, 2026, amid heightened political tension.",
-     "Student list emerging as a notable opposition threat to the ruling SNS per October 2026 reports."
+     "The Serbian parliamentary election is scheduled for October 25, 2026, with polling ongoing or imminent as of October 24, 2026.",
+     "Recent media reports from Reuters on October 21, 2026, and Al Jazeera on October 23, 2026, highlight the student-led list as a significant challenger to Vucic's ruling party."
     ],
-    "misprice": "Market reflects standard incumbent dominance but adequately prices the tail risk of a student upset.",
-    "reason": "Despite growing momentum, unseating the entrenched ruling party's parliamentary majority remains a statistical underdog outcome."
-   }
-  },
-  "2757900": {
-   "t": 1792806442.698438,
-   "yes": 0.14,
-   "est": {
-    "p": 0.16,
-    "conf": "low",
-    "evidence": [
-     "Serbia's snap election is scheduled for October 25, 2026, as per recent reports.",
-     "Professor Ilija Srdanović tops the Student List slate of 250 candidates announced on September 15, 2026.",
-     "The market currently prices the outcome at 0.140 ahead of the election."
-    ],
-    "misprice": "O mercado pode estar subestimando o ímpeto da revolta estudantil liderada por Srdanović nas eleições de 25 de outubro de 2026.",
-    "reason": "Embora Srdanović encabeça a lista estudantil nas eleições iminentes, derrubar o domínio de 12 anos do bloco de Vučić continua sendo um desafio estatístico improvável."
-   }
-  },
-  "4890265": {
-   "t": 1792806454.707834,
-   "yes": 0.635,
-   "est": {
-    "p": 0.61,
-    "conf": "low",
-    "evidence": [
-     "Market Links poll on Oct 21, 2026 shows Yotova at 47.3% and Gyurov at 30.6%, a 16.7% margin.",
-     "Alpha Research poll on Oct 5, 2026 shows Yotova at 44.5% and Gyurov at 26.1%, an 18.4% margin.",
-     "ProtoThema report on Oct 23, 2026 confirms Iliana Iotova leading the polls ahead of the Sunday vote."
-    ],
-    "misprice": "O mercado precifica uma probabilidade ligeiramente superior ao centro da faixa de margem de 10-20% das pesquisas recentes.",
-    "reason": "As pesquisas mais recentes indicam uma margem entre 16.7% e 18.4%, o que se encaixa na faixa de 10-20%, mas com volatilidade inerente na reta final."
-   }
-  },
-  "4890264": {
-   "t": 1792806466.8846304,
-   "yes": 0.14,
-   "est": {
-    "p": 0.22,
-    "conf": "medium",
-    "evidence": [
-     "Market Links poll on Oct 21, 2026 showed Yotova at 47.3% and Gyurov at 30.6%, resulting in a 16.7% margin.",
-     "Alpha Research poll on Oct 5, 2026 showed Yotova at 44.5% and Gyurov at 26.1%, resulting in an 18.4% margin.",
-     "Recent polls indicate Yotova's lead is trending near or slightly below the 20% threshold required for this market."
-    ],
-    "misprice": "The market underestimates the probability that the actual vote margin falls into the 20%-30% range given current high-end poll gaps.",
-    "reason": "Latest poll margins of 16.7% and 18.4% sit just below 20%, but polling error and late swing could easily land the final result within the 20%-30% bracket."
+    "misprice": "Market pricing at 28.5% appropriately reflects the competitive threat posed by the student movement against the entrenched incumbent apparatus.",
+    "reason": "Incumbent political machines in Serbia retain vast structural advantages despite strong mobilization by student opposition lists."
    }
   },
   "5340072": {
-   "t": 1792824327.8158288,
-   "yes": 0.195,
+   "t": 1792842403.0684059,
+   "yes": 0.175,
    "est": {
-    "p": 0.22,
+    "p": 0.19,
     "conf": "low",
     "evidence": [
-     "Pesquisa DW.com de 20 de outubro de 2026 indica empate estatístico entre Lula e Flávio Bolsonaro no segundo turno.",
-     "O segundo turno da eleição presidencial brasileira está marcado para 25 de outubro de 2026."
+     "Pesquisa DW.com de 20 de outubro de 2026 indica empate estatístico entre Lula e Flávio Bolsonaro na véspera do segundo turno.",
+     "O segundo turno da eleição presidencial brasileira está agendado para o dia 25 de outubro de 2026."
     ],
-    "misprice": "O mercado pode estar subestimando a volatilidade de um cenário de empate técnico nas vésperas da votação.",
-    "reason": "Embora as pesquisas apontem disputa acirrada, margens inferiores a 4% em eleições polarizadas são historicamente comuns, mas o preço atual reflete razoavelmente a incerteza."
+    "misprice": "O mercado pode subestimar a volatilidade histórica das margens em segundos turnos altamente polarizados no Brasil.",
+    "reason": "A margem inferior a 4% é um cenário plausível em eleições acirradas, mas o preço atual reflete adequadamente a incerteza estatística atual."
    }
   },
   "5340070": {
-   "t": 1792824334.2525196,
-   "yes": 0.34,
+   "t": 1792842411.3604708,
+   "yes": 0.35,
    "est": {
     "p": 0.32,
     "conf": "low",
     "evidence": [
-     "Flávio Bolsonaro and Lula advanced to the second round held on October 5, 2026.",
-     "The second round of the Brazilian presidential election is scheduled for October 25, 2026."
+     "Flávio Bolsonaro and Lula advanced to the second round held on October 25, 2026.",
+     "Current market price for SIM is 0.35 with resolution imminent on October 26, 2026."
     ],
-    "misprice": "O preço atual de 0.34 já reflete adequadamente a incerteza estatística de uma faixa de margem estreita de 4-8% na véspera do segundo turno.",
-    "reason": "A margem exata de vitória depende de flutuações de última hora no eleitorado polarizado, mantendo a probabilidade deste intervalo específico próxima à precificação atual."
+    "misprice": "O mercado subestima ligeiramente a volatilidade das margens em segundos turnos polarizados no Brasil.",
+    "reason": "A margem exata entre 4% e 8% em um segundo turno altamente polarizado entre Flávio Bolsonaro e Lula permanece estatisticamente incerta, mas dentro da faixa histórica plausível."
    }
   },
   "5340071": {
-   "t": 1792824340.5875807,
-   "yes": 0.385,
+   "t": 1792842418.9435794,
+   "yes": 0.39,
    "est": {
-    "p": 0.37,
+    "p": 0.38,
     "conf": "low",
     "evidence": [
      "The second round of the presidential election is scheduled for October 25, 2026.",
-     "Flávio Bolsonaro and Lula advanced to the runoff following the October 5, 2026 first round."
+     "Flávio Bolsonaro and Lula advanced to the runoff announced on October 5, 2026."
     ],
-    "misprice": "Market efficiently prices the tight polling environment and historical polarization in Brazilian runoffs.",
-    "reason": "Base rates for high-stakes Brazilian runoffs suggest close margins, but current market pricing of 38.5% is well-calibrated given final pre-election polling uncertainty."
+    "misprice": "Market price accurately reflects tight polling averages within historical margin-of-error bounds for polarized runoff scenarios.",
+    "reason": "Base rates for high-stakes Brazilian runoffs suggest close margins, but current pricing near 39% adequately prices in a tight sub-4% outcome."
    }
   },
   "5329576": {
-   "t": 1792824346.5732424,
+   "t": 1792842430.681977,
    "yes": 0.65,
    "est": {
     "p": 0.65,
     "conf": "low",
     "evidence": [
-     "Brazil runoff election results expected around October 2026 as per Reuters on Fri, 23 Oct 2026.",
-     "Governors allied with Flávio Bolsonaro lead Amazon states per Mongabay on Tue, 13 Oct 2026.",
-     "Large-scale protests against the Bolsonaros occurred in Rio per Al Jazeera on Wed, 07 Oct 2026."
+     "Brazil runoff election results scheduled for October 25, 2026",
+     "Governors allied with Flavio Bolsonaro lead majority of Amazon states as of October 13, 2026",
+     "Amapa second round context involves Amazon voter dynamics reported on October 23, 2026"
     ],
-    "misprice": "O mercado já reflete adequadamente as expectativas atuais para o segundo turno com base nas notícias disponíveis.",
-    "reason": "A probabilidade está alinhada com o preço atual de mercado de 0,65, sem evidências fortes o suficiente para justificar divergência significativa."
+    "misprice": "O mercado ja reflete adequadamente as expectativas atuais para o segundo turno presidencial.",
+    "reason": "A probabilidade esta alinhada com o preco atual, pois nao ha dados oficiais definitivos de apuracao publicados antes do encerramento."
    }
   },
   "1194657": {
@@ -670,6 +598,20 @@
     ],
     "misprice": "O mercado pode estar sobreestimando a viabilidade de Gyurov devido a especulações políticas genéricas sem respaldo em intenções de voto consolidadas.",
     "reason": "A ausência de evidências concretas de apoio popular expressivo e a volatilidade da política búlgara mantêm suas chances baixas."
+   }
+  },
+  "1194643": {
+   "t": 1792842424.6692889,
+   "yes": 0.88,
+   "est": {
+    "p": 0.87,
+    "conf": "low",
+    "evidence": [
+     "Bulgarian presidential elections are scheduled for Fall 2026 as per official timelines.",
+     "Iliana Iotova is widely discussed in recent reports as a leading contender backed by Radev's political sphere."
+    ],
+    "misprice": "The market is appropriately pricing her high probability of winning based on strong incumbency and political alignment.",
+    "reason": "As current Vice President and part of the ruling political circle heading into the late 2026 election, Iotova maintains a dominant position despite rising regional tensions."
    }
   }
  },
@@ -754,7 +696,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727536.8378513,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -802,7 +744,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727538.4599125,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -862,7 +804,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727678.5985613,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -1019,7 +961,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792728215.3279326,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34302176639174276
@@ -1919,6 +1861,18 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "1194643": {
+   "q": "Will Iliana Iotova win the next Bulgarian presidential election?",
+   "p": 0.87,
+   "yes": 0.88,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792842424.6692934,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1965,12 +1919,16 @@
   {
    "t": 1792824352.5186837,
    "equity": 1747.89
+  },
+  {
+   "t": 1792842430.682753,
+   "equity": 1734.5
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
-  "2026-10-24": 16
+  "2026-10-24": 24
  },
  "killed": false,
- "cycles": 11
+ "cycles": 12
 }
