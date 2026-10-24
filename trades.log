@@ -149,3 +149,16 @@
 2026-10-24 21:01:42Z SELL NO [stop-loss] Will the highest temperature in Amsterdam be 13°C  @ 0.416 pnl=$-5.63
 2026-10-24 21:01:59Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-24 21:03:04Z ciclo 15: lidos=700 filtro=39 llm=8 clima=0 compras=0 vendas=2 descartados={'esporte_vivo': 87, 'categoria_Esportes': 139, 'cripto': 13, 'combinado': 4} equity=$1692.00
+2026-10-24 23:29:59Z erro previsao KDFW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:30:04Z BUY NO [clima] Will the highest temperature in New York City be b @ 0.431 $17.85 edge=0.190 conf=medium | Modelo 0.24 vs mercado 0.58
+2026-10-24 23:30:14Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:30:24Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:30:27Z BUY NO [clima] Will the highest temperature in London be 17°C on  @ 0.456 $17.85 edge=0.179 conf=medium | Modelo 0.22 vs mercado 0.57
+2026-10-24 23:30:38Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:30:47Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-24 23:30:57Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:31:07Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:31:18Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:31:28Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 23:31:28Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-24 23:32:18Z ciclo 16: lidos=600 filtro=48 llm=8 clima=7 compras=2 vendas=0 descartados={'esporte_vivo': 27, 'categoria_Esportes': 126, 'cripto': 11, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1699.94
