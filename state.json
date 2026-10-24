@@ -1,5 +1,5 @@
 {
- "cash": 1608.1404075288892,
+ "cash": 1590.7240681215262,
  "positions": [
   {
    "mid": "6038975",
@@ -12,7 +12,7 @@
    "shares": 87.948280039741,
    "cost": 60.0,
    "t": 1792727534.1869555,
-   "mark": 0.5900000000000001,
+   "mark": 0.75,
    "conf": "medium",
    "llm_p": 0.17389363725638735,
    "mkt_yes": 0.34,
@@ -37,7 +37,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.48,
+   "mark": 0.4,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -87,7 +87,7 @@
    "shares": 49.840392850210975,
    "cost": 18.751541699892925,
    "t": 1792797481.1466403,
-   "mark": 0.31999999999999995,
+   "mark": 0.36,
    "conf": "medium",
    "llm_p": 0.24628134384748257,
    "mkt_yes": 0.66,
@@ -112,7 +112,7 @@
    "shares": 30.82417595236139,
    "cost": 18.445979065703657,
    "t": 1792806404.5647938,
-   "mark": 0.5984256998211996,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.2099648855974251,
    "mkt_yes": 0.45,
@@ -123,31 +123,32 @@
    "misprice": "Modelo 0.21 vs mercado 0.45",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "EHAM|2026-10-25"
+   "event": "EHAM|2026-10-25",
+   "breakCount": 0
   },
   {
-   "mid": "6035919",
-   "q": "Will the highest temperature in Lucknow be 31°C on October 24?",
+   "mid": "6074209",
+   "q": "Will the highest temperature in Helsinki be 12°C on October 25?",
    "cat": "Clima",
    "side": "NO",
-   "token": "32624960139860663687270368663620147579146122869622156747812062954749141115108",
-   "entry": 0.4960558311547487,
-   "fair": 0.6281784230288397,
-   "shares": 37.18528824218031,
-   "cost": 18.44597906570366,
-   "t": 1792806405.801418,
-   "mark": 0.4960558311547487,
+   "token": "491942684794352923554877312110677623078387153280872628649627690818003704318",
+   "entry": 0.6808020372569514,
+   "fair": 0.7421742794982877,
+   "shares": 26.95774291279206,
+   "cost": 18.35288629487798,
+   "t": 1792824262.9978924,
+   "mark": 0.6808020372569514,
    "conf": "medium",
-   "llm_p": 0.2563692949519337,
-   "mkt_yes": 0.545,
-   "edge": 0.13212259187409103,
+   "llm_p": 0.19970953416952053,
+   "mkt_yes": 0.345,
+   "edge": 0.061372242241336306,
    "evidence": [
-    "Previsao Open-Meteo geo:lucknow 2026-10-24: maxima 30.8C (3 modelos, sigma 1.5)"
+    "Previsao Open-Meteo geo:helsinki 2026-10-25: maxima 11.2C (1 modelos, sigma 1.8)"
    ],
-   "misprice": "Modelo 0.26 vs mercado 0.55",
+   "misprice": "Modelo 0.20 vs mercado 0.34",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:lucknow|2026-10-24"
+   "event": "geo:helsinki|2026-10-25"
   }
  ],
  "closed": [
@@ -451,65 +452,38 @@
    "pnl": -8.27802952950785,
    "closed_t": 1792806353.7440305,
    "held_h": 13.85635721107324
+  },
+  {
+   "mid": "6035919",
+   "q": "Will the highest temperature in Lucknow be 31°C on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "32624960139860663687270368663620147579146122869622156747812062954749141115108",
+   "entry": 0.4960558311547487,
+   "fair": 0.6281784230288397,
+   "shares": 37.18528824218031,
+   "cost": 18.44597906570366,
+   "t": 1792806405.801418,
+   "mark": 0.18000000000000005,
+   "conf": "medium",
+   "llm_p": 0.2563692949519337,
+   "mkt_yes": 0.545,
+   "edge": 0.13212259187409103,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-10-24: maxima 30.8C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.26 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-10-24",
+   "exit": 0.02518595207372193,
+   "reason": "stop-loss",
+   "pnl": -17.509432178188572,
+   "closed_t": 1792824223.8131065,
+   "held_h": 4.9494476912419
   }
  ],
  "cache": {
-  "4881547": {
-   "t": 1792797546.5100527,
-   "yes": 0.08,
-   "est": {
-    "p": 0.42,
-    "conf": "low",
-    "evidence": [
-     "B.C. Conservatives hold narrow lead over NDP heading into election day per CBC poll on Oct 22, 2026.",
-     "General election scheduled for October 24, 2026, with current market pricing SIM at 0.080."
-    ],
-    "misprice": "O mercado parece estar sobrevalorizando a vantagem conservadora ou precificando uma derrota iminente do NDP de forma excessiva para a véspera da eleição.",
-    "reason": "Embora os conservadores liderem nas pesquisas recentes, corridas eleitorais polarizadas frequentemente apresentam margens estreitas de última hora que tornam uma probabilidade de 8% para o NDP excessi"
-   }
-  },
-  "4881660": {
-   "t": 1792797558.9229753,
-   "yes": 0.92,
-   "est": {
-    "p": 0.9,
-    "conf": "low",
-    "evidence": [
-     "The BC general election is scheduled for October 24, 2026.",
-     "Lorne Doerkson is widely covered as the unexpected leader and primary contender for the BC Conservatives as the campaign wraps on October 23, 2026."
-    ],
-    "misprice": "O mercado já reflete com alta precisão a forte probabilidade de vitória do partido conservador liderado por Doerkson nas vésperas da eleição.",
-    "reason": "A probabilidade de 90% reflete o favoritismo de Lorne Doerkson nas vésperas da eleição de 2026, mantendo uma margem prudente para surpresas de última hora."
-   }
-  },
-  "4881548": {
-   "t": 1792785731.8940802,
-   "yes": 0.92,
-   "est": {
-    "p": 0.92,
-    "conf": "low",
-    "evidence": [
-     "Global News poll on Oct 20, 2026 shows Conservatives leading by five points with no sign of late NDP surge.",
-     "BC general election scheduled for October 24, 2026."
-    ],
-    "misprice": "O mercado já reflete adequadamente a liderança consolidada dos Conservadores nas pesquisas recentes de outubro de 2026.",
-    "reason": "A probabilidade implícita de 92% é consistente com a liderança de 5 pontos nas pesquisas a 1 dia da eleição."
-   }
-  },
-  "4881659": {
-   "t": 1792797552.711534,
-   "yes": 0.081,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "Global News poll published on Oct 23, 2026, indicates the Conservatives hold an advantage on the eve of the election.",
-     "Bloomberg report on Oct 23, 2026, highlights David Eby's campaign risks and defensive political posture."
-    ],
-    "misprice": "O mercado já reflete adequadamente a baixa probabilidade de vitória do NDP com base nas pesquisas da véspera.",
-    "reason": "As pesquisas recentes na véspera da eleição de 24 de outubro de 2026 apontam desvantagem para David Eby e o NDP."
-   }
-  },
   "5929770": {
    "t": 1792806460.75877,
    "yes": 0.165,
@@ -522,20 +496,6 @@
     ],
     "misprice": "O mercado ja reflete adequadamente a taxa media de postagem historica de Elon Musk para um intervalo de dois dias.",
     "reason": "A faixa de 90-114 tweets em 48 horas exige uma media de 45 a 57 posts por dia, o que e estatisticamente acima da atividade usual recente sem um catalisador extraordinario."
-   }
-  },
-  "5686977": {
-   "t": 1792785707.9106846,
-   "yes": 0.88,
-   "est": {
-    "p": 0.88,
-    "conf": "low",
-    "evidence": [
-     "Iran stated on Oct 18, 2026, that seven-day ceasefire conditions and Strait of Hormuz reopening remain on the table.",
-     "No reports of qualifying US air or surface-to-surface missile strikes on Iran have emerged as of Oct 23, 2026."
-    ],
-    "misprice": "O mercado já reflete adequadamente a alta probabilidade de o cessar-fogo se manter nas últimas 36 horas restantes.",
-    "reason": "Faltando pouco mais de um dia para o encerramento e sem incidentes militares recentes relatados, o cenário atual favorece a manutenção do cessar-fogo."
    }
   },
   "5929769": {
@@ -552,102 +512,47 @@
     "reason": "A probabilidade estimada esta alinhada com o preco atual de mercado na ausencia de dados em tempo real sobre a contagem exata de tweets."
    }
   },
-  "6091318": {
-   "t": 1792797533.8037298,
-   "yes": 0.53,
-   "est": {
-    "p": 0.52,
-    "conf": "low",
-    "evidence": [
-     "As noticias recentes nao trazem dados especificos sobre o confronto entre LOS e T1 no Worlds 2026."
-    ],
-    "misprice": "O mercado reflete uma linha estatistica padrao sem desvios acentuados conhecidos.",
-    "reason": "A linha de 27.5 kills esta proxima a media historica para o cenario competitivo atual de League of Legends."
-   }
-  },
-  "5516770": {
-   "t": 1792785743.9944947,
-   "yes": 0.1,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "Partida agendada para 23 de outubro de 2026 pelo Campeonato Brasileiro Série B",
-     "Preço atual de mercado para o placar exato de 2-1 em 0.100"
-    ],
-    "misprice": "O mercado já reflete adequadamente a baixa probabilidade estatística de um placar exato específico no futebol.",
-    "reason": "Placares exatos específicos como 2-1 são altamente improváveis por natureza, e o preço atual está alinhado com a média histórica da Série B."
-   }
-  },
-  "5523028": {
-   "t": 1792797571.4048731,
-   "yes": 0.23,
-   "est": {
-    "p": 0.2,
-    "conf": "low",
-    "evidence": [
-     "Merab Dvalishvili vs Petr Yan scheduled for UFC 333 on October 24, 2026",
-     "Current market price for Yes is 0.230"
-    ],
-    "misprice": "O mercado está ligeiramente sobrevalorizando a chance de interrupção por KO/TKO considerando o histórico de durabilidade de Dvalishvili.",
-    "reason": "Dvalishvili é extremamente difícil de nocautear e Yan venceu mais frequentemente por decisão, tornando uma vitória por KO/TKO improvável."
-   }
-  },
-  "5167165": {
-   "t": 1792797565.3493752,
-   "yes": 0.79,
-   "est": {
-    "p": 0.82,
-    "conf": "medium",
-    "evidence": [
-     "Deadly Russian missile strike on Kyiv used cluster warheads on 21 Oct 2026",
-     "Russia pounds Kyiv with 16 ballistic missiles reported on 19 Oct 2026",
-     "Ongoing high-intensity aerial bombardment campaign against Kyiv documented through 23 Oct 2026"
-    ],
-    "misprice": "O mercado subestima a cadencia recente e implacavel de ataques balisticos diarios relatados em Kiev.",
-    "reason": "A alta frequencia de ataques russos recentes com misseis balisticos e drones contra Kiev torna um novo ataque em 24 de outubro altamente provavel."
-   }
-  },
   "4824600": {
-   "t": 1792806420.4613316,
-   "yes": 0.715,
+   "t": 1792824308.8603556,
+   "yes": 0.74,
    "est": {
-    "p": 0.72,
+    "p": 0.75,
     "conf": "low",
     "evidence": [
-     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026, com o mercado precificando o bloco de Vučić em 0.715 a dois dias do pleito.",
-     "Relatórios de mídia de 23 de outubro de 2026 apontam forte mobilização da oposição e protestos estudantis, mas mantêm o partido governista como o principal concorrente."
+     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026, com o partido de Aleksandar Vučić liderando historicamente as pesquisas.",
+     "Notícias recentes de 22 a 23 de outubro de 2026 destacam protestos estudantis e alertas de observadores sobre a volatilidade na reta final."
     ],
-    "misprice": "O mercado já reflete adequadamente a dominância histórica de Vučić equilibrada com o risco elevado de protestos recentes.",
-    "reason": "Apesar da pressão sem precedentes dos protestos estudantis relatados em outubro de 2026, a máquina partidária governista mantém a maior probabilidade estatística de assegurar a pluralidade de assentos"
+    "misprice": "O mercado de 0.74 reflete adequadamente a dominância contínua do partido governista apesar do aumento da oposição e protestos recentes.",
+    "reason": "Apesar da pressão dos protestos estudantis e alertas recentes, a máquina partidária de Vučić mantém a probabilidade histórica de garantir a maioria dos assentos."
    }
   },
   "2757891": {
-   "t": 1792806429.797154,
-   "yes": 0.6895,
+   "t": 1792824315.3316278,
+   "yes": 0.7095,
    "est": {
-    "p": 0.72,
-    "conf": "medium",
+    "p": 0.73,
+    "conf": "low",
     "evidence": [
-     "Aleksandar Vucic officially launched his campaign for prime minister on October 4, 2026, following his resignation as president on September 27, 2026.",
-     "Early parliamentary elections were called in October 2026 amid ongoing protests and political maneuvering to secure his hold on power."
+     "Aleksandar Vučić formally resigned as president on September 27, 2026, to launch his campaign for prime minister in early elections.",
+     "Major international media outlets including Al Jazeera and The Guardian reported his active campaign launch and candidate status by October 4, 2026.",
+     "Recent reports from October 23, 2026, highlight growing student-led protests and opposition challenges aimed at stopping his bid."
     ],
-    "misprice": "The market slightly underestimates Vucic's entrenched political machinery and control despite significant student-led protests.",
-    "reason": "Having resigned the presidency to run in the October 2026 parliamentary elections, Vucic remains the dominant political figure heavily favored to assume the prime minister post."
+    "misprice": "O mercado subestima ligeiramente a forte máquina partidária e o controle institucional de Vučić, que tornam sua vitória o cenário mais provável apesar dos protestos.",
+    "reason": "Apesar da forte mobilização da oposição e protestos estudantis recentes em outubro de 2026, o histórico de controle político de Vučić mantém sua candidatura amplamente favorita."
    }
   },
   "4824602": {
-   "t": 1792806436.7775598,
-   "yes": 0.285,
+   "t": 1792824321.452355,
+   "yes": 0.265,
    "est": {
-    "p": 0.29,
+    "p": 0.25,
     "conf": "low",
     "evidence": [
-     "Al Jazeera reported on Oct 23, 2026, regarding the student-led electoral challenge against Vucic's party.",
-     "Reuters noted on Oct 21, 2026, that students have emerged as a significant threat in the parliamentary elections."
+     "Snap elections scheduled for October 25, 2026, amid heightened political tension.",
+     "Student list emerging as a notable opposition threat to the ruling SNS per October 2026 reports."
     ],
-    "misprice": "Market efficiently aggregates the high polling baseline of the incumbent SNS party versus the momentum of the student coalition.",
-    "reason": "While student movement momentum is high, the incumbent party retains structural advantages making an outright seat plurality unlikely though possible."
+    "misprice": "Market reflects standard incumbent dominance but adequately prices the tail risk of a student upset.",
+    "reason": "Despite growing momentum, unseating the entrenched ruling party's parliamentary majority remains a statistical underdog outcome."
    }
   },
   "2757900": {
@@ -693,6 +598,78 @@
     ],
     "misprice": "The market underestimates the probability that the actual vote margin falls into the 20%-30% range given current high-end poll gaps.",
     "reason": "Latest poll margins of 16.7% and 18.4% sit just below 20%, but polling error and late swing could easily land the final result within the 20%-30% bracket."
+   }
+  },
+  "5340072": {
+   "t": 1792824327.8158288,
+   "yes": 0.195,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Pesquisa DW.com de 20 de outubro de 2026 indica empate estatístico entre Lula e Flávio Bolsonaro no segundo turno.",
+     "O segundo turno da eleição presidencial brasileira está marcado para 25 de outubro de 2026."
+    ],
+    "misprice": "O mercado pode estar subestimando a volatilidade de um cenário de empate técnico nas vésperas da votação.",
+    "reason": "Embora as pesquisas apontem disputa acirrada, margens inferiores a 4% em eleições polarizadas são historicamente comuns, mas o preço atual reflete razoavelmente a incerteza."
+   }
+  },
+  "5340070": {
+   "t": 1792824334.2525196,
+   "yes": 0.34,
+   "est": {
+    "p": 0.32,
+    "conf": "low",
+    "evidence": [
+     "Flávio Bolsonaro and Lula advanced to the second round held on October 5, 2026.",
+     "The second round of the Brazilian presidential election is scheduled for October 25, 2026."
+    ],
+    "misprice": "O preço atual de 0.34 já reflete adequadamente a incerteza estatística de uma faixa de margem estreita de 4-8% na véspera do segundo turno.",
+    "reason": "A margem exata de vitória depende de flutuações de última hora no eleitorado polarizado, mantendo a probabilidade deste intervalo específico próxima à precificação atual."
+   }
+  },
+  "5340071": {
+   "t": 1792824340.5875807,
+   "yes": 0.385,
+   "est": {
+    "p": 0.37,
+    "conf": "low",
+    "evidence": [
+     "The second round of the presidential election is scheduled for October 25, 2026.",
+     "Flávio Bolsonaro and Lula advanced to the runoff following the October 5, 2026 first round."
+    ],
+    "misprice": "Market efficiently prices the tight polling environment and historical polarization in Brazilian runoffs.",
+    "reason": "Base rates for high-stakes Brazilian runoffs suggest close margins, but current market pricing of 38.5% is well-calibrated given final pre-election polling uncertainty."
+   }
+  },
+  "5329576": {
+   "t": 1792824346.5732424,
+   "yes": 0.65,
+   "est": {
+    "p": 0.65,
+    "conf": "low",
+    "evidence": [
+     "Brazil runoff election results expected around October 2026 as per Reuters on Fri, 23 Oct 2026.",
+     "Governors allied with Flávio Bolsonaro lead Amazon states per Mongabay on Tue, 13 Oct 2026.",
+     "Large-scale protests against the Bolsonaros occurred in Rio per Al Jazeera on Wed, 07 Oct 2026."
+    ],
+    "misprice": "O mercado já reflete adequadamente as expectativas atuais para o segundo turno com base nas notícias disponíveis.",
+    "reason": "A probabilidade está alinhada com o preço atual de mercado de 0,65, sem evidências fortes o suficiente para justificar divergência significativa."
+   }
+  },
+  "1194657": {
+   "t": 1792824352.5178432,
+   "yes": 0.125,
+   "est": {
+    "p": 0.1,
+    "conf": "low",
+    "evidence": [
+     "Bulgarian presidential elections are scheduled for the fall of 2026.",
+     "Andrey Gyurov lacks prominent front-runner status in current national polling aggregates.",
+     "No official candidacy announcement or major coalition backing has been finalized as of October 2026."
+    ],
+    "misprice": "O mercado pode estar sobreestimando a viabilidade de Gyurov devido a especulações políticas genéricas sem respaldo em intenções de voto consolidadas.",
+    "reason": "A ausência de evidências concretas de apoio popular expressivo e a volatilidade da política búlgara mantêm suas chances baixas."
    }
   }
  },
@@ -753,7 +730,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727535.8187928,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -765,7 +742,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727536.3255162,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -801,7 +778,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792727536.838177,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -957,7 +934,7 @@
    "cat": "Economia/Dados",
    "end": 1792814340.0,
    "t": 1792727734.7672377,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -969,7 +946,7 @@
    "cat": "Economia/Dados",
    "end": 1792814340.0,
    "t": 1792727740.846669,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1029,7 +1006,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792728213.502456,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3039193223313017
@@ -1055,7 +1032,7 @@
    "cat": "Clima",
    "end": 1792756800.0,
    "t": 1792728215.724622,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.067998708266505
@@ -1272,7 +1249,7 @@
    "cat": "Outros",
    "end": 1792814340.0,
    "t": 1792756510.7579076,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1459,7 +1436,7 @@
    "cat": "Outros",
    "end": 1792818000.0,
    "t": 1792785725.863764,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1471,7 +1448,7 @@
    "cat": "Outros",
    "end": 1792794600.0,
    "t": 1792785743.9944985,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -1817,6 +1794,131 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6074209": {
+   "q": "Will the highest temperature in Helsinki be 12°C on October 25?",
+   "p": 0.19970953416952053,
+   "yes": 0.345,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792824262.9978483,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.27701859580064514
+  },
+  "6037841": {
+   "q": "Will the highest temperature in Denver be between 60-61°F on October 24?",
+   "p": 0.14486803430309458,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792824273.1347888,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.0656135940322663
+  },
+  "6073960": {
+   "q": "Will the highest temperature in Ankara be 21°C on October 25?",
+   "p": 0.2112743348158449,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792824273.2174969,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2961707958558728
+  },
+  "6074080": {
+   "q": "Will the highest temperature in Warsaw be 13°C on October 25?",
+   "p": 0.21916171583592314,
+   "yes": 0.42,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792824273.3194327,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.34457799633398584
+  },
+  "6037840": {
+   "q": "Will the highest temperature in Denver be between 58-59°F on October 24?",
+   "p": 0.29821319019663906,
+   "yes": 0.395,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792843200.0,
+   "t": 1792824281.963154,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4042468426759822
+  },
+  "5340072": {
+   "q": "Will Luiz Inácio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?",
+   "p": 0.22,
+   "yes": 0.195,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792824327.815833,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5340070": {
+   "q": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
+   "p": 0.32,
+   "yes": 0.34,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792824334.2525241,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5340071": {
+   "q": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
+   "p": 0.37,
+   "yes": 0.385,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792824340.587584,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5329576": {
+   "q": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amapá?",
+   "p": 0.65,
+   "yes": 0.65,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792824346.5732458,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "1194657": {
+   "q": "Will Аndrey Gyurov win the next Bulgarian presidential election?",
+   "p": 0.1,
+   "yes": 0.125,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792824352.5178473,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -1859,12 +1961,16 @@
   {
    "t": 1792806466.8853076,
    "equity": 1756.76
+  },
+  {
+   "t": 1792824352.5186837,
+   "equity": 1747.89
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
-  "2026-10-24": 8
+  "2026-10-24": 16
  },
  "killed": false,
- "cycles": 10
+ "cycles": 11
 }
