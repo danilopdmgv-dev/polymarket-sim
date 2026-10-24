@@ -145,3 +145,7 @@
 2026-10-24 18:17:01Z BUY NO [clima] Will the highest temperature in Dallas be between  @ 0.446 $17.74 edge=0.173 conf=medium | Modelo 0.24 vs mercado 0.59
 2026-10-24 18:17:10Z erro geocode Istanbul: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-24 18:18:25Z ciclo 14: lidos=700 filtro=51 llm=8 clima=2 compras=2 vendas=2 descartados={'esporte_vivo': 28, 'categoria_Esportes': 225, 'cripto': 17, 'combinado': 4, 'clima_sem_modelo': 2} equity=$1689.45
+2026-10-24 21:01:41Z SELL NO [take-profit] Will the highest temperature in Atlanta be between @ 0.887 pnl=$+24.80
+2026-10-24 21:01:42Z SELL NO [stop-loss] Will the highest temperature in Amsterdam be 13°C  @ 0.416 pnl=$-5.63
+2026-10-24 21:01:59Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 21:03:04Z ciclo 15: lidos=700 filtro=39 llm=8 clima=0 compras=0 vendas=2 descartados={'esporte_vivo': 87, 'categoria_Esportes': 139, 'cripto': 13, 'combinado': 4} equity=$1692.00
