@@ -137,3 +137,11 @@
 2026-10-24 15:09:30Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-24 15:10:13Z BUY NO [llm] Will Flávio Bolsonaro win the second round of the  @ 0.651 $52.02 edge=0.107 conf=medium | Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.
 2026-10-24 15:11:16Z ciclo 13: lidos=700 filtro=44 llm=8 clima=7 compras=2 vendas=1 descartados={'esporte_vivo': 44, 'categoria_Esportes': 271, 'cripto': 9, 'combinado': 5, 'clima_sem_modelo': 2} equity=$1733.98
+2026-10-24 18:16:25Z SELL NO [stop-loss] Will the highest temperature in Los Angeles be bet @ 0.120 pnl=$-49.47
+2026-10-24 18:16:26Z SELL NO [stop-loss] Will the highest temperature in Shanghai be 23°C o @ 0.342 pnl=$-7.11
+2026-10-24 18:16:50Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 18:17:01Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-24 18:17:01Z BUY NO [clima] Will the highest temperature in Toronto be 18°C on @ 0.607 $17.74 edge=0.110 conf=medium | Modelo 0.19 vs mercado 0.42
+2026-10-24 18:17:01Z BUY NO [clima] Will the highest temperature in Dallas be between  @ 0.446 $17.74 edge=0.173 conf=medium | Modelo 0.24 vs mercado 0.59
+2026-10-24 18:17:10Z erro geocode Istanbul: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-24 18:18:25Z ciclo 14: lidos=700 filtro=51 llm=8 clima=2 compras=2 vendas=2 descartados={'esporte_vivo': 28, 'categoria_Esportes': 225, 'cripto': 17, 'combinado': 4, 'clima_sem_modelo': 2} equity=$1689.45

@@ -1,31 +1,6 @@
 {
- "cash": 1530.7123740867123,
+ "cash": 1516.8550996860747,
  "positions": [
-  {
-   "mid": "6038975",
-   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "79625244171333820351021734832382178283108965882146268900349832430762204108655",
-   "entry": 0.6822191403048239,
-   "fair": 0.7596638176461676,
-   "shares": 87.948280039741,
-   "cost": 60.0,
-   "t": 1792727534.1869555,
-   "mark": 0.63,
-   "conf": "medium",
-   "llm_p": 0.17389363725638735,
-   "mkt_yes": 0.34,
-   "edge": 0.07744467734134375,
-   "evidence": [
-    "Previsao Open-Meteo KLAX 2026-10-24: maxima 76.8F (3 modelos, sigma 3.8)"
-   ],
-   "misprice": "Modelo 0.17 vs mercado 0.34",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KLAX|2026-10-24",
-   "breakCount": 0
-  },
   {
    "mid": "6037187",
    "q": "Will the highest temperature in Atlanta be between 70-71°F on October 24?",
@@ -37,7 +12,7 @@
    "shares": 50.996920837577335,
    "cost": 20.43175309234784,
    "t": 1792736545.1109104,
-   "mark": 0.41000000000000003,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.1886774899609337,
    "mkt_yes": 0.62,
@@ -62,7 +37,7 @@
    "shares": 43.13469427010644,
    "cost": 19.252434310847715,
    "t": 1792771971.5248435,
-   "mark": 0.53,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.17009618299570672,
    "mkt_yes": 0.585,
@@ -87,7 +62,7 @@
    "shares": 30.82417595236139,
    "cost": 18.445979065703657,
    "t": 1792806404.5647938,
-   "mark": 0.53,
+   "mark": 0.5700000000000001,
    "conf": "medium",
    "llm_p": 0.2099648855974251,
    "mkt_yes": 0.45,
@@ -112,7 +87,7 @@
    "shares": 26.95774291279206,
    "cost": 18.35288629487798,
    "t": 1792824262.9978924,
-   "mark": 0.65,
+   "mark": 0.6599999999999999,
    "conf": "medium",
    "llm_p": 0.19970953416952053,
    "mkt_yes": 0.345,
@@ -127,30 +102,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6074035",
-   "q": "Will the highest temperature in Shanghai be 23°C on October 25?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "13710798025134890423249668574795805515129517646738088851722750095437875125251",
-   "entry": 0.5608192063987394,
-   "fair": 0.675131170173761,
-   "shares": 32.46454476668568,
-   "cost": 18.20674023214901,
-   "t": 1792854561.4025147,
-   "mark": 0.5608192063987394,
-   "conf": "medium",
-   "llm_p": 0.22811471637706499,
-   "mkt_yes": 0.47,
-   "edge": 0.11431196377502162,
-   "evidence": [
-    "Previsao Open-Meteo ZSPD 2026-10-25: maxima 22.6C (1 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.23 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "ZSPD|2026-10-25"
-  },
-  {
    "mid": "5340070",
    "q": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
    "cat": "Politica",
@@ -161,7 +112,7 @@
    "shares": 79.96494154292277,
    "cost": 52.01925780614003,
    "t": 1792854613.5669298,
-   "mark": 0.6505258029635107,
+   "mark": 0.63,
    "conf": "medium",
    "llm_p": 0.12,
    "mkt_yes": 0.365,
@@ -174,7 +125,56 @@
    "misprice": "Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.",
    "version": "v3-alto-volume",
    "src": "llm",
-   "event": null
+   "event": null,
+   "breakCount": 0
+  },
+  {
+   "mid": "6081464",
+   "q": "Will the highest temperature in Toronto be 18°C on October 25?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "73345182042633218534746916177615921865499505739093589559993181434680451753006",
+   "entry": 0.6069712669434577,
+   "fair": 0.7171782272977465,
+   "shares": 29.225891320890735,
+   "cost": 17.739276282592854,
+   "t": 1792865821.4941463,
+   "mark": 0.6069712669434577,
+   "conf": "medium",
+   "llm_p": 0.1880362878370891,
+   "mkt_yes": 0.425,
+   "edge": 0.11020696035428879,
+   "evidence": [
+    "Previsao Open-Meteo CYYZ 2026-10-25: maxima 17.6C (3 modelos, sigma 2.1)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "CYYZ|2026-10-25"
+  },
+  {
+   "mid": "6076511",
+   "q": "Will the highest temperature in Dallas be between 80-81°F on October 25?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "109323659081538702733926129019062139180573266201803387161613972033940454676399",
+   "entry": 0.4459144417932761,
+   "fair": 0.6192930402838747,
+   "shares": 39.781793590835754,
+   "cost": 17.739276282592854,
+   "t": 1792865821.9004793,
+   "mark": 0.4459144417932761,
+   "conf": "medium",
+   "llm_p": 0.24117826619354227,
+   "mkt_yes": 0.59,
+   "edge": 0.17337859849059856,
+   "evidence": [
+    "Previsao Open-Meteo KDFW 2026-10-25: maxima 80.0F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.59",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KDFW|2026-10-25"
   }
  ],
  "closed": [
@@ -537,121 +537,192 @@
    "pnl": -8.537237696417684,
    "closed_t": 1792854520.4540098,
    "held_h": 15.844252047075166
+  },
+  {
+   "mid": "6038975",
+   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 24?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "79625244171333820351021734832382178283108965882146268900349832430762204108655",
+   "entry": 0.6822191403048239,
+   "fair": 0.7596638176461676,
+   "shares": 87.948280039741,
+   "cost": 60.0,
+   "t": 1792727534.1869555,
+   "mark": 0.41000000000000003,
+   "conf": "medium",
+   "llm_p": 0.17389363725638735,
+   "mkt_yes": 0.34,
+   "edge": 0.07744467734134375,
+   "evidence": [
+    "Previsao Open-Meteo KLAX 2026-10-24: maxima 76.8F (3 modelos, sigma 3.8)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLAX|2026-10-24",
+   "breakCount": 0,
+   "exit": 0.1196748174562744,
+   "reason": "stop-loss",
+   "pnl": -49.47480564065069,
+   "closed_t": 1792865785.0022645,
+   "held_h": 38.40300425257948
+  },
+  {
+   "mid": "6074035",
+   "q": "Will the highest temperature in Shanghai be 23°C on October 25?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "13710798025134890423249668574795805515129517646738088851722750095437875125251",
+   "entry": 0.5608192063987394,
+   "fair": 0.675131170173761,
+   "shares": 32.46454476668568,
+   "cost": 18.20674023214901,
+   "t": 1792854561.4025147,
+   "mark": 0.42000000000000004,
+   "conf": "medium",
+   "llm_p": 0.22811471637706499,
+   "mkt_yes": 0.47,
+   "edge": 0.11431196377502162,
+   "evidence": [
+    "Previsao Open-Meteo ZSPD 2026-10-25: maxima 22.6C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "ZSPD|2026-10-25",
+   "exit": 0.3417908331979759,
+   "reason": "stop-loss",
+   "pnl": -7.110656426950525,
+   "closed_t": 1792865786.6669903,
+   "held_h": 3.118129021061791
   }
  ],
  "cache": {
   "4824600": {
-   "t": 1792854580.6912115,
-   "yes": 0.72,
+   "t": 1792865839.0146773,
+   "yes": 0.695,
    "est": {
-    "p": 0.74,
+    "p": 0.72,
     "conf": "low",
     "evidence": [
-     "As eleições parlamentares na Sérvia estão agendadas para 25 de outubro de 2026, com o partido de Aleksandar Vučić liderando as principais listas eleitorais nas pesquisas recentes até 24 de outubro de 2026.",
-     "Relatórios de 23 de outubro de 2026 destacam forte polarização com protestos estudantis, mas o controle institucional da máquina partidária de Vučić permanece dominante."
+     "The National Assembly of Serbia election is scheduled for October 25, 2026, with the incumbent coalition leading in pre-election momentum despite strong student protests reported on October 23, 2026."
     ],
-    "misprice": "O mercado precifica adequadamente a forte probabilidade de vitória da coalizão governista apesar da volatilidade dos protestos recentes.",
-    "reason": "Apesar da intensa mobilização da oposição estudantil relatada nas vésperas de 24 de outubro de 2026, a máquina eleitoral de Vučić mantém a vantagem estatística histórica para assegurar o maior número "
+    "misprice": "O mercado avalia adequadamente a dominancia tradicional do partido governista e o ceticismo em relacao a capacidade de mobilizacao total dos estudantes nas urnas.",
+    "reason": "Apesar da pressao dos protestos estudantis recentes, a maquina eleitoral e o historico de vitorias de Vucic mantêm a probabilidade de maioria de assentos elevada, embora com margem para incerteza."
    }
   },
   "2757891": {
-   "t": 1792854645.0727048,
-   "yes": 0.715,
+   "t": 1792865866.7120688,
+   "yes": 0.6945,
    "est": {
-    "p": 0.68,
+    "p": 0.72,
     "conf": "low",
     "evidence": [
-     "Notícias de 22 a 23 de outubro de 2026 indicam que a Sérvia enfrenta eleições antecipadas cruciais com forte oposição estudantil.",
-     "O mercado atualmente precifica Vučić como próximo primeiro-ministro em 71,5% com resolução até junho de 2028."
+     "Aleksandar Vucic resigned as president on September 27, 2026, to run in early parliamentary elections.",
+     "Al Jazeera reported on October 4, 2026, that Vucic officially launched his campaign for prime minister."
     ],
-    "misprice": "O mercado pode estar subestimando ligeiramente o risco de uma derrota histórica para Vučić diante do avanço do movimento estudantil nas eleições de outubro de 2026.",
-    "reason": "Embora enfrente seu maior desafio político recente, Vučić ainda mantém forte controle institucional, mas a incerteza eleitoral justifica um desconto modesto em relação ao preço atual."
+    "misprice": "O mercado subestima ligeiramente o forte controle institucional de Vucic e o momentum de sua campanha oficial para o cargo.",
+    "reason": "Como favorito evidente com a máquina estatal alinhada após sua renúncia presidencial, a probabilidade de assumir é alta, apesar da oposição dos protestos estudantis."
    }
   },
   "4824602": {
-   "t": 1792854590.8374965,
-   "yes": 0.29,
+   "t": 1792865848.629058,
+   "yes": 0.295,
    "est": {
     "p": 0.32,
     "conf": "low",
     "evidence": [
-     "BBC reported on Oct 23, 2026, that the student movement took Vučić to the wire in a neck-and-neck election.",
-     "Reuters noted on Oct 21, 2026, that students have emerged as the greatest threat to Vučić's long rule."
+     "BBC report on Oct 23, 2026 indicates a neck-and-neck election between the student movement and Vučić's party.",
+     "Parliamentary elections scheduled for Oct 25, 2026, with polls showing high voter mobilization by students."
     ],
-    "misprice": "O mercado pode estar subestimando a volatilidade de última hora e o ímpeto do movimento estudantil retratado nas vésperas da eleição.",
-    "reason": "Embora a corrida seja descrita como acirrada, o partido governista liderado por Vučić ainda mantém uma estrutura partidária dominante, tornando a vitória dos estudantes em número de assentos um cenári"
+    "misprice": "Market may slightly underestimate late momentum from the unified student movement against the incumbent machine.",
+    "reason": "While competitive, incumbent dominance in Serbian elections makes a plurality win for challengers historically difficult, leaving the student list as a strong underdog."
    }
   },
   "5340072": {
-   "t": 1792854599.6810899,
-   "yes": 0.165,
+   "t": 1792865858.1347556,
+   "yes": 0.135,
    "est": {
-    "p": 0.18,
+    "p": 0.15,
     "conf": "low",
     "evidence": [
-     "DW report on Oct 20, 2026, indicated Lula and Flavio Bolsonaro tied in final polls ahead of Sunday's vote.",
-     "The second round of the presidential election is scheduled for October 25, 2026."
+     "Pesquisa DW.com de 20 de outubro de 2026 indica empate tecnico entre Lula e Flavio Bolsonaro no segundo turno.",
+     "Segundo turno eleitoral agendado para o dia 25 de outubro de 2026 conforme regras do mercado."
     ],
-    "misprice": "Market underprices the historical volatility of tight runoffs where margins frequently land within narrow bands.",
-    "reason": "While polls show a statistical tie pointing to a potentially narrow margin, predicting an exact sub-4% win carries high uncertainty."
+    "misprice": "O mercado ja reflete de forma adequada a alta volatilidade e o cenario de empate tecnico nas vesperas da eleicao.",
+    "reason": "A margem inferior a 4% e um resultado plausivel em eleicoes polarizadas e tecnicamente empatadas no segundo turno."
    }
   },
   "5340070": {
-   "t": 1792854613.5669045,
+   "t": 1792865796.2699623,
    "yes": 0.365,
    "est": {
-    "p": 0.12,
-    "conf": "medium",
+    "p": 0.35,
+    "conf": "low",
     "evidence": [
-     "Datafolha poll from Thu, 22 Oct 2026 shows Flavio Bolsonaro and Lula about even",
-     "CNT/MDA poll from Sat, 24 Oct 2026 shows candidates statistically tied ahead of runoff",
-     "Second round vote scheduled for Oct 25, 2026 with historic polarization pointing to a razor-thin margin"
+     "Flávio Bolsonaro and Lula advanced to the second round held on October 25, 2026, following the first round on October 5, 2026.",
+     "Recent polls leading into the runoff showed a highly polarized race between Flávio Bolsonaro and incumbent Lula."
     ],
-    "misprice": "Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.",
-    "reason": "Given a statistical tie in the final polls, a decisive 4-8% victory margin is statistically unlikely compared to a tight finish."
+    "misprice": "The market accurately prices the specific 4-8% margin band given the high uncertainty of runoff polling.",
+    "reason": "A 4-8% victory margin is a specific outcome in a tight polarized election, making a 35% probability reasonable given current polling ranges."
    }
   },
   "5340071": {
-   "t": 1792854622.6254923,
-   "yes": 0.385,
+   "t": 1792865877.3418663,
+   "yes": 0.415,
    "est": {
-    "p": 0.37,
-    "conf": "low",
-    "evidence": [
-     "The second round of the Brazilian presidential election is scheduled for October 25, 2026, featuring Flávio Bolsonaro and Lula.",
-     "Recent polls leading into the final weekend of October 2026 show a highly polarized runoff race in Brazil."
-    ],
-    "misprice": "O mercado avalia adequadamente a alta volatilidade e o cenário estatisticamente apertado de urnas no segundo turno.",
-    "reason": "A proximidade de 1,5 dia da eleição reflete preços eficientes em um pleito polarizado onde margens abaixo de 4% são plausíveis, mas incertas."
-   }
-  },
-  "5329576": {
-   "t": 1792854667.4080355,
-   "yes": 0.665,
-   "est": {
-    "p": 0.65,
+    "p": 0.4,
     "conf": "low",
     "evidence": [
      "The second round of the presidential election is scheduled for October 25, 2026.",
-     "Recent news highlights strong regional alignment of Amazon governors allied with Flávio Bolsonaro as of October 13, 2026.",
-     "A large $21K market bet on Flavio Bolsonaro winning Amapá was recorded on October 20, 2026."
+     "Flávio Bolsonaro and Lula advanced to the runoff following the first round on October 5, 2026.",
+     "Recent polling heading into the final weekend indicates a highly polarized race."
     ],
-    "misprice": "Market is efficiently pricing in regional polling trends and recent momentum for conservative candidates in Amazon states.",
-    "reason": "Flávio Bolsonaro holds a strong regional base in northern Amazon states, making a plurality in Amapá plausible though not guaranteed."
+    "misprice": "O mercado avalia adequadamente a alta volatilidade e competitividade do segundo turno presidencial brasileiro.",
+    "reason": "A margem de vitória inferior a 4% é um desfecho plausível dada a polarização, mas reflete realisticamente o cenário atual de incerteza eleitoral."
+   }
+  },
+  "5329576": {
+   "t": 1792865905.4193435,
+   "yes": 0.7,
+   "est": {
+    "p": 0.72,
+    "conf": "low",
+    "evidence": [
+     "Flavio Bolsonaro leads regional trends in the Brazilian Amazon following the October 4, 2026 first round",
+     "Recent polling data indicates solid momentum for conservative candidates in Amapá ahead of the October 25 runoff"
+    ],
+    "misprice": "The market slightly undervalues Flávio Bolsonaro's consolidated momentum in northern states following the October 2026 first round.",
+    "reason": "Given current trends and regional polling showing strong right-wing support in Amapá, Flavio Bolsonaro holds a high probability of securing the most votes."
    }
   },
   "1194643": {
-   "t": 1792854676.1469457,
+   "t": 1792865886.4852712,
    "yes": 0.875,
    "est": {
     "p": 0.88,
     "conf": "low",
     "evidence": [
-     "Bulgaria heads to presidential election amid Black Sea tensions, with Iliana Iotova leading polls on 23 Oct 2026.",
-     "Presidential elections in Bulgaria are scheduled for the Fall of 2026."
+     "Bulgaria heads to presidential election amid Black Sea tensions, with Iliana Iotova leading polls as of Oct 23, 2026",
+     "Presidential elections in Bulgaria are scheduled for the Fall of 2026"
     ],
-    "misprice": "O mercado já precifica adequadamente a ampla vantagem de Iliana Iotova nas pesquisas recentes.",
-    "reason": "Iliana Iotova lidera as pesquisas para a eleição presidencial de 2026 na Bulgária, refletindo o preço atual do mercado."
+    "misprice": "O mercado já reflete com precisão a ampla vantagem de Iotova nas pesquisas recentes de outubro de 2026.",
+    "reason": "A liderança consistente de Iliana Iotova nas pesquisas nas vésperas da eleição sustenta a alta probabilidade, alinhada ao preço atual."
+   }
+  },
+  "1194657": {
+   "t": 1792865895.6160305,
+   "yes": 0.13,
+   "est": {
+    "p": 0.1,
+    "conf": "low",
+    "evidence": [
+     "As eleicoes presidenciais na Bulgaria estao programadas para o outono de 2026.",
+     "Andrey Gyurov nao possui anuncios oficiais recentes de candidatura para o pleito de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza padrao para um candidato nao confirmado em horizonte distante.",
+    "reason": "Na ausencia de anuncios formais ou tracao eleitoral demonstrada por Gyurov para 2026, a probabilidade permanece baixa."
    }
   }
  },
@@ -700,7 +771,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792727535.2855685,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -832,7 +903,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792727678.5982962,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -880,7 +951,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792727715.4527984,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima"
   },
@@ -1027,7 +1098,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792728216.5039995,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2632869020537555
@@ -1053,7 +1124,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792728219.0291934,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3115322899565782
@@ -1153,7 +1224,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792756472.8935685,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32259573666769803
@@ -1192,7 +1263,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792756475.487666,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3076052974534958
@@ -1293,7 +1364,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792772004.5555823,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.24018637438351054
@@ -1306,7 +1377,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792772005.1569438,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3010550642704912
@@ -1467,7 +1538,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792797484.7176151,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.21227502457117564
@@ -1965,6 +2036,19 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32668896305166584
+  },
+  "6081464": {
+   "q": "Will the highest temperature in Toronto be 18°C on October 25?",
+   "p": 0.1880362878370891,
+   "yes": 0.425,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1792929600.0,
+   "t": 1792865821.4940732,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.29694889502581445
   }
  },
  "history": [
@@ -2019,12 +2103,16 @@
   {
    "t": 1792854676.1476736,
    "equity": 1733.98
+  },
+  {
+   "t": 1792865905.4205601,
+   "equity": 1689.45
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
-  "2026-10-24": 32
+  "2026-10-24": 41
  },
  "killed": false,
- "cycles": 13
+ "cycles": 14
 }
