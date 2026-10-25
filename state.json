@@ -1,33 +1,6 @@
 {
- "cash": 1293.4968010207294,
+ "cash": 1352.612560407411,
  "positions": [
-  {
-   "mid": "5340070",
-   "q": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
-   "cat": "Politica",
-   "side": "NO",
-   "token": "49215287526824130571992557314204751594451133947838370065455446116972276858633",
-   "entry": 0.6505258029635107,
-   "fair": 0.7575000000000001,
-   "shares": 79.96494154292277,
-   "cost": 52.01925780614003,
-   "t": 1792854613.5669298,
-   "mark": 0.72,
-   "conf": "medium",
-   "llm_p": 0.12,
-   "mkt_yes": 0.365,
-   "edge": 0.10697419703648936,
-   "evidence": [
-    "Datafolha poll from Thu, 22 Oct 2026 shows Flavio Bolsonaro and Lula about even",
-    "CNT/MDA poll from Sat, 24 Oct 2026 shows candidates statistically tied ahead of runoff",
-    "Second round vote scheduled for Oct 25, 2026 with historic polarization pointing to a razor-thin margin"
-   ],
-   "misprice": "Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null,
-   "breakCount": 0
-  },
   {
    "mid": "6111391",
    "q": "Will the highest temperature in London be 17°C on October 26?",
@@ -39,7 +12,7 @@
    "shares": 39.15145848238081,
    "cost": 17.849366464048934,
    "t": 1792884627.9532568,
-   "mark": 0.39,
+   "mark": 0.35,
    "conf": "medium",
    "llm_p": 0.2245960643868824,
    "mkt_yes": 0.575,
@@ -64,7 +37,7 @@
    "shares": 100.84120810679843,
    "cost": 49.17315946290402,
    "t": 1792930522.875032,
-   "mark": 0.52,
+   "mark": 0.56,
    "conf": "medium",
    "llm_p": 0.24665307441329937,
    "mkt_yes": 0.54,
@@ -89,7 +62,7 @@
    "shares": 97.10410657229716,
    "cost": 48.36743372574877,
    "t": 1792946346.0225015,
-   "mark": 0.49809874610954424,
+   "mark": 0.65,
    "conf": "medium",
    "llm_p": 0.1834296694858546,
    "mkt_yes": 0.53,
@@ -100,7 +73,8 @@
    "misprice": "Modelo 0.18 vs mercado 0.53",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "EHAM|2026-10-26"
+   "event": "EHAM|2026-10-26",
+   "breakCount": 0
   },
   {
    "mid": "6107096",
@@ -113,7 +87,7 @@
    "shares": 80.37959642612418,
    "cost": 48.36743372574877,
    "t": 1792946346.309996,
-   "mark": 0.601737703052573,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.13697381499570827,
    "mkt_yes": 0.425,
@@ -124,7 +98,8 @@
    "misprice": "Modelo 0.14 vs mercado 0.42",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "LFPG|2026-10-26"
+   "event": "LFPG|2026-10-26",
+   "breakCount": 0
   },
   {
    "mid": "6107272",
@@ -137,7 +112,7 @@
    "shares": 89.97894907341463,
    "cost": 48.367433725748775,
    "t": 1792946347.5810776,
-   "mark": 0.537541660842086,
+   "mark": 0.52,
    "conf": "medium",
    "llm_p": 0.18998773566157467,
    "mkt_yes": 0.5,
@@ -161,7 +136,7 @@
    "shares": 85.05584683442802,
    "cost": 48.367433725748775,
    "t": 1792946348.4889193,
-   "mark": 0.5686550134513634,
+   "mark": 0.63,
    "conf": "medium",
    "llm_p": 0.24177599322316368,
    "mkt_yes": 0.465,
@@ -832,91 +807,108 @@
    "pnl": -5.762760103605297,
    "closed_t": 1792946340.8850832,
    "held_h": 22.3663846121894
+  },
+  {
+   "mid": "5340070",
+   "q": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "49215287526824130571992557314204751594451133947838370065455446116972276858633",
+   "entry": 0.6505258029635107,
+   "fair": 0.7575000000000001,
+   "shares": 79.96494154292277,
+   "cost": 52.01925780614003,
+   "t": 1792854613.5669298,
+   "mark": 0.75,
+   "conf": "medium",
+   "llm_p": 0.12,
+   "mkt_yes": 0.365,
+   "edge": 0.10697419703648936,
+   "evidence": [
+    "Datafolha poll from Thu, 22 Oct 2026 shows Flavio Bolsonaro and Lula about even",
+    "CNT/MDA poll from Sat, 24 Oct 2026 shows candidates statistically tied ahead of runoff",
+    "Second round vote scheduled for Oct 25, 2026 with historic polarization pointing to a razor-thin margin"
+   ],
+   "misprice": "Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margin of error.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "breakCount": 0,
+   "exit": 0.7392709635753302,
+   "reason": "take-profit",
+   "pnl": 7.096501580541435,
+   "closed_t": 1792956280.404862,
+   "held_h": 28.24078831454118
   }
  ],
  "cache": {
   "4824600": {
-   "t": 1792946408.7224872,
-   "yes": 0.5,
+   "t": 1792956358.3912146,
+   "yes": 0.59,
    "est": {
-    "p": 0.52,
+    "p": 0.58,
     "conf": "low",
     "evidence": [
-     "Serbia votes on October 25, 2026, in parliamentary elections featuring a strong grassroots and student challenge to Vučić's 12-year rule.",
-     "Early reports on October 25, 2026, indicate a record high turnout in the ongoing elections.",
-     "The electoral context involves a highly competitive race pitting the incumbent regime against a unified student movement."
+     "As eleições parlamentares na Sérvia estão ocorrendo hoje, 25 de outubro de 2026, com forte mobilização de estudantes contra o governo de Aleksandar Vučić.",
+     "O preço atual de mercado para a vitória da lista liderada por Vučić está em 0.59 no dia do pleito."
     ],
-    "misprice": "The market is currently pricing a coin-flip despite ongoing historic high turnout and an energized opposition challenge.",
-    "reason": "Given the unprecedented turnout and strong grassroots opposition, the incumbent's dominant margin is uncertain, but the SNS machine still retains baseline structural advantages."
+    "misprice": "O mercado reflete adequadamente a incerteza extrema e a disputa acirrada entre o movimento estudantil e o partido governista no dia da eleição.",
+    "reason": "Apesar da forte pressão da oposição e dos protestos estudantis, a maquinaria partidária de Vučić ainda mantém uma base sólida, tornando o resultado muito próximo de uma moeda ao ar."
    }
   },
   "4824602": {
-   "t": 1792946415.0688655,
-   "yes": 0.495,
+   "t": 1792956364.391276,
+   "yes": 0.395,
    "est": {
-    "p": 0.49,
+    "p": 0.41,
     "conf": "low",
     "evidence": [
-     "As eleições parlamentares na Sérvia ocorrem em 25 de outubro de 2026 com alta participação eleitoral relatada.",
-     "O movimento estudantil emergiu como o principal desafiador da coalizão governista de Aleksandar Vucic."
+     "The Serbian parliamentary election is taking place on October 25, 2026, with polls reporting high turnout for the student movement challenging Vucic."
     ],
-    "misprice": "O mercado já reflete adequadamente a extrema volatilidade e a indefinição da disputa entre os estudantes e o partido governista no dia da eleição.",
-    "reason": "Com a eleição em andamento e sem resultados parciais oficiais conclusivos, a probabilidade permanece próxima de 50% para ambos os lados."
+    "misprice": "Market prices may slightly underestimate the mobilization momentum of the student list reported in late election day updates.",
+    "reason": "High turnout heavily favors the opposition student movement against the incumbent, making it a close race on election night."
    }
   },
   "5340072": {
-   "t": 1792946427.7348263,
-   "yes": 0.155,
+   "t": 1792956389.4808204,
+   "yes": 0.195,
    "est": {
-    "p": 0.15,
+    "p": 0.22,
     "conf": "low",
     "evidence": [
-     "As eleições de segundo turno no Brasil ocorrem hoje, 25 de outubro de 2026, com apuração em andamento.",
-     "O mercado atual precifica a probabilidade de vitória de Lula por menos de 4% em aproximadamente 15.5%."
+     "As votações do segundo turno ocorrem hoje, 25 de outubro de 2026, com Lula enfrentando o candidato da direita Flávio Bolsonaro.",
+     "O preço atual de mercado para a vitória por menos de 4% de margem é de 0.195 no dia da eleição."
     ],
-    "misprice": "O mercado já reflete adequadamente a incerteza histórica de margens apertadas no segundo turno brasileiro.",
-    "reason": "Com base na ausência de dados consolidados de apuração oficial que permitam divergir da precificação atual no dia da votação, mantenho uma estimativa conservadora alinhada ao mercado."
+    "misprice": "O mercado pode estar ligeiramente subestimando a volatilidade histórica de última hora em urnas polarizadas.",
+    "reason": "A margem estreita é plausível em um pleito altamente polarizado, mas 22% reflete adequadamente a incerteza residual das urnas."
    }
   },
   "5340070": {
-   "t": 1792946340.8180294,
-   "yes": 0.275,
+   "t": 1792956383.0607169,
+   "yes": 0.255,
    "est": {
-    "p": 0.25,
+    "p": 0.22,
     "conf": "low",
     "evidence": [
-     "O segundo turno das eleições presidenciais brasileiras ocorre em 25 de outubro de 2026 com Flávio Bolsonaro e o incumbente Lula.",
-     "Pesquisas recentes indicam uma disputa extremamente acirrada no segundo turno sem margem consolidada previsível de 4 a 8%."
+     "O segundo turno das eleicoes presidenciais brasileiras ocorre em 25 de outubro de 2026.",
+     "Flávio Bolsonaro e Lula disputam o segundo turno conforme confirmado em 05 de outubro de 2026.",
+     "As votacoes do segundo turno foram encerradas no final da tarde de 25 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a volatilidade e a incerteza estatística de uma faixa de vitória específica em eleição polarizada.",
-    "reason": "A probabilidade de uma margem exata entre 4% e 8% em um pleito presidencial muito disputado é estreita, justificando ceticismo quanto ao resultado."
+    "misprice": "O mercado reflete adequadamente a incerteza estatistica de uma margem especifica de 4-8% em uma eleicao polarizada.",
+    "reason": "Como as eleicoes estao ocorrendo hoje e faltam apenas horas para a apuracao, a probabilidade atual baseia-se na volatilidade historica de margens estreitas."
    }
   },
   "5340071": {
-   "t": 1792946421.2071185,
-   "yes": 0.525,
+   "t": 1792956376.7832227,
+   "yes": 0.51,
    "est": {
-    "p": 0.52,
+    "p": 0.51,
     "conf": "low",
     "evidence": [
-     "The second round of the 2026 Brazilian presidential election is taking place on October 25, 2026, featuring Lula and Flávio Bolsonaro."
+     "As eleições de segundo turno no Brasil ocorrem hoje, 25 de outubro de 2026, com disputa entre Lula e Flávio Bolsonaro."
     ],
-    "misprice": "O mercado está essencialmente precificado em 52.5%, refletindo uma corrida extremamente acirrada dentro da margem de erro estatística.",
-    "reason": "Com a eleição ocorrendo hoje e as pesquisas apontando empate técnico, uma margem inferior a 4% é o resultado mais provável, mas alinhado ao preço atual."
-   }
-  },
-  "5329576": {
-   "t": 1792930612.102286,
-   "yes": 0.665,
-   "est": {
-    "p": 0.68,
-    "conf": "low",
-    "evidence": [
-     "Notícias de 13 de outubro de 2026 indicam forte apoio de governadores aliados a Flávio Bolsonaro nos estados da Amazônia.",
-     "O segundo turno das eleições presidenciais no Brasil ocorre hoje, 25 de outubro de 2026."
-    ],
-    "misprice": "O mercado reflete adequadamente a vantagem regional e o momento político recente de Flávio Bolsonaro no Amapá.",
-    "reason": "A alta probabilidade é sustentada pelo alinhamento político regional favorável na Amazônia verificado nas semanas antecedentes ao pleito de 2026."
+    "misprice": "O mercado reflete adequadamente a incerteza de uma eleição presidencial polarizada e disputada voto a voto no dia da votação.",
+    "reason": "Com a eleição em andamento e margens estreitas nas pesquisas finais, a probabilidade de vitória por menos de 4% está próxima da paridade."
    }
   },
   "1194643": {
@@ -930,20 +922,6 @@
     ],
     "misprice": "O mercado já reflete adequadamente a alta probabilidade de vitória de Iliana Iotova no primeiro turno ou no eventual segundo turno.",
     "reason": "Como incumbente ou favorita apoiada pelas atuais circunstâncias políticas na Bulgária, Iotova mantém forte favoritismo nas eleições ocorridas hoje."
-   }
-  },
-  "5329577": {
-   "t": 1792930618.1141531,
-   "yes": 0.34,
-   "est": {
-    "p": 0.32,
-    "conf": "low",
-    "evidence": [
-     "As of October 23, 2026, poll trackers indicate a competitive runoff in northern states like Amapá.",
-     "Reports from early October 2026 highlight a strong showing by the right wing and Bolsonarism in regional legislative and executive sectors."
-    ],
-    "misprice": "O mercado já reflete adequadamente a competitividade do candidato da oposição e a incerteza local no Amapá.",
-    "reason": "Apesar da força histórica de Lula no Nordeste, estados da região Norte como o Amapá tendem a ser mais desafiadores para o campo progressista no atual cenário de 2026."
    }
   },
   "1194657": {
@@ -960,31 +938,45 @@
    }
   },
   "601826": {
-   "t": 1792946396.1993492,
-   "yes": 0.8175,
-   "est": {
-    "p": 0.81,
-    "conf": "low",
-    "evidence": [
-     "Eleicao presidencial brasileira em segundo turno ocorrendo em 25 de outubro de 2026.",
-     "Cobertura da midia internacional (BBC, The Guardian, NYT) em 25 de outubro de 2026 destaca disputa acirrada no segundo turno."
-    ],
-    "misprice": "O preco atual de 0.818 esta alinhado com a incognita de apuracao em tempo real das urnas no dia do pleito.",
-    "reason": "As noticias em 25 de outubro de 2026 apontam um cenario de eleicao apertada sem resultado definitivo consolidado."
-   }
-  },
-  "601819": {
-   "t": 1792946402.5730116,
-   "yes": 0.185,
+   "t": 1792956345.9667835,
+   "yes": 0.776,
    "est": {
     "p": 0.52,
     "conf": "low",
     "evidence": [
-     "The second round of the 2026 Brazilian presidential election is taking place today, October 25, 2026.",
-     "Recent polls leading up to the runoff on October 24-25, 2026, indicate an extremely tight race between Lula and his opponent."
+     "The Guardian live updates on 2026-10-25 report a tight runoff between Flávio Bolsonaro and Luiz Inácio Lula da Silva as polls close.",
+     "News reports from Reuters and BBC on 2026-10-25 confirm the presidential runoff election is currently underway in Brazil."
     ],
-    "misprice": "O mercado de 18.5 parece subestimar a alta volatilidade e o empate técnico nas urnas no dia da eleição.",
-    "reason": "Com a eleição ocorrendo hoje em disputa acirrada, a probabilidade real está próxima de 50% para qualquer dos lados."
+    "misprice": "O mercado de 77.6% parece excessivamente confiante para uma eleicao decidida por margens estreitas no dia da votacao.",
+    "reason": "Com a votacao em andamento e pesquisas indicando disputa acirrada no segundo turno, a probabilidade real esta proxima de uma moeda justa."
+   }
+  },
+  "601819": {
+   "t": 1792956352.1246753,
+   "yes": 0.225,
+   "est": {
+    "p": 0.51,
+    "conf": "low",
+    "evidence": [
+     "Brazilians are voting in the presidential runoff on October 25, 2026, pitting Lula against Bolsonaro.",
+     "Media reports indicate a tight runoff election with both candidates having already cast their votes by late afternoon."
+    ],
+    "misprice": "O mercado parece subestimar a resiliencia eleitoral de Lula em um segundo turno altamente disputado.",
+    "reason": "A eleicao esta em andamento com margens apertadas e sem resultados oficiais definitivos divulgados ate o momento."
+   }
+  },
+  "2757891": {
+   "t": 1792956370.7404604,
+   "yes": 0.575,
+   "est": {
+    "p": 0.58,
+    "conf": "low",
+    "evidence": [
+     "Serbia held a historic parliamentary election on October 25, 2026.",
+     "Aleksandar Vucic faces a strong student-led opposition movement in these elections."
+    ],
+    "misprice": "O mercado já reflete adequadamente a incerteza destas eleições cruciais em andamento.",
+    "reason": "Com as eleições ocorrendo hoje e apuração em andamento, a probabilidade permanece próxima ao preço atual de mercado enquanto aguardamos resultados concretos."
    }
   }
  },
@@ -1994,7 +1986,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806409.973745,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.33860666758729563
@@ -2255,7 +2247,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792854561.4024608,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3541592545997736
@@ -2294,7 +2286,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792854571.7345917,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32668896305166584
@@ -2607,6 +2599,136 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6107435": {
+   "q": "Will the highest temperature in Karachi be 38°C on October 26?",
+   "p": 0.08865580143487595,
+   "yes": 0.31,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956323.7995937,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.02382873126845586
+  },
+  "6123786": {
+   "q": "Will the highest temperature in Toronto be 16°C on October 26?",
+   "p": 0.17299263676361265,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956334.06702,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.18729819964614491
+  },
+  "6111457": {
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 26?",
+   "p": 0.20907968473249094,
+   "yes": 0.59,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956335.3366432,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2918536448686334
+  },
+  "6180606": {
+   "q": "Will the highest temperature in London be 17°C on October 27?",
+   "p": 0.17556475142185735,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1792956335.975657,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2580551392307222
+  },
+  "6107377": {
+   "q": "Will the highest temperature in Kuala Lumpur be 32°C on October 26?",
+   "p": 0.09005822107082484,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956336.4638512,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.053869530822809764
+  },
+  "6116619": {
+   "q": "Will the highest temperature in Los Angeles be between 76-77°F on October 26?",
+   "p": 0.20679275526512197,
+   "yes": 0.525,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956336.8414218,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3083368233129154
+  },
+  "6123803": {
+   "q": "Will the highest temperature in Mexico City be 23°C or higher on October 26?",
+   "p": 0.26169753887316505,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956337.4509304,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.14376979384064226
+  },
+  "6107157": {
+   "q": "Will the highest temperature in Tel Aviv be 28°C on October 26?",
+   "p": 0.20414286976586976,
+   "yes": 0.58,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956337.9566855,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3115304191153489
+  },
+  "6175391": {
+   "q": "Will the highest temperature in Guangzhou be 32°C on October 27?",
+   "p": 0.19282281133436674,
+   "yes": 0.535,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1792956339.2455332,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3140679786710152
+  },
+  "6107194": {
+   "q": "Will the highest temperature in Shanghai be 24°C on October 26?",
+   "p": 0.13109703194558286,
+   "yes": 0.665,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792956339.6228197,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.06023598303641431
   }
  },
  "history": [
@@ -2689,13 +2811,17 @@
   {
    "t": 1792946439.5241625,
    "equity": 1612.25
+  },
+  {
+   "t": 1792956389.4814816,
+   "equity": 1633.7
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
-  "2026-10-25": 36
+  "2026-10-25": 44
  },
  "killed": false,
- "cycles": 20
+ "cycles": 21
 }

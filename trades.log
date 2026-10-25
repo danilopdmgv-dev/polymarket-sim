@@ -208,3 +208,12 @@
 2026-10-25 16:39:49Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 16:39:49Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-25 16:40:39Z ciclo 20: lidos=600 filtro=59 llm=8 clima=6 compras=4 vendas=4 descartados={'categoria_Esportes': 171, 'esporte_vivo': 21, 'combinado': 2, 'cripto': 18, 'clima_sem_modelo': 3} equity=$1612.25
+2026-10-25 19:24:40Z SELL NO [take-profit] Will Flávio Bolsonaro win the second round of the  @ 0.739 pnl=$+7.10
+2026-10-25 19:24:50Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Max retries exceeded with url: /
+2026-10-25 19:24:50Z erro saida Will the highest temperature in Beijing : sem modelo de clima
+2026-10-25 19:25:00Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 19:25:10Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 19:25:10Z erro saida Will the highest temperature in Wellingt: sem modelo de clima
+2026-10-25 19:25:23Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 19:25:31Z erro geocode Seoul (Incheon): HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 19:26:29Z ciclo 21: lidos=600 filtro=60 llm=8 clima=15 compras=0 vendas=1 descartados={'esporte_vivo': 29, 'categoria_Esportes': 113, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1633.70
