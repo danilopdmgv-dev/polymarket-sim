@@ -217,3 +217,13 @@
 2026-10-25 19:25:23Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 19:25:31Z erro geocode Seoul (Incheon): HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-25 19:26:29Z ciclo 21: lidos=600 filtro=60 llm=8 clima=15 compras=0 vendas=1 descartados={'esporte_vivo': 29, 'categoria_Esportes': 113, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1633.70
+2026-10-25 21:57:44Z SELL NO [stop-loss] Will the highest temperature in London be 17°C on  @ 0.318 pnl=$-5.39
+2026-10-25 21:57:49Z BUY NO [clima] Will the highest temperature in Chengdu be 20°C on @ 0.351 $49.16 edge=0.225 conf=medium | Modelo 0.24 vs mercado 0.70
+2026-10-25 21:58:00Z erro geocode Karachi: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 21:58:11Z erro previsao geo:manila: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:58:21Z erro previsao geo:manila: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:58:32Z erro previsao geo:lucknow: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:58:42Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:58:52Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:59:03Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 21:59:57Z ciclo 22: lidos=500 filtro=43 llm=8 clima=17 compras=1 vendas=1 descartados={'esporte_vivo': 8, 'categoria_Esportes': 76, 'cripto': 10, 'combinado': 1, 'clima_sem_modelo': 4} equity=$1638.75

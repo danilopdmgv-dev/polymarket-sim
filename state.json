@@ -1,31 +1,6 @@
 {
- "cash": 1352.612560407411,
+ "cash": 1315.9090957734386,
  "positions": [
-  {
-   "mid": "6111391",
-   "q": "Will the highest temperature in London be 17°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "49674073354412444356855967079773296410827550140138957840446902896505018842705",
-   "entry": 0.4559055308777736,
-   "fair": 0.6352423613678706,
-   "shares": 39.15145848238081,
-   "cost": 17.849366464048934,
-   "t": 1792884627.9532568,
-   "mark": 0.35,
-   "conf": "medium",
-   "llm_p": 0.2245960643868824,
-   "mkt_yes": 0.575,
-   "edge": 0.17933683049009702,
-   "evidence": [
-    "Previsao Open-Meteo EGLC 2026-10-26: maxima 16.5C (1 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.22 vs mercado 0.57",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EGLC|2026-10-26",
-   "breakCount": 0
-  },
   {
    "mid": "6111413",
    "q": "Will the highest temperature in Dallas be between 80-81°F on October 26?",
@@ -62,7 +37,7 @@
    "shares": 97.10410657229716,
    "cost": 48.36743372574877,
    "t": 1792946346.0225015,
-   "mark": 0.65,
+   "mark": 0.6699999999999999,
    "conf": "medium",
    "llm_p": 0.1834296694858546,
    "mkt_yes": 0.53,
@@ -87,7 +62,7 @@
    "shares": 80.37959642612418,
    "cost": 48.36743372574877,
    "t": 1792946346.309996,
-   "mark": 0.5900000000000001,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.13697381499570827,
    "mkt_yes": 0.425,
@@ -112,7 +87,7 @@
    "shares": 89.97894907341463,
    "cost": 48.367433725748775,
    "t": 1792946347.5810776,
-   "mark": 0.52,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.18998773566157467,
    "mkt_yes": 0.5,
@@ -123,7 +98,8 @@
    "misprice": "Modelo 0.19 vs mercado 0.50",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:beijing|2026-10-26"
+   "event": "geo:beijing|2026-10-26",
+   "breakCount": 0
   },
   {
    "mid": "6107128",
@@ -136,7 +112,7 @@
    "shares": 85.05584683442802,
    "cost": 48.367433725748775,
    "t": 1792946348.4889193,
-   "mark": 0.63,
+   "mark": 0.6799999999999999,
    "conf": "medium",
    "llm_p": 0.24177599322316368,
    "mkt_yes": 0.465,
@@ -147,7 +123,32 @@
    "misprice": "Modelo 0.24 vs mercado 0.47",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "NZWN|2026-10-26"
+   "event": "NZWN|2026-10-26",
+   "breakCount": 0
+  },
+  {
+   "mid": "6107302",
+   "q": "Will the highest temperature in Chengdu be 20°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "64230440934090525477060771544692049113244877434854380705817674008789320545954",
+   "entry": 0.35056234200636877,
+   "fair": 0.5755076161075892,
+   "shares": 140.2389127845834,
+   "cost": 49.16248170619044,
+   "t": 1792965469.9570055,
+   "mark": 0.35056234200636877,
+   "conf": "medium",
+   "llm_p": 0.24082063982068486,
+   "mkt_yes": 0.7,
+   "edge": 0.2249452741012204,
+   "evidence": [
+    "Previsao Open-Meteo geo:chengdu 2026-10-26: maxima 19.6C (3 modelos, sigma 1.6)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.70",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:chengdu|2026-10-26"
   }
  ],
  "closed": [
@@ -839,6 +840,36 @@
    "pnl": 7.096501580541435,
    "closed_t": 1792956280.404862,
    "held_h": 28.24078831454118
+  },
+  {
+   "mid": "6111391",
+   "q": "Will the highest temperature in London be 17°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "49674073354412444356855967079773296410827550140138957840446902896505018842705",
+   "entry": 0.4559055308777736,
+   "fair": 0.6352423613678706,
+   "shares": 39.15145848238081,
+   "cost": 17.849366464048934,
+   "t": 1792884627.9532568,
+   "mark": 0.36,
+   "conf": "medium",
+   "llm_p": 0.2245960643868824,
+   "mkt_yes": 0.575,
+   "edge": 0.17933683049009702,
+   "evidence": [
+    "Previsao Open-Meteo EGLC 2026-10-26: maxima 16.5C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.57",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EGLC|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.318226128863755,
+   "reason": "stop-loss",
+   "pnl": -5.390349391830863,
+   "closed_t": 1792965464.2595015,
+   "held_h": 22.454529512524605
   }
  ],
  "cache": {
@@ -870,99 +901,103 @@
    }
   },
   "5340072": {
-   "t": 1792956389.4808204,
-   "yes": 0.195,
+   "t": 1792965580.1891754,
+   "yes": 0.34,
    "est": {
-    "p": 0.22,
+    "p": 0.38,
     "conf": "low",
     "evidence": [
-     "As votações do segundo turno ocorrem hoje, 25 de outubro de 2026, com Lula enfrentando o candidato da direita Flávio Bolsonaro.",
-     "O preço atual de mercado para a vitória por menos de 4% de margem é de 0.195 no dia da eleição."
+     "The second round of the presidential election takes place on October 25, 2026.",
+     "Recent news reports indicate a tight runoff between incumbent Lula and his challenger.",
+     "Market price for SIM is currently trading at 0.340."
     ],
-    "misprice": "O mercado pode estar ligeiramente subestimando a volatilidade histórica de última hora em urnas polarizadas.",
-    "reason": "A margem estreita é plausível em um pleito altamente polarizado, mas 22% reflete adequadamente a incerteza residual das urnas."
+    "misprice": "O mercado pode estar subestimando a volatilidade de última hora nas urnas em uma eleição extremamente polarizada.",
+    "reason": "Embora a corrida esteja acirrada, margens inferiores a 4% em segundos turnos no Brasil historicamente exigem cenários de empates técnicos muito específicos que continuam incertos."
    }
   },
   "5340070": {
-   "t": 1792956383.0607169,
-   "yes": 0.255,
+   "t": 1792965568.0366223,
+   "yes": 0.16,
    "est": {
-    "p": 0.22,
+    "p": 0.14,
     "conf": "low",
     "evidence": [
-     "O segundo turno das eleicoes presidenciais brasileiras ocorre em 25 de outubro de 2026.",
-     "Flávio Bolsonaro e Lula disputam o segundo turno conforme confirmado em 05 de outubro de 2026.",
-     "As votacoes do segundo turno foram encerradas no final da tarde de 25 de outubro de 2026."
+     "Eleições presidenciais do Brasil em segundo turno ocorrendo em 25 de outubro de 2026 com disputa entre Lula e Flávio Bolsonaro.",
+     "Votação estendida por duas horas pelo Tribunal Superior Eleitoral (TSE) conforme notícias de 25 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza estatistica de uma margem especifica de 4-8% em uma eleicao polarizada.",
-    "reason": "Como as eleicoes estao ocorrendo hoje e faltam apenas horas para a apuracao, a probabilidade atual baseia-se na volatilidade historica de margens estreitas."
+    "misprice": "O mercado já precifica adequadamente a incerteza estatística de uma margem específica tão estreita de 4-8% no dia da eleição.",
+    "reason": "A margem exata de 4 a 8% é um intervalo muito restrito em uma eleição polarizada, tornando o evento improvável apesar da competitividade da corrida."
    }
   },
   "5340071": {
-   "t": 1792956376.7832227,
-   "yes": 0.51,
+   "t": 1792965574.0372515,
+   "yes": 0.48,
    "est": {
-    "p": 0.51,
+    "p": 0.49,
     "conf": "low",
     "evidence": [
-     "As eleições de segundo turno no Brasil ocorrem hoje, 25 de outubro de 2026, com disputa entre Lula e Flávio Bolsonaro."
+     "As urnas fecharam recentemente em 25 de outubro de 2026, com apuração em andamento para o segundo turno entre Lula e Flávio Bolsonaro.",
+     "Relatórios indicam uma eleição extremamente acirrada com votação estendida em algumas zonas em 25 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza de uma eleição presidencial polarizada e disputada voto a voto no dia da votação.",
-    "reason": "Com a eleição em andamento e margens estreitas nas pesquisas finais, a probabilidade de vitória por menos de 4% está próxima da paridade."
+    "misprice": "O mercado já reflete adequadamente a incerteza extrema de uma eleição presidencial extremamente apertada.",
+    "reason": "Com a apuração do segundo turno em andamento e margens estreitas nas pesquisas finais, a probabilidade de vitória por menos de 4% permanece próxima à precificação atual."
    }
   },
   "1194643": {
-   "t": 1792946433.7706192,
-   "yes": 0.765,
+   "t": 1792965585.9300592,
+   "yes": 0.68,
    "est": {
-    "p": 0.78,
-    "conf": "low",
+    "p": 0.72,
+    "conf": "medium",
     "evidence": [
-     "Bulgaria holds presidential elections on 2026-10-25 amid divisions over Ukraine war and economic hardship."
+     "Bulgarian presidential election first round held on 25 Oct 2026 ended with a runoff due to low turnout.",
+     "Iliana Yotova is narrowly ahead in the first round of the vote according to Euronews on 25 Oct 2026.",
+     "Bloomberg reported on 25 Oct 2026 that the leading Bulgarian president candidate is set to win."
     ],
-    "misprice": "O mercado já reflete adequadamente a alta probabilidade de vitória de Iliana Iotova no primeiro turno ou no eventual segundo turno.",
-    "reason": "Como incumbente ou favorita apoiada pelas atuais circunstâncias políticas na Bulgária, Iotova mantém forte favoritismo nas eleições ocorridas hoje."
+    "misprice": "The market slightly underappreciates the incumbent-adjacent advantage and first-round momentum of Yotova heading into the runoff.",
+    "reason": "Yotova leads after the first round on October 25, 2026, positioning her as the favorite for the upcoming runoff."
    }
   },
   "1194657": {
-   "t": 1792946439.5235343,
-   "yes": 0.23,
+   "t": 1792965591.5132961,
+   "yes": 0.31,
    "est": {
-    "p": 0.22,
+    "p": 0.31,
     "conf": "low",
     "evidence": [
-     "Bulgarian presidential elections are scheduled for the fall of 2026."
+     "Bulgarian presidential elections are scheduled for the Fall of 2026."
     ],
-    "misprice": "O mercado ja reflete adequadamente a incerteza padrao para candidatos alternativos nesta fase.",
-    "reason": "Falta de novas evidencias concretas ou pesquisas recentes especificas sobre Andrey Gyurov para justificar um desvio significativo do preco atual."
+    "misprice": "O mercado reflete adequadamente a incerteza atual sobre as candidaturas e alianças políticas para o pleito.",
+    "reason": "Na ausência de novas evidências concretas ou pesquisas recentes específicas para Andrey Gyurov, mantenho-me alinhado à probabilidade implícita do mercado."
    }
   },
   "601826": {
-   "t": 1792956345.9667835,
-   "yes": 0.776,
+   "t": 1792965555.1243885,
+   "yes": 0.6255,
    "est": {
-    "p": 0.52,
+    "p": 0.6,
     "conf": "low",
     "evidence": [
-     "The Guardian live updates on 2026-10-25 report a tight runoff between Flávio Bolsonaro and Luiz Inácio Lula da Silva as polls close.",
-     "News reports from Reuters and BBC on 2026-10-25 confirm the presidential runoff election is currently underway in Brazil."
+     "Eleicao presidencial no Brasil em segundo turno ocorrendo em 25 de Outubro de 2026",
+     "Urnas com horario de votacao estendido conforme cobertura da Reuters e DW em 25 de Outubro de 2026"
     ],
-    "misprice": "O mercado de 77.6% parece excessivamente confiante para uma eleicao decidida por margens estreitas no dia da votacao.",
-    "reason": "Com a votacao em andamento e pesquisas indicando disputa acirrada no segundo turno, a probabilidade real esta proxima de uma moeda justa."
+    "misprice": "O mercado reflete adequadamente a incerteza de uma eleicao muito disputada em apuracao.",
+    "reason": "A disputa acirrada entre Lula e Flavio Bolsonaro no segundo turno mantem probabilidades proximas aos precos atuais de mercado."
    }
   },
   "601819": {
-   "t": 1792956352.1246753,
-   "yes": 0.225,
+   "t": 1792965561.689076,
+   "yes": 0.372,
    "est": {
-    "p": 0.51,
+    "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Brazilians are voting in the presidential runoff on October 25, 2026, pitting Lula against Bolsonaro.",
-     "Media reports indicate a tight runoff election with both candidates having already cast their votes by late afternoon."
+     "The second round of the 2026 Brazilian presidential election is underway on October 25, 2026, with live results being reported.",
+     "Supreme Court extended voting hours during the runoff between Lula and the Bolsonaro challenger on October 25, 2026.",
+     "Market price currently sits at 0.372 close to election night developments."
     ],
-    "misprice": "O mercado parece subestimar a resiliencia eleitoral de Lula em um segundo turno altamente disputado.",
-    "reason": "A eleicao esta em andamento com margens apertadas e sem resultados oficiais definitivos divulgados ate o momento."
+    "misprice": "O mercado já reflete com precisão a incerteza e a volatilidade da apuração em tempo real no dia da eleição.",
+    "reason": "Com a votação ainda em andamento e apuração inicial em curso em 25 de outubro de 2026, a probabilidade permanece ligeiramente abaixo de 50% refletindo um cenário altamente competitivo."
    }
   },
   "2757891": {
@@ -977,6 +1012,20 @@
     ],
     "misprice": "O mercado já reflete adequadamente a incerteza destas eleições cruciais em andamento.",
     "reason": "Com as eleições ocorrendo hoje e apuração em andamento, a probabilidade permanece próxima ao preço atual de mercado enquanto aguardamos resultados concretos."
+   }
+  },
+  "5794294": {
+   "t": 1792965597.3096163,
+   "yes": 0.247,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 20 a 27 de outubro de 2026.",
+     "O mercado atual atribui 24.7% de probabilidade para a faixa de 340-359 tweets."
+    ],
+    "misprice": "O mercado reflete uma estimativa razoavel baseada na media historica de atividade de Elon Musk na plataforma.",
+    "reason": "A faixa de 340 a 359 tweets em 7 dias representa uma media muito alta (~48-51 tweets/dia), tornando o evento um cenario de cauda ligeiramente acima do padrao tipico, mas plausivel."
    }
   }
  },
@@ -2136,7 +2185,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792824273.2174969,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2961707958558728
@@ -2729,6 +2778,109 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.06023598303641431
+  },
+  "6107302": {
+   "q": "Will the highest temperature in Chengdu be 20°C on October 26?",
+   "p": 0.24082063982068486,
+   "yes": 0.7,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965469.9569604,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.37410088212416504
+  },
+  "6107357": {
+   "q": "Will the highest temperature in Amsterdam be 13°C on October 26?",
+   "p": 0.2269243310688585,
+   "yes": 0.59,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965469.9572423,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36818055880212347
+  },
+  "6107400": {
+   "q": "Will the highest temperature in Cape Town be 21°C on October 26?",
+   "p": 0.2099459290211757,
+   "yes": 0.485,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965544.3240871,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.33951159533680264
+  },
+  "6111435": {
+   "q": "Will the highest temperature in Austin be between 82-83°F on October 26?",
+   "p": 0.20925500759551763,
+   "yes": 0.53,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965545.8725057,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2754345643185643
+  },
+  "6175220": {
+   "q": "Will the highest temperature in Warsaw be 13°C on October 27?",
+   "p": 0.1727479506298938,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1792965546.361146,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.23933495536873373
+  },
+  "6123774": {
+   "q": "Will the highest temperature in Buenos Aires be 18°C on October 26?",
+   "p": 0.16160144702973334,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965547.1023965,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.17931717282862247
+  },
+  "6111424": {
+   "q": "Will the highest temperature in Miami be between 82-83°F on October 26?",
+   "p": 0.21907944923089773,
+   "yes": 0.53,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792965548.8371477,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2871912818045782
+  },
+  "5794294": {
+   "q": "Will Elon Musk post 340-359 tweets from October 20 to October 27, 2026?",
+   "p": 0.22,
+   "yes": 0.247,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793116800.0,
+   "t": 1792965597.3096201,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -2815,13 +2967,17 @@
   {
    "t": 1792956389.4814816,
    "equity": 1633.7
+  },
+  {
+   "t": 1792965597.3101273,
+   "equity": 1638.75
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
-  "2026-10-25": 44
+  "2026-10-25": 52
  },
  "killed": false,
- "cycles": 21
+ "cycles": 22
 }
