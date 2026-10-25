@@ -182,3 +182,15 @@
 2026-10-25 06:36:31Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 06:36:41Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 06:37:31Z ciclo 18: lidos=800 filtro=43 llm=8 clima=9 compras=1 vendas=1 descartados={'categoria_Esportes': 222, 'esporte_vivo': 9, 'cripto': 17, 'combinado': 11, 'clima_sem_modelo': 4} equity=$1683.42
+2026-10-25 12:15:08Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 12:15:18Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 12:15:18Z erro saida Will the highest temperature in Toronto : sem modelo de clima
+2026-10-25 12:15:18Z SELL NO [stop-loss] Will the highest temperature in London be 14°C on  @ 0.010 pnl=$-49.10
+2026-10-25 12:15:22Z BUY NO [clima] Will the highest temperature in Dallas be between  @ 0.488 $49.17 edge=0.148 conf=medium | Modelo 0.25 vs mercado 0.54
+2026-10-25 12:15:31Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 12:15:41Z erro previsao geo:shenzhen: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 12:15:52Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 12:16:00Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 12:16:11Z erro previsao geo:chongqing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 12:16:19Z erro geocode Cape Town: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 12:17:09Z ciclo 19: lidos=700 filtro=45 llm=8 clima=7 compras=1 vendas=1 descartados={'categoria_Esportes': 267, 'esporte_vivo': 22, 'cripto': 19, 'combinado': 8, 'clima_sem_modelo': 4} equity=$1639.11
