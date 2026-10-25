@@ -162,3 +162,11 @@
 2026-10-24 23:31:28Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-24 23:31:28Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-24 23:32:18Z ciclo 16: lidos=600 filtro=48 llm=8 clima=7 compras=2 vendas=0 descartados={'esporte_vivo': 27, 'categoria_Esportes': 126, 'cripto': 11, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1699.94
+2026-10-25 01:28:50Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 01:29:00Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 01:29:00Z erro saida Will the highest temperature in Toronto : sem modelo de clima
+2026-10-25 01:29:11Z erro geocode Jeddah: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-25 01:29:23Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 01:29:33Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 01:29:43Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 01:30:33Z ciclo 17: lidos=600 filtro=40 llm=8 clima=6 compras=0 vendas=0 descartados={'categoria_Esportes': 131, 'cripto': 11, 'combinado': 7, 'clima_sem_modelo': 3} equity=$1698.27
