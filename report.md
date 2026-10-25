@@ -1,16 +1,16 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-10-25 12:17 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-10-25 16:40 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $1639.11 (-18.0%) | **Cash:** $1453.37 | **Abertas:** 7 | **Ciclos:** 19
-**Fechadas:** 18 | **Win rate:** 6% | **PnL realizado:** $-354.50
-**Chamadas ao LLM hoje:** 27
+**Equity:** $1612.25 (-19.4%) | **Cash:** $1293.50 | **Abertas:** 7 | **Ciclos:** 20
+**Fechadas:** 22 | **Win rate:** 5% | **PnL realizado:** $-393.99
+**Chamadas ao LLM hoje:** 36
 
 ## Por motivo de saida
-- stop-loss: 17 trades, PnL $-379.31
+- stop-loss: 21 trades, PnL $-418.80
 - take-profit: 1 trades, PnL $+24.80
 
 ## Por categoria
-- Clima: 15 trades, win 7%, PnL $-290.86
+- Clima: 19 trades, win 5%, PnL $-330.35
 - Outros: 1 trades, win 0%, PnL $-18.51
 - Politica: 2 trades, win 0%, PnL $-45.13
 
@@ -27,22 +27,22 @@ _Atualizado 2026-10-25 12:17 UTC. SIMULACAO, sem dinheiro real._
 - Clima (29): sigma largo 0.4065 | sigma estreito 0.3677 | mercado 0.2430
 
 ## Posicoes abertas
-- NO Will the highest temperature in Atlanta be between 70-71°F o | entrada 0.45, agora 0.41, LLM 0.17, edge 0.22, medium | Modelo 0.17 vs mercado 0.58
-- NO Will the highest temperature in Helsinki be 12°C on October  | entrada 0.68, agora 0.80, LLM 0.20, edge 0.06, medium | Modelo 0.20 vs mercado 0.34
-- NO Will Flávio Bolsonaro win the second round of the 2026 Brazi | entrada 0.65, agora 0.68, LLM 0.12, edge 0.11, medium | Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margi
-- NO Will the highest temperature in Toronto be 18°C on October 2 | entrada 0.61, agora 0.47, LLM 0.19, edge 0.11, medium | Modelo 0.19 vs mercado 0.42
-- NO Will the highest temperature in Dallas be between 80-81°F on | entrada 0.45, agora 0.36, LLM 0.24, edge 0.17, medium | Modelo 0.24 vs mercado 0.59
-- NO Will the highest temperature in London be 17°C on October 26 | entrada 0.46, agora 0.38, LLM 0.22, edge 0.18, medium | Modelo 0.22 vs mercado 0.57
-- NO Will the highest temperature in Dallas be between 80-81°F on | entrada 0.49, agora 0.49, LLM 0.25, edge 0.15, medium | Modelo 0.25 vs mercado 0.54
+- NO Will Flávio Bolsonaro win the second round of the 2026 Brazi | entrada 0.65, agora 0.72, LLM 0.12, edge 0.11, medium | Market overprices a specific 4-8% blowout range while latest polls show a dead heat within the margi
+- NO Will the highest temperature in London be 17°C on October 26 | entrada 0.46, agora 0.39, LLM 0.22, edge 0.18, medium | Modelo 0.22 vs mercado 0.57
+- NO Will the highest temperature in Dallas be between 80-81°F on | entrada 0.49, agora 0.52, LLM 0.25, edge 0.15, medium | Modelo 0.25 vs mercado 0.54
+- NO Will the highest temperature in Amsterdam be 14°C on October | entrada 0.50, agora 0.50, LLM 0.18, edge 0.18, medium | Modelo 0.18 vs mercado 0.53
+- NO Will the highest temperature in Paris be 15°C on October 26? | entrada 0.60, agora 0.60, LLM 0.14, edge 0.15, medium | Modelo 0.14 vs mercado 0.42
+- NO Will the highest temperature in Beijing be 19°C on October 2 | entrada 0.54, agora 0.54, LLM 0.19, edge 0.15, medium | Modelo 0.19 vs mercado 0.50
+- NO Will the highest temperature in Wellington be 17°C on Octobe | entrada 0.57, agora 0.57, LLM 0.24, edge 0.10, medium | Modelo 0.24 vs mercado 0.47
 
 ## Ultimas 10 fechadas
+- NO Will the highest temperature in Dallas be between  | stop-loss | $-5.76 | 22.4h
+- NO Will the highest temperature in Toronto be 18°C on | stop-loss | $-9.33 | 22.4h
+- NO Will the highest temperature in Helsinki be 12°C o | stop-loss | $-7.94 | 33.9h
+- NO Will the highest temperature in Atlanta be between | stop-loss | $-16.45 | 48.4h
 - NO Will the highest temperature in London be 14°C on  | stop-loss | $-49.10 | 5.7h
 - NO Will the highest temperature in New York City be b | stop-loss | $-5.42 | 7.1h
 - NO Will the highest temperature in Amsterdam be 13°C  | stop-loss | $-5.63 | 19.2h
 - NO Will the highest temperature in Atlanta be between | take-profit | $+24.80 | 38.7h
 - NO Will the highest temperature in Shanghai be 23°C o | stop-loss | $-7.11 | 3.1h
 - NO Will the highest temperature in Los Angeles be bet | stop-loss | $-49.47 | 38.4h
-- NO Will the highest temperature in New York City be b | stop-loss | $-8.54 | 15.8h
-- NO Will the highest temperature in Lucknow be 31°C on | stop-loss | $-17.51 | 4.9h
-- NO Will the highest temperature in Singapore be 33°C  | stop-loss | $-8.28 | 13.9h
-- NO Will the highest temperature in Chengdu be 19°C on | stop-loss | $-29.03 | 21.9h

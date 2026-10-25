@@ -194,3 +194,17 @@
 2026-10-25 12:16:11Z erro previsao geo:chongqing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 12:16:19Z erro geocode Cape Town: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-25 12:17:09Z ciclo 19: lidos=700 filtro=45 llm=8 clima=7 compras=1 vendas=1 descartados={'categoria_Esportes': 267, 'esporte_vivo': 22, 'cripto': 19, 'combinado': 8, 'clima_sem_modelo': 4} equity=$1639.11
+2026-10-25 16:38:52Z SELL NO [stop-loss] Will the highest temperature in Atlanta be between @ 0.065 pnl=$-16.45
+2026-10-25 16:38:52Z SELL NO [stop-loss] Will the highest temperature in Helsinki be 12°C o @ 0.386 pnl=$-7.94
+2026-10-25 16:39:00Z SELL NO [stop-loss] Will the highest temperature in Toronto be 18°C on @ 0.288 pnl=$-9.33
+2026-10-25 16:39:00Z SELL NO [stop-loss] Will the highest temperature in Dallas be between  @ 0.301 pnl=$-5.76
+2026-10-25 16:39:06Z BUY NO [clima] Will the highest temperature in Amsterdam be 14°C  @ 0.498 $48.37 edge=0.180 conf=medium | Modelo 0.18 vs mercado 0.53
+2026-10-25 16:39:06Z BUY NO [clima] Will the highest temperature in Paris be 15°C on O @ 0.602 $48.37 edge=0.146 conf=medium | Modelo 0.14 vs mercado 0.42
+2026-10-25 16:39:07Z BUY NO [clima] Will the highest temperature in Beijing be 19°C on @ 0.538 $48.37 edge=0.148 conf=medium | Modelo 0.19 vs mercado 0.50
+2026-10-25 16:39:08Z BUY NO [clima] Will the highest temperature in Wellington be 17°C @ 0.569 $48.37 edge=0.100 conf=medium | Modelo 0.24 vs mercado 0.47
+2026-10-25 16:39:19Z erro previsao geo:lucknow: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 16:39:29Z erro previsao geo:lucknow: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 16:39:39Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 16:39:49Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 16:39:49Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-25 16:40:39Z ciclo 20: lidos=600 filtro=59 llm=8 clima=6 compras=4 vendas=4 descartados={'categoria_Esportes': 171, 'esporte_vivo': 21, 'combinado': 2, 'cripto': 18, 'clima_sem_modelo': 3} equity=$1612.25
