@@ -1,5 +1,5 @@
 {
- "cash": 1315.9090957734386,
+ "cash": 1358.9369892308757,
  "positions": [
   {
    "mid": "6111413",
@@ -12,7 +12,7 @@
    "shares": 100.84120810679843,
    "cost": 49.17315946290402,
    "t": 1792930522.875032,
-   "mark": 0.56,
+   "mark": 0.5700000000000001,
    "conf": "medium",
    "llm_p": 0.24665307441329937,
    "mkt_yes": 0.54,
@@ -27,31 +27,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107358",
-   "q": "Will the highest temperature in Amsterdam be 14°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "112974978273796812964644336970360047800165693923095938849370869275500029902867",
-   "entry": 0.49809874610954424,
-   "fair": 0.6779421983084872,
-   "shares": 97.10410657229716,
-   "cost": 48.36743372574877,
-   "t": 1792946346.0225015,
-   "mark": 0.6699999999999999,
-   "conf": "medium",
-   "llm_p": 0.1834296694858546,
-   "mkt_yes": 0.53,
-   "edge": 0.179843452198943,
-   "evidence": [
-    "Previsao Open-Meteo EHAM 2026-10-26: maxima 12.8C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.18 vs mercado 0.53",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EHAM|2026-10-26",
-   "breakCount": 0
-  },
-  {
    "mid": "6107096",
    "q": "Will the highest temperature in Paris be 15°C on October 26?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 80.37959642612418,
    "cost": 48.36743372574877,
    "t": 1792946346.309996,
-   "mark": 0.5800000000000001,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.13697381499570827,
    "mkt_yes": 0.425,
@@ -87,7 +62,7 @@
    "shares": 89.97894907341463,
    "cost": 48.367433725748775,
    "t": 1792946347.5810776,
-   "mark": 0.53,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.18998773566157467,
    "mkt_yes": 0.5,
@@ -102,31 +77,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107128",
-   "q": "Will the highest temperature in Wellington be 17°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "68612913918374116684033001109293946250249320081214434311629226555859770888183",
-   "entry": 0.5686550134513634,
-   "fair": 0.6689344040661018,
-   "shares": 85.05584683442802,
-   "cost": 48.367433725748775,
-   "t": 1792946348.4889193,
-   "mark": 0.6799999999999999,
-   "conf": "medium",
-   "llm_p": 0.24177599322316368,
-   "mkt_yes": 0.465,
-   "edge": 0.10027939061473845,
-   "evidence": [
-    "Previsao Open-Meteo NZWN 2026-10-26: maxima 16.1C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "NZWN|2026-10-26",
-   "breakCount": 0
-  },
-  {
    "mid": "6107302",
    "q": "Will the highest temperature in Chengdu be 20°C on October 26?",
    "cat": "Clima",
@@ -137,7 +87,7 @@
    "shares": 140.2389127845834,
    "cost": 49.16248170619044,
    "t": 1792965469.9570055,
-   "mark": 0.35056234200636877,
+   "mark": 0.30000000000000004,
    "conf": "medium",
    "llm_p": 0.24082063982068486,
    "mkt_yes": 0.7,
@@ -149,6 +99,54 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "geo:chengdu|2026-10-26"
+  },
+  {
+   "mid": "6111456",
+   "q": "Will the highest temperature in Houston be between 80-81°F on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "44556159159741626736796620393755175702382421472192451293278587246069903147534",
+   "entry": 0.5980086417108279,
+   "fair": 0.7007026074939154,
+   "shares": 83.04031229646458,
+   "cost": 49.658824363651746,
+   "t": 1792972216.8368235,
+   "mark": 0.5980086417108279,
+   "conf": "medium",
+   "llm_p": 0.2021623208434743,
+   "mkt_yes": 0.445,
+   "edge": 0.10269396578308754,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-10-26: maxima 80.6F (3 modelos, sigma 3.9)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-10-26"
+  },
+  {
+   "mid": "6107217",
+   "q": "Will the highest temperature in Milan be 16°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "39546058189198404080338106587352711932721053788982485580209360823073277548196",
+   "entry": 0.5274937078016161,
+   "fair": 0.6376346558647453,
+   "shares": 94.14107434685803,
+   "cost": 49.658824363651746,
+   "t": 1792972217.4568896,
+   "mark": 0.5274937078016161,
+   "conf": "medium",
+   "llm_p": 0.27060890689209116,
+   "mkt_yes": 0.5,
+   "edge": 0.11014094806312924,
+   "evidence": [
+    "Previsao Open-Meteo LIMC 2026-10-26: maxima 15.4C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.27 vs mercado 0.50",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LIMC|2026-10-26"
   }
  ],
  "closed": [
@@ -870,6 +868,66 @@
    "pnl": -5.390349391830863,
    "closed_t": 1792965464.2595015,
    "held_h": 22.454529512524605
+  },
+  {
+   "mid": "6107358",
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "112974978273796812964644336970360047800165693923095938849370869275500029902867",
+   "entry": 0.49809874610954424,
+   "fair": 0.6779421983084872,
+   "shares": 97.10410657229716,
+   "cost": 48.36743372574877,
+   "t": 1792946346.0225015,
+   "mark": 0.69,
+   "conf": "medium",
+   "llm_p": 0.1834296694858546,
+   "mkt_yes": 0.53,
+   "edge": 0.179843452198943,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-26: maxima 12.8C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.53",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.6372452422046717,
+   "reason": "take-profit",
+   "pnl": 13.511696185982984,
+   "closed_t": 1792972211.4153368,
+   "held_h": 7.18483134329319
+  },
+  {
+   "mid": "6107128",
+   "q": "Will the highest temperature in Wellington be 17°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "68612913918374116684033001109293946250249320081214434311629226555859770888183",
+   "entry": 0.5686550134513634,
+   "fair": 0.6689344040661018,
+   "shares": 85.05584683442802,
+   "cost": 48.367433725748775,
+   "t": 1792946348.4889193,
+   "mark": 0.998,
+   "conf": "medium",
+   "llm_p": 0.24177599322316368,
+   "mkt_yes": 0.465,
+   "edge": 0.10027939061473845,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-26: maxima 16.1C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.9460421037209462,
+   "reason": "take-profit",
+   "pnl": 32.098978547260096,
+   "closed_t": 1792972213.5684435,
+   "held_h": 7.184744312432077
   }
  ],
  "cache": {
@@ -901,18 +959,16 @@
    }
   },
   "5340072": {
-   "t": 1792965580.1891754,
-   "yes": 0.34,
+   "t": 1792972293.80078,
+   "yes": 0.865,
    "est": {
-    "p": 0.38,
+    "p": 0.85,
     "conf": "low",
     "evidence": [
-     "The second round of the presidential election takes place on October 25, 2026.",
-     "Recent news reports indicate a tight runoff between incumbent Lula and his challenger.",
-     "Market price for SIM is currently trading at 0.340."
+     "As urnas fecharam em 25 de out de 2026 e a apuracao esta emandamento com parcial inicial."
     ],
-    "misprice": "O mercado pode estar subestimando a volatilidade de última hora nas urnas em uma eleição extremamente polarizada.",
-    "reason": "Embora a corrida esteja acirrada, margens inferiores a 4% em segundos turnos no Brasil historicamente exigem cenários de empates técnicos muito específicos que continuam incertos."
+    "misprice": "O mercado ja reflete adequadamente a alta probabilidade de uma eleicao extremamente apertada conforme as parciais.",
+    "reason": "A margem estreita e o cenario mais provavel segundo as pesquisas e apuracao inicial, mas ha incerteza inerente no final da contagem."
    }
   },
   "5340070": {
@@ -944,31 +1000,31 @@
    }
   },
   "1194643": {
-   "t": 1792965585.9300592,
+   "t": 1792972299.612055,
    "yes": 0.68,
    "est": {
-    "p": 0.72,
-    "conf": "medium",
+    "p": 0.69,
+    "conf": "low",
     "evidence": [
-     "Bulgarian presidential election first round held on 25 Oct 2026 ended with a runoff due to low turnout.",
-     "Iliana Yotova is narrowly ahead in the first round of the vote according to Euronews on 25 Oct 2026.",
-     "Bloomberg reported on 25 Oct 2026 that the leading Bulgarian president candidate is set to win."
+     "Bulgarian presidential first round headed to a runoff due to record low turnout reported on 25 Oct 2026",
+     "Iliana Yotova is narrowly ahead after the first round on 25 Oct 2026"
     ],
-    "misprice": "The market slightly underappreciates the incumbent-adjacent advantage and first-round momentum of Yotova heading into the runoff.",
-    "reason": "Yotova leads after the first round on October 25, 2026, positioning her as the favorite for the upcoming runoff."
+    "misprice": "O mercado já reflete adequadamente a liderança inicial de Yotova e a ida para o segundo turno.",
+    "reason": "Yotova lidera o primeiro turno conforme esperado, mas o segundo turno mantém incerteza padrão para eleições búlgaras."
    }
   },
   "1194657": {
-   "t": 1792965591.5132961,
-   "yes": 0.31,
+   "t": 1792972305.4297774,
+   "yes": 0.32,
    "est": {
-    "p": 0.31,
-    "conf": "low",
+    "p": 0.35,
+    "conf": "medium",
     "evidence": [
-     "Bulgarian presidential elections are scheduled for the Fall of 2026."
+     "Exit polls from The Sofia Globe on Oct 25, 2026 show Yotova at 35.3% and Gyurov at 32.4% in the first round.",
+     "CNN reported on Oct 25, 2026 that the Bulgarian presidential race is heading to a runoff due to record low turnout."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza atual sobre as candidaturas e alianças políticas para o pleito.",
-    "reason": "Na ausência de novas evidências concretas ou pesquisas recentes específicas para Andrey Gyurov, mantenho-me alinhado à probabilidade implícita do mercado."
+    "misprice": "Market underprices Gyurov's runoff conversion potential given a close 3-point first-round deficit.",
+    "reason": "Gyurov secured 32.4% in the first round, placing him closely behind Yotova and giving him a viable path in the upcoming runoff."
    }
   },
   "601826": {
@@ -1015,17 +1071,74 @@
    }
   },
   "5794294": {
-   "t": 1792965597.3096163,
-   "yes": 0.247,
+   "t": 1792972323.4723802,
+   "yes": 0.2335,
    "est": {
     "p": 0.22,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 20 a 27 de outubro de 2026.",
-     "O mercado atual atribui 24.7% de probabilidade para a faixa de 340-359 tweets."
+     "O mercado atual precifica o SIM em 23.4 para uma faixa específica de 340-359 tweets.",
+     "Faltam menos de 2 dias para o encerramento do período de contagem em 27 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete uma estimativa razoavel baseada na media historica de atividade de Elon Musk na plataforma.",
-    "reason": "A faixa de 340 a 359 tweets em 7 dias representa uma media muito alta (~48-51 tweets/dia), tornando o evento um cenario de cauda ligeiramente acima do padrao tipico, mas plausivel."
+    "misprice": "Não há evidência concreta de desvio estatístico significativo em relação ao preço atual do mercado.",
+    "reason": "A faixa estreita de 20 tweets torna a probabilidade intrinsecamente baixa, alinhada com a avaliação de mercado."
+   }
+  },
+  "5340073": {
+   "t": 1792972287.8006353,
+   "yes": 0.1255,
+   "est": {
+    "p": 0.12,
+    "conf": "low",
+    "evidence": [
+     "Second round of the Brazilian presidential election takes place on October 25, 2026.",
+     "Market prices current probability of a 4-8% margin of victory for Lula at approximately 12.6%.",
+     "Recent reports describe the runoff election as tight and tense between Lula and the Bolsonaro camp."
+    ],
+    "misprice": "O mercado já reflete adequadamente a incerteza estatística de uma margem específica tão estreita (4-8%) em uma eleição polarizada.",
+    "reason": "A margem exata de 4 a 8% é um resultado específico e de alta volatilidade em eleições extremamente apertadas, tornando essa faixa estatisticamente improvável."
+   }
+  },
+  "5951577": {
+   "t": 1792972311.343495,
+   "yes": 0.121,
+   "est": {
+    "p": 0.12,
+    "conf": "low",
+    "evidence": [
+     "The second round of the presidential election takes place on October 25, 2026.",
+     "Flávio Bolsonaro advanced to the second round against Lula following the October 4, 2026 first round."
+    ],
+    "misprice": "Market pricing at 12.1% accurately reflects the conditional probability of a narrow 4-6% win range given high polarization.",
+    "reason": "A 4-6% margin is a specific outcome range in a tight runoff, and current odds appropriately discount this specific slice of possible victory margins."
+   }
+  },
+  "1812607": {
+   "t": 1792972317.6377769,
+   "yes": 0.755,
+   "est": {
+    "p": 0.73,
+    "conf": "low",
+    "evidence": [
+     "Global News poll on Fri, 23 Oct 2026 shows Olivia Chow leading rival Brad Bradford on the eve of the election.",
+     "Toronto mayoral election is scheduled for October 26, 2026, with recent news highlighting a tight final stretch against billionaire-endorsed challengers."
+    ],
+    "misprice": "The market is slightly overestimating Chow's final margin given late momentum and consolidation around her main challenger Bradford.",
+    "reason": "As the incumbent with a solid late poll lead, Olivia Chow remains the clear favorite, though a competitive final push introduces slight uncertainty."
+   }
+  },
+  "5951576": {
+   "t": 1792972329.579165,
+   "yes": 0.8245,
+   "est": {
+    "p": 0.82,
+    "conf": "low",
+    "evidence": [
+     "The second round of the Brazilian presidential election takes place on October 25, 2026.",
+     "Voting tallying is currently underway as of late October 25, 2026."
+    ],
+    "misprice": "O mercado já reflete com alta precisão a probabilidade estatística atual com base nas projeções em tempo real.",
+    "reason": "As apurações parciais indicam Lula na liderança com margem estreita dentro da faixa prevista pelo mercado."
    }
   }
  },
@@ -2061,7 +2174,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806410.5550015,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3209925869931864
@@ -2159,7 +2272,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792824262.9978483,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.27701859580064514
@@ -2198,7 +2311,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792824273.3194327,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34457799633398584
@@ -2399,7 +2512,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792891752.90128,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.08509128468396254
@@ -2881,6 +2994,80 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6111456": {
+   "q": "Will the highest temperature in Houston be between 80-81°F on October 26?",
+   "p": 0.2021623208434743,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792972216.8367705,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3304751721096681
+  },
+  "6107217": {
+   "q": "Will the highest temperature in Milan be 16°C on October 26?",
+   "p": 0.27060890689209116,
+   "yes": 0.5,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792972217.4568357,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36976132865166644
+  },
+  "5340073": {
+   "q": "Will Luiz Inácio Lula da Silva win the second round of the 2026 Brazilian presidential election by 4–8%?",
+   "p": 0.12,
+   "yes": 0.1255,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792972287.8006387,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5951577": {
+   "q": "Will Luiz Inácio Lula da Silva win the second round of the 2026 Brazilian presidential election by 4–6%?",
+   "p": 0.12,
+   "yes": 0.121,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792972311.3434994,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "1812607": {
+   "q": "Will Olivia Chow win the 2026 Toronto mayoral election?",
+   "p": 0.73,
+   "yes": 0.755,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793073540.0,
+   "t": 1792972317.6377802,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5951576": {
+   "q": "Will Luiz Inácio Lula da Silva win the second round of the 2026 Brazilian presidential election by 2–4%?",
+   "p": 0.82,
+   "yes": 0.8245,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1792987140.0,
+   "t": 1792972329.5791686,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -2971,13 +3158,17 @@
   {
    "t": 1792965597.3101273,
    "equity": 1638.75
+  },
+  {
+   "t": 1792972329.5797112,
+   "equity": 1655.29
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
-  "2026-10-25": 52
+  "2026-10-25": 60
  },
  "killed": false,
- "cycles": 22
+ "cycles": 23
 }

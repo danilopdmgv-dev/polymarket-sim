@@ -227,3 +227,15 @@
 2026-10-25 21:58:52Z erro previsao LTAC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 21:59:03Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 21:59:57Z ciclo 22: lidos=500 filtro=43 llm=8 clima=17 compras=1 vendas=1 descartados={'esporte_vivo': 8, 'categoria_Esportes': 76, 'cripto': 10, 'combinado': 1, 'clima_sem_modelo': 4} equity=$1638.75
+2026-10-25 23:50:11Z SELL NO [take-profit] Will the highest temperature in Amsterdam be 14°C  @ 0.637 pnl=$+13.51
+2026-10-25 23:50:13Z SELL NO [take-profit] Will the highest temperature in Wellington be 17°C @ 0.946 pnl=$+32.10
+2026-10-25 23:50:16Z BUY NO [clima] Will the highest temperature in Houston be between @ 0.598 $49.66 edge=0.103 conf=medium | Modelo 0.20 vs mercado 0.45
+2026-10-25 23:50:17Z BUY NO [clima] Will the highest temperature in Milan be 16°C on O @ 0.527 $49.66 edge=0.110 conf=medium | Modelo 0.27 vs mercado 0.50
+2026-10-25 23:50:27Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:50:37Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:50:51Z erro previsao geo:cape town: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:51:01Z erro previsao geo:cape town: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:51:11Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:51:21Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-25 23:51:21Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-25 23:52:09Z ciclo 23: lidos=500 filtro=33 llm=8 clima=8 compras=2 vendas=2 descartados={'categoria_Esportes': 64, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1655.29
