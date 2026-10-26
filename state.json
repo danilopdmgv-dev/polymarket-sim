@@ -1,5 +1,5 @@
 {
- "cash": 1317.4678323475875,
+ "cash": 1293.089764068117,
  "positions": [
   {
    "mid": "6111413",
@@ -12,7 +12,7 @@
    "shares": 100.84120810679843,
    "cost": 49.17315946290402,
    "t": 1792930522.875032,
-   "mark": 0.62,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.24665307441329937,
    "mkt_yes": 0.54,
@@ -27,31 +27,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107272",
-   "q": "Will the highest temperature in Beijing be 19°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "98068196676448398698248220385787951459091065375792053604308610702895793831575",
-   "entry": 0.537541660842086,
-   "fair": 0.6860073586030552,
-   "shares": 89.97894907341463,
-   "cost": 48.367433725748775,
-   "t": 1792946347.5810776,
-   "mark": 0.6,
-   "conf": "medium",
-   "llm_p": 0.18998773566157467,
-   "mkt_yes": 0.5,
-   "edge": 0.14846569776096918,
-   "evidence": [
-    "Previsao Open-Meteo geo:beijing 2026-10-26: maxima 17.8C (3 modelos, sigma 1.6)"
-   ],
-   "misprice": "Modelo 0.19 vs mercado 0.50",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:beijing|2026-10-26",
-   "breakCount": 0
-  },
-  {
    "mid": "6111456",
    "q": "Will the highest temperature in Houston be between 80-81°F on October 26?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 83.04031229646458,
    "cost": 49.658824363651746,
    "t": 1792972216.8368235,
-   "mark": 0.5900000000000001,
+   "mark": 0.56,
    "conf": "medium",
    "llm_p": 0.2021623208434743,
    "mkt_yes": 0.445,
@@ -77,55 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107217",
-   "q": "Will the highest temperature in Milan be 16°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "39546058189198404080338106587352711932721053788982485580209360823073277548196",
-   "entry": 0.5274937078016161,
-   "fair": 0.6376346558647453,
-   "shares": 94.14107434685803,
-   "cost": 49.658824363651746,
-   "t": 1792972217.4568896,
-   "mark": 0.47,
-   "conf": "medium",
-   "llm_p": 0.27060890689209116,
-   "mkt_yes": 0.5,
-   "edge": 0.11014094806312924,
-   "evidence": [
-    "Previsao Open-Meteo LIMC 2026-10-26: maxima 15.4C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.27 vs mercado 0.50",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LIMC|2026-10-26",
-   "breakCount": 0
-  },
-  {
-   "mid": "6107357",
-   "q": "Will the highest temperature in Amsterdam be 13°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "49552420725144165008772033613921726661311092538833630351176216391679248095031",
-   "entry": 0.34828430188817194,
-   "fair": 0.5532347405492218,
-   "shares": 139.9459083139417,
-   "cost": 48.7409629792273,
-   "t": 1792981984.3699436,
-   "mark": 0.34828430188817194,
-   "conf": "medium",
-   "llm_p": 0.29127543241796355,
-   "mkt_yes": 0.68,
-   "edge": 0.2049504386610499,
-   "evidence": [
-    "Previsao Open-Meteo EHAM 2026-10-26: maxima 12.7C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.29 vs mercado 0.68",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EHAM|2026-10-26"
-  },
-  {
    "mid": "6123786",
    "q": "Will the highest temperature in Toronto be 16°C on October 26?",
    "cat": "Clima",
@@ -136,7 +62,7 @@
    "shares": 78.87079004109944,
    "cost": 48.7409629792273,
    "t": 1792981984.8691103,
-   "mark": 0.617984972051484,
+   "mark": 0.6599999999999999,
    "conf": "medium",
    "llm_p": 0.15050579150855325,
    "mkt_yes": 0.415,
@@ -147,7 +73,56 @@
    "misprice": "Modelo 0.15 vs mercado 0.41",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "CYYZ|2026-10-26"
+   "event": "CYYZ|2026-10-26",
+   "breakCount": 0
+  },
+  {
+   "mid": "6111402",
+   "q": "Will the highest temperature in New York City be between 70-71°F on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "39077530910461397525188066619671630757145352874413517692394552821056810664203",
+   "entry": 0.4821690852073965,
+   "fair": 0.5909795056200482,
+   "shares": 96.1850407439821,
+   "cost": 46.37745310616201,
+   "t": 1793002827.729398,
+   "mark": 0.4821690852073965,
+   "conf": "medium",
+   "llm_p": 0.31503415729991957,
+   "mkt_yes": 0.55,
+   "edge": 0.10881042041265171,
+   "evidence": [
+    "Previsao Open-Meteo KLGA 2026-10-26: maxima 70.7F (3 modelos, sigma 2.5)"
+   ],
+   "misprice": "Modelo 0.32 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLGA|2026-10-26"
+  },
+  {
+   "mid": "6175108",
+   "q": "Will the highest temperature in Wellington be 16°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "8212396598026052391266129579948951713305509006247885024808657861473868727940",
+   "entry": 0.35756267173930556,
+   "fair": 0.5979133122766913,
+   "shares": 129.70440365199875,
+   "cost": 46.37745310616201,
+   "t": 1793002828.311851,
+   "mark": 0.35756267173930556,
+   "conf": "medium",
+   "llm_p": 0.21681114620551445,
+   "mkt_yes": 0.68,
+   "edge": 0.24035064053738575,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-27: maxima 15.4C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.68",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-27"
   }
  ],
  "closed": [
@@ -988,192 +963,137 @@
    "pnl": -26.22455770980816,
    "closed_t": 1792981980.694637,
    "held_h": 4.5863160088327195
+  },
+  {
+   "mid": "6107272",
+   "q": "Will the highest temperature in Beijing be 19°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "98068196676448398698248220385787951459091065375792053604308610702895793831575",
+   "entry": 0.537541660842086,
+   "fair": 0.6860073586030552,
+   "shares": 89.97894907341463,
+   "cost": 48.367433725748775,
+   "t": 1792946347.5810776,
+   "mark": 0.0030000000000000027,
+   "conf": "medium",
+   "llm_p": 0.18998773566157467,
+   "mkt_yes": 0.5,
+   "edge": 0.14846569776096918,
+   "evidence": [
+    "Previsao Open-Meteo geo:beijing 2026-10-26: maxima 17.8C (3 modelos, sigma 1.6)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.50",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:beijing|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.01,
+   "reason": "stop-loss",
+   "pnl": -47.46764423501463,
+   "closed_t": 1793002821.853709,
+   "held_h": 15.68729795323478
+  },
+  {
+   "mid": "6107217",
+   "q": "Will the highest temperature in Milan be 16°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "39546058189198404080338106587352711932721053788982485580209360823073277548196",
+   "entry": 0.5274937078016161,
+   "fair": 0.6376346558647453,
+   "shares": 94.14107434685803,
+   "cost": 49.658824363651746,
+   "t": 1792972217.4568896,
+   "mark": 0.43999999999999995,
+   "conf": "medium",
+   "llm_p": 0.27060890689209116,
+   "mkt_yes": 0.5,
+   "edge": 0.11014094806312924,
+   "evidence": [
+    "Previsao Open-Meteo LIMC 2026-10-26: maxima 15.4C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.27 vs mercado 0.50",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LIMC|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.3589811670697443,
+   "reason": "stop-loss",
+   "pnl": -15.86395162541708,
+   "closed_t": 1793002823.117641,
+   "held_h": 8.501572430994775
+  },
+  {
+   "mid": "6107357",
+   "q": "Will the highest temperature in Amsterdam be 13°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "49552420725144165008772033613921726661311092538833630351176216391679248095031",
+   "entry": 0.34828430188817194,
+   "fair": 0.5532347405492218,
+   "shares": 139.9459083139417,
+   "cost": 48.7409629792273,
+   "t": 1792981984.3699436,
+   "mark": 0.30000000000000004,
+   "conf": "medium",
+   "llm_p": 0.29127543241796355,
+   "mkt_yes": 0.68,
+   "edge": 0.2049504386610499,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-26: maxima 12.7C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.29 vs mercado 0.68",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-26",
+   "exit": 0.2406799606339694,
+   "reason": "stop-loss",
+   "pnl": -15.058787275342723,
+   "closed_t": 1793002823.187141,
+   "held_h": 5.788560332655907
   }
  ],
  "cache": {
-  "5340072": {
-   "t": 1792972293.80078,
-   "yes": 0.865,
-   "est": {
-    "p": 0.85,
-    "conf": "low",
-    "evidence": [
-     "As urnas fecharam em 25 de out de 2026 e a apuracao esta emandamento com parcial inicial."
-    ],
-    "misprice": "O mercado ja reflete adequadamente a alta probabilidade de uma eleicao extremamente apertada conforme as parciais.",
-    "reason": "A margem estreita e o cenario mais provavel segundo as pesquisas e apuracao inicial, mas ha incerteza inerente no final da contagem."
-   }
-  },
-  "5340070": {
-   "t": 1792965568.0366223,
-   "yes": 0.16,
+  "5794294": {
+   "t": 1793002908.603561,
+   "yes": 0.138,
    "est": {
     "p": 0.14,
     "conf": "low",
     "evidence": [
-     "Eleições presidenciais do Brasil em segundo turno ocorrendo em 25 de outubro de 2026 com disputa entre Lula e Flávio Bolsonaro.",
-     "Votação estendida por duas horas pelo Tribunal Superior Eleitoral (TSE) conforme notícias de 25 de outubro de 2026."
+     "Current market price implies about 13.8% probability based on historical tweet frequency patterns."
     ],
-    "misprice": "O mercado já precifica adequadamente a incerteza estatística de uma margem específica tão estreita de 4-8% no dia da eleição.",
-    "reason": "A margem exata de 4 a 8% é um intervalo muito restrito em uma eleição polarizada, tornando o evento improvável apesar da competitividade da corrida."
-   }
-  },
-  "5340071": {
-   "t": 1792965574.0372515,
-   "yes": 0.48,
-   "est": {
-    "p": 0.49,
-    "conf": "low",
-    "evidence": [
-     "As urnas fecharam recentemente em 25 de outubro de 2026, com apuração em andamento para o segundo turno entre Lula e Flávio Bolsonaro.",
-     "Relatórios indicam uma eleição extremamente acirrada com votação estendida em algumas zonas em 25 de outubro de 2026."
-    ],
-    "misprice": "O mercado já reflete adequadamente a incerteza extrema de uma eleição presidencial extremamente apertada.",
-    "reason": "Com a apuração do segundo turno em andamento e margens estreitas nas pesquisas finais, a probabilidade de vitória por menos de 4% permanece próxima à precificação atual."
-   }
-  },
-  "1194643": {
-   "t": 1792972299.612055,
-   "yes": 0.68,
-   "est": {
-    "p": 0.69,
-    "conf": "low",
-    "evidence": [
-     "Bulgarian presidential first round headed to a runoff due to record low turnout reported on 25 Oct 2026",
-     "Iliana Yotova is narrowly ahead after the first round on 25 Oct 2026"
-    ],
-    "misprice": "O mercado já reflete adequadamente a liderança inicial de Yotova e a ida para o segundo turno.",
-    "reason": "Yotova lidera o primeiro turno conforme esperado, mas o segundo turno mantém incerteza padrão para eleições búlgaras."
-   }
-  },
-  "1194657": {
-   "t": 1792972305.4297774,
-   "yes": 0.32,
-   "est": {
-    "p": 0.35,
-    "conf": "medium",
-    "evidence": [
-     "Exit polls from The Sofia Globe on Oct 25, 2026 show Yotova at 35.3% and Gyurov at 32.4% in the first round.",
-     "CNN reported on Oct 25, 2026 that the Bulgarian presidential race is heading to a runoff due to record low turnout."
-    ],
-    "misprice": "Market underprices Gyurov's runoff conversion potential given a close 3-point first-round deficit.",
-    "reason": "Gyurov secured 32.4% in the first round, placing him closely behind Yotova and giving him a viable path in the upcoming runoff."
-   }
-  },
-  "601826": {
-   "t": 1792965555.1243885,
-   "yes": 0.6255,
-   "est": {
-    "p": 0.6,
-    "conf": "low",
-    "evidence": [
-     "Eleicao presidencial no Brasil em segundo turno ocorrendo em 25 de Outubro de 2026",
-     "Urnas com horario de votacao estendido conforme cobertura da Reuters e DW em 25 de Outubro de 2026"
-    ],
-    "misprice": "O mercado reflete adequadamente a incerteza de uma eleicao muito disputada em apuracao.",
-    "reason": "A disputa acirrada entre Lula e Flavio Bolsonaro no segundo turno mantem probabilidades proximas aos precos atuais de mercado."
-   }
-  },
-  "601819": {
-   "t": 1792965561.689076,
-   "yes": 0.372,
-   "est": {
-    "p": 0.35,
-    "conf": "low",
-    "evidence": [
-     "The second round of the 2026 Brazilian presidential election is underway on October 25, 2026, with live results being reported.",
-     "Supreme Court extended voting hours during the runoff between Lula and the Bolsonaro challenger on October 25, 2026.",
-     "Market price currently sits at 0.372 close to election night developments."
-    ],
-    "misprice": "O mercado já reflete com precisão a incerteza e a volatilidade da apuração em tempo real no dia da eleição.",
-    "reason": "Com a votação ainda em andamento e apuração inicial em curso em 25 de outubro de 2026, a probabilidade permanece ligeiramente abaixo de 50% refletindo um cenário altamente competitivo."
-   }
-  },
-  "5794294": {
-   "t": 1792982047.5937464,
-   "yes": 0.2405,
-   "est": {
-    "p": 0.22,
-    "conf": "low",
-    "evidence": [
-     "Current market price implies a 24% probability based on historical posting averages.",
-     "Only 1.56 days remain until resolution, narrowing the variance window for final tweet counts.",
-     "No new concrete data regarding sudden spikes or drops in Musk's posting frequency for this specific week has emerged."
-    ],
-    "misprice": "The market price is relatively close to baseline historical probabilities for his weekly output.",
-    "reason": "Given the lack of specific behavioral anomalies or tracker updates for this exact 7-day window, a slight downward adjustment from current pricing reflects standard variance."
-   }
-  },
-  "5340073": {
-   "t": 1792972287.8006353,
-   "yes": 0.1255,
-   "est": {
-    "p": 0.12,
-    "conf": "low",
-    "evidence": [
-     "Second round of the Brazilian presidential election takes place on October 25, 2026.",
-     "Market prices current probability of a 4-8% margin of victory for Lula at approximately 12.6%.",
-     "Recent reports describe the runoff election as tight and tense between Lula and the Bolsonaro camp."
-    ],
-    "misprice": "O mercado já reflete adequadamente a incerteza estatística de uma margem específica tão estreita (4-8%) em uma eleição polarizada.",
-    "reason": "A margem exata de 4 a 8% é um resultado específico e de alta volatilidade em eleições extremamente apertadas, tornando essa faixa estatisticamente improvável."
-   }
-  },
-  "5951577": {
-   "t": 1792972311.343495,
-   "yes": 0.121,
-   "est": {
-    "p": 0.12,
-    "conf": "low",
-    "evidence": [
-     "The second round of the presidential election takes place on October 25, 2026.",
-     "Flávio Bolsonaro advanced to the second round against Lula following the October 4, 2026 first round."
-    ],
-    "misprice": "Market pricing at 12.1% accurately reflects the conditional probability of a narrow 4-6% win range given high polarization.",
-    "reason": "A 4-6% margin is a specific outcome range in a tight runoff, and current odds appropriately discount this specific slice of possible victory margins."
+    "misprice": "The market price accurately reflects the historical variance of Musk's weekly posting volume.",
+    "reason": "Given the current pace and historical averages, 340-359 tweets remain a narrow and less probable bin compared to higher or lower volumes."
    }
   },
   "1812607": {
-   "t": 1792982041.4542139,
-   "yes": 0.7,
+   "t": 1793002902.8878655,
+   "yes": 0.82,
    "est": {
-    "p": 0.65,
-    "conf": "medium",
-    "evidence": [
-     "Global News poll from Oct 23, 2026 shows Chow leading Bradford in the final stretch.",
-     "CP24 reports on Oct 24, 2026 that the race is 'neck and neck' with a strong desire for change."
-    ],
-    "misprice": "Market slightly overrates incumbent vulnerability despite late momentum for challengers like Bradford.",
-    "reason": "Chow leads in late polling but faces a competitive 'neck and neck' challenge on election eve."
-   }
-  },
-  "5951576": {
-   "t": 1792972329.579165,
-   "yes": 0.8245,
-   "est": {
-    "p": 0.82,
+    "p": 0.81,
     "conf": "low",
     "evidence": [
-     "The second round of the Brazilian presidential election takes place on October 25, 2026.",
-     "Voting tallying is currently underway as of late October 25, 2026."
+     "Global News poll on Fri, 23 Oct 2026 indicates Chow leads Bradford heading into the final weekend.",
+     "CBC report on Sun, 25 Oct 2026 confirms voters head to the polls with a tight race against Brad Bradford."
     ],
-    "misprice": "O mercado já reflete com alta precisão a probabilidade estatística atual com base nas projeções em tempo real.",
-    "reason": "As apurações parciais indicam Lula na liderança com margem estreita dentro da faixa prevista pelo mercado."
+    "misprice": "O mercado já precifica adequadamente o favoritismo de Chow e o risco tardio de Bradford.",
+    "reason": "Olivia Chow lidera as pesquisas recentes na reta final, mantendo forte probabilidade de vitória apesar da concorrência de Brad Bradford."
    }
   },
   "1812608": {
-   "t": 1792982054.1445105,
-   "yes": 0.305,
+   "t": 1793002914.5810273,
+   "yes": 0.18,
    "est": {
-    "p": 0.25,
+    "p": 0.16,
     "conf": "medium",
     "evidence": [
-     "CityNews Toronto poll from Fri, 23 Oct 2026 shows Chow leading Bradford by 5 points",
-     "Global News report from Fri, 23 Oct 2026 indicates Chow leads Bradford in the final stretch",
-     "Recent coverage on Sat, 24 Oct 2026 and Sun, 25 Oct 2026 describes the race as nail-biting with Chow maintaining an edge on the eve of the election"
+     "CityNews Toronto poll on Oct 23, 2026 shows Chow leading Bradford by 5 points.",
+     "Global News report on Oct 23, 2026 confirms Chow leads Bradford heading into the final stretch."
     ],
-    "misprice": "O mercado subestima o impacto da lideranca constante de Chow nas pesquisas recentes de reta final.",
-    "reason": "Brad Bradford e o principal desafiante, mas as pesquisas da véspera mostram Chow com vantagem de 5 pontos, tornando uma vitoria de Bradford menos provavel que o preco de 30.5% sugere."
+    "misprice": "O mercado subestima ligeiramente o momentum final de Chow consolidado nas pesquisas de 23 de outubro.",
+    "reason": "Brad Bradford enfrenta desvantagem nas pesquisas recentes de reta final contra a favorita Olivia Chow."
    }
   },
   "5794293": {
@@ -1241,6 +1161,77 @@
     ],
     "misprice": "O mercado reflete adequadamente a linha estatistica de 30.5 abertamente disponivel.",
     "reason": "Como nao ha dados novos sobre as equipes T1 e CTBC Flying Oyster para o Jogo 1, mantenho-me proximo ao preco atual do mercado."
+   }
+  },
+  "682705": {
+   "t": 1793002871.9773493,
+   "yes": 0.265,
+   "est": {
+    "p": 0.28,
+    "conf": "low",
+    "evidence": [
+     "As legislativas israelenses estao marcadas para 27 de outubro de 2026, conforme divulgado em noticias de 25 e 26 de outubro de 2026.",
+     "O mercado atual precifica o SIM em 0.265 faltando menos de 2 dias para a resolucao."
+    ],
+    "misprice": "O mercado ja reflete de forma adequada a incerteza eleitoral e a forte oposicao ao atual primeiro-ministro.",
+    "reason": "A probabilidade reflete a alta competitividade das eleicoes de 2026 e a incerteza sobre a formacao de uma nova coalizao governista."
+   }
+  },
+  "2100981": {
+   "t": 1793002877.8061247,
+   "yes": 0.265,
+   "est": {
+    "p": 0.28,
+    "conf": "low",
+    "evidence": [
+     "The Jerusalem Post reported on Sun, 25 Oct 2026 that Gadi Eisenkot leads Benjamin Netanyahu in recent polling.",
+     "CNN reported on Sun, 25 Oct 2026 that Israel is holding its legislative election amid high stakes and potential Knesset deadlock."
+    ],
+    "misprice": "O mercado avalia adequadamente a desvantagem do Likud nas pesquisas recentes frente a coalizões de oposição.",
+    "reason": "As pesquisas na véspera da eleição de outubro de 2026 apontam Gadi Eisenkot à frente de Netanyahu, reduzindo a probabilidade do Likud obter o maior número de assentos."
+   }
+  },
+  "2100984": {
+   "t": 1793002883.9302676,
+   "yes": 0.725,
+   "est": {
+    "p": 0.7,
+    "conf": "medium",
+    "evidence": [
+     "Final polls published on Fri, 23 Oct 2026 by Ynetnews and The Times of Israel put Gadi Eisenkot's Yashar ahead of Likud.",
+     "Recent reports from The Jerusalem Post on Sun, 25 Oct 2026 indicate Eisenkot leads Netanyahu in the final stretch though Knesset deadlock looms."
+    ],
+    "misprice": "Market underprices Yashar slightly given consistent final poll leads in the days immediately preceding the vote.",
+    "reason": "Final polls consistently show Yashar leading Likud in seat projections heading into the October 27, 2026 election, making them favorites to win the most seats."
+   }
+  },
+  "682708": {
+   "t": 1793002890.4133222,
+   "yes": 0.543,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "As eleições legislativas em Israel estão oficialmente agendadas para 27 de outubro de 2026.",
+     "Pesquisas e reportagens de 24 e 25 de outubro de 2026 apontam Gadi Eisenkot, do partido Yashar, como o principal desafiante de centro-direita contra Netanyahu.",
+     "O mercado atual precifica a probabilidade de vitória de Eisenkot em 54,3% a apenas dois dias da resolução."
+    ],
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a conversão do entusiasmo da reta final em votos confirmados para a coligação de Eisenkot.",
+    "reason": "Embora Eisenkot lidere as manchetes como principal rival de Netanyahu na véspera da eleição, a alta volatilidade da política israelense justifica um desconto prudente em relação ao preço atual."
+   }
+  },
+  "682706": {
+   "t": 1793002896.470772,
+   "yes": 0.125,
+   "est": {
+    "p": 0.14,
+    "conf": "low",
+    "evidence": [
+     "Artigos de opiniao e blogs recentes em 23 a 25 de outubro de 2026 discutem a viabilidade de Naftali Bennett e a articulacao de um governo de minoria pelo bloco anti-Netanyahu.",
+     "As eleicoes legislativas israelenses estao formalmente agendadas para o dia 27 de outubro de 2026."
+    ],
+    "misprice": "O mercado ja reflete adequadamente a incerteza sobre a formacao decoalizao e o ceticismo em torno do bloco anti-Netanyahu.",
+    "reason": "Apesar do forte engajamento midiatico as vésperas das eleicoes de 27 de outubro de 2026, a probabilidade de Bennett ser empossado efetivamente permanece baixa devido a complexidade das negociacoes de "
    }
   }
  },
@@ -1768,7 +1759,7 @@
    "cat": "Clima",
    "end": 1792843200.0,
    "t": 1792756474.4148505,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.24686052504151257
@@ -1856,7 +1847,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792771971.5248008,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.22599925112734887
@@ -1908,7 +1899,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792772005.7396088,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.325821269946419
@@ -2082,7 +2073,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792797507.2493312,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2554111847029179
@@ -2185,7 +2176,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806408.7640927,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.06786784770068799
@@ -2224,7 +2215,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806408.7647393,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.31520720702936006
@@ -2302,7 +2293,7 @@
    "cat": "Politica",
    "end": 1792972740.0,
    "t": 1792806420.4613357,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2326,7 +2317,7 @@
    "cat": "Politica",
    "end": 1792972740.0,
    "t": 1792806436.777563,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2451,7 +2442,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792824334.2525241,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2463,7 +2454,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792824340.587584,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2475,7 +2466,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792824346.5732458,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2524,7 +2515,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792854562.175538,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3854281132384499
@@ -2537,7 +2528,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792854562.5342183,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.13798741392518576
@@ -2563,7 +2554,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792865821.4940732,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.29694889502581445
@@ -2576,7 +2567,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792875784.680018,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2679,7 +2670,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792910131.90476,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.08524707853919489
@@ -2848,7 +2839,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792946396.1993535,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -2860,7 +2851,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792946402.5730157,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3131,7 +3122,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792972287.8006387,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3143,7 +3134,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792972311.3434994,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3255,6 +3246,79 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6111402": {
+   "q": "Will the highest temperature in New York City be between 70-71°F on October 26?",
+   "p": 0.31503415729991957,
+   "yes": 0.55,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1793002827.7293468,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.49854173511297606
+  },
+  "682705": {
+   "q": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+   "p": 0.28,
+   "yes": 0.265,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793002871.9773533,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2100981": {
+   "q": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+   "p": 0.28,
+   "yes": 0.265,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793002877.806128,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2100984": {
+   "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+   "p": 0.7,
+   "yes": 0.725,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793002883.930271,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "682708": {
+   "q": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+   "p": 0.52,
+   "yes": 0.543,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793002890.4133265,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "682706": {
+   "q": "Will Naftali Bennett be the next Prime Minister of Israel?",
+   "p": 0.14,
+   "yes": 0.125,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793002896.4707751,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -3353,14 +3417,18 @@
   {
    "t": 1792982084.7850645,
    "equity": 1624.7
+  },
+  {
+   "t": 1793002914.5817995,
+   "equity": 1545.92
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
   "2026-10-25": 60,
-  "2026-10-26": 8
+  "2026-10-26": 16
  },
  "killed": false,
- "cycles": 24
+ "cycles": 25
 }

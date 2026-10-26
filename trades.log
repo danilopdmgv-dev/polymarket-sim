@@ -250,3 +250,14 @@
 2026-10-26 02:33:55Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-26 02:33:55Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-26 02:34:44Z ciclo 24: lidos=500 filtro=31 llm=8 clima=9 compras=2 vendas=2 descartados={'categoria_Esportes': 78, 'cripto': 11, 'esporte_vivo': 1, 'combinado': 2, 'clima_sem_modelo': 3} equity=$1624.70
+2026-10-26 08:20:21Z SELL NO [stop-loss] Will the highest temperature in Beijing be 19°C on @ 0.010 pnl=$-47.47
+2026-10-26 08:20:23Z SELL NO [stop-loss] Will the highest temperature in Milan be 16°C on O @ 0.359 pnl=$-15.86
+2026-10-26 08:20:23Z SELL NO [stop-loss] Will the highest temperature in Amsterdam be 13°C  @ 0.241 pnl=$-15.06
+2026-10-26 08:20:27Z BUY NO [clima] Will the highest temperature in New York City be b @ 0.482 $46.38 edge=0.109 conf=medium | Modelo 0.32 vs mercado 0.55
+2026-10-26 08:20:28Z BUY NO [clima] Will the highest temperature in Wellington be 16°C @ 0.358 $46.38 edge=0.240 conf=medium | Modelo 0.22 vs mercado 0.68
+2026-10-26 08:20:36Z erro geocode Guangzhou: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-26 08:20:47Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 08:20:57Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 08:21:05Z erro geocode Shenzhen: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-26 08:21:05Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-26 08:21:54Z ciclo 25: lidos=700 filtro=49 llm=8 clima=3 compras=2 vendas=3 descartados={'categoria_Esportes': 118, 'esporte_vivo': 20, 'cripto': 14, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1545.92
