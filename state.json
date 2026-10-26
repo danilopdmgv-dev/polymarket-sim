@@ -1,5 +1,5 @@
 {
- "cash": 1358.9369892308757,
+ "cash": 1317.4678323475875,
  "positions": [
   {
    "mid": "6111413",
@@ -12,7 +12,7 @@
    "shares": 100.84120810679843,
    "cost": 49.17315946290402,
    "t": 1792930522.875032,
-   "mark": 0.5700000000000001,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.24665307441329937,
    "mkt_yes": 0.54,
@@ -27,31 +27,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107096",
-   "q": "Will the highest temperature in Paris be 15°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "28330334283626433447046788555846950662071890456445431277908507037764334947850",
-   "entry": 0.601737703052573,
-   "fair": 0.747815711002575,
-   "shares": 80.37959642612418,
-   "cost": 48.36743372574877,
-   "t": 1792946346.309996,
-   "mark": 0.53,
-   "conf": "medium",
-   "llm_p": 0.13697381499570827,
-   "mkt_yes": 0.425,
-   "edge": 0.14607800795000203,
-   "evidence": [
-    "Previsao Open-Meteo LFPG 2026-10-26: maxima 13.2C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.14 vs mercado 0.42",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LFPG|2026-10-26",
-   "breakCount": 0
-  },
-  {
    "mid": "6107272",
    "q": "Will the highest temperature in Beijing be 19°C on October 26?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 89.97894907341463,
    "cost": 48.367433725748775,
    "t": 1792946347.5810776,
-   "mark": 0.61,
+   "mark": 0.6,
    "conf": "medium",
    "llm_p": 0.18998773566157467,
    "mkt_yes": 0.5,
@@ -77,30 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6107302",
-   "q": "Will the highest temperature in Chengdu be 20°C on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "64230440934090525477060771544692049113244877434854380705817674008789320545954",
-   "entry": 0.35056234200636877,
-   "fair": 0.5755076161075892,
-   "shares": 140.2389127845834,
-   "cost": 49.16248170619044,
-   "t": 1792965469.9570055,
-   "mark": 0.30000000000000004,
-   "conf": "medium",
-   "llm_p": 0.24082063982068486,
-   "mkt_yes": 0.7,
-   "edge": 0.2249452741012204,
-   "evidence": [
-    "Previsao Open-Meteo geo:chengdu 2026-10-26: maxima 19.6C (3 modelos, sigma 1.6)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.70",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:chengdu|2026-10-26"
-  },
-  {
    "mid": "6111456",
    "q": "Will the highest temperature in Houston be between 80-81°F on October 26?",
    "cat": "Clima",
@@ -111,7 +62,7 @@
    "shares": 83.04031229646458,
    "cost": 49.658824363651746,
    "t": 1792972216.8368235,
-   "mark": 0.5980086417108279,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.2021623208434743,
    "mkt_yes": 0.445,
@@ -122,7 +73,8 @@
    "misprice": "Modelo 0.20 vs mercado 0.45",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:houston|2026-10-26"
+   "event": "geo:houston|2026-10-26",
+   "breakCount": 0
   },
   {
    "mid": "6107217",
@@ -135,7 +87,7 @@
    "shares": 94.14107434685803,
    "cost": 49.658824363651746,
    "t": 1792972217.4568896,
-   "mark": 0.5274937078016161,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.27060890689209116,
    "mkt_yes": 0.5,
@@ -146,7 +98,56 @@
    "misprice": "Modelo 0.27 vs mercado 0.50",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "LIMC|2026-10-26"
+   "event": "LIMC|2026-10-26",
+   "breakCount": 0
+  },
+  {
+   "mid": "6107357",
+   "q": "Will the highest temperature in Amsterdam be 13°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "49552420725144165008772033613921726661311092538833630351176216391679248095031",
+   "entry": 0.34828430188817194,
+   "fair": 0.5532347405492218,
+   "shares": 139.9459083139417,
+   "cost": 48.7409629792273,
+   "t": 1792981984.3699436,
+   "mark": 0.34828430188817194,
+   "conf": "medium",
+   "llm_p": 0.29127543241796355,
+   "mkt_yes": 0.68,
+   "edge": 0.2049504386610499,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-26: maxima 12.7C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.29 vs mercado 0.68",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-26"
+  },
+  {
+   "mid": "6123786",
+   "q": "Will the highest temperature in Toronto be 16°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "110252074871087905627746474492083223004013111895230226272088571616244043935570",
+   "entry": 0.617984972051484,
+   "fair": 0.743696525094868,
+   "shares": 78.87079004109944,
+   "cost": 48.7409629792273,
+   "t": 1792981984.8691103,
+   "mark": 0.617984972051484,
+   "conf": "medium",
+   "llm_p": 0.15050579150855325,
+   "mkt_yes": 0.415,
+   "edge": 0.1257115530433841,
+   "evidence": [
+    "Previsao Open-Meteo CYYZ 2026-10-26: maxima 14.4C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.15 vs mercado 0.41",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "CYYZ|2026-10-26"
   }
  ],
  "closed": [
@@ -928,36 +929,68 @@
    "pnl": 32.098978547260096,
    "closed_t": 1792972213.5684435,
    "held_h": 7.184744312432077
+  },
+  {
+   "mid": "6107096",
+   "q": "Will the highest temperature in Paris be 15°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "28330334283626433447046788555846950662071890456445431277908507037764334947850",
+   "entry": 0.601737703052573,
+   "fair": 0.747815711002575,
+   "shares": 80.37959642612418,
+   "cost": 48.36743372574877,
+   "t": 1792946346.309996,
+   "mark": 0.51,
+   "conf": "medium",
+   "llm_p": 0.13697381499570827,
+   "mkt_yes": 0.425,
+   "edge": 0.14607800795000203,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-10-26: maxima 13.2C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.14 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.4114830945833713,
+   "reason": "stop-loss",
+   "pnl": -15.292588646964695,
+   "closed_t": 1792981979.9349775,
+   "held_h": 9.898229161633386
+  },
+  {
+   "mid": "6107302",
+   "q": "Will the highest temperature in Chengdu be 20°C on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "64230440934090525477060771544692049113244877434854380705817674008789320545954",
+   "entry": 0.35056234200636877,
+   "fair": 0.5755076161075892,
+   "shares": 140.2389127845834,
+   "cost": 49.16248170619044,
+   "t": 1792965469.9570055,
+   "mark": 0.27,
+   "conf": "medium",
+   "llm_p": 0.24082063982068486,
+   "mkt_yes": 0.7,
+   "edge": 0.2249452741012204,
+   "evidence": [
+    "Previsao Open-Meteo geo:chengdu 2026-10-26: maxima 19.6C (3 modelos, sigma 1.6)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.70",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:chengdu|2026-10-26",
+   "exit": 0.16356319042216555,
+   "reason": "stop-loss",
+   "pnl": -26.22455770980816,
+   "closed_t": 1792981980.694637,
+   "held_h": 4.5863160088327195
   }
  ],
  "cache": {
-  "4824600": {
-   "t": 1792956358.3912146,
-   "yes": 0.59,
-   "est": {
-    "p": 0.58,
-    "conf": "low",
-    "evidence": [
-     "As eleições parlamentares na Sérvia estão ocorrendo hoje, 25 de outubro de 2026, com forte mobilização de estudantes contra o governo de Aleksandar Vučić.",
-     "O preço atual de mercado para a vitória da lista liderada por Vučić está em 0.59 no dia do pleito."
-    ],
-    "misprice": "O mercado reflete adequadamente a incerteza extrema e a disputa acirrada entre o movimento estudantil e o partido governista no dia da eleição.",
-    "reason": "Apesar da forte pressão da oposição e dos protestos estudantis, a maquinaria partidária de Vučić ainda mantém uma base sólida, tornando o resultado muito próximo de uma moeda ao ar."
-   }
-  },
-  "4824602": {
-   "t": 1792956364.391276,
-   "yes": 0.395,
-   "est": {
-    "p": 0.41,
-    "conf": "low",
-    "evidence": [
-     "The Serbian parliamentary election is taking place on October 25, 2026, with polls reporting high turnout for the student movement challenging Vucic."
-    ],
-    "misprice": "Market prices may slightly underestimate the mobilization momentum of the student list reported in late election day updates.",
-    "reason": "High turnout heavily favors the opposition student movement against the incumbent, making it a close race on election night."
-   }
-  },
   "5340072": {
    "t": 1792972293.80078,
    "yes": 0.865,
@@ -1056,32 +1089,19 @@
     "reason": "Com a votação ainda em andamento e apuração inicial em curso em 25 de outubro de 2026, a probabilidade permanece ligeiramente abaixo de 50% refletindo um cenário altamente competitivo."
    }
   },
-  "2757891": {
-   "t": 1792956370.7404604,
-   "yes": 0.575,
-   "est": {
-    "p": 0.58,
-    "conf": "low",
-    "evidence": [
-     "Serbia held a historic parliamentary election on October 25, 2026.",
-     "Aleksandar Vucic faces a strong student-led opposition movement in these elections."
-    ],
-    "misprice": "O mercado já reflete adequadamente a incerteza destas eleições cruciais em andamento.",
-    "reason": "Com as eleições ocorrendo hoje e apuração em andamento, a probabilidade permanece próxima ao preço atual de mercado enquanto aguardamos resultados concretos."
-   }
-  },
   "5794294": {
-   "t": 1792972323.4723802,
-   "yes": 0.2335,
+   "t": 1792982047.5937464,
+   "yes": 0.2405,
    "est": {
     "p": 0.22,
     "conf": "low",
     "evidence": [
-     "O mercado atual precifica o SIM em 23.4 para uma faixa específica de 340-359 tweets.",
-     "Faltam menos de 2 dias para o encerramento do período de contagem em 27 de outubro de 2026."
+     "Current market price implies a 24% probability based on historical posting averages.",
+     "Only 1.56 days remain until resolution, narrowing the variance window for final tweet counts.",
+     "No new concrete data regarding sudden spikes or drops in Musk's posting frequency for this specific week has emerged."
     ],
-    "misprice": "Não há evidência concreta de desvio estatístico significativo em relação ao preço atual do mercado.",
-    "reason": "A faixa estreita de 20 tweets torna a probabilidade intrinsecamente baixa, alinhada com a avaliação de mercado."
+    "misprice": "The market price is relatively close to baseline historical probabilities for his weekly output.",
+    "reason": "Given the lack of specific behavioral anomalies or tracker updates for this exact 7-day window, a slight downward adjustment from current pricing reflects standard variance."
    }
   },
   "5340073": {
@@ -1114,17 +1134,17 @@
    }
   },
   "1812607": {
-   "t": 1792972317.6377769,
-   "yes": 0.755,
+   "t": 1792982041.4542139,
+   "yes": 0.7,
    "est": {
-    "p": 0.73,
-    "conf": "low",
+    "p": 0.65,
+    "conf": "medium",
     "evidence": [
-     "Global News poll on Fri, 23 Oct 2026 shows Olivia Chow leading rival Brad Bradford on the eve of the election.",
-     "Toronto mayoral election is scheduled for October 26, 2026, with recent news highlighting a tight final stretch against billionaire-endorsed challengers."
+     "Global News poll from Oct 23, 2026 shows Chow leading Bradford in the final stretch.",
+     "CP24 reports on Oct 24, 2026 that the race is 'neck and neck' with a strong desire for change."
     ],
-    "misprice": "The market is slightly overestimating Chow's final margin given late momentum and consolidation around her main challenger Bradford.",
-    "reason": "As the incumbent with a solid late poll lead, Olivia Chow remains the clear favorite, though a competitive final push introduces slight uncertainty."
+    "misprice": "Market slightly overrates incumbent vulnerability despite late momentum for challengers like Bradford.",
+    "reason": "Chow leads in late polling but faces a competitive 'neck and neck' challenge on election eve."
    }
   },
   "5951576": {
@@ -1139,6 +1159,88 @@
     ],
     "misprice": "O mercado já reflete com alta precisão a probabilidade estatística atual com base nas projeções em tempo real.",
     "reason": "As apurações parciais indicam Lula na liderança com margem estreita dentro da faixa prevista pelo mercado."
+   }
+  },
+  "1812608": {
+   "t": 1792982054.1445105,
+   "yes": 0.305,
+   "est": {
+    "p": 0.25,
+    "conf": "medium",
+    "evidence": [
+     "CityNews Toronto poll from Fri, 23 Oct 2026 shows Chow leading Bradford by 5 points",
+     "Global News report from Fri, 23 Oct 2026 indicates Chow leads Bradford in the final stretch",
+     "Recent coverage on Sat, 24 Oct 2026 and Sun, 25 Oct 2026 describes the race as nail-biting with Chow maintaining an edge on the eve of the election"
+    ],
+    "misprice": "O mercado subestima o impacto da lideranca constante de Chow nas pesquisas recentes de reta final.",
+    "reason": "Brad Bradford e o principal desafiante, mas as pesquisas da véspera mostram Chow com vantagem de 5 pontos, tornando uma vitoria de Bradford menos provavel que o preco de 30.5% sugere."
+   }
+  },
+  "5794293": {
+   "t": 1792982060.294668,
+   "yes": 0.375,
+   "est": {
+    "p": 0.38,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados em tempo real sobre a contagem exata de tweets para o periodo de 20 a 27 de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza estatistica para uma faixa especifica de volume de postagens.",
+    "reason": "Como estamos proximos ao encerramento e faltam dados granulares recentes sobre a contagem atual, mantenho-me proximo ao preco atual do mercado."
+   }
+  },
+  "6048452": {
+   "t": 1792982066.998992,
+   "yes": 0.35,
+   "est": {
+    "p": 0.35,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados especificos sobre a contagem exata de tweets de Elon Musk para o periodo de 24 a 26 de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza estatistica padrao para a faixa de volume de postagens.",
+    "reason": "Como nao ha dados concretos recentes sobre a atividade atual na janela especifica, mantenho a estimativa alinhada ao preco atual."
+   }
+  },
+  "5794292": {
+   "t": 1792982072.9656694,
+   "yes": 0.235,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Elon Musk's historical posting rate on X typically averages 40-50 posts per 24-hour period based on historical tracking data.",
+     "The current market price reflects a reasonable implied probability for a 7-day window ending October 27, 2026."
+    ],
+    "misprice": "O mercado esta eficientemente precificado com base na media historica de tweets do Elon Musk por periodo de 7 dias.",
+    "reason": "A faixa de 300-319 tweets em exatamente 7 dias exigeria uma media diaria de ~43 a 45 posts, o que e possivel mas estatisticamente incerto."
+   }
+  },
+  "5794295": {
+   "t": 1792982079.0376384,
+   "yes": 0.106,
+   "est": {
+    "p": 0.11,
+    "conf": "low",
+    "evidence": [
+     "Current market price is 0.106 implying low historical baseline for this specific tight range.",
+     "Time remaining is approximately 1.56 days until resolution on October 27, 2026."
+    ],
+    "misprice": "Market accurately reflects the low probability of Musk's tweet volume landing precisely in the 360-379 range over a 7-day period.",
+    "reason": "Given standard posting rates, hitting this specific intermediate bracket is statistically unlikely compared to under/over outcomes."
+   }
+  },
+  "6214439": {
+   "t": 1792982084.7844841,
+   "yes": 0.425,
+   "est": {
+    "p": 0.43,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informacao nova e concreta sobre o jogo especificado foi encontrada nas noticias recentes."
+    ],
+    "misprice": "O mercado reflete adequadamente a linha estatistica de 30.5 abertamente disponivel.",
+    "reason": "Como nao ha dados novos sobre as equipes T1 e CTBC Flying Oyster para o Jogo 1, mantenho-me proximo ao preco atual do mercado."
    }
   }
  },
@@ -1967,7 +2069,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792797486.3988664,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3551367827633529
@@ -2018,7 +2120,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806385.635843,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2849758565740199
@@ -2031,7 +2133,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806405.8020089,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3555765247160386
@@ -2070,7 +2172,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806408.1975117,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.29584051975716696
@@ -2096,7 +2198,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806408.7645795,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.08698322086384036
@@ -2187,7 +2289,7 @@
    "cat": "Clima",
    "end": 1792929600.0,
    "t": 1792806410.5551126,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3634912163343228
@@ -3068,6 +3170,91 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6107115": {
+   "q": "Will the highest temperature in Ankara be 20°C on October 26?",
+   "p": 0.28038923901276513,
+   "yes": 0.425,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793016000.0,
+   "t": 1792981985.1790946,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4501559105186837
+  },
+  "1812608": {
+   "q": "Will Brad Bradford win the 2026 Toronto mayoral election?",
+   "p": 0.25,
+   "yes": 0.305,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1793073540.0,
+   "t": 1792982054.1445146,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5794293": {
+   "q": "Will Elon Musk post 320-339 tweets from October 20 to October 27, 2026?",
+   "p": 0.38,
+   "yes": 0.375,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793116800.0,
+   "t": 1792982060.2946727,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6048452": {
+   "q": "Will Elon Musk post 90-114 tweets from October 24 to October 26, 2026?",
+   "p": 0.35,
+   "yes": 0.35,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793030400.0,
+   "t": 1792982066.9989946,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5794292": {
+   "q": "Will Elon Musk post 300-319 tweets from October 20 to October 27, 2026?",
+   "p": 0.22,
+   "yes": 0.235,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793116800.0,
+   "t": 1792982072.9656725,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5794295": {
+   "q": "Will Elon Musk post 360-379 tweets from October 20 to October 27, 2026?",
+   "p": 0.11,
+   "yes": 0.106,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793116800.0,
+   "t": 1792982079.037647,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6214439": {
+   "q": "Total Kills Over/Under 30.5 in Game 1?",
+   "p": 0.43,
+   "yes": 0.425,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793055600.0,
+   "t": 1792982084.784487,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -3162,13 +3349,18 @@
   {
    "t": 1792972329.5797112,
    "equity": 1655.29
+  },
+  {
+   "t": 1792982084.7850645,
+   "equity": 1624.7
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
-  "2026-10-25": 60
+  "2026-10-25": 60,
+  "2026-10-26": 8
  },
  "killed": false,
- "cycles": 23
+ "cycles": 24
 }

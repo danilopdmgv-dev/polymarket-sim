@@ -239,3 +239,14 @@
 2026-10-25 23:51:21Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-25 23:51:21Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-25 23:52:09Z ciclo 23: lidos=500 filtro=33 llm=8 clima=8 compras=2 vendas=2 descartados={'categoria_Esportes': 64, 'cripto': 10, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1655.29
+2026-10-26 02:32:59Z SELL NO [stop-loss] Will the highest temperature in Paris be 15°C on O @ 0.411 pnl=$-15.29
+2026-10-26 02:33:00Z SELL NO [stop-loss] Will the highest temperature in Chengdu be 20°C on @ 0.164 pnl=$-26.22
+2026-10-26 02:33:04Z BUY NO [clima] Will the highest temperature in Amsterdam be 13°C  @ 0.348 $48.74 edge=0.205 conf=medium | Modelo 0.29 vs mercado 0.68
+2026-10-26 02:33:04Z BUY NO [clima] Will the highest temperature in Toronto be 16°C on @ 0.618 $48.74 edge=0.126 conf=medium | Modelo 0.15 vs mercado 0.41
+2026-10-26 02:33:14Z erro geocode Chongqing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-26 02:33:24Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 02:33:35Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 02:33:45Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 02:33:55Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 02:33:55Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-26 02:34:44Z ciclo 24: lidos=500 filtro=31 llm=8 clima=9 compras=2 vendas=2 descartados={'categoria_Esportes': 78, 'cripto': 11, 'esporte_vivo': 1, 'combinado': 2, 'clima_sem_modelo': 3} equity=$1624.70
