@@ -277,3 +277,14 @@
 2026-10-26 15:22:02Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-26 15:22:10Z erro geocode Manila: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-26 15:26:28Z ciclo 26: lidos=600 filtro=49 llm=8 clima=7 compras=4 vendas=3 descartados={'categoria_Esportes': 178, 'esporte_vivo': 22, 'cripto': 7, 'combinado': 4, 'clima_sem_modelo': 5} equity=$1430.29
+2026-10-26 20:39:36Z SELL NO [take-profit] Will the highest temperature in Houston be between @ 0.942 pnl=$+28.54
+2026-10-26 20:39:41Z BUY NO [clima] Will the highest temperature in Jeddah be 37°C on  @ 0.522 $43.56 edge=0.152 conf=medium | Modelo 0.20 vs mercado 0.51
+2026-10-26 20:39:52Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 20:40:02Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 20:40:10Z erro geocode Shenzhen: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-26 20:40:22Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 20:40:32Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-26 20:40:32Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-26 20:40:51Z BUY NO [llm] Will Yashar win the most seats in the 2026 Israeli @ 0.320 $43.56 edge=0.107 conf=medium | Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.
+2026-10-26 20:41:17Z BUY YES [llm] Will Brad Bradford win the 2026 Toronto mayoral el @ 0.221 $46.54 edge=0.099 conf=high | O mercado subestima a força de Bradford na reta final ao precificar suas chances em apenas 20%, enquanto pesquisas recentes mostram 44% de intenção de voto.
+2026-10-26 20:41:25Z ciclo 27: lidos=600 filtro=40 llm=8 clima=2 compras=3 vendas=1 descartados={'categoria_Esportes': 123, 'esporte_vivo': 40, 'cripto': 13, 'clima_sem_modelo': 3} equity=$1452.01
