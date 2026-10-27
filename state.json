@@ -1,31 +1,6 @@
 {
- "cash": 1094.767405337905,
+ "cash": 1094.586072925282,
  "positions": [
-  {
-   "mid": "6111413",
-   "q": "Will the highest temperature in Dallas be between 80-81°F on October 26?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "22688625810265265387301933963318462703102981312549974866645606616576951463772",
-   "entry": 0.4876296147783745,
-   "fair": 0.6360081553520204,
-   "shares": 100.84120810679843,
-   "cost": 49.17315946290402,
-   "t": 1792930522.875032,
-   "mark": 0.75,
-   "conf": "medium",
-   "llm_p": 0.24665307441329937,
-   "mkt_yes": 0.54,
-   "edge": 0.14837854057364586,
-   "evidence": [
-    "Previsao Open-Meteo KDFW 2026-10-26: maxima 79.6F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.25 vs mercado 0.54",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KDFW|2026-10-26",
-   "breakCount": 0
-  },
   {
    "mid": "6180618",
    "q": "Will the highest temperature in Dallas be between 82-83°F on October 27?",
@@ -37,7 +12,7 @@
    "shares": 68.4068139156792,
    "cost": 42.90871489144469,
    "t": 1793028054.3697412,
-   "mark": 0.52,
+   "mark": 0.51,
    "conf": "medium",
    "llm_p": 0.1911080144197418,
    "mkt_yes": 0.395,
@@ -77,80 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6175132",
-   "q": "Will the highest temperature in Munich be 17°C on October 27?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "27940562625830776167457212027258511888217279293064228093341942689181545386078",
-   "entry": 0.5580693238234793,
-   "fair": 0.7199550564232629,
-   "shares": 76.88778626545144,
-   "cost": 42.90871489144468,
-   "t": 1793028075.3502412,
-   "mark": 0.49,
-   "conf": "medium",
-   "llm_p": 0.15340823929456182,
-   "mkt_yes": 0.47,
-   "edge": 0.16188573259978356,
-   "evidence": [
-    "Previsao Open-Meteo EDDM 2026-10-27: maxima 15.4C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.15 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EDDM|2026-10-27",
-   "breakCount": 0
-  },
-  {
-   "mid": "6175173",
-   "q": "Will the highest temperature in Shanghai be 21°C on October 27?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "59872501648301996845115413975205390282226103457948136827696740905466747059802",
-   "entry": 0.397697682886401,
-   "fair": 0.6137785484544305,
-   "shares": 107.8927958041465,
-   "cost": 42.908714891444674,
-   "t": 1793028093.9942913,
-   "mark": 0.31999999999999995,
-   "conf": "medium",
-   "llm_p": 0.2203690859092825,
-   "mkt_yes": 0.635,
-   "edge": 0.21608086556802947,
-   "evidence": [
-    "Previsao Open-Meteo ZSPD 2026-10-27: maxima 20.4C (1 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.22 vs mercado 0.64",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "ZSPD|2026-10-27",
-   "breakCount": 0
-  },
-  {
-   "mid": "6175371",
-   "q": "Will the highest temperature in Jeddah be 37°C on October 27?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "52587298007650967982911425926222892387425396385598859452756324578197807994181",
-   "entry": 0.5218759285532487,
-   "fair": 0.6736031742897864,
-   "shares": 83.46896850074224,
-   "cost": 43.56044544170672,
-   "t": 1793047181.744857,
-   "mark": 0.5218759285532487,
-   "conf": "medium",
-   "llm_p": 0.2039947095170226,
-   "mkt_yes": 0.51,
-   "edge": 0.15172724573653773,
-   "evidence": [
-    "Previsao Open-Meteo geo:jeddah 2026-10-27: maxima 36.7C (3 modelos, sigma 1.9)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.51",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:jeddah|2026-10-27"
-  },
-  {
    "mid": "2100984",
    "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
    "cat": "Politica",
@@ -161,7 +62,7 @@
    "shares": 136.00993701386926,
    "cost": 43.56044544170672,
    "t": 1793047251.1091275,
-   "mark": 0.32027399172506604,
+   "mark": 0.31000000000000005,
    "conf": "medium",
    "llm_p": 0.45,
    "mkt_yes": 0.695,
@@ -174,7 +75,8 @@
    "misprice": "Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.",
    "version": "v3-alto-volume",
    "src": "llm",
-   "event": null
+   "event": null,
+   "breakCount": 0
   },
   {
    "mid": "1812608",
@@ -187,7 +89,7 @@
    "shares": 210.94859123037057,
    "cost": 46.53893743772087,
    "t": 1793047277.196395,
-   "mark": 0.22061743653408475,
+   "mark": 0.2,
    "conf": "high",
    "llm_p": 0.44,
    "mkt_yes": 0.2,
@@ -200,7 +102,104 @@
    "misprice": "O mercado subestima a força de Bradford na reta final ao precificar suas chances em apenas 20%, enquanto pesquisas recentes mostram 44% de intenção de voto.",
    "version": "v3-alto-volume",
    "src": "llm",
-   "event": null
+   "event": null,
+   "breakCount": 1
+  },
+  {
+   "mid": "6181585",
+   "q": "Will the highest temperature in Houston be between 80-81°F on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "58166773163713201937653895981011723637249062465439023929090258029349645231626",
+   "entry": 0.6020819178907757,
+   "fair": 0.6944760607798546,
+   "shares": 71.0042387525065,
+   "cost": 42.750368246483646,
+   "t": 1793059776.2157962,
+   "mark": 0.6020819178907757,
+   "conf": "medium",
+   "llm_p": 0.22253989870024238,
+   "mkt_yes": 0.43,
+   "edge": 0.09239414288907888,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-10-27: maxima 79.1F (1 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-10-27"
+  },
+  {
+   "mid": "6181542",
+   "q": "Will the highest temperature in Miami be between 82-83°F on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "94801772386245602327590309028536872256903829693780126639844082954297334707131",
+   "entry": 0.5318186959244241,
+   "fair": 0.7103281633614195,
+   "shares": 80.3852301058608,
+   "cost": 42.750368246483646,
+   "t": 1793059776.7964978,
+   "mark": 0.5318186959244241,
+   "conf": "medium",
+   "llm_p": 0.1561197277309675,
+   "mkt_yes": 0.49,
+   "edge": 0.17850946743699536,
+   "evidence": [
+    "Previsao Open-Meteo KMIA 2026-10-27: maxima 79.4F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.49",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KMIA|2026-10-27"
+  },
+  {
+   "mid": "6192044",
+   "q": "Will the highest temperature in Toronto be 9°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "61862870136082247659926240378079673730247768923327465308811988268703231279273",
+   "entry": 0.5975795012947075,
+   "fair": 0.6892959732139636,
+   "shares": 71.5392147050916,
+   "cost": 42.75036824648364,
+   "t": 1793059808.405661,
+   "mark": 0.5975795012947075,
+   "conf": "medium",
+   "llm_p": 0.23450671131006073,
+   "mkt_yes": 0.425,
+   "edge": 0.09171647191925614,
+   "evidence": [
+    "Previsao Open-Meteo CYYZ 2026-10-27: maxima 9.0C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "CYYZ|2026-10-27"
+  },
+  {
+   "mid": "6238775",
+   "q": "Will the highest temperature in Wellington be 17°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "105694209771885451472339639225060060016751441334409942328026491656788861152014",
+   "entry": 0.4618946209995564,
+   "fair": 0.68158079548043,
+   "shares": 92.5543756148758,
+   "cost": 42.75036824648364,
+   "t": 1793059839.4210138,
+   "mark": 0.4618946209995564,
+   "conf": "medium",
+   "llm_p": 0.1506986741992834,
+   "mkt_yes": 0.57,
+   "edge": 0.21968617448087363,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-28: maxima 15.4C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.15 vs mercado 0.57",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-28"
   }
  ],
  "closed": [
@@ -1248,135 +1247,267 @@
    "pnl": 28.543227850050016,
    "closed_t": 1793047176.0392954,
    "held_h": 20.82200068672498
+  },
+  {
+   "mid": "6111413",
+   "q": "Will the highest temperature in Dallas be between 80-81°F on October 26?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "22688625810265265387301933963318462703102981312549974866645606616576951463772",
+   "entry": 0.4876296147783745,
+   "fair": 0.6360081553520204,
+   "shares": 100.84120810679843,
+   "cost": 49.17315946290402,
+   "t": 1792930522.875032,
+   "mark": 0.999,
+   "conf": "medium",
+   "llm_p": 0.24665307441329937,
+   "mkt_yes": 0.54,
+   "edge": 0.14837854057364586,
+   "evidence": [
+    "Previsao Open-Meteo KDFW 2026-10-26: maxima 79.6F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.25 vs mercado 0.54",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KDFW|2026-10-26",
+   "breakCount": 0,
+   "exit": 0.9413085136198701,
+   "reason": "take-profit",
+   "pnl": 45.74952825173842,
+   "closed_t": 1793059748.373034,
+   "held_h": 35.89597166723675
+  },
+  {
+   "mid": "6175132",
+   "q": "Will the highest temperature in Munich be 17°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "27940562625830776167457212027258511888217279293064228093341942689181545386078",
+   "entry": 0.5580693238234793,
+   "fair": 0.7199550564232629,
+   "shares": 76.88778626545144,
+   "cost": 42.90871489144468,
+   "t": 1793028075.3502412,
+   "mark": 0.49,
+   "conf": "medium",
+   "llm_p": 0.15340823929456182,
+   "mkt_yes": 0.47,
+   "edge": 0.16188573259978356,
+   "evidence": [
+    "Previsao Open-Meteo EDDM 2026-10-27: maxima 15.4C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.15 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EDDM|2026-10-27",
+   "breakCount": 0,
+   "exit": 0.34257628917099836,
+   "reason": "stop-loss",
+   "pnl": -16.568782390053475,
+   "closed_t": 1793059749.1657562,
+   "held_h": 8.798282087511486
+  },
+  {
+   "mid": "6175173",
+   "q": "Will the highest temperature in Shanghai be 21°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "59872501648301996845115413975205390282226103457948136827696740905466747059802",
+   "entry": 0.397697682886401,
+   "fair": 0.6137785484544305,
+   "shares": 107.8927958041465,
+   "cost": 42.908714891444674,
+   "t": 1793028093.9942913,
+   "mark": 0.35,
+   "conf": "medium",
+   "llm_p": 0.2203690859092825,
+   "mkt_yes": 0.635,
+   "edge": 0.21608086556802947,
+   "evidence": [
+    "Previsao Open-Meteo ZSPD 2026-10-27: maxima 20.4C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.64",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "ZSPD|2026-10-27",
+   "breakCount": 0,
+   "exit": 0.23138592170643071,
+   "reason": "stop-loss",
+   "pnl": -17.943840888818517,
+   "closed_t": 1793059749.2168214,
+   "held_h": 8.793117369479603
+  },
+  {
+   "mid": "6175371",
+   "q": "Will the highest temperature in Jeddah be 37°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "52587298007650967982911425926222892387425396385598859452756324578197807994181",
+   "entry": 0.5218759285532487,
+   "fair": 0.6736031742897864,
+   "shares": 83.46896850074224,
+   "cost": 43.56044544170672,
+   "t": 1793047181.744857,
+   "mark": 0.42000000000000004,
+   "conf": "medium",
+   "llm_p": 0.2039947095170226,
+   "mkt_yes": 0.51,
+   "edge": 0.15172724573653773,
+   "evidence": [
+    "Previsao Open-Meteo geo:jeddah 2026-10-27: maxima 36.7C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.51",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:jeddah|2026-10-27",
+   "exit": 0.2946322063921679,
+   "reason": "stop-loss",
+   "pnl": -18.96779908705467,
+   "closed_t": 1793059749.2705717,
+   "held_h": 3.4909793651766248
   }
  ],
  "cache": {
   "1812607": {
-   "t": 1793047270.8692896,
-   "yes": 0.805,
+   "t": 1793059876.4073513,
+   "yes": 0.79,
    "est": {
     "p": 0.82,
     "conf": "low",
     "evidence": [
-     "Pesquisa Liaison Strategies de 25/10/2026 mostra Chow liderando com 52% contra 44% de Bradford",
-     "Cobertura da Global News em 23/10/2026 indica Chow na frente na reta final"
+     "Toronto Star reported live coverage as polls close on October 27, 2026.",
+     "Global News and Globe and Mail polls from October 23-25 indicated Olivia Chow leading Brad Bradford heading into the election."
     ],
-    "misprice": "O mercado precifica Chow a 80.5%, subestimando ligeiramente sua margem de lideranca nas pesquisas de véspera.",
-    "reason": "Como atual favorita com vantagem nas sondagens finais no dia da eleição, Chow detém alta probabilidade de vitória."
+    "misprice": "O mercado pode estar ligeiramente subestimando a resiliência da liderança de Chow nas pesquisas finais de reta de chegada.",
+    "reason": "Olivia Chow liderava as pesquisas recentes e as urnas acabaram de fechar na eleição de 26 de outubro de 2026, mantendo o favoritismo."
    }
   },
   "1812608": {
-   "t": 1793047277.1963725,
-   "yes": 0.2,
+   "t": 1793059761.9990427,
+   "yes": 0.21,
    "est": {
-    "p": 0.44,
-    "conf": "high",
+    "p": 0.15,
+    "conf": "medium",
     "evidence": [
-     "Pesquisa Liaison Strategies de 25/10/2026 indica Olivia Chow com 52% e Brad Bradford com 44% na reta final da eleição.",
-     "Matéria do Global News de 23/10/2026 aponta Chow liderando, mas com Bradford na disputa.",
-     "Cobertura ao vivo do Toronto Star de 26/10/2026 confirma a eleição em andamento e disputa acirrada."
+     "Global News poll from Oct 23, 2026 indicates Olivia Chow leading Brad Bradford.",
+     "Toronto Star live updates from Oct 27, 2026 show Chow and Bradford battling as polls close."
     ],
-    "misprice": "O mercado subestima a força de Bradford na reta final ao precificar suas chances em apenas 20%, enquanto pesquisas recentes mostram 44% de intenção de voto.",
-    "reason": "Apesar de Chow ser a favorita com 52%, a margem de 44% para Bradford em véspera de eleição representa uma probabilidade substancialmente maior do que 20% para o SIM."
+    "misprice": "O mercado superestima as chances de Bradford em uma disputa acirrada onde as pesquisas finais mostram Olivia Chow liderando.",
+    "reason": "As pesquisas finais indicam vantagem para Olivia Chow na reta final da eleição municipal de Toronto."
    }
   },
   "682705": {
-   "t": 1793047238.7950392,
+   "t": 1793059845.4995408,
    "yes": 0.285,
    "est": {
     "p": 0.27,
     "conf": "low",
     "evidence": [
-     "As eleições legislativas em Israel estão marcadas para 27 de outubro de 2026.",
-     "O preço atual de mercado reflete as pesquisas recentes que mostram alta volatilidade e forte oposição a Netanyahu."
+     "As eleições legislativas em Israel ocorrem em 27 de outubro de 2026, com o mercado avaliando o resultado em andamento.",
+     "Análises de mídia em 26 de outubro de 2026 indicam uma disputa acirrada pela sobrevivência política de Netanyahu."
     ],
-    "misprice": "O mercado está essencialmente alinhado com o consenso das pesquisas recentes para a eleição de amanhã.",
-    "reason": "A probabilidade reflete a forte probabilidade de alternância de poder após as eleições de 27 de outubro de 2026."
+    "misprice": "O mercado já reflete adequadamente a incerteza e a probabilidade de transição de poder na reta final da eleição.",
+    "reason": "Com a eleição em andamento, a chance de Netanyahu formar o próximo governo sworn-in permanece pressionada pela forte oposição e volatilidade política."
    }
   },
   "2100981": {
-   "t": 1793047245.014838,
-   "yes": 0.295,
+   "t": 1793059851.781905,
+   "yes": 0.315,
    "est": {
-    "p": 0.32,
+    "p": 0.35,
     "conf": "medium",
     "evidence": [
-     "The Jerusalem Post reported on 2026-10-25 that Gadi Eisenkot leads Benjamin Netanyahu in polls ahead of the October 27 election.",
-     "Knesset deadlock is widely projected by major news outlets as of October 25, 2026."
+     "The Jerusalem Post reported on Oct 25, 2026, that Gadi Eisenkot leads Benjamin Netanyahu in final polls.",
+     "The Times of Israel noted on Oct 23, 2026, that final polls show both blocs falling short of a majority amid a Knesset deadlock.",
+     "Recent polling heading into the Oct 27, 2026 election indicates Likud is facing strong competition, threatening its traditional plurality."
     ],
-    "misprice": "O mercado subestima ligeiramente a resiliência da base do Likud e a volatilidade de última hora nas urnas em relação às pesquisas.",
-    "reason": "Embora Eisenkot lidere nas pesquisas recentes de 25 de outubro de 2026, a margem e a fragmentação mantêm o Likud competitivo na disputa por assentos."
+    "misprice": "O mercado subestima ligeiramente a probabilidade de o Likud perder o maior numero de assentos devido ao avanco de Gadi Eisenkot nas pesquisas finais de outubro de 2026.",
+    "reason": "As pesquisas finais apontam uma disputa acirrada onde o bloco oposicionista liderado por Eisenkot ameaça a primazia histórica do Likud de Netanyahu."
    }
   },
   "2100984": {
-   "t": 1793047251.1091022,
-   "yes": 0.695,
+   "t": 1793059755.691682,
+   "yes": 0.685,
    "est": {
-    "p": 0.45,
+    "p": 0.65,
     "conf": "medium",
     "evidence": [
-     "The Jerusalem Post poll on Oct 25, 2026 shows Gadi Eisenkot leading Benjamin Netanyahu.",
-     "Jerusalem Post poll on Oct 23, 2026 shows the opposition leading the Netanyahu bloc 54-48, indicating a fragmented Knesset deadlock.",
-     "Recent reports from Oct 23-25, 2026 emphasize that no single bloc or party is guaranteed a decisive majority."
+     "The Jerusalem Post reported on Oct 25, 2026, that Gadi Eisenkot leads Benjamin Netanyahu in final polls ahead of the Knesset election.",
+     "Anadolu Ajansı reported on Oct 23, 2026, that the opposition leads with 54 to 48 seats over Netanyahu's bloc."
     ],
-    "misprice": "Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.",
-    "reason": "Close electoral dynamics and persistent political deadlock make a definitive seat-count victory for Yashar highly uncertain."
+    "misprice": "Market underprices the final polling momentum showing Eisenkot's opposition party securing the most seats.",
+    "reason": "Final polls consistently show Eisenkot leading Netanyahu in seat projections heading into the October 27 election."
    }
   },
   "682708": {
-   "t": 1793047257.5734622,
-   "yes": 0.5635,
+   "t": 1793059858.3602579,
+   "yes": 0.5505,
    "est": {
-    "p": 0.53,
+    "p": 0.52,
     "conf": "low",
     "evidence": [
-     "As eleicoes legislativas em Israel estao agendadas para 27 de outubro de 2026.",
-     "O mercado atual negocia o SIM a 0.564 a apenas 1.31 dias da resolucao."
+     "As eleições legislativas em Israel estão marcadas para 27 de outubro de 2026.",
+     "Notícias de 24 a 26 de outubro de 2026 apontam Gadi Eisenkot como principal desafiante de Netanyahu, com o mercado precificando o SIM em 0.550."
     ],
-    "misprice": "O mercado pode estar ligeiramente sobrevalorizando o candidato devido ao otimismo recente da midia em 26 de outubro de 2026.",
-    "reason": "A disputa esta extremamente aberta as vésperas da eleicao com margens apertadas e incerteza na formacao de coalizoes."
+    "misprice": "O mercado pode estar superestimando o ímpeto da campanha de Eisenkot em véspera de eleição altamente volátil.",
+    "reason": "Embora seja um forte candidato da oposição, a formação de coalizão em Israel é incerta e dependente de resultados parciais nas urnas."
    }
   },
   "682706": {
-   "t": 1793047264.2972462,
-   "yes": 0.105,
+   "t": 1793059864.5767279,
+   "yes": 0.115,
    "est": {
     "p": 0.12,
     "conf": "low",
     "evidence": [
      "As eleições legislativas em Israel estão marcadas para 27 de outubro de 2026.",
-     "Naftali Bennett aparece na mídia como um franco-atirador em potencial nas eleições de 26 de outubro de 2026.",
-     "O preço atual de mercado para SIM é de 0.105 na véspera do pleito."
+     "Naftali Bennett é mencionado em notícias recentes de 24 a 26 de outubro de 2026 como um curinga e opositor a planos de governo minoritário do bloco anti-Netanyahu."
     ],
-    "misprice": "O mercado já reflete adequadamente a incerteza e a baixa probabilidade de Bennett formar uma coalizão majoritária viável.",
-    "reason": "Embora Bennett seja citado como um curinga nas eleições de outubro de 2026, as pesquisas e o histórico político tornam sua posse como próximo PM improvável."
+    "misprice": "O mercado já reflete adequadamente a incerteza em torno da viabilidade de coalizão de Naftali Bennett nas vésperas da eleição.",
+    "reason": "Apesar de especulações na mídia sobre seu retorno, formar uma coalizão majoritária viável em Israel continua sendo um desafio altamente incerto."
    }
   },
   "2110579": {
-   "t": 1793028364.2737904,
-   "yes": 0.083,
+   "t": 1793059870.310214,
+   "yes": 0.0975,
    "est": {
-    "p": 0.08,
+    "p": 0.1,
     "conf": "low",
     "evidence": [
-     "Israeli legislative elections are scheduled for October 2026.",
-     "Current market pricing sits at approximately 8.3% for the 30-34 seat range."
+     "Israeli legislative elections are scheduled for October 27, 2026.",
+     "Current market price for Likud winning 30-34 seats stands at 0.098."
     ],
-    "misprice": "Market price reflects accurate skepticism regarding Likud achieving this specific seat bracket based on current polling trends.",
-    "reason": "Current polling and historical seat distributions make 30-34 seats an unlikely outcome for Likud, aligning closely with the low market price."
+    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade historica e atual de o Likud atingir exatamente essa faixa de assentos.",
+    "reason": "A faixa de 30-34 assentos e historicamente estreita e incerta para o Likud nas pesquisas recentes, justificando uma probabilidade baixa."
    }
   },
   "5794294": {
-   "t": 1793047285.5975804,
-   "yes": 0.3225,
+   "t": 1793059888.3705344,
+   "yes": 0.36,
    "est": {
     "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 20 a 27 de outubro de 2026."
+     "Faltam menos de 24 horas para o encerramento do mercado em 27 de outubro de 2026",
+     "A faixa alvo e de 340 a 359 tweets no periodo de 7 dias"
     ],
-    "misprice": "O mercado reflete uma probabilidade razoavel para a faixa de volume habitual de postagens em um periodo de 7 dias.",
-    "reason": "A estimativa esta ligeiramente acima do preco atual devido a incerteza inerente ao comportamento recente de postagem no X perto do encerramento."
+    "misprice": "O mercado ja reflete adequadamente a taxa media de postagem historica de Elon Musk para este periodo de 7 dias.",
+    "reason": "A probabilidade atual de 36% esta proxima da taxa base esperada para essa faixa de volume de tweets."
+   }
+  },
+  "2110578": {
+   "t": 1793059882.466744,
+   "yes": 0.205,
+   "est": {
+    "p": 0.2,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma nova pesquisa eleitoral israelense oficial publicada para o pleito de outubro de 2026.",
+     "O Likud historicalmente oscila nas pesquisas dependendo de coalizões e cenário de segurança."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza de longo prazo e a volatilidade típica das pesquisas para o Likud.",
+    "reason": "A falta de dados concretos recentes mantém minha estimativa alinhada ao preço atual de mercado."
    }
   }
  },
@@ -2776,7 +2907,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792891783.6761987,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2634568975468635
@@ -2789,7 +2920,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792891784.1767254,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3242819885187634
@@ -2893,7 +3024,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792930552.42107,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2634568975468635
@@ -2919,7 +3050,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792930580.412881,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3323020135752834
@@ -2945,7 +3076,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792946346.309951,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.09815568332950253
@@ -3099,7 +3230,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792956337.9566855,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3115304191153489
@@ -3125,7 +3256,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792956339.6228197,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.06023598303641431
@@ -3138,7 +3269,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792965469.9569604,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.37410088212416504
@@ -3151,7 +3282,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792965469.9572423,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.36818055880212347
@@ -3164,7 +3295,7 @@
    "cat": "Clima",
    "end": 1793016000.0,
    "t": 1792965544.3240871,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.33951159533680264
@@ -3593,6 +3724,70 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32808830255952776
+  },
+  "6181542": {
+   "q": "Will the highest temperature in Miami be between 82-83°F on October 27?",
+   "p": 0.1561197277309675,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1793059776.7964292,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.11411285871151189
+  },
+  "6175196": {
+   "q": "Will the highest temperature in Milan be 16°C on October 27?",
+   "p": 0.2942759384293132,
+   "yes": 0.465,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1793059777.3812807,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.47064247747499727
+  },
+  "6192044": {
+   "q": "Will the highest temperature in Toronto be 9°C on October 27?",
+   "p": 0.23450671131006073,
+   "yes": 0.425,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793102400.0,
+   "t": 1793059808.4056191,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.38089908592662214
+  },
+  "6238775": {
+   "q": "Will the highest temperature in Wellington be 17°C on October 28?",
+   "p": 0.1506986741992834,
+   "yes": 0.57,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793059839.4209688,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.11864647432419961
+  },
+  "2110578": {
+   "q": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
+   "p": 0.2,
+   "yes": 0.205,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793159940.0,
+   "t": 1793059882.466747,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -3703,14 +3898,19 @@
   {
    "t": 1793047285.5982728,
    "equity": 1452.01
+  },
+  {
+   "t": 1793059888.3710783,
+   "equity": 1425.01
   }
  ],
  "llm_calls": {
   "2026-10-23": 61,
   "2026-10-24": 59,
   "2026-10-25": 60,
-  "2026-10-26": 32
+  "2026-10-26": 32,
+  "2026-10-27": 10
  },
  "killed": false,
- "cycles": 27
+ "cycles": 28
 }

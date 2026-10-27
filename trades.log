@@ -288,3 +288,19 @@
 2026-10-26 20:40:51Z BUY NO [llm] Will Yashar win the most seats in the 2026 Israeli @ 0.320 $43.56 edge=0.107 conf=medium | Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.
 2026-10-26 20:41:17Z BUY YES [llm] Will Brad Bradford win the 2026 Toronto mayoral el @ 0.221 $46.54 edge=0.099 conf=high | O mercado subestima a força de Bradford na reta final ao precificar suas chances em apenas 20%, enquanto pesquisas recentes mostram 44% de intenção de voto.
 2026-10-26 20:41:25Z ciclo 27: lidos=600 filtro=40 llm=8 clima=2 compras=3 vendas=1 descartados={'categoria_Esportes': 123, 'esporte_vivo': 40, 'cripto': 13, 'clima_sem_modelo': 3} equity=$1452.01
+2026-10-27 00:09:08Z SELL NO [take-profit] Will the highest temperature in Dallas be between  @ 0.941 pnl=$+45.75
+2026-10-27 00:09:09Z SELL NO [stop-loss] Will the highest temperature in Munich be 17°C on  @ 0.343 pnl=$-16.57
+2026-10-27 00:09:09Z SELL NO [stop-loss] Will the highest temperature in Shanghai be 21°C o @ 0.231 pnl=$-17.94
+2026-10-27 00:09:09Z SELL NO [stop-loss] Will the highest temperature in Jeddah be 37°C on  @ 0.295 pnl=$-18.97
+2026-10-27 00:09:35Z erro previsao geo:houston: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:09:36Z BUY NO [clima] Will the highest temperature in Houston be between @ 0.602 $42.75 edge=0.092 conf=medium | Modelo 0.22 vs mercado 0.43
+2026-10-27 00:09:36Z BUY NO [clima] Will the highest temperature in Miami be between 8 @ 0.532 $42.75 edge=0.179 conf=medium | Modelo 0.16 vs mercado 0.49
+2026-10-27 00:09:47Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:09:57Z erro previsao EGLC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:10:07Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:10:08Z BUY NO [clima] Will the highest temperature in Toronto be 9°C on  @ 0.598 $42.75 edge=0.092 conf=medium | Modelo 0.23 vs mercado 0.42
+2026-10-27 00:10:18Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:10:28Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:10:38Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 00:10:39Z BUY NO [clima] Will the highest temperature in Wellington be 17°C @ 0.462 $42.75 edge=0.220 conf=medium | Modelo 0.15 vs mercado 0.57
+2026-10-27 00:11:28Z ciclo 28: lidos=500 filtro=31 llm=8 clima=5 compras=4 vendas=4 descartados={'categoria_Esportes': 56, 'cripto': 10, 'clima_sem_modelo': 2} equity=$1425.01
