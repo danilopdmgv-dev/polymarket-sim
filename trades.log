@@ -304,3 +304,16 @@
 2026-10-27 00:10:38Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-27 00:10:39Z BUY NO [clima] Will the highest temperature in Wellington be 17°C @ 0.462 $42.75 edge=0.220 conf=medium | Modelo 0.15 vs mercado 0.57
 2026-10-27 00:11:28Z ciclo 28: lidos=500 filtro=31 llm=8 clima=5 compras=4 vendas=4 descartados={'categoria_Esportes': 56, 'cripto': 10, 'clima_sem_modelo': 2} equity=$1425.01
+2026-10-27 05:20:41Z SELL NO [stop-loss] Will the highest temperature in Singapore be 32°C  @ 0.033 pnl=$-40.10
+2026-10-27 05:20:48Z SELL YES [resolvido] Will Brad Bradford win the 2026 Toronto mayoral el @ 0.000 pnl=$-46.54
+2026-10-27 05:20:59Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:21:09Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:21:09Z erro saida Will the highest temperature in Miami be: sem modelo de clima
+2026-10-27 05:21:12Z BUY NO [clima] Will the highest temperature in Munich be 17°C on  @ 0.658 $39.47 edge=0.120 conf=medium | Modelo 0.12 vs mercado 0.38
+2026-10-27 05:21:21Z erro geocode Helsinki: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-27 05:21:31Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:21:41Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:21:51Z erro previsao LLBG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:22:01Z erro previsao RJTT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:22:12Z erro previsao geo:manila: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 05:23:02Z ciclo 29: lidos=600 filtro=30 llm=8 clima=10 compras=1 vendas=2 descartados={'categoria_Esportes': 102, 'esporte_vivo': 2, 'cripto': 16, 'combinado': 2, 'clima_sem_modelo': 2} equity=$1315.70
