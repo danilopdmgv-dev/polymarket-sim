@@ -333,3 +333,15 @@
 2026-10-27 16:08:50Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-27 16:09:32Z BUY NO [llm] Will Yashar win the most seats in the 2026 Israeli @ 0.260 $50.22 edge=0.357 conf=high | O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.
 2026-10-27 16:10:59Z ciclo 31: lidos=500 filtro=25 llm=8 clima=1 compras=2 vendas=2 descartados={'esporte_vivo': 30, 'categoria_Esportes': 146, 'cripto': 11, 'combinado': 6, 'clima_sem_modelo': 2} equity=$1255.48
+2026-10-27 20:49:39Z SELL NO [take-profit] Will the highest temperature in Toronto be 9°C on  @ 0.953 pnl=$+25.44
+2026-10-27 20:49:43Z SELL NO [take-profit] Will Yashar win the most seats in the 2026 Israeli @ 0.810 pnl=$+106.02
+2026-10-27 20:49:47Z BUY NO [clima] Will the highest temperature in Tokyo be 19°C on O @ 0.578 $40.87 edge=0.077 conf=medium | Modelo 0.28 vs mercado 0.45
+2026-10-27 20:49:57Z erro previsao geo:busan: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 20:50:08Z erro previsao geo:busan: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 20:50:16Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-27 20:50:26Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 20:50:36Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-27 20:50:36Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-27 20:50:55Z BUY NO [llm] Will Yashar win the most seats in the 2026 Israeli @ 0.820 $54.50 edge=0.057 conf=high | O mercado subestima a vantagem projetada para o Likud nas pesquisas de boca de urna em relacao ao partido Yashar.
+2026-10-27 20:51:09Z BUY YES [llm] Will Likud win 25-29 seats in the 2026 Israeli leg @ 0.571 $51.49 edge=0.064 conf=high | O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.
+2026-10-27 20:51:27Z ciclo 32: lidos=500 filtro=34 llm=8 clima=2 compras=3 vendas=2 descartados={'categoria_Esportes': 100, 'esporte_vivo': 20, 'cripto': 9, 'clima_sem_modelo': 3} equity=$1362.38

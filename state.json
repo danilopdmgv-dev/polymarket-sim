@@ -1,31 +1,6 @@
 {
- "cash": 954.3815134547291,
+ "cash": 1031.9662265423094,
  "positions": [
-  {
-   "mid": "6192044",
-   "q": "Will the highest temperature in Toronto be 9°C on October 27?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "61862870136082247659926240378079673730247768923327465308811988268703231279273",
-   "entry": 0.5975795012947075,
-   "fair": 0.6892959732139636,
-   "shares": 71.5392147050916,
-   "cost": 42.75036824648364,
-   "t": 1793059808.405661,
-   "mark": 0.86,
-   "conf": "medium",
-   "llm_p": 0.23450671131006073,
-   "mkt_yes": 0.425,
-   "edge": 0.09171647191925614,
-   "evidence": [
-    "Previsao Open-Meteo CYYZ 2026-10-27: maxima 9.0C (1 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.23 vs mercado 0.42",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "CYYZ|2026-10-27",
-   "breakCount": 0
-  },
   {
    "mid": "6238775",
    "q": "Will the highest temperature in Wellington be 17°C on October 28?",
@@ -37,7 +12,7 @@
    "shares": 92.5543756148758,
    "cost": 42.75036824648364,
    "t": 1793059839.4210138,
-   "mark": 0.44999999999999996,
+   "mark": 0.42000000000000004,
    "conf": "medium",
    "llm_p": 0.1506986741992834,
    "mkt_yes": 0.57,
@@ -87,7 +62,7 @@
    "shares": 94.27808561467606,
    "cost": 38.70286883775872,
    "t": 1793097925.2755928,
-   "mark": 0.36,
+   "mark": 0.31999999999999995,
    "conf": "medium",
    "llm_p": 0.15869780245207266,
    "mkt_yes": 0.64,
@@ -112,7 +87,7 @@
    "shares": 63.658754551730176,
    "cost": 38.70286883775872,
    "t": 1793097925.4930289,
-   "mark": 0.69,
+   "mark": 0.71,
    "conf": "medium",
    "llm_p": 0.23664179558952803,
    "mkt_yes": 0.425,
@@ -137,7 +112,7 @@
    "shares": 68.77945718055302,
    "cost": 37.66449915494339,
    "t": 1793117288.9896662,
-   "mark": 0.5476126259047127,
+   "mark": 0.54,
    "conf": "medium",
    "llm_p": 0.16066503080430805,
    "mkt_yes": 0.48,
@@ -148,7 +123,32 @@
    "misprice": "Modelo 0.16 vs mercado 0.48",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:lucknow|2026-10-28"
+   "event": "geo:lucknow|2026-10-28",
+   "breakCount": 0
+  },
+  {
+   "mid": "6238817",
+   "q": "Will the highest temperature in Tokyo be 19°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "74111687774809887972950828401644748935931597568382603612335307378033446884746",
+   "entry": 0.5779318726150354,
+   "fair": 0.6544494998352166,
+   "shares": 70.72002351795834,
+   "cost": 40.87135562311301,
+   "t": 1793134187.087053,
+   "mark": 0.5779318726150354,
+   "conf": "medium",
+   "llm_p": 0.27925083360797226,
+   "mkt_yes": 0.445,
+   "edge": 0.07651762722018118,
+   "evidence": [
+    "Previsao Open-Meteo RJTT 2026-10-28: maxima 18.6C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.28 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "RJTT|2026-10-28"
   },
   {
    "mid": "2100984",
@@ -156,21 +156,46 @@
    "cat": "Politica",
    "side": "NO",
    "token": "63424755361185170901233281121558927457624032744827678779847584269740504139135",
-   "entry": 0.26024255654922207,
-   "fair": 0.6174999999999999,
-   "shares": 192.9712529437619,
-   "cost": 50.21933220659119,
-   "t": 1793117372.400403,
-   "mark": 0.26024255654922207,
+   "entry": 0.8204050481017874,
+   "fair": 0.8775,
+   "shares": 66.42467761126716,
+   "cost": 54.495140830817355,
+   "t": 1793134255.644207,
+   "mark": 0.8204050481017874,
    "conf": "high",
-   "llm_p": 0.01,
-   "mkt_yes": 0.755,
-   "edge": 0.35725744345077787,
+   "llm_p": 0.05,
+   "mkt_yes": 0.195,
+   "edge": 0.057094951898212565,
    "evidence": [
-    "Noticias recentes de 25 a 27 de outubro de 2026 apontam claramente Gadi Eisenkot e Benjamin Netanyahu como os principais contendores.",
-    "Nao ha mencao ou registro de qualquer partido ou candidato proeminente chamado 'Yashar' nas principais pesquisas e coberturas eleitorais israelenses de outubro de 2026."
+    "i24NEWS exit poll on Oct 27, 2026 shows Likud winning 27 seats and Yashar only 20 seats.",
+    "Exit polls from Oct 27, 2026 clearly place Likud ahead of Yashar in seat count."
    ],
-   "misprice": "O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.",
+   "misprice": "O mercado subestima a vantagem projetada para o Likud nas pesquisas de boca de urna em relacao ao partido Yashar.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null
+  },
+  {
+   "mid": "2110578",
+   "q": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
+   "cat": "Politica",
+   "side": "YES",
+   "token": "35426463782545874068474526119520321582933339958366001423364580004443309941419",
+   "entry": 0.5712009573380485,
+   "fair": 0.635,
+   "shares": 90.13506391251904,
+   "cost": 51.48523479655707,
+   "t": 1793134269.476818,
+   "mark": 0.5712009573380485,
+   "conf": "high",
+   "llm_p": 0.72,
+   "mkt_yes": 0.55,
+   "edge": 0.06379904266195147,
+   "evidence": [
+    "i24NEWS exit poll on Oct 27, 2026 shows Likud winning exactly 27 seats.",
+    "Channel 12 and Ynetnews exit polls on Oct 27, 2026 confirm Likud as the largest party near this range."
+   ],
+   "misprice": "O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.",
    "version": "v3-alto-volume",
    "src": "llm",
    "event": null
@@ -1553,78 +1578,137 @@
    "pnl": -41.94651594542504,
    "closed_t": 1793117282.1146436,
    "held_h": 15.973699484931098
+  },
+  {
+   "mid": "6192044",
+   "q": "Will the highest temperature in Toronto be 9°C on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "61862870136082247659926240378079673730247768923327465308811988268703231279273",
+   "entry": 0.5975795012947075,
+   "fair": 0.6892959732139636,
+   "shares": 71.5392147050916,
+   "cost": 42.75036824648364,
+   "t": 1793059808.405661,
+   "mark": 0.999,
+   "conf": "medium",
+   "llm_p": 0.23450671131006073,
+   "mkt_yes": 0.425,
+   "edge": 0.09171647191925614,
+   "evidence": [
+    "Previsao Open-Meteo CYYZ 2026-10-27: maxima 9.0C (1 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "CYYZ|2026-10-27",
+   "breakCount": 0,
+   "exit": 0.9532447678129585,
+   "reason": "take-profit",
+   "pnl": 25.444013864592783,
+   "closed_t": 1793134179.9170525,
+   "held_h": 20.658753164344365
+  },
+  {
+   "mid": "2100984",
+   "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "63424755361185170901233281121558927457624032744827678779847584269740504139135",
+   "entry": 0.26024255654922207,
+   "fair": 0.6174999999999999,
+   "shares": 192.9712529437619,
+   "cost": 50.21933220659119,
+   "t": 1793117372.400403,
+   "mark": 0.8200000000000001,
+   "conf": "high",
+   "llm_p": 0.01,
+   "mkt_yes": 0.755,
+   "edge": 0.35725744345077787,
+   "evidence": [
+    "Noticias recentes de 25 a 27 de outubro de 2026 apontam claramente Gadi Eisenkot e Benjamin Netanyahu como os principais contendores.",
+    "Nao ha mencao ou registro de qualquer partido ou candidato proeminente chamado 'Yashar' nas principais pesquisas e coberturas eleitorais israelenses de outubro de 2026."
+   ],
+   "misprice": "O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "exit": 0.8096649622341697,
+   "reason": "take-profit",
+   "pnl": 106.02273002040019,
+   "closed_t": 1793134183.7919135,
+   "held_h": 4.669830975135167
   }
  ],
  "cache": {
   "682705": {
-   "t": 1793117345.5357232,
-   "yes": 0.195,
+   "t": 1793134243.2844846,
+   "yes": 0.305,
    "est": {
-    "p": 0.22,
+    "p": 0.32,
     "conf": "low",
     "evidence": [
-     "As eleições legislativas em Israel estão ocorrendo hoje, 27 de outubro de 2026.",
-     "O preço atual de mercado para Netanyahu é de 0.195."
+     "As of Oct 27, 2026, voter turnout is reported as the highest on record in pivotal Israeli parliamentary elections.",
+     "Recent reports on Oct 27, 2026, indicate Netanyahu is in a fierce battle to stay in power with the outcome still uncertain."
     ],
-    "misprice": "O mercado já reflete adequadamente a alta probabilidade de transição de poder após anos de desgaste político e coalizões instáveis.",
-    "reason": "Apesar do alto comparecimento às urnas em 27 de outubro de 2026, as pesquisas indicam extrema dificuldade para Netanyahu formar uma nova coalizão viável."
+    "misprice": "Market price of 0.305 adequately reflects the high uncertainty and early exit poll ambiguity on election day.",
+    "reason": "High turnout and a tight race leave Netanyahu's path to forming a governing coalition highly uncertain."
    }
   },
   "2100981": {
-   "t": 1793117358.7202146,
-   "yes": 0.24,
+   "t": 1793134249.6352582,
+   "yes": 0.805,
    "est": {
-    "p": 0.28,
-    "conf": "low",
+    "p": 0.82,
+    "conf": "medium",
     "evidence": [
-     "As eleições legislativas israelenses ocorrem em 27 de outubro de 2026, com notícias indicando alta participação dos eleitores.",
-     "O atual preço de mercado para o SIM negocia em torno de 0.24, refletindo ceticismo contínuo quanto à vitória do Likud de Netanyahu."
+     "Exit polls from Haaretz and Times of Israel on Oct 27, 2026, show Netanyahu's Likud as the largest single party.",
+     "Channel 12 exit poll on Oct 27, 2026, confirms Likud winning the most seats among individual parties despite bloc totals."
     ],
-    "misprice": "O mercado pode estar subestimando a resiliência eleitoral de Netanyahu e a capacidade mobilizadora da base do Likud em eleições de alta participação.",
-    "reason": "Embora o Likud enfrente forte oposição e pesquisas históricas desafiadoras, a alta volatilidade do dia da eleição justifica um pequeno ajuste para cima em relação ao preço atual."
+    "misprice": "Market underprices Likud's historical resilience in securing the largest individual party seat share despite broader coalition dynamics.",
+    "reason": "Multiple exit polls consistently project Likud as the single largest party in the Knesset."
    }
   },
   "2100984": {
-   "t": 1793117372.4003782,
-   "yes": 0.755,
+   "t": 1793134255.6441815,
+   "yes": 0.195,
    "est": {
-    "p": 0.01,
+    "p": 0.05,
     "conf": "high",
     "evidence": [
-     "Noticias recentes de 25 a 27 de outubro de 2026 apontam claramente Gadi Eisenkot e Benjamin Netanyahu como os principais contendores.",
-     "Nao ha mencao ou registro de qualquer partido ou candidato proeminente chamado 'Yashar' nas principais pesquisas e coberturas eleitorais israelenses de outubro de 2026."
+     "i24NEWS exit poll on Oct 27, 2026 shows Likud winning 27 seats and Yashar only 20 seats.",
+     "Exit polls from Oct 27, 2026 clearly place Likud ahead of Yashar in seat count."
     ],
-    "misprice": "O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.",
-    "reason": "Como nao ha partido relevante chamado 'Yashar' disputando as eleicoes de 2026, a probabilidade de vencer o maior numero de assentos e essencialmente zero."
+    "misprice": "O mercado subestima a vantagem projetada para o Likud nas pesquisas de boca de urna em relacao ao partido Yashar.",
+    "reason": "As pesquisas de boca de urna divulgadas em 27 de outubro de 2026 mostram o Likud liderando com 27 assentos contra 20 do Yashar, tornando a vitoria deste ultimo improvavel."
    }
   },
   "682708": {
-   "t": 1793117384.7449822,
-   "yes": 0.658,
+   "t": 1793134261.7467325,
+   "yes": 0.5075,
    "est": {
-    "p": 0.62,
+    "p": 0.48,
     "conf": "low",
     "evidence": [
-     "Eleições legislativas ocorrem em 27 de outubro de 2026 com recorde de comparecimento segundo NYT e BBC em 27/10/2026.",
-     "Notícias indicam forte desafio de Gadi Eizenkot contra Netanyahu (NYT, 27/10/2026).",
-     "Formação de governo em Israel frequentemente leva semanas ou meses devido ao sistema parlamentar fragmentado (PBS, 27/10/2026)."
+     "Eleições legislativas ocorrem em 27 de outubro de 2026 com comparecimento recorde preliminar.",
+     "Gadi Eisenkot é apontado como o principal oponente de Benjamin Netanyahu nas eleições de 2026."
     ],
-    "misprice": "O mercado pode estar superestimando a velocidade com que Eizenkot garantirá a coalizão, visto que a resolução exige posse efetiva até dezembro de 2026.",
-    "reason": "Apesar do forte desempenho nas urnas e recorde de comparecimento, o complexo cenário de coalizões israelense introduz incerteza substancial sobre a posse formal no curto prazo."
+    "misprice": "O mercado pode estar sobrestimando a transição de poder antes dos resultados oficiais consolidados da votação de hoje.",
+    "reason": "Embora Eisenkot seja um forte oponente, a formação de coalizão e a posse definitiva ainda dependem de complexas negociações pós-eleitorais."
    }
   },
   "2110578": {
-   "t": 1793117427.097055,
-   "yes": 0.13,
+   "t": 1793134269.4767954,
+   "yes": 0.55,
    "est": {
-    "p": 0.15,
-    "conf": "low",
+    "p": 0.72,
+    "conf": "high",
     "evidence": [
-     "The Jerusalem Post reported on 2026-10-25 that Gadi Eisenkot leads Benjamin Netanyahu in polls as Knesset deadlock looms.",
-     "Turnout is reported as the highest on record in updates on 2026-10-27, potentially shifting historical seat distributions for Likud."
+     "i24NEWS exit poll on Oct 27, 2026 shows Likud winning exactly 27 seats.",
+     "Channel 12 and Ynetnews exit polls on Oct 27, 2026 confirm Likud as the largest party near this range."
     ],
-    "misprice": "The market at 0.13 may slightly underestimate volatility amid record turnout and opposition momentum against Netanyahu.",
-    "reason": "While Likud historically polls variably, recent pre-election tracking shows significant pressure on Netanyahu's bloc, keeping 25-29 seats within a low-to-moderate probability range."
+    "misprice": "O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.",
+    "reason": "As pesquisas de boca de urna divulgadas em 27 de outubro de 2026 situam o Likud consistentemente dentro da faixa de 25-29 assentos."
    }
   },
   "2110576": {
@@ -1642,46 +1726,17 @@
    }
   },
   "2110577": {
-   "t": 1793117459.2813928,
-   "yes": 0.495,
+   "t": 1793134275.8145232,
+   "yes": 0.355,
    "est": {
-    "p": 0.51,
-    "conf": "low",
+    "p": 0.42,
+    "conf": "medium",
     "evidence": [
-     "The Media Line reported on Oct 25, 2026, that Israel's election features two front-runners with no clear path to government.",
-     "The Jerusalem Post indicated on Sep 10, 2026, that polls are split between Likud and Yashar vying for primacy."
+     "Exit polls from October 27, 2026, indicate Netanyahu's Likud is projected to remain the largest party in the Knesset.",
+     "Recent exit poll data shows Eisenkot's bloc slightly ahead overall, while Likud's seat count hovers near the historical and projected 20-24 range."
     ],
-    "misprice": "The market is appropriately priced near coin-flip given highly split polls right before the October 27, 2026 election.",
-    "reason": "Polling averages show Likud fluctuating near the 20-24 seat threshold, making this outcome highly sensitive to final turnout."
-   }
-  },
-  "5332539": {
-   "t": 1793097971.7741008,
-   "yes": 0.88,
-   "est": {
-    "p": 0.88,
-    "conf": "low",
-    "evidence": [
-     "As eleições legislativas israelenses ocorrem em 27 de outubro de 2026.",
-     "Pesquisas recentes apontam o bloco de oposição liderado por Gadi Eisenkot com 54 assentos e o bloco de Netanyahu com 48 assentos.",
-     "O mercado precifica a vitória do partido Together para o terceiro lugar em 0.88."
-    ],
-    "misprice": "O preço de mercado reflete adequadamente a probabilidade implícita nas pesquisas pré-eleitorais para a terceira posição.",
-    "reason": "A estimativa alinha-se ao consenso atual de mercado devido à falta de dados definitivos de boca de urna que justifiquem desvio."
-   }
-  },
-  "5475249": {
-   "t": 1793097965.654461,
-   "yes": 0.405,
-   "est": {
-    "p": 0.4,
-    "conf": "low",
-    "evidence": [
-     "Legislative elections in Israel are being held today, October 27, 2026, with polls currently open.",
-     "Recent reporting from CNN and BBC on October 27, 2026 highlights a fiercely contested race regarding Netanyahu's political survival."
-    ],
-    "misprice": "O mercado já reflete adequadamente a extrema volatilidade e o equilíbrio estatístico da eleição em dia de votação.",
-    "reason": "As eleições ocorrem hoje sem dados concretos de boca de urna definitivos para justificar desvio substancial do preço atual."
+    "misprice": "O mercado subestima a probabilidade de o Likud ficar na faixa de 20-24 assentos apesar de pesquisas de boca de urna recentes apontarem o partido como o maior da Knesset.",
+    "reason": "As pesquisas de boca de urna de 27 de outubro de 2026 posicionam o Likud como o maior partido, mantendo-se competitivo na faixa esperada de 20 a 24 assentos."
    }
   },
   "682706": {
@@ -1696,6 +1751,33 @@
     ],
     "misprice": "O mercado avalia corretamente que Bennett tem viabilidade limitada em comparacao aos principais blocos partidarios e favoritos como Eisenkot.",
     "reason": "A probabilidade reflete sua posicao como um azarão estatístico nas sondagens de intenção de voto atuais."
+   }
+  },
+  "2109956": {
+   "t": 1793134282.1148198,
+   "yes": 0.59,
+   "est": {
+    "p": 0.55,
+    "conf": "low",
+    "evidence": [
+     "Netanyahu bloc on track to have 50 seats and rival bloc 52 in exit polls on Oct 27, 2026",
+     "Record voter turnout reported in the Israeli election on Oct 27, 2026"
+    ],
+    "misprice": "O mercado pode estar subestimando a volatilidade extrema de formações de coalizão com blocos tão fragmentados.",
+    "reason": "As primeiras pesquisas de boca de urna mostram um parlamento extremamente polarizado e sem maioria clara para nenhum bloco, mantendo alto risco de impasse."
+   }
+  },
+  "6138700": {
+   "t": 1793134287.9689996,
+   "yes": 0.24,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos sobre a taxa exata de tweets de Elon Musk para este periodo de 48 horas em outubro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza inerente ao volume de postagens em uma faixa estreita de 25 tweets.",
+    "reason": "A faixa de 65-89 tweets em 48 horas exige uma media de 32 a 44 posts por dia, o que esta acima da media historica recente dele, tornando o cenario desfavoravel."
    }
   }
  },
@@ -2805,7 +2887,7 @@
    "cat": "Politica",
    "end": 1792972740.0,
    "t": 1792806454.7078369,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3431,7 +3513,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1792956339.2455332,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3140679786710152
@@ -3548,7 +3630,7 @@
    "cat": "Entretenimento",
    "end": 1793116800.0,
    "t": 1792965597.3096201,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3659,7 +3741,7 @@
    "cat": "Entretenimento",
    "end": 1793116800.0,
    "t": 1792982060.2946727,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -3792,7 +3874,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793028054.3692641,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2535403935182855
@@ -3818,7 +3900,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793028075.14496,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2625248626020513
@@ -3857,7 +3939,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793028093.9942477,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3233516410859252
@@ -4206,6 +4288,43 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.23182660852232584
+  },
+  "6238817": {
+   "q": "Will the highest temperature in Tokyo be 19°C on October 28?",
+   "p": 0.27925083360797226,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793134187.086999,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4129691022193259
+  },
+  "2109956": {
+   "q": "Israeli election results in a hung parliament?",
+   "p": 0.55,
+   "yes": 0.59,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793145540.0,
+   "t": 1793134282.1148243,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6138700": {
+   "q": "Will Elon Musk post 65-89 tweets from October 26 to October 28, 2026?",
+   "p": 0.22,
+   "yes": 0.24,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793203200.0,
+   "t": 1793134287.9690037,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -4332,6 +4451,10 @@
   {
    "t": 1793117459.281946,
    "equity": 1255.48
+  },
+  {
+   "t": 1793134287.969616,
+   "equity": 1362.38
   }
  ],
  "llm_calls": {
@@ -4339,8 +4462,8 @@
   "2026-10-24": 59,
   "2026-10-25": 60,
   "2026-10-26": 32,
-  "2026-10-27": 36
+  "2026-10-27": 44
  },
  "killed": false,
- "cycles": 31
+ "cycles": 32
 }
