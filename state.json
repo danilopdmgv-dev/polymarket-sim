@@ -1,58 +1,6 @@
 {
- "cash": 1011.566674519696,
+ "cash": 954.3815134547291,
  "positions": [
-  {
-   "mid": "2100984",
-   "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
-   "cat": "Politica",
-   "side": "NO",
-   "token": "63424755361185170901233281121558927457624032744827678779847584269740504139135",
-   "entry": 0.32027399172506604,
-   "fair": 0.4275,
-   "shares": 136.00993701386926,
-   "cost": 43.56044544170672,
-   "t": 1793047251.1091275,
-   "mark": 0.29000000000000004,
-   "conf": "medium",
-   "llm_p": 0.45,
-   "mkt_yes": 0.695,
-   "edge": 0.10722600827493395,
-   "evidence": [
-    "The Jerusalem Post poll on Oct 25, 2026 shows Gadi Eisenkot leading Benjamin Netanyahu.",
-    "Jerusalem Post poll on Oct 23, 2026 shows the opposition leading the Netanyahu bloc 54-48, indicating a fragmented Knesset deadlock.",
-    "Recent reports from Oct 23-25, 2026 emphasize that no single bloc or party is guaranteed a decisive majority."
-   ],
-   "misprice": "Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null,
-   "breakCount": 0
-  },
-  {
-   "mid": "6181542",
-   "q": "Will the highest temperature in Miami be between 82-83°F on October 27?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "94801772386245602327590309028536872256903829693780126639844082954297334707131",
-   "entry": 0.5318186959244241,
-   "fair": 0.7103281633614195,
-   "shares": 80.3852301058608,
-   "cost": 42.750368246483646,
-   "t": 1793059776.7964978,
-   "mark": 0.44999999999999996,
-   "conf": "medium",
-   "llm_p": 0.1561197277309675,
-   "mkt_yes": 0.49,
-   "edge": 0.17850946743699536,
-   "evidence": [
-    "Previsao Open-Meteo KMIA 2026-10-27: maxima 79.4F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.16 vs mercado 0.49",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KMIA|2026-10-27",
-   "breakCount": 0
-  },
   {
    "mid": "6192044",
    "q": "Will the highest temperature in Toronto be 9°C on October 27?",
@@ -64,7 +12,7 @@
    "shares": 71.5392147050916,
    "cost": 42.75036824648364,
    "t": 1793059808.405661,
-   "mark": 0.6699999999999999,
+   "mark": 0.86,
    "conf": "medium",
    "llm_p": 0.23450671131006073,
    "mkt_yes": 0.425,
@@ -89,7 +37,7 @@
    "shares": 92.5543756148758,
    "cost": 42.75036824648364,
    "t": 1793059839.4210138,
-   "mark": 0.42000000000000004,
+   "mark": 0.44999999999999996,
    "conf": "medium",
    "llm_p": 0.1506986741992834,
    "mkt_yes": 0.57,
@@ -114,7 +62,7 @@
    "shares": 65.67370451727747,
    "cost": 38.702868837758714,
    "t": 1793097925.1416538,
-   "mark": 0.5893206287392657,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.24543770780462526,
    "mkt_yes": 0.46,
@@ -125,7 +73,8 @@
    "misprice": "Modelo 0.25 vs mercado 0.46",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "KLGA|2026-10-28"
+   "event": "KLGA|2026-10-28",
+   "breakCount": 0
   },
   {
    "mid": "6238840",
@@ -138,7 +87,7 @@
    "shares": 94.27808561467606,
    "cost": 38.70286883775872,
    "t": 1793097925.2755928,
-   "mark": 0.41051818760874303,
+   "mark": 0.36,
    "conf": "medium",
    "llm_p": 0.15869780245207266,
    "mkt_yes": 0.64,
@@ -149,7 +98,8 @@
    "misprice": "Modelo 0.16 vs mercado 0.64",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "ZSPD|2026-10-28"
+   "event": "ZSPD|2026-10-28",
+   "breakCount": 0
   },
   {
    "mid": "6243104",
@@ -162,7 +112,7 @@
    "shares": 63.658754551730176,
    "cost": 38.70286883775872,
    "t": 1793097925.4930289,
-   "mark": 0.6079740188179164,
+   "mark": 0.69,
    "conf": "medium",
    "llm_p": 0.23664179558952803,
    "mkt_yes": 0.425,
@@ -173,7 +123,57 @@
    "misprice": "Modelo 0.24 vs mercado 0.42",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "KDFW|2026-10-28"
+   "event": "KDFW|2026-10-28",
+   "breakCount": 0
+  },
+  {
+   "mid": "6238785",
+   "q": "Will the highest temperature in Lucknow be 30°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "5074926014443140571195513731912518953339122299653676735669120430952232328002",
+   "entry": 0.5476126259047127,
+   "fair": 0.7116009815174151,
+   "shares": 68.77945718055302,
+   "cost": 37.66449915494339,
+   "t": 1793117288.9896662,
+   "mark": 0.5476126259047127,
+   "conf": "medium",
+   "llm_p": 0.16066503080430805,
+   "mkt_yes": 0.48,
+   "edge": 0.16398835561270242,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-10-28: maxima 29.1C (3 modelos, sigma 2.3)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-10-28"
+  },
+  {
+   "mid": "2100984",
+   "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "63424755361185170901233281121558927457624032744827678779847584269740504139135",
+   "entry": 0.26024255654922207,
+   "fair": 0.6174999999999999,
+   "shares": 192.9712529437619,
+   "cost": 50.21933220659119,
+   "t": 1793117372.400403,
+   "mark": 0.26024255654922207,
+   "conf": "high",
+   "llm_p": 0.01,
+   "mkt_yes": 0.755,
+   "edge": 0.35725744345077787,
+   "evidence": [
+    "Noticias recentes de 25 a 27 de outubro de 2026 apontam claramente Gadi Eisenkot e Benjamin Netanyahu como os principais contendores.",
+    "Nao ha mencao ou registro de qualquer partido ou candidato proeminente chamado 'Yashar' nas principais pesquisas e coberturas eleitorais israelenses de outubro de 2026."
+   ],
+   "misprice": "O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null
   }
  ],
  "closed": [
@@ -1491,121 +1491,168 @@
    "pnl": -25.54693471950872,
    "closed_t": 1793097922.665786,
    "held_h": 5.4027188577254615
+  },
+  {
+   "mid": "2100984",
+   "q": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "63424755361185170901233281121558927457624032744827678779847584269740504139135",
+   "entry": 0.32027399172506604,
+   "fair": 0.4275,
+   "shares": 136.00993701386926,
+   "cost": 43.56044544170672,
+   "t": 1793047251.1091275,
+   "mark": 0.22999999999999998,
+   "conf": "medium",
+   "llm_p": 0.45,
+   "mkt_yes": 0.695,
+   "edge": 0.10722600827493395,
+   "evidence": [
+    "The Jerusalem Post poll on Oct 25, 2026 shows Gadi Eisenkot leading Benjamin Netanyahu.",
+    "Jerusalem Post poll on Oct 23, 2026 shows the opposition leading the Netanyahu bloc 54-48, indicating a fragmented Knesset deadlock.",
+    "Recent reports from Oct 23-25, 2026 emphasize that no single bloc or party is guaranteed a decisive majority."
+   ],
+   "misprice": "Market overprices Yashar assuming a clear victory, ignoring severe Knesset fragmentation and strong polling by alternative figures like Eisenkot.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "breakCount": 0,
+   "exit": 0.21979877832353178,
+   "reason": "stop-loss",
+   "pnl": -13.66562744619775,
+   "closed_t": 1793117282.0613778,
+   "held_h": 19.45304229180018
+  },
+  {
+   "mid": "6181542",
+   "q": "Will the highest temperature in Miami be between 82-83°F on October 27?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "94801772386245602327590309028536872256903829693780126639844082954297334707131",
+   "entry": 0.5318186959244241,
+   "fair": 0.7103281633614195,
+   "shares": 80.3852301058608,
+   "cost": 42.750368246483646,
+   "t": 1793059776.7964978,
+   "mark": 0.24,
+   "conf": "medium",
+   "llm_p": 0.1561197277309675,
+   "mkt_yes": 0.49,
+   "edge": 0.17850946743699536,
+   "evidence": [
+    "Previsao Open-Meteo KMIA 2026-10-27: maxima 79.4F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.49",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KMIA|2026-10-27",
+   "breakCount": 0,
+   "exit": 0.01,
+   "reason": "stop-loss",
+   "pnl": -41.94651594542504,
+   "closed_t": 1793117282.1146436,
+   "held_h": 15.973699484931098
   }
  ],
  "cache": {
   "682705": {
-   "t": 1793097934.5047858,
-   "yes": 0.285,
+   "t": 1793117345.5357232,
+   "yes": 0.195,
    "est": {
-    "p": 0.29,
+    "p": 0.22,
     "conf": "low",
     "evidence": [
-     "Legislative elections are being held today, October 27, 2026.",
-     "Early reports indicate high voter turnout across Israel.",
-     "Current market price for YES is 0.285."
+     "As eleições legislativas em Israel estão ocorrendo hoje, 27 de outubro de 2026.",
+     "O preço atual de mercado para Netanyahu é de 0.195."
     ],
-    "misprice": "O mercado ja esta extremamente calibrado com as noticias de alta participacao e oposicao acirrada no dia da eleicao.",
-    "reason": "A alta participacao eleitoral em 27 de outubro de 2026 sinaliza um referendo sobre o governo atual, mantendo as chances de Netanyahu em baixa mas dentro do preco atual."
+    "misprice": "O mercado já reflete adequadamente a alta probabilidade de transição de poder após anos de desgaste político e coalizões instáveis.",
+    "reason": "Apesar do alto comparecimento às urnas em 27 de outubro de 2026, as pesquisas indicam extrema dificuldade para Netanyahu formar uma nova coalizão viável."
    }
   },
   "2100981": {
-   "t": 1793097940.6375296,
-   "yes": 0.295,
+   "t": 1793117358.7202146,
+   "yes": 0.24,
    "est": {
     "p": 0.28,
     "conf": "low",
     "evidence": [
-     "The Jerusalem Post reported on Oct 25, 2026, that Gadi Eisenkot leads Benjamin Netanyahu in recent polling.",
-     "Israeli legislative elections are scheduled for Oct 27, 2026, with a Knesset deadlock widely anticipated."
+     "As eleições legislativas israelenses ocorrem em 27 de outubro de 2026, com notícias indicando alta participação dos eleitores.",
+     "O atual preço de mercado para o SIM negocia em torno de 0.24, refletindo ceticismo contínuo quanto à vitória do Likud de Netanyahu."
     ],
-    "misprice": "The market price of 0.295 efficiently reflects the strong polling momentum for opposition figures like Gadi Eisenkot over Netanyahu's Likud.",
-    "reason": "Polling data leading up to the October 27, 2026 election shows Likud trailing behind competitors, making a plurality of seats less likely."
+    "misprice": "O mercado pode estar subestimando a resiliência eleitoral de Netanyahu e a capacidade mobilizadora da base do Likud em eleições de alta participação.",
+    "reason": "Embora o Likud enfrente forte oposição e pesquisas históricas desafiadoras, a alta volatilidade do dia da eleição justifica um pequeno ajuste para cima em relação ao preço atual."
    }
   },
   "2100984": {
-   "t": 1793097921.5332496,
-   "yes": 0.705,
+   "t": 1793117372.4003782,
+   "yes": 0.755,
    "est": {
-    "p": 0.35,
-    "conf": "medium",
+    "p": 0.01,
+    "conf": "high",
     "evidence": [
-     "The Jerusalem Post reported on Sun, 25 Oct 2026 that Gadi Eisenkot leads Benjamin Netanyahu in final polls.",
-     "The Jewish Chronicle stated on Mon, 26 Oct 2026 that final polls predict a coalition deadlock with tight races."
+     "Noticias recentes de 25 a 27 de outubro de 2026 apontam claramente Gadi Eisenkot e Benjamin Netanyahu como os principais contendores.",
+     "Nao ha mencao ou registro de qualquer partido ou candidato proeminente chamado 'Yashar' nas principais pesquisas e coberturas eleitorais israelenses de outubro de 2026."
     ],
-    "misprice": "O mercado superestima a chapa de Yashar ignorando pesquisas recentes que apontam liderança de Gadi Eisenkot e forte deadlock político.",
-    "reason": "Pesquisas finais de outubro de 2026 indicam forte concorrência e vantagem de rivais como Eisenkot, tornando a vitória de Yashar menos provável que o preço atual sugere."
+    "misprice": "O mercado esta sobrevalorizando uma opcao nominalmente inexistente ou marginal devido a confusao de termos ou ruido especulativo.",
+    "reason": "Como nao ha partido relevante chamado 'Yashar' disputando as eleicoes de 2026, a probabilidade de vencer o maior numero de assentos e essencialmente zero."
    }
   },
   "682708": {
-   "t": 1793097946.688493,
-   "yes": 0.589,
+   "t": 1793117384.7449822,
+   "yes": 0.658,
    "est": {
-    "p": 0.55,
+    "p": 0.62,
     "conf": "low",
     "evidence": [
-     "Eleições legislativas ocorrem em 27 de outubro de 2026 com Gadi Eisenkot apontado como principal desafiante de Netanyahu."
+     "Eleições legislativas ocorrem em 27 de outubro de 2026 com recorde de comparecimento segundo NYT e BBC em 27/10/2026.",
+     "Notícias indicam forte desafio de Gadi Eizenkot contra Netanyahu (NYT, 27/10/2026).",
+     "Formação de governo em Israel frequentemente leva semanas ou meses devido ao sistema parlamentar fragmentado (PBS, 27/10/2026)."
     ],
-    "misprice": "O preço de mercado reflete adequadamente o favoritismo marginal e a incerteza inerente às coalizões pós-eleitorais em Israel.",
-    "reason": "Embora Eisenkot seja o principal oponente, a formação exata do governo depende de complexas negociações de coalizão após a apuração oficial."
-   }
-  },
-  "2110579": {
-   "t": 1793078558.1180086,
-   "yes": 0.0895,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma nova pesquisa eleitoral israelense publicada para o pleito de outubro de 2026.",
-     "O Likud historicalmente oscila em faixa ampla dependendo de coalizoes e fracionamentos partidarios."
-    ],
-    "misprice": "O mercado ja precifica baixo devido a dispersao historica das pesquisas recentes do Likud.",
-    "reason": "A probabilidade permanece baixa e proxima ao preco atual devido a falta de dados concretos que justifiquem um desvio."
+    "misprice": "O mercado pode estar superestimando a velocidade com que Eizenkot garantirá a coalizão, visto que a resolução exige posse efetiva até dezembro de 2026.",
+    "reason": "Apesar do forte desempenho nas urnas e recorde de comparecimento, o complexo cenário de coalizões israelense introduz incerteza substancial sobre a posse formal no curto prazo."
    }
   },
   "2110578": {
-   "t": 1793097952.9620368,
-   "yes": 0.185,
+   "t": 1793117427.097055,
+   "yes": 0.13,
    "est": {
-    "p": 0.18,
+    "p": 0.15,
     "conf": "low",
     "evidence": [
-     "Israeli legislative elections are being held today, 2026-10-27, with polls open as reported by DW.com at 09:22:30 GMT.",
-     "Recent pre-election coverage from major outlets like CNN and BBC on 2025/2026 highlight a deeply divided electorate following the October 7 context.",
-     "Current market price for SIM is trading at 0.185 just as voting is underway."
+     "The Jerusalem Post reported on 2026-10-25 that Gadi Eisenkot leads Benjamin Netanyahu in polls as Knesset deadlock looms.",
+     "Turnout is reported as the highest on record in updates on 2026-10-27, potentially shifting historical seat distributions for Likud."
     ],
-    "misprice": "O mercado ja esta bem calibrado para a faixa de cadeiras do Likud no dia da eleicao.",
-    "reason": "A estimativa permanece alinhada ao preco atual de mercado, pois nao ha apuracao oficial conclusiva disponivel nas primeiras horas de votacao."
+    "misprice": "The market at 0.13 may slightly underestimate volatility amid record turnout and opposition momentum against Netanyahu.",
+    "reason": "While Likud historically polls variably, recent pre-election tracking shows significant pressure on Netanyahu's bloc, keeping 25-29 seats within a low-to-moderate probability range."
    }
   },
   "2110576": {
-   "t": 1793097959.0891345,
-   "yes": 0.3255,
+   "t": 1793117451.9864113,
+   "yes": 0.3095,
    "est": {
-    "p": 0.35,
-    "conf": "medium",
+    "p": 0.28,
+    "conf": "low",
     "evidence": [
-     "The Jerusalem Post poll on Fri, 23 Oct 2026 showed the opposition leading the Netanyahu bloc 54-48.",
-     "Likud historically polls around 20-25 seats even during difficult political cycles.",
-     "Recent news on Mon, 26 Oct 2026 indicates high polarization and active engagement by Netanyahu."
+     "As of October 2026, poll trackers by The Economist and other outlets show Likud polling above the 20-seat threshold, typically projecting between 22 and 26 seats.",
+     "Recent reports from October 2026 indicate Netanyahu remains a central, polarizing figure maintaining a solid core base despite coalition pressures."
     ],
-    "misprice": "Market underestimates the resilience of Likud's base despite the opposition bloc leading in overall polls.",
-    "reason": "While the Netanyahu bloc is trailing in recent polls, Likud dropping below 20 seats remains a tail risk given historical floor support."
+    "misprice": "The market slightly overweights downside tail risks from ongoing political fragmentation.",
+    "reason": "Current polling averages place Likud safely above 20 seats, making a drop below this threshold a low-probability outcome."
    }
   },
   "2110577": {
-   "t": 1793097977.688416,
-   "yes": 0.425,
+   "t": 1793117459.2813928,
+   "yes": 0.495,
    "est": {
-    "p": 0.42,
+    "p": 0.51,
     "conf": "low",
     "evidence": [
-     "The Media Line reported on October 25, 2026, that Israel's election features two front-runners with no clear path to government.",
-     "Recent polling in September and October 2026 indicates Likud vying for primacy in a split Knesset landscape."
+     "The Media Line reported on Oct 25, 2026, that Israel's election features two front-runners with no clear path to government.",
+     "The Jerusalem Post indicated on Sep 10, 2026, that polls are split between Likud and Yashar vying for primacy."
     ],
-    "misprice": "O preço reflete adequadamente a volatilidade das pesquisas atuais e a incerteza inerente ao intervalo de 20 a 24 assentos.",
-    "reason": "Com as pesquisas divididas e a proximidade do pleito, a probabilidade do Likud ficar exatamente nessa faixa de assentos permanece alinhada com a avaliação de mercado."
+    "misprice": "The market is appropriately priced near coin-flip given highly split polls right before the October 27, 2026 election.",
+    "reason": "Polling averages show Likud fluctuating near the 20-24 seat threshold, making this outcome highly sensitive to final turnout."
    }
   },
   "5332539": {
@@ -1635,6 +1682,20 @@
     ],
     "misprice": "O mercado já reflete adequadamente a extrema volatilidade e o equilíbrio estatístico da eleição em dia de votação.",
     "reason": "As eleições ocorrem hoje sem dados concretos de boca de urna definitivos para justificar desvio substancial do preço atual."
+   }
+  },
+  "682706": {
+   "t": 1793117396.7623966,
+   "yes": 0.085,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Polls ahead of the October 27, 2026 election show a deadlock, with other candidates like Eisenkot heavily favored by betting markets.",
+     "Naftali Bennett is running as an external wildcard candidate without leading a major party slate in the current polls."
+    ],
+    "misprice": "O mercado avalia corretamente que Bennett tem viabilidade limitada em comparacao aos principais blocos partidarios e favoritos como Eisenkot.",
+    "reason": "A probabilidade reflete sua posicao como um azarão estatístico nas sondagens de intenção de voto atuais."
    }
   }
  },
@@ -3229,7 +3290,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1792946369.492059,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.29584051975716696
@@ -4132,6 +4193,19 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6238785": {
+   "q": "Will the highest temperature in Lucknow be 30°C on October 28?",
+   "p": 0.16066503080430805,
+   "yes": 0.48,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793117288.9896092,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.23182660852232584
   }
  },
  "history": [
@@ -4254,6 +4328,10 @@
   {
    "t": 1793097977.6889145,
    "equity": 1290.1
+  },
+  {
+   "t": 1793117459.281946,
+   "equity": 1255.48
   }
  ],
  "llm_calls": {
@@ -4261,8 +4339,8 @@
   "2026-10-24": 59,
   "2026-10-25": 60,
   "2026-10-26": 32,
-  "2026-10-27": 28
+  "2026-10-27": 36
  },
  "killed": false,
- "cycles": 30
+ "cycles": 31
 }
