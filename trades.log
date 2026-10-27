@@ -317,3 +317,10 @@
 2026-10-27 05:22:01Z erro previsao RJTT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-27 05:22:12Z erro previsao geo:manila: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-27 05:23:02Z ciclo 29: lidos=600 filtro=30 llm=8 clima=10 compras=1 vendas=2 descartados={'categoria_Esportes': 102, 'esporte_vivo': 2, 'cripto': 16, 'combinado': 2, 'clima_sem_modelo': 2} equity=$1315.70
+2026-10-27 10:45:14Z SELL NO [stop-loss] Will the highest temperature in Dallas be between  @ 0.398 pnl=$-15.65
+2026-10-27 10:45:21Z SELL NO [stop-loss] Will the highest temperature in Houston be between @ 0.402 pnl=$-14.18
+2026-10-27 10:45:22Z SELL NO [stop-loss] Will the highest temperature in Munich be 17°C on  @ 0.232 pnl=$-25.55
+2026-10-27 10:45:25Z BUY NO [clima] Will the highest temperature in New York City be b @ 0.589 $38.70 edge=0.079 conf=medium | Modelo 0.25 vs mercado 0.46
+2026-10-27 10:45:25Z BUY NO [clima] Will the highest temperature in Shanghai be 21°C o @ 0.411 $38.70 edge=0.238 conf=medium | Modelo 0.16 vs mercado 0.64
+2026-10-27 10:45:25Z BUY NO [clima] Will the highest temperature in Dallas be between  @ 0.608 $38.70 edge=0.080 conf=medium | Modelo 0.24 vs mercado 0.42
+2026-10-27 10:46:17Z ciclo 30: lidos=500 filtro=32 llm=8 clima=7 compras=3 vendas=3 descartados={'esporte_vivo': 17, 'categoria_Esportes': 125, 'cripto': 20, 'combinado': 8, 'clima_sem_modelo': 1} equity=$1290.10
