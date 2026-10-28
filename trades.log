@@ -392,3 +392,11 @@
 2026-10-28 06:01:09Z erro previsao RJTT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 06:01:20Z erro previsao RJTT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 06:01:49Z ciclo 37: lidos=600 filtro=24 llm=4 clima=15 compras=1 vendas=1 descartados={'categoria_Esportes': 134, 'cripto': 11, 'esporte_vivo': 3, 'combinado': 2, 'clima_sem_modelo': 5} equity=$1354.74
+2026-10-28 12:25:58Z SELL NO [stop-loss] Will the highest temperature in Dallas be between  @ 0.382 pnl=$-14.39
+2026-10-28 12:26:02Z BUY YES [clima] Will the highest temperature in Wellington be 18°C @ 0.676 $14.24 edge=0.229 conf=medium | Modelo 0.24 vs mercado 0.66
+2026-10-28 12:26:15Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 12:26:25Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 12:26:33Z erro geocode Karachi: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 12:26:41Z erro geocode Taipei: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 12:26:41Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-28 12:27:28Z ciclo 38: lidos=600 filtro=21 llm=5 clima=2 compras=1 vendas=1 descartados={'esporte_vivo': 27, 'categoria_Esportes': 200, 'cripto': 20, 'combinado': 6, 'clima_sem_modelo': 4} equity=$1355.76

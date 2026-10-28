@@ -1,5 +1,5 @@
 {
- "cash": 1174.2518330471817,
+ "cash": 1184.325234456296,
  "positions": [
   {
    "mid": "6244720",
@@ -12,7 +12,7 @@
    "shares": 65.67370451727747,
    "cost": 38.702868837758714,
    "t": 1793097925.1416538,
-   "mark": 0.55,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.24543770780462526,
    "mkt_yes": 0.46,
@@ -27,31 +27,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6243104",
-   "q": "Will the highest temperature in Dallas be between 82-83°F on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "24081537029933115552520610902006142024610345452481235171749021502072531235128",
-   "entry": 0.6079740188179164,
-   "fair": 0.6880149226462832,
-   "shares": 63.658754551730176,
-   "cost": 38.70286883775872,
-   "t": 1793097925.4930289,
-   "mark": 0.55,
-   "conf": "medium",
-   "llm_p": 0.23664179558952803,
-   "mkt_yes": 0.425,
-   "edge": 0.08004090382836682,
-   "evidence": [
-    "Previsao Open-Meteo KDFW 2026-10-28: maxima 81.5F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.42",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KDFW|2026-10-28",
-   "breakCount": 0
-  },
-  {
    "mid": "6238741",
    "q": "Will the highest temperature in Paris be 15°C on October 28?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 63.87193299692166,
    "cost": 40.221732944007314,
    "t": 1793146257.3615274,
-   "mark": 0.6,
+   "mark": 0.77,
    "conf": "medium",
    "llm_p": 0.22597957294333326,
    "mkt_yes": 0.415,
@@ -87,7 +62,7 @@
    "shares": 72.92020135529695,
    "cost": 40.221732944007314,
    "t": 1793146266.8355036,
-   "mark": 0.61,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.21201697921251395,
    "mkt_yes": 0.475,
@@ -112,7 +87,7 @@
    "shares": 22.411986727768525,
    "cost": 14.578015611295628,
    "t": 1793162339.2977607,
-   "mark": 0.55,
+   "mark": 0.7,
    "conf": "medium",
    "llm_p": 0.16792710396532673,
    "mkt_yes": 0.63,
@@ -137,7 +112,7 @@
    "shares": 31.188687421087614,
    "cost": 14.224775633181476,
    "t": 1793167185.0072153,
-   "mark": 0.45608766541305856,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.091803311776124,
    "mkt_yes": 0.43,
@@ -149,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "geo:buenos aires|2026-10-28",
+   "inv": true
+  },
+  {
+   "mid": "6290176",
+   "q": "Will the highest temperature in Wellington be 18°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "11160776475367883055739205216150572153649623050942104368491000527266486015885",
+   "entry": 0.6763595519846031,
+   "fair": 0.9052494589791786,
+   "shares": 21.04725940164027,
+   "cost": 14.23551493939714,
+   "t": 1793190362.145142,
+   "mark": 0.6763595519846031,
+   "conf": "medium",
+   "llm_p": 0.23791756836803546,
+   "mkt_yes": 0.655,
+   "edge": 0.22888990699457562,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-29: maxima 17.1C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.66",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-29",
    "inv": true
   }
  ],
@@ -1770,185 +1770,107 @@
    "pnl": -27.279202961755633,
    "closed_t": 1793167177.1698673,
    "held_h": 13.857827833692232
+  },
+  {
+   "mid": "6243104",
+   "q": "Will the highest temperature in Dallas be between 82-83°F on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "24081537029933115552520610902006142024610345452481235171749021502072531235128",
+   "entry": 0.6079740188179164,
+   "fair": 0.6880149226462832,
+   "shares": 63.658754551730176,
+   "cost": 38.70286883775872,
+   "t": 1793097925.4930289,
+   "mark": 0.4,
+   "conf": "medium",
+   "llm_p": 0.23664179558952803,
+   "mkt_yes": 0.425,
+   "edge": 0.08004090382836682,
+   "evidence": [
+    "Previsao Open-Meteo KDFW 2026-10-28: maxima 81.5F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.42",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KDFW|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.38186289568008186,
+   "reason": "stop-loss",
+   "pnl": -14.393952489247447,
+   "closed_t": 1793190358.533309,
+   "held_h": 25.675844522251023
   }
  ],
  "cache": {
-  "682705": {
-   "t": 1793146306.110949,
-   "yes": 0.425,
-   "est": {
-    "p": 0.4,
-    "conf": "medium",
-    "evidence": [
-     "Exit polls published on Tue, 27 Oct 2026 indicate no clear winner in the Israeli parliamentary election.",
-     "NPR reported on Wed, 28 Oct 2026 that high voter turnout is lifting opposition hopes of defeating Netanyahu."
-    ],
-    "misprice": "O mercado subestima a dificuldade de Netanyahu formar uma coalizão majoritária diante de resultados inconclusivos nas urnas.",
-    "reason": "Com as pesquisas de boca de urna mostrando empate técnico e alta participação eleitoral favorecendo a oposição, as chances de Netanyahu ser empossado novamente diminuem ligeiramente."
-   }
-  },
-  "682708": {
-   "t": 1793146312.530331,
-   "yes": 0.406,
-   "est": {
-    "p": 0.42,
-    "conf": "low",
-    "evidence": [
-     "Exit polls from October 27-28, 2026 indicate Gadi Eisenkot's bloc holds a slim lead over Netanyahu.",
-     "Initial election results and exit polls as of October 28, 2026 show no clear winner and a parliamentary deadlock."
-    ],
-    "misprice": "O mercado já precifica parcialmente a vantagem inicial de Eisenkot nas pesquisas de boca de urna, mas subestima a volatilidade das negociações de coalizão.",
-    "reason": "Embora o bloco de Eisenkot lidere por margem estreita nas pesquisas de saída divulgadas em 28 de outubro de 2026, a formação de um governo estável ainda depende de acordos complexos na Knesset."
-   }
-  },
-  "2110578": {
-   "t": 1793146243.3372881,
-   "yes": 0.625,
-   "est": {
-    "p": 0.6,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma nova pesquisa eleitoral oficial publicada na data de 28 de outubro de 2026."
-    ],
-    "misprice": "O preço reflete expectativas estruturais de médio prazo sem desvios estatísticos significativos recentes.",
-    "reason": "A faixa de 25-29 cadeiras é o cenário central histórico e projetado para o Likud nas pesquisas recentes."
-   }
-  },
-  "2110577": {
-   "t": 1793146330.69582,
-   "yes": 0.1505,
-   "est": {
-    "p": 0.18,
-    "conf": "low",
-    "evidence": [
-     "The Media Line reported on October 25, 2026, that Israel's election has two front-runners and no clear path to government.",
-     "The Jerusalem Post noted on September 10, 2026, that Likud and Yashar are vying for primacy in the Knesset election polls."
-    ],
-    "misprice": "Market underprices the variance in late polling where Likud could outperform its baseline trough.",
-    "reason": "While Likud is trailing in some splits, a 20-24 seat range remains a plausible outcome given fluid polling dynamics just before the election."
-   }
-  },
-  "6138700": {
-   "t": 1793146348.9579313,
-   "yes": 0.35,
-   "est": {
-    "p": 0.35,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados historicos especificos sobre o volume exato de tweets de Elon Musk para a janela de 48 horas especifica de 26 a 28 de outubro de 2026."
-    ],
-    "misprice": "O mercado esta eficientemente precificado refletindo a taxa media de atividade recente de Musk na plataforma X.",
-    "reason": "A ausencia de dados especificos de contagem parcial deixa a probabilidade alinhada ao preco atual do mercado de 35%."
-   }
-  },
-  "2110579": {
-   "t": 1793146318.5356975,
-   "yes": 0.1665,
-   "est": {
-    "p": 0.18,
-    "conf": "low",
-    "evidence": [
-     "Likud holds 32 seats in the current 25th Knesset as of October 2026.",
-     "Historical polling for Likud in late 2026 averages around 24-28 seats."
-    ],
-    "misprice": "Market accurately reflects polling trends showing Likud below the 30-34 seat threshold.",
-    "reason": "Current polling averages place Likud below 30 seats, making this bracket a less likely outcome despite historical peaks."
-   }
-  },
-  "5401781": {
-   "t": 1793146324.7596655,
-   "yes": 0.1285,
-   "est": {
-    "p": 0.15,
-    "conf": "low",
-    "evidence": [
-     "As, exit polls divulgadas em 27 de outubro de 2026 mostram um impasse sem vencedor claro para nenhum dos blocos.",
-     "Projeções iniciais e notícias de 27-28 de outubro de 2026 indicam que nem a coalizão de Netanyahu nem a oposição liderada por Gadi Eisenkot alcançaram a maioria de 61 assentos."
-    ],
-    "misprice": "O mercado já reflete com precisão a alta probabilidade de um parlamento dividido e sem maioria clara com base nas exit polls.",
-    "reason": "As pesquisas de boca de urna apontam para um impasse político, tornando improvável que qualquer um dos blocos atinja os 61 assentos necessários para a maioria."
-   }
-  },
-  "5939179": {
-   "t": 1793146336.9770262,
-   "yes": 0.36,
-   "est": {
-    "p": 0.38,
-    "conf": "low",
-    "evidence": [
-     "Notícias de 27 de outubro de 2026 indicam resultados inconclusivos e um cenário de escolha difícil para o presidente Herzog entre Netanyahu e Eisenkot.",
-     "Relatos apontam que Netanyahu exigirá o primeiro mandato se o Likud for o maior partido individual, apesar do bloco de Eisenkot poder ser maior."
-    ],
-    "misprice": "O mercado subestima ligeiramente a inércia institucional que frequentemente favorece o líder do maior partido isolado na primeira tentativa de formação.",
-    "reason": "Apesar do forte desempenho do bloco de Eisenkot, a disputa acirrada e a exigência esperada de Netanyahu deixam a decisão do Presidente Herzog incerta."
-   }
-  },
-  "5332539": {
-   "t": 1793146343.049963,
-   "yes": 0.8585,
-   "est": {
-    "p": 0.84,
-    "conf": "low",
-    "evidence": [
-     "Exit polls from October 27-28, 2026 show no clear winner with a tight race.",
-     "Current market price stands at 0.859 for Together winning the third-most seats."
-    ],
-    "misprice": "Market is slightly overpricing based on early exit polls before final vote counts are locked.",
-    "reason": "Exit polls indicate Together is holding the position for the third-most seats, consistent with market expectations."
-   }
-  },
-  "6138701": {
-   "t": 1793167290.9826353,
-   "yes": 0.425,
-   "est": {
-    "p": 0.42,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados oficiais em tempo real sobre a contagem exata de tweets no periodo especificado de 26 a 28 de outubro de 2026."
-    ],
-    "misprice": "O preco atual reflete adequadamente a incerteza estatistica da taxa de publicacao de Elon Musk na janela de 48 horas.",
-    "reason": "A faixa de 90-114 tweets em dois dias exige uma media diaria alta, mas perfeitamente compativel com o comportamento historico recente do perfil."
-   }
-  },
   "4386085": {
-   "t": 1793167297.3722847,
-   "yes": 0.23,
+   "t": 1793190411.8397036,
+   "yes": 0.24,
    "est": {
     "p": 0.15,
     "conf": "medium",
     "evidence": [
-     "FOMC meetings in April and July 2026 both featured multiple dissenting votes (3 officials in July, highest since 1992 in April).",
-     "Recent Reuters reporting on Oct 26, 2026 indicates ongoing debate and division over the Fed's pause on rate hikes."
+     "FOMC meetings in 2026 have experienced historically high levels of dissent, including the highest since 1992 recorded in April 2026.",
+     "Economic divisions within the committee persisted through late 2025 and 2026 over the pace of rate cuts and inflation paths."
     ],
-    "misprice": "O mercado subestima a persistência de divisões profundas e votos dissidentes no FOMC observados ao longo de 2026.",
-    "reason": "O histórico recente do FOMC em 2026 mostra divisões atipicamente altas, tornando improvável unanimidade na decisão de outubro."
+    "misprice": "Market underprices the probability of dissent given the deeply divided FOMC dynamic observed throughout 2026.",
+    "reason": "Persistent policy division and recent historical trends strongly favor at least one dissent in October 2026."
    }
   },
   "6322932": {
-   "t": 1793167309.584202,
-   "yes": 0.515,
+   "t": 1793190441.0938804,
+   "yes": 0.54,
    "est": {
-    "p": 0.51,
+    "p": 0.52,
     "conf": "low",
     "evidence": [
-     "O mercado de LoL para a linha de 27.5 kills reflete a média histórica de abates em partidas de playoff entre Top Esports e Bilibili Gaming.",
-     "Nenhuma informação nova sobre patches recentes ou escalações foi divulgada nas últimas 24 horas para alterar significativamente a volatilidade do Game 2."
+     "Nenhuma informação estatística específica para o Jogo 2 entre Top Esports e Bilibili Gaming em 28 de outubro de 2026 está disponível nas notícias recentes.",
+     "A linha de 27.5 kills é um padrão estatístico típico para partidas competitivas da LPL em Worlds."
     ],
-    "misprice": "O mercado está adequadamente precificado próximo à linha de coin-flip histórica para abates em playoffs da LPL.",
-    "reason": "Como não há dados novos ou concretos que justifiquem um desvio da média estatística esperada para o confronto, mantenho a probabilidade muito próxima ao preço atual."
+    "misprice": "O mercado está calibrado próximo a 54%, refletindo uma leve tendência histórica para o 'Over' em confrontos diretos entre essas equipes.",
+    "reason": "Como não há dados novos ou escalações específicas divulgadas para este mapa, a probabilidade deve se manter muito próxima da linha base de mercado de 52-54%."
    }
   },
   "6326890": {
-   "t": 1793167303.4316492,
-   "yes": 0.5,
+   "t": 1793190421.0013633,
+   "yes": 0.485,
    "est": {
-    "p": 0.5,
+    "p": 0.49,
     "conf": "low",
     "evidence": [
-     "Nao ha dados recentes ou estatisticas especificas sobre as equipes Invictus Gaming e LYON para a partida de 2026."
+     "O mercado de apostas para o Jogo 1 entre Invictus Gaming e LYON marca a linha de abates em 27.5 para o dia 28 de outubro de 2026.",
+     "Nenhuma alteração de escalação de última hora ou patch notes recentes indicam desvios drásticos da média histórica de abates para este confronto."
     ],
-    "misprice": "O mercado esta precificado eficientemente em 0.50 por falta de informacoes concretas divergentes.",
-    "reason": "Ausencia de dados historicos recentes ou escalacoes confirmadas impede qualquer desvio estatistico solido da linha de 27.5 kills."
+    "misprice": "O mercado já reflete adequadamente a incerteza estatística padrão em torno da linha de 27.5 abates em partidas profissionais de League of Legends.",
+    "reason": "A linha de 27.5 abates está próxima da média esperada para partidas profissionais equilibradas, mantendo a probabilidade próxima de 50%."
+   }
+  },
+  "5713298": {
+   "t": 1793190432.6190443,
+   "yes": 0.115,
+   "est": {
+    "p": 0.11,
+    "conf": "low",
+    "evidence": [
+     "O jogo entre AC Monza e SSC Napoli esta agendado para 28 de outubro de 2026 as 15:45 ET.",
+     "O preco atual do mercado para o resultado exato de 1-1 e de 0.115."
+    ],
+    "misprice": "O preco de mercado reflete adequadamente a probabilidade estatistica de um empate em 1-1 para esta partida da Serie A.",
+    "reason": "Empates em 1-1 sao placares comuns no futebol, mas nao ha dados especificos suficientes para divergir significativamente da cotacao atual."
+   }
+  },
+  "6322933": {
+   "t": 1793190448.0102174,
+   "yes": 0.545,
+   "est": {
+    "p": 0.54,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informação específica sobre o draft ou o estado atual das equipes Top Esports e Bilibili Gaming para o Jogo 1 foi divulgada nas notícias recentes.",
+     "O mercado atual precifica o Over 27.5 kills em 54.5%, refletindo uma linha padrão para partidas de alto nível no Worlds."
+    ],
+    "misprice": "O mercado está alinhado com a volatilidade esperada para o confronto de elite, sem evidências concretas suficientes para justificar um desvio significativo.",
+    "reason": "A média de abates em partidas profissionais de League of Legends frequentemente flutua em torno de 27-29, tornando a linha de 27.5 equilibrada e próxima de um lançamento de moeda ponderado."
    }
   }
  },
@@ -4058,7 +3980,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793028054.3696945,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.20632113586128098
@@ -4123,7 +4045,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793028122.3143518,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3107496269653468
@@ -4213,7 +4135,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793059839.4209688,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.11864647432419961
@@ -4251,7 +4173,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793078472.952443,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3202976221884837
@@ -5112,6 +5034,53 @@
     "unit": "C",
     "date": "2026-10-28"
    }
+  },
+  "6293387": {
+   "q": "Will the highest temperature in New York City be between 68-69°F on October 29?",
+   "p": 0.2208557196391423,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793190362.1455123,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.28455999333401516,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 66.83,
+    "sigma": 3.08,
+    "kind": "range",
+    "a": 68,
+    "b": 69,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
+  },
+  "5713298": {
+   "q": "Exact Score: AC Monza 1 - 1 SSC Napoli?",
+   "p": 0.11,
+   "yes": 0.115,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793216700.0,
+   "t": 1793190432.6190484,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6322933": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.54,
+   "yes": 0.545,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793239200.0,
+   "t": 1793190448.0102222,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -5262,6 +5231,10 @@
   {
    "t": 1793167309.585235,
    "equity": 1354.74
+  },
+  {
+   "t": 1793190448.0109587,
+   "equity": 1355.76
   }
  ],
  "llm_calls": {
@@ -5270,8 +5243,8 @@
   "2026-10-25": 60,
   "2026-10-26": 32,
   "2026-10-27": 44,
-  "2026-10-28": 20
+  "2026-10-28": 25
  },
  "killed": false,
- "cycles": 37
+ "cycles": 38
 }
