@@ -418,3 +418,10 @@
 2026-10-28 18:27:16Z LLM com limite/instabilidade: pulando as consultas restantes deste ciclo.
 2026-10-28 18:27:16Z erro LLM Will Elon Musk post 300-319 tweets from : Error code: 503
 2026-10-28 18:27:16Z ciclo 39: lidos=600 filtro=25 llm=1 clima=12 compras=5 vendas=5 descartados={'esporte_vivo': 14, 'categoria_Esportes': 212, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1307.21
+2026-10-28 22:44:40Z erro geocode Taipei: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 22:44:50Z erro previsao VHHH: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 22:45:01Z erro previsao VHHH: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 22:45:11Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 22:45:21Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 22:45:21Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-28 22:46:16Z ciclo 40: lidos=500 filtro=39 llm=8 clima=14 compras=0 vendas=0 descartados={'categoria_Esportes': 81, 'esporte_vivo': 26, 'cripto': 14, 'clima_sem_modelo': 5} equity=$1301.72
