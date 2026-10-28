@@ -356,3 +356,13 @@
 2026-10-28 00:11:28Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 00:11:39Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 00:12:28Z ciclo 33: lidos=500 filtro=22 llm=8 clima=10 compras=2 vendas=3 descartados={'esporte_vivo': 26, 'categoria_Esportes': 59, 'cripto': 10, 'clima_sem_modelo': 2} equity=$1340.72
+2026-10-28 04:38:53Z SELL NO [take-profit] Will the highest temperature in Tokyo be 19°C on O @ 0.967 pnl=$+27.54
+2026-10-28 04:38:53Z SELL YES [take-profit] Will Likud win 25-29 seats in the 2026 Israeli leg @ 0.929 pnl=$+32.22
+2026-10-28 04:38:59Z BUY YES [clima] Will the highest temperature in Madrid be 23°C on  @ 0.650 $14.58 edge=0.257 conf=medium | Modelo 0.17 vs mercado 0.63
+2026-10-28 04:39:07Z erro geocode Istanbul: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 04:39:17Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:39:27Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:39:37Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:39:48Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:39:48Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-28 04:40:06Z ciclo 34: lidos=500 filtro=28 llm=3 clima=2 compras=1 vendas=2 descartados={'categoria_Esportes': 115, 'cripto': 12, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1388.38

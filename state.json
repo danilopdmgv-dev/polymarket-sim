@@ -1,5 +1,5 @@
 {
- "cash": 1040.549122638237,
+ "cash": 1178.0913124871754,
  "positions": [
   {
    "mid": "6244720",
@@ -12,7 +12,7 @@
    "shares": 65.67370451727747,
    "cost": 38.702868837758714,
    "t": 1793097925.1416538,
-   "mark": 0.49,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.24543770780462526,
    "mkt_yes": 0.46,
@@ -37,7 +37,7 @@
    "shares": 63.658754551730176,
    "cost": 38.70286883775872,
    "t": 1793097925.4930289,
-   "mark": 0.71,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.23664179558952803,
    "mkt_yes": 0.425,
@@ -77,57 +77,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6238817",
-   "q": "Will the highest temperature in Tokyo be 19°C on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "74111687774809887972950828401644748935931597568382603612335307378033446884746",
-   "entry": 0.5779318726150354,
-   "fair": 0.6544494998352166,
-   "shares": 70.72002351795834,
-   "cost": 40.87135562311301,
-   "t": 1793134187.087053,
-   "mark": 0.61,
-   "conf": "medium",
-   "llm_p": 0.27925083360797226,
-   "mkt_yes": 0.445,
-   "edge": 0.07651762722018118,
-   "evidence": [
-    "Previsao Open-Meteo RJTT 2026-10-28: maxima 18.6C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.28 vs mercado 0.45",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "RJTT|2026-10-28",
-   "breakCount": 0
-  },
-  {
-   "mid": "2110578",
-   "q": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
-   "cat": "Politica",
-   "side": "YES",
-   "token": "35426463782545874068474526119520321582933339958366001423364580004443309941419",
-   "entry": 0.5712009573380485,
-   "fair": 0.635,
-   "shares": 90.13506391251904,
-   "cost": 51.48523479655707,
-   "t": 1793134269.476818,
-   "mark": 0.62,
-   "conf": "high",
-   "llm_p": 0.72,
-   "mkt_yes": 0.55,
-   "edge": 0.06379904266195147,
-   "evidence": [
-    "i24NEWS exit poll on Oct 27, 2026 shows Likud winning exactly 27 seats.",
-    "Channel 12 and Ynetnews exit polls on Oct 27, 2026 confirm Likud as the largest party near this range."
-   ],
-   "misprice": "O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null,
-   "breakCount": 0
-  },
-  {
    "mid": "6238741",
    "q": "Will the highest temperature in Paris be 15°C on October 28?",
    "cat": "Clima",
@@ -138,7 +87,7 @@
    "shares": 63.87193299692166,
    "cost": 40.221732944007314,
    "t": 1793146257.3615274,
-   "mark": 0.6297246858952245,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.22597957294333326,
    "mkt_yes": 0.415,
@@ -149,7 +98,8 @@
    "misprice": "Modelo 0.23 vs mercado 0.41",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "LFPG|2026-10-28"
+   "event": "LFPG|2026-10-28",
+   "breakCount": 0
   },
   {
    "mid": "6250934",
@@ -162,7 +112,7 @@
    "shares": 72.92020135529695,
    "cost": 40.221732944007314,
    "t": 1793146266.8355036,
-   "mark": 0.551585599003363,
+   "mark": 0.5800000000000001,
    "conf": "medium",
    "llm_p": 0.21201697921251395,
    "mkt_yes": 0.475,
@@ -173,7 +123,33 @@
    "misprice": "Modelo 0.21 vs mercado 0.47",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:mexico city|2026-10-28"
+   "event": "geo:mexico city|2026-10-28",
+   "breakCount": 0
+  },
+  {
+   "mid": "6238874",
+   "q": "Will the highest temperature in Madrid be 23°C on October 28?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "54230405358138332828090732296049713034077959749101553812710353674559967625411",
+   "entry": 0.6504561950874894,
+   "fair": 0.907243737620804,
+   "shares": 22.411986727768525,
+   "cost": 14.578015611295628,
+   "t": 1793162339.2977607,
+   "mark": 0.6504561950874894,
+   "conf": "medium",
+   "llm_p": 0.16792710396532673,
+   "mkt_yes": 0.63,
+   "edge": 0.2567875425333146,
+   "evidence": [
+    "Previsao Open-Meteo LEMD 2026-10-28: maxima 21.6C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.63",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LEMD|2026-10-28",
+   "inv": true
   }
  ],
  "closed": [
@@ -1703,6 +1679,67 @@
    "pnl": 9.049273204053769,
    "closed_t": 1793146237.3643723,
    "held_h": 3.3282556014590794
+  },
+  {
+   "mid": "6238817",
+   "q": "Will the highest temperature in Tokyo be 19°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "74111687774809887972950828401644748935931597568382603612335307378033446884746",
+   "entry": 0.5779318726150354,
+   "fair": 0.6544494998352166,
+   "shares": 70.72002351795834,
+   "cost": 40.87135562311301,
+   "t": 1793134187.087053,
+   "mark": 0.999,
+   "conf": "medium",
+   "llm_p": 0.27925083360797226,
+   "mkt_yes": 0.445,
+   "edge": 0.07651762722018118,
+   "evidence": [
+    "Previsao Open-Meteo RJTT 2026-10-28: maxima 18.6C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.28 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "RJTT|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.9673978030738187,
+   "reason": "take-profit",
+   "pnl": 27.54303976148868,
+   "closed_t": 1793162333.6413584,
+   "held_h": 7.818487307031949
+  },
+  {
+   "mid": "2110578",
+   "q": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?",
+   "cat": "Politica",
+   "side": "YES",
+   "token": "35426463782545874068474526119520321582933339958366001423364580004443309941419",
+   "entry": 0.5712009573380485,
+   "fair": 0.635,
+   "shares": 90.13506391251904,
+   "cost": 51.48523479655707,
+   "t": 1793134269.476818,
+   "mark": 0.94,
+   "conf": "high",
+   "llm_p": 0.72,
+   "mkt_yes": 0.55,
+   "edge": 0.06379904266195147,
+   "evidence": [
+    "i24NEWS exit poll on Oct 27, 2026 shows Likud winning exactly 27 seats.",
+    "Channel 12 and Ynetnews exit polls on Oct 27, 2026 confirm Likud as the largest party near this range."
+   ],
+   "misprice": "O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "breakCount": 0,
+   "exit": 0.9286708905745429,
+   "reason": "take-profit",
+   "pnl": 32.22057527907533,
+   "closed_t": 1793162333.7273571,
+   "held_h": 7.795625149740113
   }
  ],
  "cache": {
@@ -1718,34 +1755,6 @@
     ],
     "misprice": "O mercado subestima a dificuldade de Netanyahu formar uma coalizão majoritária diante de resultados inconclusivos nas urnas.",
     "reason": "Com as pesquisas de boca de urna mostrando empate técnico e alta participação eleitoral favorecendo a oposição, as chances de Netanyahu ser empossado novamente diminuem ligeiramente."
-   }
-  },
-  "2100981": {
-   "t": 1793134249.6352582,
-   "yes": 0.805,
-   "est": {
-    "p": 0.82,
-    "conf": "medium",
-    "evidence": [
-     "Exit polls from Haaretz and Times of Israel on Oct 27, 2026, show Netanyahu's Likud as the largest single party.",
-     "Channel 12 exit poll on Oct 27, 2026, confirms Likud winning the most seats among individual parties despite bloc totals."
-    ],
-    "misprice": "Market underprices Likud's historical resilience in securing the largest individual party seat share despite broader coalition dynamics.",
-    "reason": "Multiple exit polls consistently project Likud as the single largest party in the Knesset."
-   }
-  },
-  "2100984": {
-   "t": 1793134255.6441815,
-   "yes": 0.195,
-   "est": {
-    "p": 0.05,
-    "conf": "high",
-    "evidence": [
-     "i24NEWS exit poll on Oct 27, 2026 shows Likud winning 27 seats and Yashar only 20 seats.",
-     "Exit polls from Oct 27, 2026 clearly place Likud ahead of Yashar in seat count."
-    ],
-    "misprice": "O mercado subestima a vantagem projetada para o Likud nas pesquisas de boca de urna em relacao ao partido Yashar.",
-    "reason": "As pesquisas de boca de urna divulgadas em 27 de outubro de 2026 mostram o Likud liderando com 27 assentos contra 20 do Yashar, tornando a vitoria deste ultimo improvavel."
    }
   },
   "682708": {
@@ -1787,20 +1796,6 @@
     ],
     "misprice": "Market underprices the variance in late polling where Likud could outperform its baseline trough.",
     "reason": "While Likud is trailing in some splits, a 20-24 seat range remains a plausible outcome given fluid polling dynamics just before the election."
-   }
-  },
-  "2109956": {
-   "t": 1793134282.1148198,
-   "yes": 0.59,
-   "est": {
-    "p": 0.55,
-    "conf": "low",
-    "evidence": [
-     "Netanyahu bloc on track to have 50 seats and rival bloc 52 in exit polls on Oct 27, 2026",
-     "Record voter turnout reported in the Israeli election on Oct 27, 2026"
-    ],
-    "misprice": "O mercado pode estar subestimando a volatilidade extrema de formações de coalizão com blocos tão fragmentados.",
-    "reason": "As primeiras pesquisas de boca de urna mostram um parlamento extremamente polarizado e sem maioria clara para nenhum bloco, mantendo alto risco de impasse."
    }
   },
   "6138700": {
@@ -1870,6 +1865,47 @@
     ],
     "misprice": "Market is slightly overpricing based on early exit polls before final vote counts are locked.",
     "reason": "Exit polls indicate Together is holding the position for the third-most seats, consistent with market expectations."
+   }
+  },
+  "6138701": {
+   "t": 1793162393.9574795,
+   "yes": 0.445,
+   "est": {
+    "p": 0.45,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados novos e especificos sobre a taxa exata de tuques de Elon Musk para o periodo de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza padrao para a faixa de volume de postagens em dois dias.",
+    "reason": "A faixa de 90-114 tweets em 48 horas e plausivel para o ritmo historico de Elon Musk, mas ha alta variancia diaria."
+   }
+  },
+  "4386085": {
+   "t": 1793162400.1068447,
+   "yes": 0.22,
+   "est": {
+    "p": 0.15,
+    "conf": "medium",
+    "evidence": [
+     "FOMC meetings in 2026 have repeatedly featured multiple dissenting votes, such as 3 officials dissenting in July 2026.",
+     "The Federal Reserve is currently experiencing its highest level of internal policy division and dissent in decades.",
+     "Economic uncertainty leading into October 2026 keeps rate path expectations fractured among committee members."
+    ],
+    "misprice": "Market underprices the persistent and heightened structural divisions among FOMC members regarding recent rate decisions.",
+    "reason": "Given the historical frequency of dissents in 2026 meetings, a unanimous decision with zero dissenting votes is unlikely."
+   }
+  },
+  "6322932": {
+   "t": 1793162406.0550487,
+   "yes": 0.515,
+   "est": {
+    "p": 0.51,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informacao nova sobre as escalacoes ou o patch notes do Jogo 2 foi divulgada."
+    ],
+    "misprice": "O mercado esta eficientemente precificado proximo a 50-50 devido a falta de dados especificos sobre o draft do Jogo 2.",
+    "reason": "A media historica de kills em partidas profissionais de LoL entre Top Esports e Bilibili Gaming flutua proxima a linha de 27.5, tornando a aposta muito equilibrada."
    }
   }
  },
@@ -3540,7 +3576,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1792956335.975657,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2580551392307222
@@ -4121,7 +4157,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793059808.4056191,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.38089908592662214
@@ -4250,7 +4286,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793078533.03015,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4351586832244597
@@ -4571,6 +4607,88 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6239001": {
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 28?",
+   "p": 0.2924199851018997,
+   "yes": 0.4,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793162338.6670127,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.464481298472161,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 14.13,
+    "sigma": 1.33,
+    "kind": "exact",
+    "a": 14,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
+  },
+  "6238874": {
+   "q": "Will the highest temperature in Madrid be 23°C on October 28?",
+   "p": 0.16792710396532673,
+   "yes": 0.63,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793162339.2977328,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1092637201366472,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 21.57,
+    "sigma": 1.3,
+    "kind": "exact",
+    "a": 23,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
+  },
+  "6138701": {
+   "q": "Will Elon Musk post 90-114 tweets from October 26 to October 28, 2026?",
+   "p": 0.45,
+   "yes": 0.445,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793203200.0,
+   "t": 1793162393.9574828,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4386085": {
+   "q": "Will no one dissent the October Fed decision?",
+   "p": 0.15,
+   "yes": 0.22,
+   "conf": "medium",
+   "cat": "Economia/Dados",
+   "end": 1793203140.0,
+   "t": 1793162400.106848,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6322932": {
+   "q": "Total Kills Over/Under 27.5 in Game 2?",
+   "p": 0.51,
+   "yes": 0.515,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793239200.0,
+   "t": 1793162406.0550518,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -4705,6 +4823,10 @@
   {
    "t": 1793146348.9584866,
    "equity": 1340.72
+  },
+  {
+   "t": 1793162406.0556173,
+   "equity": 1388.38
   }
  ],
  "llm_calls": {
@@ -4713,8 +4835,8 @@
   "2026-10-25": 60,
   "2026-10-26": 32,
   "2026-10-27": 44,
-  "2026-10-28": 9
+  "2026-10-28": 12
  },
  "killed": false,
- "cycles": 33
+ "cycles": 34
 }
