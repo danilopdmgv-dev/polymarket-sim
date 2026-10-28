@@ -366,3 +366,9 @@
 2026-10-28 04:39:48Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 04:39:48Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-28 04:40:06Z ciclo 34: lidos=500 filtro=28 llm=3 clima=2 compras=1 vendas=2 descartados={'categoria_Esportes': 115, 'cripto': 12, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1388.38
+2026-10-28 04:42:42Z erro previsao geo:istanbul: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:42:52Z erro previsao geo:istanbul: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:43:02Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:43:12Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 04:43:12Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-28 04:43:12Z ciclo 35: lidos=500 filtro=27 llm=0 clima=1 compras=0 vendas=0 descartados={'categoria_Esportes': 114, 'cripto': 12, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 2} equity=$1386.32
