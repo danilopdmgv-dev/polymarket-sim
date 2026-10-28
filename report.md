@@ -1,9 +1,9 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-10-28 04:43 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-10-28 05:31 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $1386.32 (-30.7%) | **Cash:** $1178.09 | **Abertas:** 6 | **Ciclos:** 35
+**Equity:** $1380.10 (-31.0%) | **Cash:** $1178.09 | **Abertas:** 6 | **Ciclos:** 36
 **Fechadas:** 53 | **Win rate:** 21% | **PnL realizado:** $-611.82
-**Chamadas ao LLM hoje:** 12
+**Chamadas ao LLM hoje:** 16
 
 ## Por motivo de saida
 - resolvido: 1 trades, PnL $-46.54
@@ -15,25 +15,25 @@ _Atualizado 2026-10-28 04:43 UTC. SIMULACAO, sem dinheiro real._
 - Outros: 1 trades, win 0%, PnL $-18.51
 - Politica: 8 trades, win 50%, PnL $+49.05
 
-## Calibracao do LLM vs mercado (167 mercados resolvidos)
-- Brier LLM: 0.3099 | Brier mercado: 0.2183 (menor e melhor)
+## Calibracao do LLM vs mercado (168 mercados resolvidos)
+- Brier LLM: 0.3122 | Brier mercado: 0.2185 (menor e melhor)
 - **LLM esta PERDENDO do mercado.**
-  - Clima (124): LLM 0.3562 vs mercado 0.2300
+  - Clima (125): LLM 0.3590 vs mercado 0.2303
   - Economia/Dados (4): LLM 0.0341 vs mercado 0.0431
   - Entretenimento (10): LLM 0.2144 vs mercado 0.2218
   - Outros (9): LLM 0.0881 vs mercado 0.0778
   - Politica (20): LLM 0.2253 vs mercado 0.2419
-- Fonte clima (124): modelo 0.3562 vs mercado 0.2300 -> PERDENDO
+- Fonte clima (125): modelo 0.3590 vs mercado 0.2303 -> PERDENDO
 - Fonte llm (43): modelo 0.1763 vs mercado 0.1844 -> GANHANDO
-- Clima (105): sigma largo 0.3742 | sigma estreito 0.3357 | mercado 0.2332
+- Clima (106): sigma largo 0.3773 | sigma estreito 0.3399 | mercado 0.2335
 
 ## Posicoes abertas
-- NO Will the highest temperature in New York City be between 60- | entrada 0.59, agora 0.55, LLM 0.25, edge 0.08, medium | Modelo 0.25 vs mercado 0.46
-- NO Will the highest temperature in Dallas be between 82-83°F on | entrada 0.61, agora 0.58, LLM 0.24, edge 0.08, medium | Modelo 0.24 vs mercado 0.42
-- NO Will the highest temperature in Lucknow be 30°C on October 2 | entrada 0.55, agora 0.61, LLM 0.16, edge 0.16, medium | Modelo 0.16 vs mercado 0.48
-- NO Will the highest temperature in Paris be 15°C on October 28? | entrada 0.63, agora 0.58, LLM 0.23, edge 0.07, medium | Modelo 0.23 vs mercado 0.41
-- NO Will the highest temperature in Mexico City be 24°C on Octob | entrada 0.55, agora 0.58, LLM 0.21, edge 0.13, medium | Modelo 0.21 vs mercado 0.47
-- YES Will the highest temperature in Madrid be 23°C on October 28 | entrada 0.65, agora 0.62, LLM 0.17, edge 0.26, medium | Modelo 0.17 vs mercado 0.63
+- NO Will the highest temperature in New York City be between 60- | entrada 0.59, agora 0.59, LLM 0.25, edge 0.08, medium | Modelo 0.25 vs mercado 0.46
+- NO Will the highest temperature in Dallas be between 82-83°F on | entrada 0.61, agora 0.57, LLM 0.24, edge 0.08, medium | Modelo 0.24 vs mercado 0.42
+- NO Will the highest temperature in Lucknow be 30°C on October 2 | entrada 0.55, agora 0.50, LLM 0.16, edge 0.16, medium | Modelo 0.16 vs mercado 0.48
+- NO Will the highest temperature in Paris be 15°C on October 28? | entrada 0.63, agora 0.59, LLM 0.23, edge 0.07, medium | Modelo 0.23 vs mercado 0.41
+- NO Will the highest temperature in Mexico City be 24°C on Octob | entrada 0.55, agora 0.59, LLM 0.21, edge 0.13, medium | Modelo 0.21 vs mercado 0.47
+- YES Will the highest temperature in Madrid be 23°C on October 28 | entrada 0.65, agora 0.53, LLM 0.17, edge 0.26, medium | Modelo 0.17 vs mercado 0.63
 
 ## Ultimas 10 fechadas
 - YES Will Likud win 25-29 seats in the 2026 Israeli leg | take-profit | $+32.22 | 7.8h

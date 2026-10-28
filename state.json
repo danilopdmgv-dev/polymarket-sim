@@ -12,7 +12,7 @@
    "shares": 65.67370451727747,
    "cost": 38.702868837758714,
    "t": 1793097925.1416538,
-   "mark": 0.55,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.24543770780462526,
    "mkt_yes": 0.46,
@@ -37,7 +37,7 @@
    "shares": 63.658754551730176,
    "cost": 38.70286883775872,
    "t": 1793097925.4930289,
-   "mark": 0.5800000000000001,
+   "mark": 0.5700000000000001,
    "conf": "medium",
    "llm_p": 0.23664179558952803,
    "mkt_yes": 0.425,
@@ -62,7 +62,7 @@
    "shares": 68.77945718055302,
    "cost": 37.66449915494339,
    "t": 1793117288.9896662,
-   "mark": 0.61,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.16066503080430805,
    "mkt_yes": 0.48,
@@ -87,7 +87,7 @@
    "shares": 63.87193299692166,
    "cost": 40.221732944007314,
    "t": 1793146257.3615274,
-   "mark": 0.5800000000000001,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.22597957294333326,
    "mkt_yes": 0.415,
@@ -112,7 +112,7 @@
    "shares": 72.92020135529695,
    "cost": 40.221732944007314,
    "t": 1793146266.8355036,
-   "mark": 0.5800000000000001,
+   "mark": 0.5900000000000001,
    "conf": "medium",
    "llm_p": 0.21201697921251395,
    "mkt_yes": 0.475,
@@ -137,7 +137,7 @@
    "shares": 22.411986727768525,
    "cost": 14.578015611295628,
    "t": 1793162339.2977607,
-   "mark": 0.62,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.16792710396532673,
    "mkt_yes": 0.63,
@@ -1868,44 +1868,57 @@
    }
   },
   "6138701": {
-   "t": 1793162393.9574795,
-   "yes": 0.445,
+   "t": 1793165456.234936,
+   "yes": 0.375,
    "est": {
-    "p": 0.45,
+    "p": 0.38,
     "conf": "low",
     "evidence": [
-     "Nao ha dados novos e especificos sobre a taxa exata de tuques de Elon Musk para o periodo de outubro de 2026."
+     "Nao ha dados historicos granulares especificos sobre a taxa de tweets para o periodo exato de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza padrao para a faixa de volume de postagens em dois dias.",
-    "reason": "A faixa de 90-114 tweets em 48 horas e plausivel para o ritmo historico de Elon Musk, mas ha alta variancia diaria."
+    "misprice": "O mercado ja reflete adequadamente a taxa media de atividade recente de Elon Musk.",
+    "reason": "Como nao ha evidencias novas ou metricas parciais para este intervalo especifico, minha estimativa permanece proxima ao preco atual de mercado."
    }
   },
   "4386085": {
-   "t": 1793162400.1068447,
-   "yes": 0.22,
+   "t": 1793165471.5344486,
+   "yes": 0.23,
    "est": {
-    "p": 0.15,
-    "conf": "medium",
+    "p": 0.25,
+    "conf": "low",
     "evidence": [
-     "FOMC meetings in 2026 have repeatedly featured multiple dissenting votes, such as 3 officials dissenting in July 2026.",
-     "The Federal Reserve is currently experiencing its highest level of internal policy division and dissent in decades.",
-     "Economic uncertainty leading into October 2026 keeps rate path expectations fractured among committee members."
+     "Reunião do FOMC agendada para 27-28 de outubro de 2026 com decisão às 14h ET",
+     "Decisões de taxa de juros do Fed frequentemente registram pelo menos um voto divergente dependendo do ciclo econômico",
+     "Ausência de notícias ou atas prévias específicas sobre divergências para esta reunião específica de outubro de 2026"
     ],
-    "misprice": "Market underprices the persistent and heightened structural divisions among FOMC members regarding recent rate decisions.",
-    "reason": "Given the historical frequency of dissents in 2026 meetings, a unanimous decision with zero dissenting votes is unlikely."
+    "misprice": "O mercado precifica unanimidade com cautela, mas dissentimentos históricos em ciclos de juros tornam a probabilidade de zero divergência ligeiramente menor.",
+    "reason": "A unanimidade no FOMC é incomum em reuniões de decisão de taxa, embora ocorra em cerca de 20-30% das vezes dependendo do consenso macroeconômico."
    }
   },
   "6322932": {
-   "t": 1793162406.0550487,
+   "t": 1793165500.5455754,
    "yes": 0.515,
    "est": {
-    "p": 0.51,
+    "p": 0.5,
     "conf": "low",
     "evidence": [
-     "Nenhuma informacao nova sobre as escalacoes ou o patch notes do Jogo 2 foi divulgada."
+     "Nenhuma informacao nova e concreta disponivel sobre a partida ou estatisticas historicas especificas do Game 2."
     ],
-    "misprice": "O mercado esta eficientemente precificado proximo a 50-50 devido a falta de dados especificos sobre o draft do Jogo 2.",
-    "reason": "A media historica de kills em partidas profissionais de LoL entre Top Esports e Bilibili Gaming flutua proxima a linha de 27.5, tornando a aposta muito equilibrada."
+    "misprice": "O mercado esta perto de 0.50 refletindo incerteza padrao para uma linha de O/U em esports sem dados previos.",
+    "reason": "Sem evidencias empiricas recentes ou dados estatisticos especificos para divergir significativamente de uma linha padrao de mata-mata."
+   }
+  },
+  "6326890": {
+   "t": 1793165486.604154,
+   "yes": 0.525,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informacao nova e concreta disponivel sobre o historico recente de abates entre Invictus Gaming e LYON para o Worlds 2026."
+    ],
+    "misprice": "O mercado esta eficientemente precificado proximo a 52.5% sem evidencias concretas adicionais para divergir.",
+    "reason": "A linha de 27.5 abates em partidas profissionais de LoL e altamente variavel, mantendo a probabilidade muito perto de 50-50 na ausencia de dados especificos de draft."
    }
   }
  },
@@ -4131,7 +4144,7 @@
    "cat": "Clima",
    "end": 1793102400.0,
    "t": 1793059776.7964292,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.11411285871151189
@@ -4689,6 +4702,340 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6290241": {
+   "q": "Will the highest temperature in Shanghai be 23°C on October 29?",
+   "p": 0.2099648855974251,
+   "yes": 0.48,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165401.6194808,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2846589422311907,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 22.2,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 23,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290176": {
+   "q": "Will the highest temperature in Wellington be 18°C on October 29?",
+   "p": 0.17046332435278466,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165402.205485,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.17225452941087527,
+   "wx": {
+    "sid": "NZWN",
+    "mu": 16.67,
+    "sigma": 1.73,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6247278": {
+   "q": "Will the highest temperature in Los Angeles be between 74-75°F on October 28?",
+   "p": 0.21991340414129107,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165402.8070145,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3582889610387605,
+   "wx": {
+    "sid": "KLAX",
+    "mu": 74.47,
+    "sigma": 3.58,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-10-28"
+   }
+  },
+  "6290175": {
+   "q": "Will the highest temperature in Wellington be 17°C on October 29?",
+   "p": 0.2236206056188943,
+   "yes": 0.35,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165410.9639878,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.35310724969948326,
+   "wx": {
+    "sid": "NZWN",
+    "mu": 16.67,
+    "sigma": 1.73,
+    "kind": "exact",
+    "a": 17,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6247277": {
+   "q": "Will the highest temperature in Los Angeles be between 72-73°F on October 28?",
+   "p": 0.18987751419053267,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165410.9640865,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2427045179875112,
+   "wx": {
+    "sid": "KLAX",
+    "mu": 74.47,
+    "sigma": 3.58,
+    "kind": "range",
+    "a": 72,
+    "b": 73,
+    "unit": "F",
+    "date": "2026-10-28"
+   }
+  },
+  "6243103": {
+   "q": "Will the highest temperature in Dallas be between 80-81°F on October 28?",
+   "p": 0.30284174180659607,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165410.964197,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4265307689810074,
+   "wx": {
+    "sid": "KDFW",
+    "mu": 81.47,
+    "sigma": 2.36,
+    "kind": "range",
+    "a": 80,
+    "b": 81,
+    "unit": "F",
+    "date": "2026-10-28"
+   }
+  },
+  "6244752": {
+   "q": "Will the highest temperature in Denver be between 64-65°F on October 28?",
+   "p": 0.2294981188232338,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165411.5582476,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3512578762514465,
+   "wx": {
+    "sid": "KDEN",
+    "mu": 65.4,
+    "sigma": 3.3,
+    "kind": "range",
+    "a": 64,
+    "b": 65,
+    "unit": "F",
+    "date": "2026-10-28"
+   }
+  },
+  "6250921": {
+   "q": "Will the highest temperature in Toronto be 15°C on October 28?",
+   "p": 0.1456197478212941,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165430.5377414,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.07568401999773894,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 16.6,
+    "sigma": 1.3,
+    "kind": "exact",
+    "a": 15,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
+  },
+  "6293376": {
+   "q": "Will the highest temperature in London be 16°C on October 29?",
+   "p": 0.22078945165157032,
+   "yes": 0.535,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165441.2324097,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3443277207231097,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 15.6,
+    "sigma": 1.74,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6250897": {
+   "q": "Will the highest temperature in Sao Paulo be 23°C on October 28?",
+   "p": 0.2834374973904534,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793165442.2688177,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4548838310246133,
+   "wx": {
+    "sid": "SBGR",
+    "mu": 23.0,
+    "sigma": 1.38,
+    "kind": "exact",
+    "a": 23,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
+  },
+  "6290328": {
+   "q": "Will the highest temperature in Wuhan be 18°C on October 29?",
+   "p": 0.17446957502257698,
+   "yes": 0.415,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165443.0176082,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2761248520874122,
+   "wx": {
+    "sid": "geo:wuhan",
+    "mu": 18.47,
+    "sigma": 2.22,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6298835": {
+   "q": "Will the highest temperature in Mexico City be 25°C on October 29?",
+   "p": 0.17935835534267436,
+   "yes": 0.5,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165443.0178783,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.29166029450676667,
+   "wx": {
+    "sid": "geo:mexico city",
+    "mu": 24.77,
+    "sigma": 2.19,
+    "kind": "exact",
+    "a": 25,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290185": {
+   "q": "Will the highest temperature in Lucknow be 29°C on October 29?",
+   "p": 0.2095864187103848,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165443.018004,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3311645826137261,
+   "wx": {
+    "sid": "geo:lucknow",
+    "mu": 28.63,
+    "sigma": 1.84,
+    "kind": "exact",
+    "a": 29,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290471": {
+   "q": "Will the highest temperature in Karachi be 36°C on October 29?",
+   "p": 0.21241434963910955,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793165444.1023796,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3442925264817736,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 35.83,
+    "sigma": 1.85,
+    "kind": "exact",
+    "a": 36,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6326890": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.52,
+   "yes": 0.525,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793250000.0,
+   "t": 1793165486.604158,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -4831,6 +5178,10 @@
   {
    "t": 1793162592.722336,
    "equity": 1386.32
+  },
+  {
+   "t": 1793165500.5462081,
+   "equity": 1380.1
   }
  ],
  "llm_calls": {
@@ -4839,8 +5190,8 @@
   "2026-10-25": 60,
   "2026-10-26": 32,
   "2026-10-27": 44,
-  "2026-10-28": 12
+  "2026-10-28": 16
  },
  "killed": false,
- "cycles": 35
+ "cycles": 36
 }

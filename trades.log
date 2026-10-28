@@ -372,3 +372,11 @@
 2026-10-28 04:43:12Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 04:43:12Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-28 04:43:12Z ciclo 35: lidos=500 filtro=27 llm=0 clima=1 compras=0 vendas=0 descartados={'categoria_Esportes': 114, 'cripto': 12, 'esporte_vivo': 1, 'combinado': 1, 'clima_sem_modelo': 2} equity=$1386.32
+2026-10-28 05:29:40Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 05:29:50Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 05:30:01Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 05:30:10Z erro geocode Buenos Aires: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 05:30:19Z erro geocode Helsinki: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 05:30:30Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 05:30:40Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 05:31:40Z ciclo 36: lidos=600 filtro=25 llm=4 clima=17 compras=0 vendas=0 descartados={'categoria_Esportes': 128, 'cripto': 12, 'esporte_vivo': 3, 'combinado': 2, 'clima_sem_modelo': 4} equity=$1380.10
