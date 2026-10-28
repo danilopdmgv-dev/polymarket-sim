@@ -1,5 +1,5 @@
 {
- "cash": 1178.0913124871754,
+ "cash": 1174.2518330471817,
  "positions": [
   {
    "mid": "6244720",
@@ -12,7 +12,7 @@
    "shares": 65.67370451727747,
    "cost": 38.702868837758714,
    "t": 1793097925.1416538,
-   "mark": 0.5900000000000001,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.24543770780462526,
    "mkt_yes": 0.46,
@@ -37,7 +37,7 @@
    "shares": 63.658754551730176,
    "cost": 38.70286883775872,
    "t": 1793097925.4930289,
-   "mark": 0.5700000000000001,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.23664179558952803,
    "mkt_yes": 0.425,
@@ -52,31 +52,6 @@
    "breakCount": 0
   },
   {
-   "mid": "6238785",
-   "q": "Will the highest temperature in Lucknow be 30°C on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "5074926014443140571195513731912518953339122299653676735669120430952232328002",
-   "entry": 0.5476126259047127,
-   "fair": 0.7116009815174151,
-   "shares": 68.77945718055302,
-   "cost": 37.66449915494339,
-   "t": 1793117288.9896662,
-   "mark": 0.5,
-   "conf": "medium",
-   "llm_p": 0.16066503080430805,
-   "mkt_yes": 0.48,
-   "edge": 0.16398835561270242,
-   "evidence": [
-    "Previsao Open-Meteo geo:lucknow 2026-10-28: maxima 29.1C (3 modelos, sigma 2.3)"
-   ],
-   "misprice": "Modelo 0.16 vs mercado 0.48",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:lucknow|2026-10-28",
-   "breakCount": 0
-  },
-  {
    "mid": "6238741",
    "q": "Will the highest temperature in Paris be 15°C on October 28?",
    "cat": "Clima",
@@ -87,7 +62,7 @@
    "shares": 63.87193299692166,
    "cost": 40.221732944007314,
    "t": 1793146257.3615274,
-   "mark": 0.5900000000000001,
+   "mark": 0.6,
    "conf": "medium",
    "llm_p": 0.22597957294333326,
    "mkt_yes": 0.415,
@@ -112,7 +87,7 @@
    "shares": 72.92020135529695,
    "cost": 40.221732944007314,
    "t": 1793146266.8355036,
-   "mark": 0.5900000000000001,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.21201697921251395,
    "mkt_yes": 0.475,
@@ -137,7 +112,7 @@
    "shares": 22.411986727768525,
    "cost": 14.578015611295628,
    "t": 1793162339.2977607,
-   "mark": 0.53,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.16792710396532673,
    "mkt_yes": 0.63,
@@ -149,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "LEMD|2026-10-28",
+   "inv": true
+  },
+  {
+   "mid": "6250908",
+   "q": "Will the highest temperature in Buenos Aires be 23°C on October 28?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "66485903356995504679920089443622661376341175272765123374717679427070365519979",
+   "entry": 0.45608766541305856,
+   "fair": 0.6329180129343256,
+   "shares": 31.188687421087614,
+   "cost": 14.224775633181476,
+   "t": 1793167185.0072153,
+   "mark": 0.45608766541305856,
+   "conf": "medium",
+   "llm_p": 0.091803311776124,
+   "mkt_yes": 0.43,
+   "edge": 0.17683034752126703,
+   "evidence": [
+    "Previsao Open-Meteo geo:buenos aires 2026-10-28: maxima 20.6C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.09 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:buenos aires|2026-10-28",
    "inv": true
   }
  ],
@@ -1740,6 +1740,36 @@
    "pnl": 32.22057527907533,
    "closed_t": 1793162333.7273571,
    "held_h": 7.795625149740113
+  },
+  {
+   "mid": "6238785",
+   "q": "Will the highest temperature in Lucknow be 30°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "5074926014443140571195513731912518953339122299653676735669120430952232328002",
+   "entry": 0.5476126259047127,
+   "fair": 0.7116009815174151,
+   "shares": 68.77945718055302,
+   "cost": 37.66449915494339,
+   "t": 1793117288.9896662,
+   "mark": 0.4,
+   "conf": "medium",
+   "llm_p": 0.16066503080430805,
+   "mkt_yes": 0.48,
+   "edge": 0.16398835561270242,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-10-28: maxima 29.1C (3 modelos, sigma 2.3)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.1509941575422049,
+   "reason": "stop-loss",
+   "pnl": -27.279202961755633,
+   "closed_t": 1793167177.1698673,
+   "held_h": 13.857827833692232
   }
  ],
  "cache": {
@@ -1868,57 +1898,57 @@
    }
   },
   "6138701": {
-   "t": 1793165456.234936,
-   "yes": 0.375,
+   "t": 1793167290.9826353,
+   "yes": 0.425,
    "est": {
-    "p": 0.38,
+    "p": 0.42,
     "conf": "low",
     "evidence": [
-     "Nao ha dados historicos granulares especificos sobre a taxa de tweets para o periodo exato de outubro de 2026."
+     "Nao ha dados oficiais em tempo real sobre a contagem exata de tweets no periodo especificado de 26 a 28 de outubro de 2026."
     ],
-    "misprice": "O mercado ja reflete adequadamente a taxa media de atividade recente de Elon Musk.",
-    "reason": "Como nao ha evidencias novas ou metricas parciais para este intervalo especifico, minha estimativa permanece proxima ao preco atual de mercado."
+    "misprice": "O preco atual reflete adequadamente a incerteza estatistica da taxa de publicacao de Elon Musk na janela de 48 horas.",
+    "reason": "A faixa de 90-114 tweets em dois dias exige uma media diaria alta, mas perfeitamente compativel com o comportamento historico recente do perfil."
    }
   },
   "4386085": {
-   "t": 1793165471.5344486,
+   "t": 1793167297.3722847,
    "yes": 0.23,
    "est": {
-    "p": 0.25,
-    "conf": "low",
+    "p": 0.15,
+    "conf": "medium",
     "evidence": [
-     "Reunião do FOMC agendada para 27-28 de outubro de 2026 com decisão às 14h ET",
-     "Decisões de taxa de juros do Fed frequentemente registram pelo menos um voto divergente dependendo do ciclo econômico",
-     "Ausência de notícias ou atas prévias específicas sobre divergências para esta reunião específica de outubro de 2026"
+     "FOMC meetings in April and July 2026 both featured multiple dissenting votes (3 officials in July, highest since 1992 in April).",
+     "Recent Reuters reporting on Oct 26, 2026 indicates ongoing debate and division over the Fed's pause on rate hikes."
     ],
-    "misprice": "O mercado precifica unanimidade com cautela, mas dissentimentos históricos em ciclos de juros tornam a probabilidade de zero divergência ligeiramente menor.",
-    "reason": "A unanimidade no FOMC é incomum em reuniões de decisão de taxa, embora ocorra em cerca de 20-30% das vezes dependendo do consenso macroeconômico."
+    "misprice": "O mercado subestima a persistência de divisões profundas e votos dissidentes no FOMC observados ao longo de 2026.",
+    "reason": "O histórico recente do FOMC em 2026 mostra divisões atipicamente altas, tornando improvável unanimidade na decisão de outubro."
    }
   },
   "6322932": {
-   "t": 1793165500.5455754,
+   "t": 1793167309.584202,
    "yes": 0.515,
+   "est": {
+    "p": 0.51,
+    "conf": "low",
+    "evidence": [
+     "O mercado de LoL para a linha de 27.5 kills reflete a média histórica de abates em partidas de playoff entre Top Esports e Bilibili Gaming.",
+     "Nenhuma informação nova sobre patches recentes ou escalações foi divulgada nas últimas 24 horas para alterar significativamente a volatilidade do Game 2."
+    ],
+    "misprice": "O mercado está adequadamente precificado próximo à linha de coin-flip histórica para abates em playoffs da LPL.",
+    "reason": "Como não há dados novos ou concretos que justifiquem um desvio da média estatística esperada para o confronto, mantenho a probabilidade muito próxima ao preço atual."
+   }
+  },
+  "6326890": {
+   "t": 1793167303.4316492,
+   "yes": 0.5,
    "est": {
     "p": 0.5,
     "conf": "low",
     "evidence": [
-     "Nenhuma informacao nova e concreta disponivel sobre a partida ou estatisticas historicas especificas do Game 2."
+     "Nao ha dados recentes ou estatisticas especificas sobre as equipes Invictus Gaming e LYON para a partida de 2026."
     ],
-    "misprice": "O mercado esta perto de 0.50 refletindo incerteza padrao para uma linha de O/U em esports sem dados previos.",
-    "reason": "Sem evidencias empiricas recentes ou dados estatisticos especificos para divergir significativamente de uma linha padrao de mata-mata."
-   }
-  },
-  "6326890": {
-   "t": 1793165486.604154,
-   "yes": 0.525,
-   "est": {
-    "p": 0.52,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma informacao nova e concreta disponivel sobre o historico recente de abates entre Invictus Gaming e LYON para o Worlds 2026."
-    ],
-    "misprice": "O mercado esta eficientemente precificado proximo a 52.5% sem evidencias concretas adicionais para divergir.",
-    "reason": "A linha de 27.5 abates em partidas profissionais de LoL e altamente variavel, mantendo a probabilidade muito perto de 50-50 na ausencia de dados especificos de draft."
+    "misprice": "O mercado esta precificado eficientemente em 0.50 por falta de informacoes concretas divergentes.",
+    "reason": "Ausencia de dados historicos recentes ou escalacoes confirmadas impede qualquer desvio estatistico solido da linha de 27.5 kills."
    }
   }
  },
@@ -5036,6 +5066,52 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6250908": {
+   "q": "Will the highest temperature in Buenos Aires be 23°C on October 28?",
+   "p": 0.091803311776124,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793167185.007185,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.03527070687153655,
+   "wx": {
+    "sid": "geo:buenos aires",
+    "mu": 20.6,
+    "sigma": 1.79,
+    "kind": "exact",
+    "a": 23,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
+  },
+  "6238873": {
+   "q": "Will the highest temperature in Madrid be 22°C on October 28?",
+   "p": 0.2791218362875403,
+   "yes": 0.39,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793188800.0,
+   "t": 1793167216.3096142,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4000876713338082,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 21.5,
+    "sigma": 1.3,
+    "kind": "exact",
+    "a": 22,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-28"
+   }
   }
  },
  "history": [
@@ -5182,6 +5258,10 @@
   {
    "t": 1793165500.5462081,
    "equity": 1380.1
+  },
+  {
+   "t": 1793167309.585235,
+   "equity": 1354.74
   }
  ],
  "llm_calls": {
@@ -5190,8 +5270,8 @@
   "2026-10-25": 60,
   "2026-10-26": 32,
   "2026-10-27": 44,
-  "2026-10-28": 16
+  "2026-10-28": 20
  },
  "killed": false,
- "cycles": 36
+ "cycles": 37
 }
