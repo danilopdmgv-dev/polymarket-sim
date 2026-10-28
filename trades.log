@@ -345,3 +345,14 @@
 2026-10-27 20:50:55Z BUY NO [llm] Will Yashar win the most seats in the 2026 Israeli @ 0.820 $54.50 edge=0.057 conf=high | O mercado subestima a vantagem projetada para o Likud nas pesquisas de boca de urna em relacao ao partido Yashar.
 2026-10-27 20:51:09Z BUY YES [llm] Will Likud win 25-29 seats in the 2026 Israeli leg @ 0.571 $51.49 edge=0.064 conf=high | O mercado subestima a concordancia das pesquisas de boca de urna em apontar o Likud firmemente dentro da faixa de 27 assentos.
 2026-10-27 20:51:27Z ciclo 32: lidos=500 filtro=34 llm=8 clima=2 compras=3 vendas=2 descartados={'categoria_Esportes': 100, 'esporte_vivo': 20, 'cripto': 9, 'clima_sem_modelo': 3} equity=$1362.38
+2026-10-28 00:10:34Z SELL NO [stop-loss] Will the highest temperature in Wellington be 17°C @ 0.021 pnl=$-40.81
+2026-10-28 00:10:35Z SELL NO [stop-loss] Will the highest temperature in Shanghai be 21°C o @ 0.250 pnl=$-15.17
+2026-10-28 00:10:37Z SELL NO [take-profit] Will Yashar win the most seats in the 2026 Israeli @ 0.957 pnl=$+9.05
+2026-10-28 00:10:56Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 00:10:57Z BUY NO [clima] Will the highest temperature in Paris be 15°C on O @ 0.630 $40.22 edge=0.069 conf=medium | Modelo 0.23 vs mercado 0.41
+2026-10-28 00:11:05Z erro geocode Houston: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-28 00:11:06Z BUY NO [clima] Will the highest temperature in Mexico City be 24° @ 0.552 $40.22 edge=0.131 conf=medium | Modelo 0.21 vs mercado 0.47
+2026-10-28 00:11:18Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 00:11:28Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 00:11:39Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 00:12:28Z ciclo 33: lidos=500 filtro=22 llm=8 clima=10 compras=2 vendas=3 descartados={'esporte_vivo': 26, 'categoria_Esportes': 59, 'cripto': 10, 'clima_sem_modelo': 2} equity=$1340.72
