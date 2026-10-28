@@ -400,3 +400,21 @@
 2026-10-28 12:26:41Z erro geocode Taipei: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-28 12:26:41Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-28 12:27:28Z ciclo 38: lidos=600 filtro=21 llm=5 clima=2 compras=1 vendas=1 descartados={'esporte_vivo': 27, 'categoria_Esportes': 200, 'cripto': 20, 'combinado': 6, 'clima_sem_modelo': 4} equity=$1355.76
+2026-10-28 18:25:50Z SELL NO [stop-loss] Will the highest temperature in New York City be b @ 0.178 pnl=$-27.04
+2026-10-28 18:25:50Z SELL NO [take-profit] Will the highest temperature in Paris be 15°C on O @ 0.966 pnl=$+21.47
+2026-10-28 18:25:50Z SELL NO [stop-loss] Will the highest temperature in Mexico City be 24° @ 0.182 pnl=$-26.92
+2026-10-28 18:25:50Z SELL YES [take-profit] Will the highest temperature in Madrid be 23°C on  @ 0.964 pnl=$+7.02
+2026-10-28 18:25:50Z SELL YES [stop-loss] Will the highest temperature in Buenos Aires be 23 @ 0.010 pnl=$-13.91
+2026-10-28 18:25:53Z BUY YES [clima] Will the highest temperature in Paris be 16°C on O @ 0.586 $13.73 edge=0.187 conf=medium | Modelo 0.16 vs mercado 0.55
+2026-10-28 18:25:54Z BUY YES [clima] Will the highest temperature in New York City be b @ 0.657 $13.73 edge=0.189 conf=medium | Modelo 0.23 vs mercado 0.61
+2026-10-28 18:25:54Z BUY YES [clima] Will the highest temperature in Amsterdam be 16°C  @ 0.566 $13.73 edge=0.148 conf=medium | Modelo 0.22 vs mercado 0.53
+2026-10-28 18:25:55Z BUY YES [clima] Will the highest temperature in Shanghai be 24°C o @ 0.546 $13.73 edge=0.207 conf=medium | Modelo 0.10 vs mercado 0.51
+2026-10-28 18:25:56Z BUY YES [clima] Will the highest temperature in Beijing be 21°C on @ 0.476 $13.73 edge=0.172 conf=medium | Modelo 0.11 vs mercado 0.45
+2026-10-28 18:26:10Z erro previsao geo:jeddah: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 18:26:20Z erro previsao geo:jeddah: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 18:26:30Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 18:26:40Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-28 18:26:40Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-28 18:27:16Z LLM com limite/instabilidade: pulando as consultas restantes deste ciclo.
+2026-10-28 18:27:16Z erro LLM Will Elon Musk post 300-319 tweets from : Error code: 503
+2026-10-28 18:27:16Z ciclo 39: lidos=600 filtro=25 llm=1 clima=12 compras=5 vendas=5 descartados={'esporte_vivo': 14, 'categoria_Esportes': 212, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1307.21

@@ -1,131 +1,6 @@
 {
- "cash": 1184.325234456296,
+ "cash": 1224.2704161746137,
  "positions": [
-  {
-   "mid": "6244720",
-   "q": "Will the highest temperature in New York City be between 60-61°F on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "34351259075609390196277347025082566133175158794793696026454623037668621101332",
-   "entry": 0.5893206287392657,
-   "fair": 0.6687373753172248,
-   "shares": 65.67370451727747,
-   "cost": 38.702868837758714,
-   "t": 1793097925.1416538,
-   "mark": 0.5800000000000001,
-   "conf": "medium",
-   "llm_p": 0.24543770780462526,
-   "mkt_yes": 0.46,
-   "edge": 0.07941674657795905,
-   "evidence": [
-    "Previsao Open-Meteo KLGA 2026-10-28: maxima 61.4F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.25 vs mercado 0.46",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KLGA|2026-10-28",
-   "breakCount": 0
-  },
-  {
-   "mid": "6238741",
-   "q": "Will the highest temperature in Paris be 15°C on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "29076737545052594150904518412076328383977382966170882558913317152701993017095",
-   "entry": 0.6297246858952245,
-   "fair": 0.698412256234,
-   "shares": 63.87193299692166,
-   "cost": 40.221732944007314,
-   "t": 1793146257.3615274,
-   "mark": 0.77,
-   "conf": "medium",
-   "llm_p": 0.22597957294333326,
-   "mkt_yes": 0.415,
-   "edge": 0.0686875703387756,
-   "evidence": [
-    "Previsao Open-Meteo LFPG 2026-10-28: maxima 14.0C (1 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.23 vs mercado 0.41",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LFPG|2026-10-28",
-   "breakCount": 0
-  },
-  {
-   "mid": "6250934",
-   "q": "Will the highest temperature in Mexico City be 24°C on October 28?",
-   "cat": "Clima",
-   "side": "NO",
-   "token": "24262918173807820846532906371349193187761377188102994549953573681129020488958",
-   "entry": 0.551585599003363,
-   "fair": 0.6827898124724916,
-   "shares": 72.92020135529695,
-   "cost": 40.221732944007314,
-   "t": 1793146266.8355036,
-   "mark": 0.53,
-   "conf": "medium",
-   "llm_p": 0.21201697921251395,
-   "mkt_yes": 0.475,
-   "edge": 0.13120421346912858,
-   "evidence": [
-    "Previsao Open-Meteo geo:mexico city 2026-10-28: maxima 24.1C (3 modelos, sigma 1.9)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:mexico city|2026-10-28",
-   "breakCount": 0
-  },
-  {
-   "mid": "6238874",
-   "q": "Will the highest temperature in Madrid be 23°C on October 28?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "54230405358138332828090732296049713034077959749101553812710353674559967625411",
-   "entry": 0.6504561950874894,
-   "fair": 0.907243737620804,
-   "shares": 22.411986727768525,
-   "cost": 14.578015611295628,
-   "t": 1793162339.2977607,
-   "mark": 0.7,
-   "conf": "medium",
-   "llm_p": 0.16792710396532673,
-   "mkt_yes": 0.63,
-   "edge": 0.2567875425333146,
-   "evidence": [
-    "Previsao Open-Meteo LEMD 2026-10-28: maxima 21.6C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.17 vs mercado 0.63",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LEMD|2026-10-28",
-   "inv": true
-  },
-  {
-   "mid": "6250908",
-   "q": "Will the highest temperature in Buenos Aires be 23°C on October 28?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "66485903356995504679920089443622661376341175272765123374717679427070365519979",
-   "entry": 0.45608766541305856,
-   "fair": 0.6329180129343256,
-   "shares": 31.188687421087614,
-   "cost": 14.224775633181476,
-   "t": 1793167185.0072153,
-   "mark": 0.5,
-   "conf": "medium",
-   "llm_p": 0.091803311776124,
-   "mkt_yes": 0.43,
-   "edge": 0.17683034752126703,
-   "evidence": [
-    "Previsao Open-Meteo geo:buenos aires 2026-10-28: maxima 20.6C (3 modelos, sigma 1.8)"
-   ],
-   "misprice": "Modelo 0.09 vs mercado 0.43",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:buenos aires|2026-10-28",
-   "inv": true
-  },
   {
    "mid": "6290176",
    "q": "Will the highest temperature in Wellington be 18°C on October 29?",
@@ -137,7 +12,7 @@
    "shares": 21.04725940164027,
    "cost": 14.23551493939714,
    "t": 1793190362.145142,
-   "mark": 0.6763595519846031,
+   "mark": 0.68,
    "conf": "medium",
    "llm_p": 0.23791756836803546,
    "mkt_yes": 0.655,
@@ -149,6 +24,131 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "NZWN|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6290142",
+   "q": "Will the highest temperature in Paris be 16°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "55093477858486202998177828455413520124809256479932203512831590648925077961102",
+   "entry": 0.586440974811678,
+   "fair": 0.7736752269731659,
+   "shares": 23.405112416968308,
+   "cost": 13.725716941383803,
+   "t": 1793211953.9447145,
+   "mark": 0.586440974811678,
+   "conf": "medium",
+   "llm_p": 0.16387462171139022,
+   "mkt_yes": 0.545,
+   "edge": 0.18723425216148787,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-10-29: maxima 14.6C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6293387",
+   "q": "Will the highest temperature in New York City be between 68-69°F on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "36699059170475527150726677530148488005745634841584642924209306488009403933345",
+   "entry": 0.6571646326057111,
+   "fair": 0.8464181489755267,
+   "shares": 20.886268463596743,
+   "cost": 13.725716941383803,
+   "t": 1793211954.2413957,
+   "mark": 0.6571646326057111,
+   "conf": "medium",
+   "llm_p": 0.2293030850407889,
+   "mkt_yes": 0.615,
+   "edge": 0.18925351636981563,
+   "evidence": [
+    "Previsao Open-Meteo KLGA 2026-10-29: maxima 67.1F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.61",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLGA|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6290396",
+   "q": "Will the highest temperature in Amsterdam be 16°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "87988529163089160945618765746105880980107265686035668553934082822622958322293",
+   "entry": 0.5659401050232106,
+   "fair": 0.7135459575642242,
+   "shares": 24.25294977252209,
+   "cost": 13.725716941383803,
+   "t": 1793211954.5305479,
+   "mark": 0.5659401050232106,
+   "conf": "medium",
+   "llm_p": 0.224090070726293,
+   "mkt_yes": 0.53,
+   "edge": 0.14760585254101366,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-29: maxima 15.7C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.53",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6332512",
+   "q": "Will the highest temperature in Shanghai be 24°C on October 30?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "96483354111740461467388271767074774349118416951663138796708396085734119650177",
+   "entry": 0.5460589240953005,
+   "fair": 0.7532444731093546,
+   "shares": 25.135963054031752,
+   "cost": 13.725716941383803,
+   "t": 1793211955.4881432,
+   "mark": 0.5460589240953005,
+   "conf": "medium",
+   "llm_p": 0.10459254481774227,
+   "mkt_yes": 0.51,
+   "edge": 0.20718554901405406,
+   "evidence": [
+    "Previsao Open-Meteo ZSPD 2026-10-30: maxima 21.7C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.10 vs mercado 0.51",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "ZSPD|2026-10-30",
+   "inv": true
+  },
+  {
+   "mid": "6290319",
+   "q": "Will the highest temperature in Beijing be 21°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "39398694278692335859784411900695926307645677510128162742524619511241801379795",
+   "entry": 0.47599423064449103,
+   "fair": 0.6480779180213414,
+   "shares": 28.835889298068448,
+   "cost": 13.725716941383803,
+   "t": 1793211956.3892393,
+   "mark": 0.47599423064449103,
+   "conf": "medium",
+   "llm_p": 0.10653680329776416,
+   "mkt_yes": 0.445,
+   "edge": 0.17208368737685042,
+   "evidence": [
+    "Previsao Open-Meteo geo:beijing 2026-10-29: maxima 18.7C (3 modelos, sigma 2.1)"
+   ],
+   "misprice": "Modelo 0.11 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:beijing|2026-10-29",
    "inv": true
   }
  ],
@@ -1800,23 +1800,159 @@
    "pnl": -14.393952489247447,
    "closed_t": 1793190358.533309,
    "held_h": 25.675844522251023
+  },
+  {
+   "mid": "6244720",
+   "q": "Will the highest temperature in New York City be between 60-61°F on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "34351259075609390196277347025082566133175158794793696026454623037668621101332",
+   "entry": 0.5893206287392657,
+   "fair": 0.6687373753172248,
+   "shares": 65.67370451727747,
+   "cost": 38.702868837758714,
+   "t": 1793097925.1416538,
+   "mark": 0.4,
+   "conf": "medium",
+   "llm_p": 0.24543770780462526,
+   "mkt_yes": 0.46,
+   "edge": 0.07941674657795905,
+   "evidence": [
+    "Previsao Open-Meteo KLGA 2026-10-28: maxima 61.4F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.25 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLGA|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.17759258416349474,
+   "reason": "stop-loss",
+   "pnl": -27.03970594094563,
+   "closed_t": 1793211950.6415012,
+   "held_h": 31.673749957680702
+  },
+  {
+   "mid": "6238741",
+   "q": "Will the highest temperature in Paris be 15°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "29076737545052594150904518412076328383977382966170882558913317152701993017095",
+   "entry": 0.6297246858952245,
+   "fair": 0.698412256234,
+   "shares": 63.87193299692166,
+   "cost": 40.221732944007314,
+   "t": 1793146257.3615274,
+   "mark": 0.999,
+   "conf": "medium",
+   "llm_p": 0.22597957294333326,
+   "mkt_yes": 0.415,
+   "edge": 0.0686875703387756,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-10-28: maxima 14.0C (1 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.41",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.96592669076956,
+   "reason": "take-profit",
+   "pnl": 21.473871928764282,
+   "closed_t": 1793211950.6917481,
+   "held_h": 18.248147283593813
+  },
+  {
+   "mid": "6250934",
+   "q": "Will the highest temperature in Mexico City be 24°C on October 28?",
+   "cat": "Clima",
+   "side": "NO",
+   "token": "24262918173807820846532906371349193187761377188102994549953573681129020488958",
+   "entry": 0.551585599003363,
+   "fair": 0.6827898124724916,
+   "shares": 72.92020135529695,
+   "cost": 40.221732944007314,
+   "t": 1793146266.8355036,
+   "mark": 0.39,
+   "conf": "medium",
+   "llm_p": 0.21201697921251395,
+   "mkt_yes": 0.475,
+   "edge": 0.13120421346912858,
+   "evidence": [
+    "Previsao Open-Meteo geo:mexico city 2026-10-28: maxima 24.1C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:mexico city|2026-10-28",
+   "breakCount": 0,
+   "exit": 0.1824426324164375,
+   "reason": "stop-loss",
+   "pnl": -26.917979452410265,
+   "closed_t": 1793211950.7420352,
+   "held_h": 18.245529592103427
+  },
+  {
+   "mid": "6238874",
+   "q": "Will the highest temperature in Madrid be 23°C on October 28?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "54230405358138332828090732296049713034077959749101553812710353674559967625411",
+   "entry": 0.6504561950874894,
+   "fair": 0.907243737620804,
+   "shares": 22.411986727768525,
+   "cost": 14.578015611295628,
+   "t": 1793162339.2977607,
+   "mark": 0.998,
+   "conf": "medium",
+   "llm_p": 0.16792710396532673,
+   "mkt_yes": 0.63,
+   "edge": 0.2567875425333146,
+   "evidence": [
+    "Previsao Open-Meteo LEMD 2026-10-28: maxima 21.6C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.63",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LEMD|2026-10-28",
+   "inv": true,
+   "exit": 0.9637413475300103,
+   "reason": "take-profit",
+   "pnl": 7.021342678548715,
+   "closed_t": 1793211950.7898498,
+   "held_h": 13.780970024731424
+  },
+  {
+   "mid": "6250908",
+   "q": "Will the highest temperature in Buenos Aires be 23°C on October 28?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "66485903356995504679920089443622661376341175272765123374717679427070365519979",
+   "entry": 0.45608766541305856,
+   "fair": 0.6329180129343256,
+   "shares": 31.188687421087614,
+   "cost": 14.224775633181476,
+   "t": 1793167185.0072153,
+   "mark": 0.0,
+   "conf": "medium",
+   "llm_p": 0.091803311776124,
+   "mkt_yes": 0.43,
+   "edge": 0.17683034752126703,
+   "evidence": [
+    "Previsao Open-Meteo geo:buenos aires 2026-10-28: maxima 20.6C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.09 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:buenos aires|2026-10-28",
+   "inv": true,
+   "exit": 0.01,
+   "reason": "stop-loss",
+   "pnl": -13.9128887589706,
+   "closed_t": 1793211950.8393455,
+   "held_h": 12.43495336956448
   }
  ],
  "cache": {
-  "4386085": {
-   "t": 1793190411.8397036,
-   "yes": 0.24,
-   "est": {
-    "p": 0.15,
-    "conf": "medium",
-    "evidence": [
-     "FOMC meetings in 2026 have experienced historically high levels of dissent, including the highest since 1992 recorded in April 2026.",
-     "Economic divisions within the committee persisted through late 2025 and 2026 over the pace of rate cuts and inflation paths."
-    ],
-    "misprice": "Market underprices the probability of dissent given the deeply divided FOMC dynamic observed throughout 2026.",
-    "reason": "Persistent policy division and recent historical trends strongly favor at least one dissent in October 2026."
-   }
-  },
   "6322932": {
    "t": 1793190441.0938804,
    "yes": 0.54,
@@ -1829,34 +1965,6 @@
     ],
     "misprice": "O mercado está calibrado próximo a 54%, refletindo uma leve tendência histórica para o 'Over' em confrontos diretos entre essas equipes.",
     "reason": "Como não há dados novos ou escalações específicas divulgadas para este mapa, a probabilidade deve se manter muito próxima da linha base de mercado de 52-54%."
-   }
-  },
-  "6326890": {
-   "t": 1793190421.0013633,
-   "yes": 0.485,
-   "est": {
-    "p": 0.49,
-    "conf": "low",
-    "evidence": [
-     "O mercado de apostas para o Jogo 1 entre Invictus Gaming e LYON marca a linha de abates em 27.5 para o dia 28 de outubro de 2026.",
-     "Nenhuma alteração de escalação de última hora ou patch notes recentes indicam desvios drásticos da média histórica de abates para este confronto."
-    ],
-    "misprice": "O mercado já reflete adequadamente a incerteza estatística padrão em torno da linha de 27.5 abates em partidas profissionais de League of Legends.",
-    "reason": "A linha de 27.5 abates está próxima da média esperada para partidas profissionais equilibradas, mantendo a probabilidade próxima de 50%."
-   }
-  },
-  "5713298": {
-   "t": 1793190432.6190443,
-   "yes": 0.115,
-   "est": {
-    "p": 0.11,
-    "conf": "low",
-    "evidence": [
-     "O jogo entre AC Monza e SSC Napoli esta agendado para 28 de outubro de 2026 as 15:45 ET.",
-     "O preco atual do mercado para o resultado exato de 1-1 e de 0.115."
-    ],
-    "misprice": "O preco de mercado reflete adequadamente a probabilidade estatistica de um empate em 1-1 para esta partida da Serie A.",
-    "reason": "Empates em 1-1 sao placares comuns no futebol, mas nao ha dados especificos suficientes para divergir significativamente da cotacao atual."
    }
   },
   "6322933": {
@@ -4212,7 +4320,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793078521.98485,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.13667237919072472
@@ -4225,7 +4333,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793078532.957527,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34588226642646447
@@ -4313,7 +4421,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793097925.275547,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.13774922573573223
@@ -5081,6 +5189,190 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6290142": {
+   "q": "Will the highest temperature in Paris be 16°C on October 29?",
+   "p": 0.16387462171139022,
+   "yes": 0.545,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211953.9446905,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.150847529452097,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 14.57,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290396": {
+   "q": "Will the highest temperature in Amsterdam be 16°C on October 29?",
+   "p": 0.224090070726293,
+   "yes": 0.53,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211954.5305293,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.35376883799328873,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 15.67,
+    "sigma": 1.72,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6332512": {
+   "q": "Will the highest temperature in Shanghai be 24°C on October 30?",
+   "p": 0.10459254481774227,
+   "yes": 0.51,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793211955.4881241,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.05691042985550965,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 21.73,
+    "sigma": 1.96,
+    "kind": "exact",
+    "a": 24,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6290319": {
+   "q": "Will the highest temperature in Beijing be 21°C on October 29?",
+   "p": 0.10653680329776416,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211956.389219,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.0693354661236667,
+   "wx": {
+    "sid": "geo:beijing",
+    "mu": 18.73,
+    "sigma": 2.15,
+    "kind": "exact",
+    "a": 21,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290296": {
+   "q": "Will the highest temperature in Taipei be 29°C on October 29?",
+   "p": 0.16897946580801326,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211958.4682631,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1515084455090786,
+   "wx": {
+    "sid": "geo:taipei",
+    "mu": 27.6,
+    "sigma": 1.61,
+    "kind": "exact",
+    "a": 29,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6290472": {
+   "q": "Will the highest temperature in Karachi be 37°C on October 29?",
+   "p": 0.1673264886041338,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211958.4685578,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1899386761958991,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 35.73,
+    "sigma": 1.89,
+    "kind": "exact",
+    "a": 37,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-29"
+   }
+  },
+  "6294144": {
+   "q": "Will the highest temperature in Houston be between 80-81°F on October 29?",
+   "p": 0.2186177285593392,
+   "yes": 0.555,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211959.91369,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.33871094657145673,
+   "wx": {
+    "sid": "geo:houston",
+    "mu": 79.63,
+    "sigma": 3.49,
+    "kind": "range",
+    "a": 80,
+    "b": 81,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
+  },
+  "6294145": {
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 29?",
+   "p": 0.1623590006591733,
+   "yes": 0.375,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793211980.7465286,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.15407070746375928,
+   "wx": {
+    "sid": "geo:houston",
+    "mu": 79.63,
+    "sigma": 3.49,
+    "kind": "range",
+    "a": 82,
+    "b": 83,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
   }
  },
  "history": [
@@ -5235,6 +5527,10 @@
   {
    "t": 1793190448.0109587,
    "equity": 1355.76
+  },
+  {
+   "t": 1793212036.810943,
+   "equity": 1307.21
   }
  ],
  "llm_calls": {
@@ -5246,5 +5542,5 @@
   "2026-10-28": 25
  },
  "killed": false,
- "cycles": 38
+ "cycles": 39
 }
