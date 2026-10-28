@@ -42,6 +42,9 @@ BREAK_CONFIRM = 2
 WEATHER_SHRINK = 0.6        # usa 60% da divergencia modelo vs mercado
 WEATHER_MIN_EDGE = 0.06     # edge minimo (apos shrink e slippage)
 SIGMA_TIGHT = 0.6           # variante "sigma estreito" gravada so para comparar calibracao
+WEATHER_TRADING = True      # False = clima so registra estimativas (modo sombra), sem comprar
+WEATHER_INVERT = True       # True = clima compra o LADO OPOSTO ao sinal do modelo (experimento)
+INV_SIZE_MULT = 0.35        # tamanho fixo reduzido para ordens invertidas
 WEATHER_CALIB_N = 30        # ate haver 30 mercados de clima resolvidos, aposta menor
 WEATHER_EARLY_MULT = 0.35   # fator do tamanho da ordem nessa fase (~1% do banco)
 SIGMA_C = {0: 1.2, 1: 1.6, 2: 2.0, 3: 2.4}   # erro tipico da maxima do dia (graus C) por antecedencia
@@ -454,6 +457,8 @@ def weather_estimate(m):
     p = temp_prob(q["kind"], q["a"], q["b"], mu, sigma)
     p_alt = temp_prob(q["kind"], q["a"], q["b"], mu, sigma * SIGMA_TIGHT)
     return dict(p=p, p_alt=p_alt, conf="medium", src="clima", event=f"{sid}|{ds}",
+                wx=dict(sid=sid, mu=round(mu, 2), sigma=round(sigma, 2), kind=q["kind"],
+                        a=q["a"], b=q["b"], unit=q["unit"], date=ds),
                 evidence=[f"Previsao Open-Meteo {sid} {ds}: maxima {mu:.1f}{q['unit']} "
                           f"({len(vals)} modelos, sigma {sigma:.1f})"],
                 misprice=f"Modelo {p:.2f} vs mercado {m['yes']:.2f}",
@@ -539,7 +544,7 @@ def manage_exits(s, st):
                 reason = "stop-loss"
             elif held_h / 24 >= MAX_HOLD_DAYS:
                 reason = "tempo-maximo"
-            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL and (m["cat"] == "Clima" or not LLM_DOWN):
+            elif held_h >= BREAK_MIN_HOURS and reevals < MAX_REEVAL and not pos.get("inv") and (m["cat"] == "Clima" or not LLM_DOWN):
                 est, called = reestimate(s, m)
                 reevals += 1 if called else 0
                 p_new = est["p"] if pos["side"] == "YES" else 1 - est["p"]
@@ -568,13 +573,15 @@ def record_estimate(s, m, est):
     if m["id"] not in s["estimates"]:
         s["estimates"][m["id"]] = dict(q=m["q"], p=est["p"], yes=m["yes"], conf=est["conf"],
                                        cat=m["cat"], end=m["end"], t=now(), resolved=None,
-                                       version=VERSION, src=est.get("src", "llm"), p_alt=est.get("p_alt"))
+                                       version=VERSION, src=est.get("src", "llm"), p_alt=est.get("p_alt"), wx=est.get("wx"))
 
 
 def try_buy(s, st, m, est):
     if est["conf"] == "low":
         return
     clima = est.get("src") == "clima"
+    if clima and not WEATHER_TRADING:
+        return
     shrink = WEATHER_SHRINK if clima else SHRINK
     min_edge = WEATHER_MIN_EDGE if clima else MIN_EDGE
     p_adj = m["yes"] + shrink * (est["p"] - m["yes"])
@@ -586,8 +593,11 @@ def try_buy(s, st, m, est):
     edge = p_side - price
     if edge < min_edge:
         return
+    inv = False
     usd = min(kelly_size(p_side, price, equity(s), est["conf"]), s["cash"], MAX_LIQ_FRAC * m["liq"])
-    if clima:
+    if clima and WEATHER_INVERT:
+        usd *= INV_SIZE_MULT
+    elif clima:
         n_cal = sum(1 for e in s["estimates"].values() if e.get("src") == "clima" and e["resolved"] in ("YES", "NO"))
         if n_cal < WEATHER_CALIB_N:
             usd *= WEATHER_EARLY_MULT
@@ -597,6 +607,13 @@ def try_buy(s, st, m, est):
     edge = p_side - price
     if edge < min_edge:
         return
+    if clima and WEATHER_INVERT:
+        # mesma selecao e mesmo edge de antes, mas compra o lado oposto
+        side = "NO" if side == "YES" else "YES"
+        price = min(0.99, (m["ask"] if side == "YES" else 1 - m["bid"]) + sl
+                    + IMPACT * usd / max(m["liq"], 1.0))
+        p_side = min(0.99, price + edge)   # alvo do take-profit: preco + divergencia do modelo
+        inv = True
     s["cash"] -= usd
     s["positions"].append(dict(
         mid=m["id"], q=m["q"], cat=m["cat"], side=side,
@@ -604,14 +621,14 @@ def try_buy(s, st, m, est):
         shares=usd / price, cost=usd, t=now(), mark=price, conf=est["conf"],
         llm_p=est["p"], mkt_yes=m["yes"], edge=edge, evidence=est["evidence"],
         misprice=est["misprice"], version=VERSION, src=est.get("src", "llm"),
-        event=est.get("event")))
+        event=est.get("event"), inv=inv))
     st["buys"] += 1
     log(f"BUY {side} [{est.get('src', 'llm')}] {m['q'][:50]} @ {price:.3f} ${usd:.2f} "
         f"edge={edge:.3f} conf={est['conf']} | {est['misprice']}")
 
 
 def find_entries(s, st):
-    held = {p["mid"] for p in s["positions"]}
+    held = {p["mid"] for p in s["positions"]} | {c["mid"] for c in s["closed"] if now() - c["closed_t"] < 48 * 3600}  # sem reentrada em 48h
     raw = [parse(m) for m in fetch_markets()]
     st["scanned"] = len(raw)
     cands = []
@@ -698,6 +715,11 @@ def report(s):
         g = [c for c in cl if c["cat"] == k]
         w = sum(1 for c in g if c["pnl"] > 0)
         L.append(f"- {k}: {len(g)} trades, win {w / len(g) * 100:.0f}%, PnL ${sum(c['pnl'] for c in g):+.2f}")
+    ci = [c for c in cl if c.get("inv")]
+    if ci:
+        wi = sum(1 for c in ci if c["pnl"] > 0)
+        L.append(f"- **Clima INVERSO (compra o lado oposto ao modelo):** {len(ci)} trades, "
+                 f"win {wi / len(ci) * 100:.0f}%, PnL ${sum(c['pnl'] for c in ci):+.2f}")
     res = [e for e in s["estimates"].values() if e["resolved"] in ("YES", "NO")]
     L += ["", f"## Calibracao do LLM vs mercado ({len(res)} mercados resolvidos)"]
     if res:
