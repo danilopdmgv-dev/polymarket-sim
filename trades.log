@@ -451,3 +451,6 @@
 2026-10-29 15:45:59Z erro geocode Helsinki: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-29 15:50:34Z erro LLM Total Kills Over/Under 27.5 in Game 1?: Request timed out.
 2026-10-29 15:51:32Z ciclo 43: lidos=500 filtro=34 llm=8 clima=17 compras=3 vendas=3 descartados={'esporte_vivo': 14, 'categoria_Esportes': 137, 'cripto': 11, 'combinado': 7, 'clima_sem_modelo': 5} equity=$1275.16
+2026-10-29 16:20:43Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.581 pnl=$+2.61
+2026-10-29 16:20:46Z BUY YES [clima] Will the highest temperature in Amsterdam be 14°C  @ 0.416 $13.36 edge=0.094 conf=medium | Modelo 0.19 vs mercado 0.39
+2026-10-29 16:24:18Z ciclo 44: lidos=500 filtro=31 llm=8 clima=13 compras=1 vendas=1 descartados={'esporte_vivo': 18, 'categoria_Esportes': 142, 'cripto': 17, 'combinado': 7, 'clima_sem_modelo': 1} equity=$1272.20

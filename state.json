@@ -1,5 +1,5 @@
 {
- "cash": 1193.1328406519629,
+ "cash": 1195.8189723551352,
  "positions": [
   {
    "mid": "6293387",
@@ -12,7 +12,7 @@
    "shares": 20.886268463596743,
    "cost": 13.725716941383803,
    "t": 1793211954.2413957,
-   "mark": 0.67,
+   "mark": 0.63,
    "conf": "medium",
    "llm_p": 0.2293030850407889,
    "mkt_yes": 0.615,
@@ -37,7 +37,7 @@
    "shares": 25.135963054031752,
    "cost": 13.725716941383803,
    "t": 1793211955.4881432,
-   "mark": 0.46,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.10459254481774227,
    "mkt_yes": 0.51,
@@ -52,31 +52,6 @@
    "inv": true
   },
   {
-   "mid": "6294145",
-   "q": "Will the highest temperature in Houston be between 82-83°F on October 29?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "67435837148045985687201236863688011778154143701618831641132988143810723943023",
-   "entry": 0.4860806694956047,
-   "fair": 0.6104184660937513,
-   "shares": 27.637701220494804,
-   "cost": 13.434152312577606,
-   "t": 1793263436.5882585,
-   "mark": 0.59,
-   "conf": "medium",
-   "llm_p": 0.2093025565104144,
-   "mkt_yes": 0.46,
-   "edge": 0.12433779659814659,
-   "evidence": [
-    "Previsao Open-Meteo geo:houston 2026-10-29: maxima 80.6F (3 modelos, sigma 3.1)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.46",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:houston|2026-10-29",
-   "inv": true
-  },
-  {
    "mid": "6332500",
    "q": "Will the highest temperature in Hong Kong be 29°C on October 30?",
    "cat": "Clima",
@@ -87,7 +62,7 @@
    "shares": 24.509700864249048,
    "cost": 13.389212169436192,
    "t": 1793288717.3276324,
-   "mark": 0.5462821534866751,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.1483187836157911,
    "mkt_yes": 0.515,
@@ -112,7 +87,7 @@
    "shares": 25.23194141314945,
    "cost": 13.389212169436192,
    "t": 1793288717.7245314,
-   "mark": 0.5306453415613314,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.14644281860512498,
    "mkt_yes": 0.51,
@@ -137,7 +112,7 @@
    "shares": 26.979158521463653,
    "cost": 13.389212169436192,
    "t": 1793288718.1203072,
-   "mark": 0.49627982869755605,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.19134200584786265,
    "mkt_yes": 0.47,
@@ -149,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "KLAX|2026-10-30",
+   "inv": true
+  },
+  {
+   "mid": "6332675",
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 30?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "100464369910826442897911718825650308042091245133931507043362292385055779144801",
+   "entry": 0.41592798321929686,
+   "fair": 0.5103074896461317,
+   "shares": 32.11645550594294,
+   "cost": 13.35813256673913,
+   "t": 1793290846.7138042,
+   "mark": 0.41592798321929686,
+   "conf": "medium",
+   "llm_p": 0.18948751725644714,
+   "mkt_yes": 0.39,
+   "edge": 0.09437950642683479,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-10-30: maxima 13.6C (3 modelos, sigma 2.1)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.39",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-10-30",
    "inv": true
   }
  ],
@@ -2130,6 +2130,36 @@
    "pnl": -4.120578809551905,
    "closed_t": 1793288713.7648196,
    "held_h": 7.021165314979023
+  },
+  {
+   "mid": "6294145",
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "67435837148045985687201236863688011778154143701618831641132988143810723943023",
+   "entry": 0.4860806694956047,
+   "fair": 0.6104184660937513,
+   "shares": 27.637701220494804,
+   "cost": 13.434152312577606,
+   "t": 1793263436.5882585,
+   "mark": 0.64,
+   "conf": "medium",
+   "llm_p": 0.2093025565104144,
+   "mkt_yes": 0.46,
+   "edge": 0.12433779659814659,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-10-29: maxima 80.6F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-10-29",
+   "inv": true,
+   "exit": 0.5805209392022076,
+   "reason": "take-profit",
+   "pnl": 2.6101119573340377,
+   "closed_t": 1793290843.7874904,
+   "held_h": 7.613110897805956
   }
  ],
  "cache": {
@@ -2147,81 +2177,110 @@
    }
   },
   "5957230": {
-   "t": 1793288850.1989007,
-   "yes": 0.395,
+   "t": 1793290899.6986156,
+   "yes": 0.42,
    "est": {
-    "p": 0.38,
+    "p": 0.4,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem atual de tweets para o periodo de 23 a 30 de outubro de 2026."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo de 23 a 30 de outubro de 2026."
     ],
-    "misprice": "O preco atual reflete uma estimativa razoavel para a faixa de volume de postagens de Elon Musk.",
-    "reason": "Como nao ha dados concretos recentes sobre a contagem exata neste momento, mantenho-me proximo ao preco de mercado com um pequeno ajuste ceticista."
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade devido a volatilidade historica imprevisivel do usuario.",
+    "reason": "A media historica de Elon Musk varia muito, tornando uma faixa especifica de 20 tweets altamente incerta."
    }
   },
   "6322932": {
-   "t": 1793288935.8752031,
+   "t": 1793290956.670649,
    "yes": 0.555,
    "est": {
-    "p": 0.52,
+    "p": 0.55,
     "conf": "low",
     "evidence": [
-     "As noticias recentes nao contem dados especificos sobre o estado atual ou estatisticas de kills da partida entre Top Esports e Bilibili Gaming no Worlds 2026."
+     "Nenhuma informacao nova e concreta sobre o Game 2 especifica desta partida foi encontrada nas noticias recentes."
     ],
-    "misprice": "O mercado reflete uma probabilidade razoavel proxima ao preco atual de 0.555, sem indicios claros de erro sistemico nos dados disponiveis.",
-    "reason": "Como nao ha informacoes novas e concretas sobre o Game 2, a estimativa deve permanecer proxima ao prior de mercado de 0.555 com baixa confianca."
+    "misprice": "O mercado esta alinhado com a media historica para o cenario Over/Under de kills em partidas entre Top Esports e Bilibili Gaming.",
+    "reason": "Como nao ha dados novos sobre o draft ou o estado atual da serie, mantenho-me proximo ao preco atual do mercado."
    }
   },
   "5957239": {
-   "t": 1793288786.8033135,
-   "yes": 0.0855,
+   "t": 1793290878.9770608,
+   "yes": 0.0835,
    "est": {
     "p": 0.08,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets acumulados no periodo de 23 a 30 de outubro de 2026."
+     "Nao ha dados novos disponiveis sobre a contagem exata de tweets no periodo."
     ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade historica de um volume tao especifico de postagens para este intervalo.",
-    "reason": "A falta de dados especificos sobre o ritmo atual de postagem do usuario mantem a probabilidade alinhada com a precificacao atual."
+    "misprice": "O mercado reflete adequadamente a baixa probabilidade historica dessa faixa especifica de volume para o periodo.",
+    "reason": "A faixa de 360-379 tweets em 7 dias exige uma media diaria de ~51-54 posts, o que esta ligeiramente acima da media tipica recente de Elon Musk."
    }
   },
   "5763611": {
-   "t": 1793288968.633185,
+   "t": 1793290979.3122616,
    "yes": 0.345,
    "est": {
     "p": 0.33,
     "conf": "low",
     "evidence": [
-     "Nao ha dados especificos sobre a partida exata de 29 de outubro de 2026 nas fontes recentes."
+     "Nao ha informacoes especificas sobre o adversario ou escalacoes para a partida de 29 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a probabilidade base para a Fiorentina liderar no primeiro tempo contra um oponente medio na Serie A.",
-    "reason": "Sem informacoes concretas sobre o adversario ou escalacoes para esta data especifica, mantenho-me proximo ao preco atual do mercado com leve ajuste cético."
+    "misprice": "O preco atual reflete adequadamente a probabilidade de a Fiorentina liderar no intervalo contra um oponente medio na Serie A.",
+    "reason": "A estimativa baseia-se na taxa historica de vantagem da Fiorentina no primeiro tempo, mantendo-se proxima ao preco de mercado na ausencia de novas evidencias fortes."
    }
   },
   "6377573": {
-   "t": 1793289092.1603787,
+   "t": 1793291033.8371735,
    "yes": 0.645,
+   "est": {
+    "p": 0.62,
+    "conf": "low",
+    "evidence": [
+     "As noticias recentes nao contem dados especificos sobre o mata-mata de LoL entre Karmine Corp e CTBC Flying Oyster em 2026.",
+     "O mercado esta precificado em 0.645 para mais de 24.5 abates (Over), refletindo o padrao medio de kills em partidas profissionais do Worlds."
+    ],
+    "misprice": "O mercado esta levemente sobre-otimista quanto a taxa de abates comparado a media historica do patch atual.",
+    "reason": "A media esperada para o Jogo 2 flutua proxima a linha de 24.5, justificando uma probabilidade ligeiramente abaixo do preco atual."
+   }
+  },
+  "6322933": {
+   "t": 1793290925.0438914,
+   "yes": 0.525,
    "est": {
     "p": 0.52,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos ou escalacoes recentes sobre o Game 2 entre Karmine Corp e CTBC Flying Oyster fornecidos."
+     "O mercado de apostas para o confronto entre Top Esports e Bilibili Gaming na Fase de Grupos do Worlds 2026 está precificado em aproximadamente 52.5% para o Over 27.5 kills.",
+     "As notícias recentes fornecidas não contêm dados específicos sobre o meta atual de League of Legends, estatísticas de kills por mapa ou histórico de confrontos diretos recentes entre as equipes para o torneio de 2026."
     ],
-    "misprice": "O mercado pode estar ligeiramente sobrevalorizando a media historica de abates sem dados especificos das equipes para este confronto.",
-    "reason": "A linha de 24.5 abates e proxima a media padrao do LoL competitivo, mas sem informacoes concretas recentes sobre o estilo das equipes, o valor tende a uma probabilidade moderada proxima ao preco atual"
+    "misprice": "O mercado reflete uma distribuição estatística padrão próxima a 50-50 para a linha de 27.5 kills sem evidências concretas suficientes para justificar um desvio significativo.",
+    "reason": "Na ausência de dados específicos sobre o patch atual e taxas de abate das equipes no torneio, a estimativa permanece ancorada muito próximo à linha de equilíbrio estatístico do mercado."
    }
   },
-  "6322933": {
-   "t": 1793288904.621581,
-   "yes": 0.525,
+  "6361905": {
+   "t": 1793291000.9145653,
+   "yes": 0.405,
    "est": {
-    "p": 0.5,
+    "p": 0.4,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos disponiveis sobre a media de abates do Game 1 entre Top Esports e Bilibili Gaming para o Worlds 2026."
+     "As noticias recentes nao contem dados especificos sobre o confronto entre Karmine Corp e CTBC Flying Oyster em 2026.",
+     "O mercado esta sendo negociado a 0.405 refletindo as expectativas padrao para totais de abates no LoL."
     ],
-    "misprice": "O mercado esta eficientemente precificado proximo a 0.525 na ausencia de informacoes concretas sobre o draft ou meta atual.",
-    "reason": "A linha de 27.5 abates esta proxima da media historica para jogos profissionais de LoL, resultando em uma probabilidade de 50-50 na falta de dados preditivos fortes."
+    "misprice": "Nao ha evidencias concretas suficientes para afirmar que o mercado esta incorreto em relacao ao preco atual de 40.5% para o cenario Over.",
+    "reason": "Sem informacoes novas sobre o meta atual ou historico direto das equipes para o jogo 1, a estimativa permanece proxima ao preco atual de mercado."
+   }
+  },
+  "6361906": {
+   "t": 1793291058.0965514,
+   "yes": 0.455,
+   "est": {
+    "p": 0.45,
+    "conf": "low",
+    "evidence": [
+     "Nao ha noticias recentes especifica sobre a partida entre Karmine Corp e CTBC Flying Oyster em 29 de outubro de 2026."
+    ],
+    "misprice": "O preco atual reflete adequadamente a linha estatistica padrao para kills em partidas profissionais de League of Legends sem dados adicionais.",
+    "reason": "Sem informacoes concretas sobre o draft ou estilo de jogo recente das equipes para Game 2, mantenho-me proximo ao preco de mercado e medias historicas para o cenario Under 27.5."
    }
   }
  },
@@ -4766,7 +4825,7 @@
    "cat": "Entretenimento",
    "end": 1793203200.0,
    "t": 1793134287.9690037,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -4978,7 +5037,7 @@
    "cat": "Entretenimento",
    "end": 1793203200.0,
    "t": 1793162393.9574828,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5336,7 +5395,7 @@
    "cat": "Outros",
    "end": 1793250000.0,
    "t": 1793165486.604158,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5417,7 +5476,7 @@
    "cat": "Outros",
    "end": 1793216700.0,
    "t": 1793190432.6190484,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5834,7 +5893,7 @@
    "cat": "Outros",
    "end": 1793246400.0,
    "t": 1793227556.38814,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5858,7 +5917,7 @@
    "cat": "Outros",
    "end": 1793241000.0,
    "t": 1793227568.4399238,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6462,6 +6521,122 @@
     "unit": "C",
     "date": "2026-10-30"
    }
+  },
+  "6332675": {
+   "q": "Will the highest temperature in Amsterdam be 14°C on October 30?",
+   "p": 0.18948751725644714,
+   "yes": 0.39,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793290846.7137806,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.30233087058144237,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 13.63,
+    "sigma": 2.05,
+    "kind": "exact",
+    "a": 14,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6339586": {
+   "q": "Will the highest temperature in San Francisco be between 66-67°F on October 30?",
+   "p": 0.24809721938063728,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793290850.8227255,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.383754546855679,
+   "wx": {
+    "sid": "KSFO",
+    "mu": 65.77,
+    "sigma": 3.07,
+    "kind": "range",
+    "a": 66,
+    "b": 67,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6332566": {
+   "q": "Will the highest temperature in Taipei be 28°C on October 30?",
+   "p": 0.18183609302292225,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793290851.615102,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.17839965435481175,
+   "wx": {
+    "sid": "geo:taipei",
+    "mu": 26.73,
+    "sigma": 1.58,
+    "kind": "exact",
+    "a": 28,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6332685": {
+   "q": "Will the highest temperature in Helsinki be 10°C on October 30?",
+   "p": 0.210547497678383,
+   "yes": 0.375,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793290852.415117,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.32251049072866445,
+   "wx": {
+    "sid": "geo:helsinki",
+    "mu": 9.5,
+    "sigma": 1.8,
+    "kind": "exact",
+    "a": 10,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6361905": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.4,
+   "yes": 0.405,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793325600.0,
+   "t": 1793291000.9145703,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6361906": {
+   "q": "Total Kills Over/Under 27.5 in Game 2?",
+   "p": 0.45,
+   "yes": 0.455,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793325600.0,
+   "t": 1793291058.0965555,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -6636,6 +6811,10 @@
   {
    "t": 1793289092.160386,
    "equity": 1275.16
+  },
+  {
+   "t": 1793291058.097117,
+   "equity": 1272.2
   }
  ],
  "llm_calls": {
@@ -6645,8 +6824,8 @@
   "2026-10-26": 32,
   "2026-10-27": 44,
   "2026-10-28": 33,
-  "2026-10-29": 21
+  "2026-10-29": 29
  },
  "killed": false,
- "cycles": 43
+ "cycles": 44
 }
