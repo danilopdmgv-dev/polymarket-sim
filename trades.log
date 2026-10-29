@@ -454,3 +454,15 @@
 2026-10-29 16:20:43Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.581 pnl=$+2.61
 2026-10-29 16:20:46Z BUY YES [clima] Will the highest temperature in Amsterdam be 14°C  @ 0.416 $13.36 edge=0.094 conf=medium | Modelo 0.19 vs mercado 0.39
 2026-10-29 16:24:18Z ciclo 44: lidos=500 filtro=31 llm=8 clima=13 compras=1 vendas=1 descartados={'esporte_vivo': 18, 'categoria_Esportes': 142, 'cripto': 17, 'combinado': 7, 'clima_sem_modelo': 1} equity=$1272.20
+2026-10-29 20:46:37Z SELL YES [take-profit] Will the highest temperature in New York City be b @ 0.893 pnl=$+4.93
+2026-10-29 20:46:37Z SELL YES [stop-loss] Will the highest temperature in Hong Kong be 29°C  @ 0.373 pnl=$-4.24
+2026-10-29 20:46:37Z SELL YES [stop-loss] Will the highest temperature in Paris be 16°C on O @ 0.334 pnl=$-4.95
+2026-10-29 20:46:41Z BUY YES [clima] Will the highest temperature in Tel Aviv be 25°C o @ 0.606 $13.31 edge=0.165 conf=medium | Modelo 0.22 vs mercado 0.56
+2026-10-29 20:46:42Z BUY YES [clima] Will the highest temperature in Beijing be 22°C on @ 0.617 $13.31 edge=0.246 conf=medium | Modelo 0.10 vs mercado 0.57
+2026-10-29 20:46:43Z BUY YES [clima] Will the highest temperature in Istanbul be 15°C o @ 0.661 $13.31 edge=0.238 conf=medium | Modelo 0.20 vs mercado 0.64
+2026-10-29 20:46:58Z erro previsao geo:busan: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 20:47:08Z erro previsao geo:busan: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 20:47:18Z erro previsao UUWW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 20:47:28Z erro previsao UUWW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 20:47:28Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-29 20:48:41Z ciclo 45: lidos=500 filtro=32 llm=8 clima=15 compras=3 vendas=3 descartados={'esporte_vivo': 27, 'categoria_Esportes': 130, 'cripto': 8, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1267.64
