@@ -439,3 +439,15 @@
 2026-10-29 08:44:39Z erro geocode Wuhan: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-29 08:44:39Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-29 08:45:35Z ciclo 42: lidos=600 filtro=33 llm=8 clima=17 compras=3 vendas=2 descartados={'esporte_vivo': 9, 'categoria_Esportes': 96, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 4} equity=$1279.44
+2026-10-29 15:45:13Z SELL YES [take-profit] Will the highest temperature in Amsterdam be 16°C  @ 0.964 pnl=$+9.67
+2026-10-29 15:45:13Z SELL YES [stop-loss] Will the highest temperature in Panama City be 33° @ 0.070 pnl=$-11.40
+2026-10-29 15:45:13Z SELL YES [stop-loss] Will the highest temperature in Buenos Aires be 25 @ 0.358 pnl=$-4.12
+2026-10-29 15:45:17Z BUY YES [clima] Will the highest temperature in Hong Kong be 29°C  @ 0.546 $13.39 edge=0.189 conf=medium | Modelo 0.15 vs mercado 0.52
+2026-10-29 15:45:17Z BUY YES [clima] Will the highest temperature in Paris be 16°C on O @ 0.531 $13.39 edge=0.197 conf=medium | Modelo 0.15 vs mercado 0.51
+2026-10-29 15:45:18Z BUY YES [clima] Will the highest temperature in Los Angeles be bet @ 0.496 $13.39 edge=0.141 conf=medium | Modelo 0.19 vs mercado 0.47
+2026-10-29 15:45:31Z erro geocode Taipei: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-29 15:45:41Z erro previsao KSFO: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 15:45:51Z erro previsao KSFO: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 15:45:59Z erro geocode Helsinki: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-29 15:50:34Z erro LLM Total Kills Over/Under 27.5 in Game 1?: Request timed out.
+2026-10-29 15:51:32Z ciclo 43: lidos=500 filtro=34 llm=8 clima=17 compras=3 vendas=3 descartados={'esporte_vivo': 14, 'categoria_Esportes': 137, 'cripto': 11, 'combinado': 7, 'clima_sem_modelo': 5} equity=$1275.16
