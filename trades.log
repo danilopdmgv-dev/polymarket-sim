@@ -425,3 +425,6 @@
 2026-10-28 22:45:21Z erro previsao EHAM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-28 22:45:21Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-28 22:46:16Z ciclo 40: lidos=500 filtro=39 llm=8 clima=14 compras=0 vendas=0 descartados={'categoria_Esportes': 81, 'esporte_vivo': 26, 'cripto': 14, 'clima_sem_modelo': 5} equity=$1301.72
+2026-10-29 02:01:42Z SELL YES [stop-loss] Will the highest temperature in Beijing be 21°C on @ 0.186 pnl=$-8.36
+2026-10-29 02:01:58Z erro LLM Will Elon Musk post 300-319 tweets from : Expecting property name enclosed in double quotes: line 1 column 167 (char 166)
+2026-10-29 02:02:38Z ciclo 41: lidos=400 filtro=7 llm=7 clima=0 compras=0 vendas=1 descartados={'categoria_Esportes': 61, 'cripto': 12} equity=$1300.00

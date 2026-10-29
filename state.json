@@ -1,5 +1,5 @@
 {
- "cash": 1224.2704161746137,
+ "cash": 1229.6314976166782,
  "positions": [
   {
    "mid": "6290176",
@@ -12,7 +12,7 @@
    "shares": 21.04725940164027,
    "cost": 14.23551493939714,
    "t": 1793190362.145142,
-   "mark": 0.67,
+   "mark": 0.86,
    "conf": "medium",
    "llm_p": 0.23791756836803546,
    "mkt_yes": 0.655,
@@ -62,7 +62,7 @@
    "shares": 20.886268463596743,
    "cost": 13.725716941383803,
    "t": 1793211954.2413957,
-   "mark": 0.62,
+   "mark": 0.6,
    "conf": "medium",
    "llm_p": 0.2293030850407889,
    "mkt_yes": 0.615,
@@ -87,7 +87,7 @@
    "shares": 24.25294977252209,
    "cost": 13.725716941383803,
    "t": 1793211954.5305479,
-   "mark": 0.58,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.224090070726293,
    "mkt_yes": 0.53,
@@ -112,7 +112,7 @@
    "shares": 25.135963054031752,
    "cost": 13.725716941383803,
    "t": 1793211955.4881432,
-   "mark": 0.44,
+   "mark": 0.48,
    "conf": "medium",
    "llm_p": 0.10459254481774227,
    "mkt_yes": 0.51,
@@ -124,31 +124,6 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "ZSPD|2026-10-30",
-   "inv": true
-  },
-  {
-   "mid": "6290319",
-   "q": "Will the highest temperature in Beijing be 21°C on October 29?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "39398694278692335859784411900695926307645677510128162742524619511241801379795",
-   "entry": 0.47599423064449103,
-   "fair": 0.6480779180213414,
-   "shares": 28.835889298068448,
-   "cost": 13.725716941383803,
-   "t": 1793211956.3892393,
-   "mark": 0.43,
-   "conf": "medium",
-   "llm_p": 0.10653680329776416,
-   "mkt_yes": 0.445,
-   "edge": 0.17208368737685042,
-   "evidence": [
-    "Previsao Open-Meteo geo:beijing 2026-10-29: maxima 18.7C (3 modelos, sigma 2.1)"
-   ],
-   "misprice": "Modelo 0.11 vs mercado 0.45",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:beijing|2026-10-29",
    "inv": true
   }
  ],
@@ -1950,6 +1925,36 @@
    "pnl": -13.9128887589706,
    "closed_t": 1793211950.8393455,
    "held_h": 12.43495336956448
+  },
+  {
+   "mid": "6290319",
+   "q": "Will the highest temperature in Beijing be 21°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "39398694278692335859784411900695926307645677510128162742524619511241801379795",
+   "entry": 0.47599423064449103,
+   "fair": 0.6480779180213414,
+   "shares": 28.835889298068448,
+   "cost": 13.725716941383803,
+   "t": 1793211956.3892393,
+   "mark": 0.24,
+   "conf": "medium",
+   "llm_p": 0.10653680329776416,
+   "mkt_yes": 0.445,
+   "edge": 0.17208368737685042,
+   "evidence": [
+    "Previsao Open-Meteo geo:beijing 2026-10-29: maxima 18.7C (3 modelos, sigma 2.1)"
+   ],
+   "misprice": "Modelo 0.11 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:beijing|2026-10-29",
+   "inv": true,
+   "exit": 0.1859169795891641,
+   "reason": "stop-loss",
+   "pnl": -8.364635499319416,
+   "closed_t": 1793239302.196881,
+   "held_h": 7.59605767832862
   }
  ],
  "cache": {
@@ -1967,46 +1972,44 @@
    }
   },
   "5957234": {
-   "t": 1793227536.030743,
-   "yes": 0.215,
+   "t": 1793239326.1638098,
+   "yes": 0.2245,
    "est": {
-    "p": 0.22,
+    "p": 0.2,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real disponiveis sobre a contagem exata de tweets acumulados ate 2026-10-28.",
-     "A faixa solicitada de 340-359 tweets em 7 dias representa uma media de 48,5 a 51,3 tweets por dia."
+     "The observation window spans 7 days from October 23 to October 30, 2026.",
+     "Current market price implies approximately 22.5% probability for the 340-359 range."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza estatistica em torno da alta variabilidade historica da atividade de Elon Musk no X.",
-    "reason": "A media diaria necessaria para atingir a faixa e historicamente plausivel, mas a falta de dados parciais impede um desvio significativo do preco atual."
+    "misprice": "Market price already reflects the baseline historical posting frequency distribution for a 7-day period.",
+    "reason": "Given typical historical variance, targeting this specific narrow 20-tweet bin out of all possible totals remains statistically unlikely."
    }
   },
   "5957230": {
-   "t": 1793227542.0354683,
-   "yes": 0.36,
+   "t": 1793239332.2413826,
+   "yes": 0.365,
    "est": {
     "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets do Elon Musk para este periodo especifico.",
-     "A janela de contagem termina em 30 de outubro de 2026, faltando menos de 2 dias."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza estatistica em torno da media historica de postagens do perfil.",
-    "reason": "A faixa de 320-339 tweets em 7 dias representa uma media muito alta de aprox. 45-48 posts/dia, o que e possivel mas incerto."
+    "misprice": "O preco de 0.365 reflete adequadamente a incerteza estatistica em torno da faixa de 320-339 tweets em 7 dias.",
+    "reason": "A taxa diaria historica de Elon Musk varia consideravelmente, tornando previsoes precisas de faixas estreitas altamente incertas sem dados parciais."
    }
   },
   "6097310": {
-   "t": 1793227548.255865,
-   "yes": 0.111,
+   "t": 1793239340.7923234,
+   "yes": 0.105,
    "est": {
-    "p": 0.05,
+    "p": 0.02,
     "conf": "low",
     "evidence": [
-     "Micron is up 200% in 2026 as of October 26, 2026, indicating massive prior appreciation but requiring an extreme further jump.",
-     "The target of $1,050 represents an extraordinary intraday high threshold for regular trading hours within the week of October 26, 2026.",
-     "No official company earnings release or transformative catalyst is scheduled for these final two days of October 2026 to justify a near-vertical spike."
+     "MU stock trades around current levels far below the $1,050 strike as of October 2026",
+     "Market probability for YES is currently priced at 0.105, reflecting deep out-of-the-money status"
     ],
-    "misprice": "O mercado pode estar ligeiramente sobrevalorizando a cauda devido ao momentum recente de alta de 200% no ano.",
-    "reason": "A probabilidade de uma alta vertical tão extrema em apenas dois dias de pregão sem um catalisador fundamental imediato é extremamente baixa."
+    "misprice": "O mercado subestima a dificuldade extrema de uma alta superior a 800% em apenas dois dias de pregao regular.",
+    "reason": "A probabilidade historica de um ativo volatil subir tantos multiplos em uma unica semana sem catalisadores macroeconomicos macicos e proxima de zero."
    }
   },
   "6326891": {
@@ -2064,6 +2067,48 @@
     ],
     "misprice": "Market slightly overweights upside momentum without proprietary advance data.",
     "reason": "Base rates for US GDP advance estimates hover near consensus, making 3.0% a close threshold with symmetric uncertainty."
+   }
+  },
+  "5957222": {
+   "t": 1793239310.1337438,
+   "yes": 0.0895,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "The market current price is 0.089 reflecting low probability for the 280-299 range.",
+     "Current UTC time is October 29, 2026, leaving less than two days until resolution on October 30."
+    ],
+    "misprice": "The market price is roughly aligned with typical baseline posting rates for this specific narrow bin.",
+    "reason": "Given the lack of real-time tweet counts for the current window, historical averages suggest extreme tweet counts are rare."
+   }
+  },
+  "5167170": {
+   "t": 1793239349.38367,
+   "yes": 0.84,
+   "est": {
+    "p": 0.82,
+    "conf": "low",
+    "evidence": [
+     "Ongoing Russian aerial attacks utilizing drones and missiles against Ukrainian urban centers as of late October 2026.",
+     "Frequent long-range strikes historically targeting Kyiv infrastructure."
+    ],
+    "misprice": "Market price is largely efficient given the persistent baseline rate of Russian strikes on the capital.",
+    "reason": "High baseline frequency of attacks on Kyiv supports a high probability, though daily variance keeps it below certainty."
+   }
+  },
+  "6322932": {
+   "t": 1793239358.3337705,
+   "yes": 0.555,
+   "est": {
+    "p": 0.55,
+    "conf": "low",
+    "evidence": [
+     "Top Esports and Bilibili Gaming match scheduled for Worlds 2026 Round 4 on October 28, 2026.",
+     "Market current price for Over 27.5 kills in Game 2 is trading at approximately 0.555."
+    ],
+    "misprice": "O mercado esta eficientemente precificado proximo a linha historica base para equipes LPL de alto nivel.",
+    "reason": "Como um superforecaster cetico sem dados especificos em tempo real do Game 2, mantenho-me proximo ao prior de mercado de 55%."
    }
   }
  },
@@ -4620,7 +4665,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146257.361476,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.23351781694234464
@@ -4737,7 +4782,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146299.8494172,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4784939760878333
@@ -5715,6 +5760,30 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "5957222": {
+   "q": "Will Elon Musk post 280-299 tweets from October 23 to October 30, 2026?",
+   "p": 0.08,
+   "yes": 0.0895,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793376000.0,
+   "t": 1793239310.1337469,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5167170": {
+   "q": "Will Russia target Kyiv on October 29, 2026?",
+   "p": 0.82,
+   "yes": 0.84,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793332740.0,
+   "t": 1793239349.3836737,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -5877,6 +5946,10 @@
   {
    "t": 1793227576.767321,
    "equity": 1301.72
+  },
+  {
+   "t": 1793239358.33423,
+   "equity": 1300.0
   }
  ],
  "llm_calls": {
@@ -5885,8 +5958,9 @@
   "2026-10-25": 60,
   "2026-10-26": 32,
   "2026-10-27": 44,
-  "2026-10-28": 33
+  "2026-10-28": 33,
+  "2026-10-29": 6
  },
  "killed": false,
- "cycles": 40
+ "cycles": 41
 }
