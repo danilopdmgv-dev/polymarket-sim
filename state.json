@@ -1,56 +1,6 @@
 {
- "cash": 1229.6314976166782,
+ "cash": 1198.5562788489974,
  "positions": [
-  {
-   "mid": "6290176",
-   "q": "Will the highest temperature in Wellington be 18°C on October 29?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "11160776475367883055739205216150572153649623050942104368491000527266486015885",
-   "entry": 0.6763595519846031,
-   "fair": 0.9052494589791786,
-   "shares": 21.04725940164027,
-   "cost": 14.23551493939714,
-   "t": 1793190362.145142,
-   "mark": 0.86,
-   "conf": "medium",
-   "llm_p": 0.23791756836803546,
-   "mkt_yes": 0.655,
-   "edge": 0.22888990699457562,
-   "evidence": [
-    "Previsao Open-Meteo NZWN 2026-10-29: maxima 17.1C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.66",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "NZWN|2026-10-29",
-   "inv": true
-  },
-  {
-   "mid": "6290142",
-   "q": "Will the highest temperature in Paris be 16°C on October 29?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "55093477858486202998177828455413520124809256479932203512831590648925077961102",
-   "entry": 0.586440974811678,
-   "fair": 0.7736752269731659,
-   "shares": 23.405112416968308,
-   "cost": 13.725716941383803,
-   "t": 1793211953.9447145,
-   "mark": 0.55,
-   "conf": "medium",
-   "llm_p": 0.16387462171139022,
-   "mkt_yes": 0.545,
-   "edge": 0.18723425216148787,
-   "evidence": [
-    "Previsao Open-Meteo LFPG 2026-10-29: maxima 14.6C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.16 vs mercado 0.55",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LFPG|2026-10-29",
-   "inv": true
-  },
   {
    "mid": "6293387",
    "q": "Will the highest temperature in New York City be between 68-69°F on October 29?",
@@ -62,7 +12,7 @@
    "shares": 20.886268463596743,
    "cost": 13.725716941383803,
    "t": 1793211954.2413957,
-   "mark": 0.6,
+   "mark": 0.67,
    "conf": "medium",
    "llm_p": 0.2293030850407889,
    "mkt_yes": 0.615,
@@ -87,7 +37,7 @@
    "shares": 24.25294977252209,
    "cost": 13.725716941383803,
    "t": 1793211954.5305479,
-   "mark": 0.61,
+   "mark": 0.63,
    "conf": "medium",
    "llm_p": 0.224090070726293,
    "mkt_yes": 0.53,
@@ -112,7 +62,7 @@
    "shares": 25.135963054031752,
    "cost": 13.725716941383803,
    "t": 1793211955.4881432,
-   "mark": 0.48,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.10459254481774227,
    "mkt_yes": 0.51,
@@ -124,6 +74,81 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "ZSPD|2026-10-30",
+   "inv": true
+  },
+  {
+   "mid": "6298845",
+   "q": "Will the highest temperature in Panama City be 33°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "45164881437056114223257257499438431642462627461005569132682720932788036486341",
+   "entry": 0.46051410076272103,
+   "fair": 0.5897731343000748,
+   "shares": 29.17207592629075,
+   "cost": 13.434152312577606,
+   "t": 1793263435.5480192,
+   "mark": 0.46051410076272103,
+   "conf": "medium",
+   "llm_p": 0.19037810949987533,
+   "mkt_yes": 0.44,
+   "edge": 0.1292590335373538,
+   "evidence": [
+    "Previsao Open-Meteo geo:panama city 2026-10-29: maxima 31.8C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.44",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:panama city|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6294145",
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "67435837148045985687201236863688011778154143701618831641132988143810723943023",
+   "entry": 0.4860806694956047,
+   "fair": 0.6104184660937513,
+   "shares": 27.637701220494804,
+   "cost": 13.434152312577606,
+   "t": 1793263436.5882585,
+   "mark": 0.4860806694956047,
+   "conf": "medium",
+   "llm_p": 0.2093025565104144,
+   "mkt_yes": 0.46,
+   "edge": 0.12433779659814659,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-10-29: maxima 80.6F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-10-29",
+   "inv": true
+  },
+  {
+   "mid": "6298811",
+   "q": "Will the highest temperature in Buenos Aires be 25°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "14782288996274292564965978521195413851589067766256087108240837553368462623029",
+   "entry": 0.5166329838668248,
+   "fair": 0.7106388028906119,
+   "shares": 26.003280340382982,
+   "cost": 13.434152312577602,
+   "t": 1793263437.5696857,
+   "mark": 0.5166329838668248,
+   "conf": "medium",
+   "llm_p": 0.09560199518231349,
+   "mkt_yes": 0.48,
+   "edge": 0.1940058190237871,
+   "evidence": [
+    "Previsao Open-Meteo geo:buenos aires 2026-10-29: maxima 22.5C (3 modelos, sigma 2.2)"
+   ],
+   "misprice": "Modelo 0.10 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:buenos aires|2026-10-29",
    "inv": true
   }
  ],
@@ -1955,160 +1980,175 @@
    "pnl": -8.364635499319416,
    "closed_t": 1793239302.196881,
    "held_h": 7.59605767832862
+  },
+  {
+   "mid": "6290176",
+   "q": "Will the highest temperature in Wellington be 18°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "11160776475367883055739205216150572153649623050942104368491000527266486015885",
+   "entry": 0.6763595519846031,
+   "fair": 0.9052494589791786,
+   "shares": 21.04725940164027,
+   "cost": 14.23551493939714,
+   "t": 1793190362.145142,
+   "mark": 0.0,
+   "conf": "medium",
+   "llm_p": 0.23791756836803546,
+   "mkt_yes": 0.655,
+   "edge": 0.22888990699457562,
+   "evidence": [
+    "Previsao Open-Meteo NZWN 2026-10-29: maxima 17.1C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.66",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "NZWN|2026-10-29",
+   "inv": true,
+   "exit": 0.01,
+   "reason": "stop-loss",
+   "pnl": -14.025042345380736,
+   "closed_t": 1793263428.2279563,
+   "held_h": 20.2961341151264
+  },
+  {
+   "mid": "6290142",
+   "q": "Will the highest temperature in Paris be 16°C on October 29?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "55093477858486202998177828455413520124809256479932203512831590648925077961102",
+   "entry": 0.586440974811678,
+   "fair": 0.7736752269731659,
+   "shares": 23.405112416968308,
+   "cost": 13.725716941383803,
+   "t": 1793211953.9447145,
+   "mark": 0.42,
+   "conf": "medium",
+   "llm_p": 0.16387462171139022,
+   "mkt_yes": 0.545,
+   "edge": 0.18723425216148787,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-10-29: maxima 14.6C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.55",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-10-29",
+   "inv": true,
+   "exit": 0.3852476935551359,
+   "reason": "stop-loss",
+   "pnl": -4.70895136534809,
+   "closed_t": 1793263428.4100819,
+   "held_h": 14.298462602098782
   }
  ],
  "cache": {
   "5957226": {
-   "t": 1793227530.0011787,
-   "yes": 0.23,
+   "t": 1793263486.948971,
+   "yes": 0.125,
    "est": {
-    "p": 0.22,
+    "p": 0.12,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para este periodo especifico."
+     "O mercado abrange postagens de 23 a 30 de outubro de 2026",
+     "A contagem atual esta em andamento sem desvios estatisticos anomalos conhecidos"
     ],
-    "misprice": "O preco atual reflete uma distribuicao de Poisson padrao para sua atividade historica de postagem no X.",
-    "reason": "Como nao ha informacoes concretas sobre o ritmo atual de tweets ate o momento, mantenho uma estimativa conservadora proxima ao preco de mercado."
+    "misprice": "O mercado reflete adequadamente a taxa media historica de postagens de Elon Musk para o periodo especificado.",
+    "reason": "A faixa de 300-319 tweets em 7 dias exige uma media diaria proxima a 43-45 posts, o que e possivel mas estatisticamente menos provavel que a media usual."
    }
   },
   "5957234": {
-   "t": 1793239326.1638098,
-   "yes": 0.2245,
+   "t": 1793263499.1629355,
+   "yes": 0.3105,
    "est": {
-    "p": 0.2,
+    "p": 0.31,
     "conf": "low",
     "evidence": [
-     "The observation window spans 7 days from October 23 to October 30, 2026.",
-     "Current market price implies approximately 22.5% probability for the 340-359 range."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 23 a 30 de outubro de 2026."
     ],
-    "misprice": "Market price already reflects the baseline historical posting frequency distribution for a 7-day period.",
-    "reason": "Given typical historical variance, targeting this specific narrow 20-tweet bin out of all possible totals remains statistically unlikely."
+    "misprice": "O mercado reflete adequadamente a incerteza sobre a faixa especifica de volume de postagens.",
+    "reason": "Sem dados parciais recentes e concretos sobre o ritmo atual de postagem, mantenho a estimativa alinhada ao preco atual de 0.31 com baixa confianca."
    }
   },
   "5957230": {
-   "t": 1793239332.2413826,
-   "yes": 0.365,
+   "t": 1793263507.586626,
+   "yes": 0.395,
    "est": {
-    "p": 0.35,
+    "p": 0.38,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo."
+     "O rastreador oficial registra a contagem de publicações de Elon Musk no X dentro da janela estipulada de 23 a 30 de outubro de 2026.",
+     "Faltam apenas 1,30 dias para o encerramento do mercado em 30 de outubro de 2026."
     ],
-    "misprice": "O preco de 0.365 reflete adequadamente a incerteza estatistica em torno da faixa de 320-339 tweets em 7 dias.",
-    "reason": "A taxa diaria historica de Elon Musk varia consideravelmente, tornando previsoes precisas de faixas estreitas altamente incertas sem dados parciais."
+    "misprice": "O mercado já incorpora eficientemente o ritmo atual de postagens nas últimas horas antes do fechamento.",
+    "reason": "A taxa atual de tweets sugere uma probabilidade ligeiramente inferior ao preço implícito de 39,5% para atingir o intervalo exato de 320-339."
    }
   },
-  "6097310": {
-   "t": 1793239340.7923234,
-   "yes": 0.105,
+  "5167170": {
+   "t": 1793263527.1636634,
+   "yes": 0.875,
    "est": {
-    "p": 0.02,
+    "p": 0.85,
     "conf": "low",
     "evidence": [
-     "MU stock trades around current levels far below the $1,050 strike as of October 2026",
-     "Market probability for YES is currently priced at 0.105, reflecting deep out-of-the-money status"
+     "Ongoing daily aerial bombardment campaigns against Ukrainian infrastructure persist as of late October 2026.",
+     "Kyiv remains a frequent primary target for Russian missile and drone strikes throughout the ongoing conflict."
     ],
-    "misprice": "O mercado subestima a dificuldade extrema de uma alta superior a 800% em apenas dois dias de pregao regular.",
-    "reason": "A probabilidade historica de um ativo volatil subir tantos multiplos em uma unica semana sem catalisadores macroeconomicos macicos e proxima de zero."
+    "misprice": "Market is efficiently pricing in the high baseline frequency of daily Russian strikes on Kyiv.",
+    "reason": "Consistent historical strike patterns support a high probability of an attack occurring today, closely aligned with current market pricing."
    }
   },
-  "6326891": {
-   "t": 1793227556.3881361,
-   "yes": 0.525,
+  "6322932": {
+   "t": 1793263521.174371,
+   "yes": 0.545,
    "est": {
     "p": 0.52,
     "conf": "low",
     "evidence": [
-     "Nao ha dados novos ou especificos sobre o Game 2 na data de 2026-10-28"
+     "Nao ha dados estatisticos especificos disponiveis sobre o Game 2 entre Top Esports e Bilibili Gaming na data de 29 de outubro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a linha estatistica padrao para Kills em partidas profissionais de LoL",
-    "reason": "Como nao ha evidencias concretas recentes para divergir, mantenho uma estimativa proxima ao preco atual do mercado"
+    "misprice": "O mercado esta ligeiramente acima da linha base devido a flutuacoes normais de apostas sem informacao nova.",
+    "reason": "A media historica de abates em partidas eliminatorias de alto nivel entre TES e BLG flutua proxima a linha de 27.5, mantendo alta incerteza."
    }
   },
-  "5219329": {
-   "t": 1793227562.681644,
-   "yes": 0.0835,
-   "est": {
-    "p": 0.05,
-    "conf": "low",
-    "evidence": [
-     "Current market price is 8.4% for an exact release date of October 29, 2026.",
-     "No official announcement from Anthropic specifically schedules a Fable 5.2+ model release for tomorrow, October 29."
-    ],
-    "misprice": "O mercado pode estar sobreestimando a chance de um lançamento surpresa amanhã sem anúncio prévio oficial da Anthropic.",
-    "reason": "Lançamentos de modelos principais raramente ocorrem sem aviso prévio oficial, tornando a probabilidade para um dia específico muito baixa."
-   }
-  },
-  "5740713": {
-   "t": 1793227568.4399204,
-   "yes": 0.325,
-   "est": {
-    "p": 0.32,
-    "conf": "low",
-    "evidence": [
-     "San Jose Earthquakes venceu o San Diego por 3-2 em 10 de setembro de 2026",
-     "O mercado atual para liderança no intervalo está cotado em aproximadamente 32.5%",
-     "A resolução depende estritamente do resultado exato após os primeiros 45 minutos mais acréscimos"
-    ],
-    "misprice": "O mercado reflete adequadamente a probabilidade histórica baseada no desempenho recente da equipe.",
-    "reason": "A probabilidade estimada de estar vencendo no intervalo alinha-se de perto com o preço atual de mercado, sem evidências fortes de distorção."
-   }
-  },
-  "3247818": {
-   "t": 1793227576.7667904,
-   "yes": 0.605,
-   "est": {
-    "p": 0.58,
-    "conf": "low",
-    "evidence": [
-     "The advance estimate for Q3 2026 GDP is scheduled for release by the BEA on October 29, 2026.",
-     "The Philadelphia Fed Survey of Professional Forecasters in August 2026 projected moderate trend growth.",
-     "Current market pricing for SIM sits at 0.605 with limited hard leaks prior to the official advance release."
-    ],
-    "misprice": "Market slightly overweights upside momentum without proprietary advance data.",
-    "reason": "Base rates for US GDP advance estimates hover near consensus, making 3.0% a close threshold with symmetric uncertainty."
-   }
-  },
-  "5957222": {
-   "t": 1793239310.1337438,
-   "yes": 0.0895,
+  "5957239": {
+   "t": 1793263492.7945063,
+   "yes": 0.0915,
    "est": {
     "p": 0.08,
     "conf": "low",
     "evidence": [
-     "The market current price is 0.089 reflecting low probability for the 280-299 range.",
-     "Current UTC time is October 29, 2026, leaving less than two days until resolution on October 30."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 23 a 30 de outubro de 2026."
     ],
-    "misprice": "The market price is roughly aligned with typical baseline posting rates for this specific narrow bin.",
-    "reason": "Given the lack of real-time tweet counts for the current window, historical averages suggest extreme tweet counts are rare."
+    "misprice": "O mercado reflete adequadamente a baixa probabilidade de uma faixa de volume tao especifica sem dados contrarios fortes.",
+    "reason": "A faixa de 360-379 tweets em 7 dias exige uma media diaria muito alta, proxima de 51-54 tweets por dia, o que e atipico mesmo para ele."
    }
   },
-  "5167170": {
-   "t": 1793239349.38367,
-   "yes": 0.84,
+  "5763611": {
+   "t": 1793263513.6884363,
+   "yes": 0.345,
    "est": {
-    "p": 0.82,
+    "p": 0.33,
     "conf": "low",
     "evidence": [
-     "Ongoing Russian aerial attacks utilizing drones and missiles against Ukrainian urban centers as of late October 2026.",
-     "Frequent long-range strikes historically targeting Kyiv infrastructure."
+     "Preco atual de mercado em 0.345 reflete estimativa baseada nas odds para o primeiro tempo da Fiorentina em 29/10/2026",
+     "Ausencia de noticias especificas sobre lesoes de ultima hora ou alteracoes taticas drasticas para a partida de hoje"
     ],
-    "misprice": "Market price is largely efficient given the persistent baseline rate of Russian strikes on the capital.",
-    "reason": "High baseline frequency of attacks on Kyiv supports a high probability, though daily variance keeps it below certainty."
+    "misprice": "O mercado esta eficientemente precificado com base nas probabilidades medias para este confronto da Fiorentina.",
+    "reason": "A probabilidade base ajustada permanece proxima ao preco atual de mercado devido a ausencia de evidencias concretas divergentes."
    }
   },
-  "6322932": {
-   "t": 1793239358.3337705,
-   "yes": 0.555,
+  "6377573": {
+   "t": 1793263535.5642712,
+   "yes": 0.59,
    "est": {
-    "p": 0.55,
+    "p": 0.52,
     "conf": "low",
     "evidence": [
-     "Top Esports and Bilibili Gaming match scheduled for Worlds 2026 Round 4 on October 28, 2026.",
-     "Market current price for Over 27.5 kills in Game 2 is trading at approximately 0.555."
+     "Nenhuma informacao especifica sobre o cenario de abates (kills) do Game 2 da partida entre Karmine Corp e CTBC Flying Oyster foi encontrada nas noticias recentes."
     ],
-    "misprice": "O mercado esta eficientemente precificado proximo a linha historica base para equipes LPL de alto nivel.",
-    "reason": "Como um superforecaster cetico sem dados especificos em tempo real do Game 2, mantenho-me proximo ao prior de mercado de 55%."
+    "misprice": "O mercado pode estar superestimando ligeiramente a linha de 24.5 com base em medias gerais do torneio sem dados especificos deste confronto direto.",
+    "reason": "A media historica de abates em partidas profissionais de LoL flutua proxima a essa linha, tornando o resultado de Over/Under proximo a uma moeda justa."
    }
   }
  },
@@ -4476,7 +4516,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793078533.0298204,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.36983077413092863
@@ -4564,7 +4604,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793097925.492988,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3521514521604915
@@ -4577,7 +4617,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793097926.0109854,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.35588002427482723
@@ -4691,7 +4731,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146266.835452,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34517101984403337
@@ -4704,7 +4744,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146267.995886,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.02
@@ -4717,7 +4757,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146268.5516155,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34310006089252776
@@ -4756,7 +4796,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793146299.8490732,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34302354170962285
@@ -4819,7 +4859,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793162338.6670127,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.464481298472161,
@@ -4842,7 +4882,7 @@
    "cat": "Clima",
    "end": 1793188800.0,
    "t": 1793162339.2977328,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1092637201366472,
@@ -5784,6 +5824,318 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6332413": {
+   "q": "Will the highest temperature in Paris be 15°C on October 30?",
+   "p": 0.20068169430878902,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263438.2183225,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.30433309532750996,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 14.43,
+    "sigma": 1.88,
+    "kind": "exact",
+    "a": 15,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6332479": {
+   "q": "Will the highest temperature in Tel Aviv be 25°C on October 30?",
+   "p": 0.18660981230777818,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263439.539599,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.21262050348344452,
+   "wx": {
+    "sid": "LLBG",
+    "mu": 23.87,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 25,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6332501": {
+   "q": "Will the highest temperature in Hong Kong be 30°C on October 30?",
+   "p": 0.12705353772532524,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263440.1879828,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.165578658374691,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 28.57,
+    "sigma": 2.72,
+    "kind": "exact",
+    "a": 30,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6294122": {
+   "q": "Will the highest temperature in Chicago be between 70-71°F on October 29?",
+   "p": 0.19915474267421385,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793263440.8173907,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.17209846126616857,
+   "wx": {
+    "sid": "KORD",
+    "mu": 68.1,
+    "sigma": 2.63,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
+  },
+  "6335341": {
+   "q": "Will the highest temperature in London be 16°C on October 30?",
+   "p": 0.2102180490798291,
+   "yes": 0.515,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263441.161044,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3122154869938262,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 15.4,
+    "sigma": 1.77,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6339560": {
+   "q": "Will the highest temperature in Los Angeles be between 72-73°F on October 30?",
+   "p": 0.20612712865656646,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263441.8165116,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3168721933549944,
+   "wx": {
+    "sid": "KLAX",
+    "mu": 71.5,
+    "sigma": 3.69,
+    "kind": "range",
+    "a": 72,
+    "b": 73,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6332414": {
+   "q": "Will the highest temperature in Paris be 16°C on October 30?",
+   "p": 0.14942325524327715,
+   "yes": 0.47,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263441.816827,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.13867281314049906,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 14.43,
+    "sigma": 1.88,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6336411": {
+   "q": "Will the highest temperature in New York City be between 70-71°F on October 30?",
+   "p": 0.15929313377275234,
+   "yes": 0.525,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263442.1585925,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.19108314930507309,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 67.97,
+    "sigma": 4.12,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6294102": {
+   "q": "Will the highest temperature in Atlanta be between 76-77°F on October 29?",
+   "p": 0.2797413407858207,
+   "yes": 0.54,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793263442.4889143,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36678463903113256,
+   "wx": {
+    "sid": "KATL",
+    "mu": 75.23,
+    "sigma": 2.44,
+    "kind": "range",
+    "a": 76,
+    "b": 77,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
+  },
+  "6332480": {
+   "q": "Will the highest temperature in Tel Aviv be 26°C on October 30?",
+   "p": 0.10753456092719604,
+   "yes": 0.465,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263442.4892178,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.04946825326083559,
+   "wx": {
+    "sid": "LLBG",
+    "mu": 23.87,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 26,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "6294101": {
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on October 29?",
+   "p": 0.30439230652709703,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793275200.0,
+   "t": 1793263450.6750984,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.45360469522367564,
+   "wx": {
+    "sid": "KATL",
+    "mu": 75.23,
+    "sigma": 2.44,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-10-29"
+   }
+  },
+  "6332500": {
+   "q": "Will the highest temperature in Hong Kong be 29°C on October 30?",
+   "p": 0.14389989436081863,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793263470.881402,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.23239978118783128,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 28.57,
+    "sigma": 2.72,
+    "kind": "exact",
+    "a": 29,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-30"
+   }
+  },
+  "5957239": {
+   "q": "Will Elon Musk post 360-379 tweets from October 23 to October 30, 2026?",
+   "p": 0.08,
+   "yes": 0.0915,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793376000.0,
+   "t": 1793263492.7945104,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5763611": {
+   "q": "ACF Fiorentina leading at halftime?",
+   "p": 0.33,
+   "yes": 0.345,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793303100.0,
+   "t": 1793263513.6884406,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6377573": {
+   "q": "Total Kills Over/Under 24.5 in Game 2?",
+   "p": 0.52,
+   "yes": 0.59,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793325600.0,
+   "t": 1793263535.5642745,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -5950,6 +6302,10 @@
   {
    "t": 1793239358.33423,
    "equity": 1300.0
+  },
+  {
+   "t": 1793263535.564932,
+   "equity": 1279.44
   }
  ],
  "llm_calls": {
@@ -5959,8 +6315,8 @@
   "2026-10-26": 32,
   "2026-10-27": 44,
   "2026-10-28": 33,
-  "2026-10-29": 6
+  "2026-10-29": 14
  },
  "killed": false,
- "cycles": 41
+ "cycles": 42
 }

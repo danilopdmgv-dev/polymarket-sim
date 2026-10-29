@@ -428,3 +428,14 @@
 2026-10-29 02:01:42Z SELL YES [stop-loss] Will the highest temperature in Beijing be 21°C on @ 0.186 pnl=$-8.36
 2026-10-29 02:01:58Z erro LLM Will Elon Musk post 300-319 tweets from : Expecting property name enclosed in double quotes: line 1 column 167 (char 166)
 2026-10-29 02:02:38Z ciclo 41: lidos=400 filtro=7 llm=7 clima=0 compras=0 vendas=1 descartados={'categoria_Esportes': 61, 'cripto': 12} equity=$1300.00
+2026-10-29 08:43:48Z SELL YES [stop-loss] Will the highest temperature in Wellington be 18°C @ 0.010 pnl=$-14.03
+2026-10-29 08:43:48Z SELL YES [stop-loss] Will the highest temperature in Paris be 16°C on O @ 0.385 pnl=$-4.71
+2026-10-29 08:43:55Z BUY YES [clima] Will the highest temperature in Panama City be 33° @ 0.461 $13.43 edge=0.129 conf=medium | Modelo 0.19 vs mercado 0.44
+2026-10-29 08:43:56Z BUY YES [clima] Will the highest temperature in Houston be between @ 0.486 $13.43 edge=0.124 conf=medium | Modelo 0.21 vs mercado 0.46
+2026-10-29 08:43:57Z BUY YES [clima] Will the highest temperature in Buenos Aires be 25 @ 0.517 $13.43 edge=0.194 conf=medium | Modelo 0.10 vs mercado 0.48
+2026-10-29 08:44:10Z erro geocode Manila: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-29 08:44:20Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 08:44:30Z erro previsao EDDM: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-29 08:44:39Z erro geocode Wuhan: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-29 08:44:39Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-29 08:45:35Z ciclo 42: lidos=600 filtro=33 llm=8 clima=17 compras=3 vendas=2 descartados={'esporte_vivo': 9, 'categoria_Esportes': 96, 'cripto': 15, 'combinado': 1, 'clima_sem_modelo': 4} equity=$1279.44
