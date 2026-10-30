@@ -478,3 +478,10 @@
 2026-10-30 00:32:17Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-30 00:32:17Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-30 00:33:07Z ciclo 46: lidos=500 filtro=30 llm=8 clima=14 compras=3 vendas=3 descartados={'esporte_vivo': 4, 'categoria_Esportes': 101, 'cripto': 23, 'combinado': 3, 'clima_sem_modelo': 2} equity=$1247.20
+2026-10-30 06:41:10Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 06:41:20Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 06:41:30Z erro previsao KORD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 06:41:40Z erro previsao KORD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 06:41:40Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-30 06:42:18Z BUY YES [llm] Will Vivek Ramaswamy pull the Amy Acton mother ad? @ 0.522 $49.93 edge=0.223 conf=high | O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confirmando a retirada do anuncio.
+2026-10-30 06:42:30Z ciclo 47: lidos=800 filtro=34 llm=8 clima=17 compras=1 vendas=0 descartados={'categoria_Esportes': 168, 'cripto': 32, 'esporte_vivo': 2, 'combinado': 4, 'clima_sem_modelo': 2} equity=$1248.22

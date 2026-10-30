@@ -1,9 +1,9 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-10-30 00:33 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-10-30 06:42 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $1247.20 (-37.6%) | **Cash:** $1170.79 | **Abertas:** 6 | **Ciclos:** 46
+**Equity:** $1248.22 (-37.6%) | **Cash:** $1120.86 | **Abertas:** 7 | **Ciclos:** 47
 **Fechadas:** 73 | **Win rate:** 22% | **PnL realizado:** $-749.91
-**Chamadas ao LLM hoje:** 8
+**Chamadas ao LLM hoje:** 16
 
 ## Por motivo de saida
 - resolvido: 1 trades, PnL $-46.54
@@ -16,25 +16,26 @@ _Atualizado 2026-10-30 00:33 UTC. SIMULACAO, sem dinheiro real._
 - Politica: 8 trades, win 50%, PnL $+49.05
 - **Clima INVERSO (compra o lado oposto ao modelo):** 15 trades, win 27%, PnL $-63.94
 
-## Calibracao do LLM vs mercado (215 mercados resolvidos)
-- Brier LLM: 0.2985 | Brier mercado: 0.2168 (menor e melhor)
+## Calibracao do LLM vs mercado (224 mercados resolvidos)
+- Brier LLM: 0.2981 | Brier mercado: 0.2165 (menor e melhor)
 - **LLM esta PERDENDO do mercado.**
-  - Clima (165): LLM 0.3368 vs mercado 0.2279
+  - Clima (171): LLM 0.3366 vs mercado 0.2275
   - Economia/Dados (5): LLM 0.0318 vs mercado 0.0441
   - Entretenimento (12): LLM 0.2079 vs mercado 0.2153
-  - Outros (13): LLM 0.1114 vs mercado 0.1054
-  - Politica (20): LLM 0.2253 vs mercado 0.2419
-- Fonte clima (165): modelo 0.3368 vs mercado 0.2279 -> PERDENDO
-- Fonte llm (50): modelo 0.1722 vs mercado 0.1802 -> GANHANDO
-- Clima (146): sigma largo 0.3472 | sigma estreito 0.3180 | mercado 0.2299
+  - Outros (15): LLM 0.1333 vs mercado 0.1289
+  - Politica (21): LLM 0.2169 vs mercado 0.2313
+- Fonte clima (171): modelo 0.3366 vs mercado 0.2275 -> PERDENDO
+- Fonte llm (53): modelo 0.1737 vs mercado 0.1810 -> GANHANDO
+- Clima (152): sigma largo 0.3466 | sigma estreito 0.3173 | mercado 0.2294
 
 ## Posicoes abertas
-- YES Will the highest temperature in Los Angeles be between 72-73 | entrada 0.50, agora 0.39, LLM 0.19, edge 0.14, medium | Modelo 0.19 vs mercado 0.47
-- YES Will the highest temperature in Tel Aviv be 25°C on October  | entrada 0.61, agora 0.56, LLM 0.22, edge 0.17, medium | Modelo 0.22 vs mercado 0.56
-- YES Will the highest temperature in Istanbul be 15°C on October  | entrada 0.66, agora 0.71, LLM 0.20, edge 0.24, medium | Modelo 0.20 vs mercado 0.64
-- YES Will the highest temperature in Amsterdam be 13°C on October | entrada 0.51, agora 0.51, LLM 0.22, edge 0.11, medium | Modelo 0.22 vs mercado 0.47
-- YES Will the highest temperature in Paris be 15°C on October 30? | entrada 0.57, agora 0.57, LLM 0.25, edge 0.14, medium | Modelo 0.25 vs mercado 0.54
-- YES Will the highest temperature in Houston be between 78-79°F o | entrada 0.48, agora 0.48, LLM 0.17, edge 0.12, medium | Modelo 0.17 vs mercado 0.43
+- YES Will the highest temperature in Los Angeles be between 72-73 | entrada 0.50, agora 0.43, LLM 0.19, edge 0.14, medium | Modelo 0.19 vs mercado 0.47
+- YES Will the highest temperature in Tel Aviv be 25°C on October  | entrada 0.61, agora 0.57, LLM 0.22, edge 0.17, medium | Modelo 0.22 vs mercado 0.56
+- YES Will the highest temperature in Istanbul be 15°C on October  | entrada 0.66, agora 0.83, LLM 0.20, edge 0.24, medium | Modelo 0.20 vs mercado 0.64
+- YES Will the highest temperature in Amsterdam be 13°C on October | entrada 0.51, agora 0.49, LLM 0.22, edge 0.11, medium | Modelo 0.22 vs mercado 0.47
+- YES Will the highest temperature in Paris be 15°C on October 30? | entrada 0.57, agora 0.51, LLM 0.25, edge 0.14, medium | Modelo 0.25 vs mercado 0.54
+- YES Will the highest temperature in Houston be between 78-79°F o | entrada 0.48, agora 0.44, LLM 0.17, edge 0.12, medium | Modelo 0.17 vs mercado 0.43
+- YES Will Vivek Ramaswamy pull the Amy Acton mother ad? | entrada 0.52, agora 0.52, LLM 0.99, edge 0.22, high | O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confi
 
 ## Ultimas 10 fechadas
 - YES Will the highest temperature in Beijing be 22°C on | stop-loss | $-8.43 | 3.7h

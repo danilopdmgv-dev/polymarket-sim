@@ -1,5 +1,5 @@
 {
- "cash": 1170.7890691959185,
+ "cash": 1120.8604531540652,
  "positions": [
   {
    "mid": "6339560",
@@ -12,7 +12,7 @@
    "shares": 26.979158521463653,
    "cost": 13.389212169436192,
    "t": 1793288718.1203072,
-   "mark": 0.39,
+   "mark": 0.43,
    "conf": "medium",
    "llm_p": 0.19134200584786265,
    "mkt_yes": 0.47,
@@ -37,7 +37,7 @@
    "shares": 21.962854820224802,
    "cost": 13.310216908090746,
    "t": 1793306801.3330667,
-   "mark": 0.56,
+   "mark": 0.57,
    "conf": "medium",
    "llm_p": 0.22135638793157508,
    "mkt_yes": 0.565,
@@ -62,7 +62,7 @@
    "shares": 20.150511335708536,
    "cost": 13.310216908090746,
    "t": 1793306803.389441,
-   "mark": 0.71,
+   "mark": 0.83,
    "conf": "medium",
    "llm_p": 0.19543889055421287,
    "mkt_yes": 0.635,
@@ -87,7 +87,7 @@
    "shares": 25.877750118329946,
    "cost": 13.095641227726551,
    "t": 1793320290.1805592,
-   "mark": 0.5060579520184229,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.21971802891568892,
    "mkt_yes": 0.47,
@@ -112,7 +112,7 @@
    "shares": 23.147748937354066,
    "cost": 13.095641227726551,
    "t": 1793320290.848112,
-   "mark": 0.56574145776196,
+   "mark": 0.51,
    "conf": "medium",
    "llm_p": 0.24848720834644067,
    "mkt_yes": 0.535,
@@ -137,7 +137,7 @@
    "shares": 27.491119349962673,
    "cost": 13.095641227726551,
    "t": 1793320291.4945743,
-   "mark": 0.47635896745486034,
+   "mark": 0.44,
    "conf": "medium",
    "llm_p": 0.17258701976798863,
    "mkt_yes": 0.435,
@@ -150,6 +150,33 @@
    "src": "clima",
    "event": "geo:houston|2026-10-30",
    "inv": true
+  },
+  {
+   "mid": "6016014",
+   "q": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+   "cat": "Outros",
+   "side": "YES",
+   "token": "94678034369451760406023197587747704418908694216956184952684548905377628741185",
+   "entry": 0.5216763628572092,
+   "fair": 0.745,
+   "shares": 95.70802818896247,
+   "cost": 49.928616041853196,
+   "t": 1793342538.1062164,
+   "mark": 0.5216763628572092,
+   "conf": "high",
+   "llm_p": 0.99,
+   "mkt_yes": 0.5,
+   "edge": 0.2233236371427908,
+   "evidence": [
+    "AP News reported on Fri, 30 Oct 2026 that the controversial ad is off the air in Ohio.",
+    "Forbes confirmed on Fri, 30 Oct 2026 that Vivek Ramaswamy pulled the Amy Acton mother ad after bipartisan backlash.",
+    "The Guardian reported on Fri, 30 Oct 2026 that Vivek Ramaswamy discontinued the attack ad."
+   ],
+   "misprice": "O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confirmando a retirada do anuncio.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false
   }
  ],
  "closed": [
@@ -2343,183 +2370,117 @@
   }
  ],
  "cache": {
-  "5957234": {
-   "t": 1793320356.0200856,
-   "yes": 0.2835,
+  "1892487": {
+   "t": 1793342544.4780264,
+   "yes": 0.48,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "Allisha Gray and the Dream beat the Valkyries on Oct 29, 2026, forcing a Game 7.",
+     "The 2026 WNBA Finals are tied, heading into a decisive Game 7 in San Francisco."
+    ],
+    "misprice": "O mercado reflete adequadamente uma probabilidade de 50/50 para um Jogo 7 decisivo entre duas equipes equilibradas.",
+    "reason": "Tratando-se de um Jogo 7 único em quadra neutra/adversária, a probabilidade é inerentemente próxima de 50% para cada finalista."
+   }
+  },
+  "4641065": {
+   "t": 1793342507.34302,
+   "yes": 0.9145,
+   "est": {
+    "p": 0.92,
+    "conf": "low",
+    "evidence": [
+     "The market is currently pricing YES at 0.914 with less than 2 days remaining until the October 31 deadline.",
+     "Recent news from ISW and media outlets on October 27-29 indicate an ongoing high-tension environment but no specific imminent US direct strike announced for the next 48 hours.",
+     "The definition requires a direct US air or surface-to-surface missile strike on Iran, which has not been reported as scheduled or imminent."
+    ],
+    "misprice": "O mercado está ligeiramente subestimando a inércia de curtíssimo prazo e a ausência de ordens de ataque iminentes para as próximas 48 horas.",
+    "reason": "Com apenas 1,7 dias restantes e sem indicação de ataques cinéticos diretos dos EUA em curso, a probabilidade de o cessar-fogo se manter até 31 de outubro é ligeiramente superior à precificada."
+   }
+  },
+  "5180417": {
+   "t": 1793342513.7462976,
+   "yes": 0.6435,
+   "est": {
+    "p": 0.61,
+    "conf": "low",
+    "evidence": [
+     "Apple regained the top spot from Nvidia in late October 2026 amidst strong iPhone demand.",
+     "Market cap leadership remains tightly contested with the lead fading to around $5.1T as of October 26, 2026.",
+     "Leadership transition underway with John Ternus taking over as CEO from Tim Cook as of late October 2026."
+    ],
+    "misprice": "O mercado superestima ligeiramente a permanência da Apple no topo considerando a volatilidade recente e a proximidade da Nvidia.",
+    "reason": "Apesar de liderar o ranking recentemente, a margem para a Nvidia é estreita e volatilidades de mercado de última hora tornam a probabilidade um pouco menor que o preço atual."
+   }
+  },
+  "4951227": {
+   "t": 1793342519.7666795,
+   "yes": 0.305,
    "est": {
     "p": 0.28,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 23 a 30 de outubro de 2026."
+     "Brent crude holds above $105 as of mid-October 2026 amid Middle East tensions.",
+     "WTI crude active month faces resistance levels tested around recent elections in late October 2026."
     ],
-    "misprice": "O mercado ja reflete adequadamente a incrustada volatilidade na taxa de postagem do perfil.",
-    "reason": "A ausencia de dados parciais concretos impede divergir de forma fundamentada da probabilidade atual de 28.3%."
+    "misprice": "O mercado pode subestimar a volatilidade de curto prazo remanescente nos ultimos dois dias uteis de outubro.",
+    "reason": "Com o WTI negociando abaixo de 105 e apenas 2 dias restantes, a probabilidade de um pico repentino e baixa, mas nao desprezivel devido a riscos geopoliticos."
    }
   },
-  "5957230": {
-   "t": 1793306860.8697548,
-   "yes": 0.525,
+  "5180413": {
+   "t": 1793342525.6820319,
+   "yes": 0.348,
    "est": {
-    "p": 0.52,
+    "p": 0.32,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets de Elon Musk para o periodo de 23 a 30 de outubro de 2026."
+     "Apple unseated Nvidia to become world's most valuable company on July 17, 2026, amid shifting AI bets."
     ],
-    "misprice": "O preco atual proximo a 52% reflete adequadamente a incerteza sobre a taxa de postagem de Musk nesta faixa especifica proxima ao fim do prazo.",
-    "reason": "Como nao disponho de dados parciais atualizados sobre o volume exato de tweets acumulados ate o momento, mantenho minha estimativa alinhada com a faixa de probabilidade implicita pelo mercado."
+    "misprice": "O mercado avalia adequadamente a alta competitividade entre as gigantes de tecnologia pela lideranca de mercado.",
+    "reason": "A Apple recuperou a posicao de empresa mais valiosa em julho de 2026, e a concorrencia permanece acirrada na reta final de outubro."
    }
   },
-  "6322932": {
-   "t": 1793306878.2281747,
-   "yes": 0.57,
-   "est": {
-    "p": 0.5,
-    "conf": "low",
-    "evidence": [
-     "As noticias recentes nao contem dados especificos sobre o jogo 2 entre Top Esports e Bilibili Gaming no Worlds 2026."
-    ],
-    "misprice": "O mercado reflete adequadamente a linha estatistica padrao para Kills em partidas profissionais de League of Legends sem evidencia nova.",
-    "reason": "Como nao ha informacoes novas sobre o desempenho recente das equipes ou estatisticas de duracao de partida para este confronto especifico, mantenho a probabilidade neutra de 50% em relacao a linha de "
-   }
-  },
-  "6377573": {
-   "t": 1793306883.9890683,
-   "yes": 0.615,
-   "est": {
-    "p": 0.5,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma informação específica sobre o andamento ou estatísticas de Game 2 foi fornecida nas notícias recentes."
-    ],
-    "misprice": "Ausência de dados concretos sobre o draft ou o ritmo de jogo impede identificar um viés claro no preço atual.",
-    "reason": "Como não há evidências empíricas novas e o mercado já reflete uma linha estatística padrão para LoL (cerca de 24.5 kills), mantenho uma postura cética próxima ao equilíbrio ou ao preço vigente sem con"
-   }
-  },
-  "6322933": {
-   "t": 1793306872.456688,
-   "yes": 0.525,
-   "est": {
-    "p": 0.52,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma informação específica sobre o Game 1 entre Top Esports e Bilibili Gaming em 2026 foi encontrada nas notícias recentes."
-    ],
-    "misprice": "O mercado reflete uma linha estatística padrão sem desvios evidentes baseados em dados novos.",
-    "reason": "A linha de 27.5 kills é um total típico para o competitivo de LoL atual, mantendo a probabilidade próxima de 50% sem dados específicos das equipes."
-   }
-  },
-  "6361906": {
-   "t": 1793306896.525582,
-   "yes": 0.4,
-   "est": {
-    "p": 0.42,
-    "conf": "low",
-    "evidence": [
-     "League of Legends Worlds Group Stage match scheduled for October 29, 2026",
-     "No specific recent kills data or roster changes provided for Game 2 between Karmine Corp and CTBC Flying Oyster"
-    ],
-    "misprice": "O mercado reflete adequadamente a média histórica de abates em partidas profissionais de LoL para a linha de 27.5.",
-    "reason": "A linha de 27.5 abates está próxima da média esperada para o meta atual, sem evidências concretas que justifiquem um desvio significativo do preço implícito de 40%."
-   }
-  },
-  "5957226": {
-   "t": 1793320349.7419653,
-   "yes": 0.087,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "Current market implied probability is 8.7% for 300-319 tweets over a 7-day period (approx 43-45 tweets/day).",
-     "Musk's posting volume fluctuates based on news cycles, and historical weekly averages often fall outside this specific narrow 20-tweet bin."
-    ],
-    "misprice": "The market is priced efficiently reflecting the historical variance of Musk's posting habits within this specific range.",
-    "reason": "A 20-tweet wide bin for a high-variance user like Musk over a week carries inherent dispersion, making a low probability standard without specific real-time tracking data."
-   }
-  },
-  "1892487": {
-   "t": 1793320369.074475,
-   "yes": 0.485,
-   "est": {
-    "p": 0.49,
-    "conf": "low",
-    "evidence": [
-     "Atlanta Dream defeated the Golden State Valkyries 80-69 in Game 6 on Oct 29, 2026.",
-     "The series is tied 3-3, forcing the first Game 7 in WNBA Finals history as of Oct 29, 2026."
-    ],
-    "misprice": "O mercado avalia essencialmente um cara ou coroa para um Jogo 7 histórico, estando muito próximo da probabilidade real.",
-    "reason": "Com a série empatada em 3-3 após a vitória do Dream no Jogo 6, o Jogo 7 define o título em condições equilibradas."
-   }
-  },
-  "4641065": {
-   "t": 1793320343.7603424,
-   "yes": 0.6515,
+  "5166819": {
+   "t": 1793342531.8838296,
+   "yes": 0.68,
    "est": {
     "p": 0.65,
     "conf": "low",
     "evidence": [
-     "Middle East oil prices declined on October 28 due to fresh diplomatic efforts.",
-     "US warned allies on October 29 regarding potential post-election scenarios.",
-     "Market expires in less than 2 days on October 31."
+     "IMF Portwatch historical data for Bab el-Mandeb shows persistent suppression of daily transits due to ongoing regional security risks through mid-2026."
     ],
-    "misprice": "O mercado ja esta bem calibrado para o curto prazo restante e as noticias mistas de diplomacia e alertas.",
-    "reason": "Faltando apenas dois dias e com esforcos diplomaticos em curso contida a escalacao imediata, a probabilidade permanece proxima ao preco atual."
+    "misprice": "O mercado pode estar ligeiramente sobrevalorizando a faixa 25-29 sem novos dados exatos de tráfego de meados de outubro de 2026.",
+    "reason": "A faixa de 25-29 transitos diarios e consistente com o padrao recente de trafego reduzido no estreito de Bab el-Mandeb devido aos riscos geopoliticos."
    }
   },
-  "5957183": {
-   "t": 1793320362.1355567,
-   "yes": 0.145,
+  "6016014": {
+   "t": 1793342538.1061878,
+   "yes": 0.5,
+   "est": {
+    "p": 0.99,
+    "conf": "high",
+    "evidence": [
+     "AP News reported on Fri, 30 Oct 2026 that the controversial ad is off the air in Ohio.",
+     "Forbes confirmed on Fri, 30 Oct 2026 that Vivek Ramaswamy pulled the Amy Acton mother ad after bipartisan backlash.",
+     "The Guardian reported on Fri, 30 Oct 2026 that Vivek Ramaswamy discontinued the attack ad."
+    ],
+    "misprice": "O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confirmando a retirada do anuncio.",
+    "reason": "Multiplas fontes de credibilidade confirmaram em 30 de outubro de 2026 que a campanha retirou o anuncio."
+   }
+  },
+  "4844549": {
+   "t": 1793342550.5296934,
+   "yes": 0.1415,
    "est": {
     "p": 0.12,
     "conf": "low",
     "evidence": [
-     "The observation window covers exactly 7 days from October 23 to October 30, 2026.",
-     "Trump's historical posting volume on Truth Social typically averages outside this specific 180-199 range (either significantly lower or higher depending on campaign intensity).",
-     "Current market price implies a 14.5% probability, reflecting standard dispersion for count-based prediction markets."
+     "Current market price for YES is 0.141 with 1.89 days remaining until resolution.",
+     "No new concrete polling or odds history data available as of October 30, 2026."
     ],
-    "misprice": "The market price is reasonably close to historical base rates for narrow bin counts of social media posts.",
-    "reason": "A range of 180 to 199 posts in 7 days requires an average of ~26 to 28 posts per day, which is a specific and relatively narrow target rate to hit precisely."
-   }
-  },
-  "5401795": {
-   "t": 1793320375.322539,
-   "yes": 0.08,
-   "est": {
-    "p": 0.05,
-    "conf": "low",
-    "evidence": [
-     "The East-West pipeline was reportedly targeted or shut down in mid-October 2026 amid regional escalations.",
-     "Houthis claimed attacks on Saudi oil pumping stations on October 26, 2026.",
-     "Market implies an 8% probability with less than 2 days remaining until the October 31 deadline."
-    ],
-    "misprice": "O mercado pode estar ligeiramente sobreprecificando o risco residual dado que o oleoduto ja se encontra com operacoes paralisadas e sob alerta maximo de seguranca saudita.",
-    "reason": "Com apenas cerca de 48 horas restantes e defesas aereas em alerta maximo apos ataques recentes dos Houthis, a probabilidade de um novo ataque bem-sucedido exato antes de 31 de outubro e baixa."
-   }
-  },
-  "6256022": {
-   "t": 1793320381.251955,
-   "yes": 0.195,
-   "est": {
-    "p": 0.18,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados historicos granulares disponiveis para esta faixa especifica de 48 horas em outubro de 2026."
-    ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade historica de volumes tao especificos de tweets.",
-    "reason": "A media diaria de Elon Musk varia bastante, tornando uma faixa restrita de 40-64 tweets em 2 dias um evento de baixa probabilidade estatistica."
-   }
-  },
-  "6256024": {
-   "t": 1793320387.23564,
-   "yes": 0.24,
-   "est": {
-    "p": 0.22,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets nas ultimas 12 horas.",
-     "A media historica de Elon Musk varia consideravelmente, tornando intervalos especificos de 3 dias imprevisiveis."
-    ],
-    "misprice": "O mercado esta ligeiramente abaixo de 25%, refletindo incerteza padrao para faixas estreitas de volume de postagens.",
-    "reason": "A faixa de 90-114 tweets em 48 horas exige uma media diaria alta de 45-57 posts, o que esta acima da mediana habitual de Musk, tornando o cenario desfavoravel."
+    "misprice": "Market price reflects standard volatility near the threshold, but without strong directional momentum downwards, reaching the strict 4 consecutive hourly readings below 7% remains slightly less likely than the current implied odds suggest.",
+    "reason": "Given the lack of fresh catalysts and the proximity of the current price to the 7% threshold, a slight downward adjustment for the difficulty of sustaining four consecutive hourly ticks below 7% is wa"
    }
   }
  },
@@ -3641,7 +3602,7 @@
    "cat": "Politica",
    "end": 1792972740.0,
    "t": 1792806466.884634,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5300,7 +5261,7 @@
    "cat": "Outros",
    "end": 1793239200.0,
    "t": 1793162406.0550518,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5496,7 +5457,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793165441.2324097,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3443277207231097,
@@ -5692,7 +5653,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793190362.1455123,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.28455999333401516,
@@ -5727,7 +5688,7 @@
    "cat": "Outros",
    "end": 1793239200.0,
    "t": 1793190448.0102222,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5739,7 +5700,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793211953.9446905,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.150847529452097,
@@ -5762,7 +5723,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793211954.5305293,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.35376883799328873,
@@ -5808,7 +5769,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793211956.389219,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.0693354661236667,
@@ -5831,7 +5792,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793211958.4682631,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1515084455090786,
@@ -7132,6 +7093,354 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6339558": {
+   "q": "Will the highest temperature in Los Angeles be between 70-71°F on October 30?",
+   "p": 0.1992579597969164,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793342454.6017141,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2640162259194903,
+   "wx": {
+    "sid": "KLAX",
+    "mu": 72.27,
+    "sigma": 3.49,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6378930": {
+   "q": "Will the highest temperature in Shenzhen be 30°C on October 31?",
+   "p": 0.20548236966956124,
+   "yes": 0.615,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342455.4890182,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3101340562410143,
+   "wx": {
+    "sid": "geo:shenzhen",
+    "mu": 29.43,
+    "sigma": 1.83,
+    "kind": "exact",
+    "a": 30,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378834": {
+   "q": "Will the highest temperature in Singapore be 33°C on October 31?",
+   "p": 0.13692427616137448,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342456.073053,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.10068498613084653,
+   "wx": {
+    "sid": "WSSS",
+    "mu": 31.23,
+    "sigma": 1.78,
+    "kind": "exact",
+    "a": 33,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378854": {
+   "q": "Will the highest temperature in Madrid be 22°C on October 31?",
+   "p": 0.15848374581505875,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342456.2936215,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.13849419555982734,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 20.5,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 22,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6381742": {
+   "q": "Will the highest temperature in New York City be between 58-59°F on October 31?",
+   "p": 0.22403453631668313,
+   "yes": 0.61,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342456.5168126,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.28967743902083376,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 56.87,
+    "sigma": 3.05,
+    "kind": "range",
+    "a": 58,
+    "b": 59,
+    "unit": "F",
+    "date": "2026-10-31"
+   }
+  },
+  "6335362": {
+   "q": "Will the highest temperature in Atlanta be between 78-79°F on October 30?",
+   "p": 0.3139734672014688,
+   "yes": 0.595,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793342457.122501,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4737805005336323,
+   "wx": {
+    "sid": "KATL",
+    "mu": 77.87,
+    "sigma": 2.39,
+    "kind": "range",
+    "a": 78,
+    "b": 79,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6339422": {
+   "q": "Will the highest temperature in Seattle be between 48-49°F on October 30?",
+   "p": 0.23272741037630312,
+   "yes": 0.4735,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793361600.0,
+   "t": 1793342457.4461834,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3780367832733305,
+   "wx": {
+    "sid": "KSEA",
+    "mu": 48.43,
+    "sigma": 3.38,
+    "kind": "range",
+    "a": 48,
+    "b": 49,
+    "unit": "F",
+    "date": "2026-10-30"
+   }
+  },
+  "6378754": {
+   "q": "Will the highest temperature in Wellington be 14°C on October 31?",
+   "p": 0.18727334288121333,
+   "yes": 0.52,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342457.6763198,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.22682875958381388,
+   "wx": {
+    "sid": "NZWN",
+    "mu": 12.93,
+    "sigma": 1.76,
+    "kind": "exact",
+    "a": 14,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6379016": {
+   "q": "Will the highest temperature in Jeddah be 35°C on October 31?",
+   "p": 0.17015226836900155,
+   "yes": 0.525,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342458.5365682,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2651692007979689,
+   "wx": {
+    "sid": "geo:jeddah",
+    "mu": 34.43,
+    "sigma": 2.25,
+    "kind": "exact",
+    "a": 35,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6384935": {
+   "q": "Will the highest temperature in Toronto be 15°C on October 31?",
+   "p": 0.19077614308403334,
+   "yes": 0.425,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342459.63387,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2695216066440518,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 14.2,
+    "sigma": 1.89,
+    "kind": "exact",
+    "a": 15,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6384934": {
+   "q": "Will the highest temperature in Toronto be 14°C on October 31?",
+   "p": 0.20700546241718532,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342459.634247,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3350355855445585,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 14.2,
+    "sigma": 1.89,
+    "kind": "exact",
+    "a": 14,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378993": {
+   "q": "Will the highest temperature in Helsinki be 8°C on October 31?",
+   "p": 0.19185686641736077,
+   "yes": 0.6,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793342460.4693768,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2848405083311973,
+   "wx": {
+    "sid": "geo:helsinki",
+    "mu": 8.67,
+    "sigma": 1.94,
+    "kind": "exact",
+    "a": 8,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "5180417": {
+   "q": "Will Apple be the largest company in the world by market cap on October 31, 2026?",
+   "p": 0.61,
+   "yes": 0.6435,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793342513.7463014,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4951227": {
+   "q": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?",
+   "p": 0.28,
+   "yes": 0.305,
+   "conf": "low",
+   "cat": "Economia/Dados",
+   "end": 1793505599.999,
+   "t": 1793342519.7666838,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5180413": {
+   "q": "Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",
+   "p": 0.32,
+   "yes": 0.348,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793342525.6820352,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5166819": {
+   "q": "Will there be between 25 and 29 average daily transits of the Bab el-Mandeb Strait on October 31?",
+   "p": 0.65,
+   "yes": 0.68,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793342531.883833,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6016014": {
+   "q": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+   "p": 0.99,
+   "yes": 0.5,
+   "conf": "high",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793342538.1061914,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4844549": {
+   "q": "Republican House odds dip to 7% by October 31?",
+   "p": 0.12,
+   "yes": 0.1415,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793505540.0,
+   "t": 1793342550.5296984,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -7318,6 +7627,10 @@
   {
    "t": 1793320387.2361493,
    "equity": 1247.2
+  },
+  {
+   "t": 1793342550.5306065,
+   "equity": 1248.22
   }
  ],
  "llm_calls": {
@@ -7328,8 +7641,8 @@
   "2026-10-27": 44,
   "2026-10-28": 33,
   "2026-10-29": 37,
-  "2026-10-30": 8
+  "2026-10-30": 16
  },
  "killed": false,
- "cycles": 46
+ "cycles": 47
 }
