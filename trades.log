@@ -500,3 +500,12 @@
 2026-10-30 13:46:09Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-30 13:46:09Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-30 13:46:56Z ciclo 48: lidos=700 filtro=32 llm=5 clima=14 compras=4 vendas=4 descartados={'esporte_vivo': 18, 'categoria_Esportes': 231, 'cripto': 17, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1243.46
+2026-10-30 18:56:51Z SELL YES [take-profit] Will the highest temperature in Istanbul be 15°C o @ 0.957 pnl=$+5.98
+2026-10-30 18:56:51Z SELL YES [take-profit] Will Vivek Ramaswamy pull the Amy Acton mother ad? @ 0.758 pnl=$+22.65
+2026-10-30 18:56:58Z BUY YES [clima] Will the highest temperature in Tel Aviv be 27°C o @ 0.406 $13.48 edge=0.084 conf=medium | Modelo 0.20 vs mercado 0.38
+2026-10-30 18:57:14Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 18:57:25Z erro previsao KLGA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 18:57:35Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 18:57:45Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 18:57:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-30 18:58:27Z ciclo 49: lidos=800 filtro=36 llm=7 clima=19 compras=1 vendas=2 descartados={'esporte_vivo': 18, 'categoria_Esportes': 257, 'cripto': 28, 'combinado': 5, 'clima_sem_modelo': 2} equity=$1284.06

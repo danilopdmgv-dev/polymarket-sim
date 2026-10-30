@@ -1,31 +1,6 @@
 {
- "cash": 1120.6938161193452,
+ "cash": 1199.0792238504507,
  "positions": [
-  {
-   "mid": "6332651",
-   "q": "Will the highest temperature in Istanbul be 15°C on October 30?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "114855250801798663710824494002374057399827300944446014576801953041956377806182",
-   "entry": 0.6605399082108568,
-   "fair": 0.8987366656674722,
-   "shares": 20.150511335708536,
-   "cost": 13.310216908090746,
-   "t": 1793306803.389441,
-   "mark": 0.926,
-   "conf": "medium",
-   "llm_p": 0.19543889055421287,
-   "mkt_yes": 0.635,
-   "edge": 0.2381967574566154,
-   "evidence": [
-    "Previsao Open-Meteo geo:istanbul 2026-10-30: maxima 15.8C (3 modelos, sigma 1.8)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.64",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:istanbul|2026-10-30",
-   "inv": true
-  },
   {
    "mid": "6336455",
    "q": "Will the highest temperature in Houston be between 78-79°F on October 30?",
@@ -37,7 +12,7 @@
    "shares": 27.491119349962673,
    "cost": 13.095641227726551,
    "t": 1793320291.4945743,
-   "mark": 0.46,
+   "mark": 0.7,
    "conf": "medium",
    "llm_p": 0.17258701976798863,
    "mkt_yes": 0.435,
@@ -52,34 +27,6 @@
    "inv": true
   },
   {
-   "mid": "6016014",
-   "q": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
-   "cat": "Outros",
-   "side": "YES",
-   "token": "94678034369451760406023197587747704418908694216956184952684548905377628741185",
-   "entry": 0.5216763628572092,
-   "fair": 0.745,
-   "shares": 95.70802818896247,
-   "cost": 49.928616041853196,
-   "t": 1793342538.1062164,
-   "mark": 0.41,
-   "conf": "high",
-   "llm_p": 0.99,
-   "mkt_yes": 0.5,
-   "edge": 0.2233236371427908,
-   "evidence": [
-    "AP News reported on Fri, 30 Oct 2026 that the controversial ad is off the air in Ohio.",
-    "Forbes confirmed on Fri, 30 Oct 2026 that Vivek Ramaswamy pulled the Amy Acton mother ad after bipartisan backlash.",
-    "The Guardian reported on Fri, 30 Oct 2026 that Vivek Ramaswamy discontinued the attack ad."
-   ],
-   "misprice": "O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confirmando a retirada do anuncio.",
-   "version": "v3-alto-volume",
-   "src": "llm",
-   "event": null,
-   "inv": false,
-   "breakCount": 0
-  },
-  {
    "mid": "6378930",
    "q": "Will the highest temperature in Shenzhen be 30°C on October 31?",
    "cat": "Clima",
@@ -90,7 +37,7 @@
    "shares": 21.202048837604416,
    "cost": 13.056381689753671,
    "t": 1793367915.317603,
-   "mark": 0.6158075471742424,
+   "mark": 0.61,
    "conf": "medium",
    "llm_p": 0.20176590325474586,
    "mkt_yes": 0.59,
@@ -115,7 +62,7 @@
    "shares": 24.609906739643247,
    "cost": 13.056381689753671,
    "t": 1793367915.558233,
-   "mark": 0.5305335703983631,
+   "mark": 0.52,
    "conf": "medium",
    "llm_p": 0.21113892316199678,
    "mkt_yes": 0.51,
@@ -140,7 +87,7 @@
    "shares": 28.974763442954785,
    "cost": 13.056381689753675,
    "t": 1793367915.953283,
-   "mark": 0.4506121927607431,
+   "mark": 0.48,
    "conf": "medium",
    "llm_p": 0.21612278137936103,
    "mkt_yes": 0.425,
@@ -165,7 +112,7 @@
    "shares": 28.03180363479945,
    "cost": 13.056381689753675,
    "t": 1793367916.5148985,
-   "mark": 0.46577030361132826,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.1423304478482974,
    "mkt_yes": 0.44,
@@ -177,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "WSSS|2026-10-31",
+   "inv": true
+  },
+  {
+   "mid": "6378785",
+   "q": "Will the highest temperature in Tel Aviv be 27°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "81527309345180181960022146825782938502046063664803944347155944293095636379590",
+   "entry": 0.4062547241768844,
+   "fair": 0.48999730031163996,
+   "shares": 33.187580321783344,
+   "cost": 13.48261128972429,
+   "t": 1793386618.4661562,
+   "mark": 0.4062547241768844,
+   "conf": "medium",
+   "llm_p": 0.19667116614726665,
+   "mkt_yes": 0.38,
+   "edge": 0.08374257613475555,
+   "evidence": [
+    "Previsao Open-Meteo LLBG 2026-10-31: maxima 26.1C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.38",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LLBG|2026-10-31",
    "inv": true
   }
  ],
@@ -2488,6 +2460,69 @@
    "pnl": -12.86416373835301,
    "closed_t": 1793367898.1932263,
    "held_h": 13.224262531797091
+  },
+  {
+   "mid": "6332651",
+   "q": "Will the highest temperature in Istanbul be 15°C on October 30?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "114855250801798663710824494002374057399827300944446014576801953041956377806182",
+   "entry": 0.6605399082108568,
+   "fair": 0.8987366656674722,
+   "shares": 20.150511335708536,
+   "cost": 13.310216908090746,
+   "t": 1793306803.389441,
+   "mark": 0.995,
+   "conf": "medium",
+   "llm_p": 0.19543889055421287,
+   "mkt_yes": 0.635,
+   "edge": 0.2381967574566154,
+   "evidence": [
+    "Previsao Open-Meteo geo:istanbul 2026-10-30: maxima 15.8C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.64",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:istanbul|2026-10-30",
+   "inv": true,
+   "exit": 0.9571792323090923,
+   "reason": "take-profit",
+   "pnl": 5.977434062858412,
+   "closed_t": 1793386611.3119156,
+   "held_h": 22.16886735406187
+  },
+  {
+   "mid": "6016014",
+   "q": "Will Vivek Ramaswamy pull the Amy Acton mother ad?",
+   "cat": "Outros",
+   "side": "YES",
+   "token": "94678034369451760406023197587747704418908694216956184952684548905377628741185",
+   "entry": 0.5216763628572092,
+   "fair": 0.745,
+   "shares": 95.70802818896247,
+   "cost": 49.928616041853196,
+   "t": 1793342538.1062164,
+   "mark": 0.776,
+   "conf": "high",
+   "llm_p": 0.99,
+   "mkt_yes": 0.5,
+   "edge": 0.2233236371427908,
+   "evidence": [
+    "AP News reported on Fri, 30 Oct 2026 that the controversial ad is off the air in Ohio.",
+    "Forbes confirmed on Fri, 30 Oct 2026 that Vivek Ramaswamy pulled the Amy Acton mother ad after bipartisan backlash.",
+    "The Guardian reported on Fri, 30 Oct 2026 that Vivek Ramaswamy discontinued the attack ad."
+   ],
+   "misprice": "O mercado de 0.50 esta atrasado em relacao aos multiplos, recem-publicados relatorios da midia confirmando a retirada do anuncio.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false,
+   "breakCount": 0,
+   "exit": 0.7583519316329492,
+   "reason": "take-profit",
+   "pnl": 22.651752008027252,
+   "closed_t": 1793386611.3816483,
+   "held_h": 12.242576508919399
   }
  ],
  "cache": {
@@ -2506,17 +2541,17 @@
    }
   },
   "5166819": {
-   "t": 1793367979.026231,
-   "yes": 0.68,
+   "t": 1793386683.6967678,
+   "yes": 0.695,
    "est": {
-    "p": 0.65,
+    "p": 0.7,
     "conf": "low",
     "evidence": [
-     "IMF Portwatch historical baseline shows Bab el-Mandeb transit averages fluctuating between 20 and 35 throughout 2026 amid persistent Houthi threat levels.",
-     "Recent maritime intelligence updates through August and October 2026 indicate constrained Red Sea traffic volumes without complete normalization."
+     "IMF Portwatch historical 7-day moving averages for Bab el-Mandeb have hovered consistently in the high 20s through mid-2026.",
+     "Recent geopolitical risk reports from August to October 2026 indicate persistent Houthi threats maintaining suppressed yet stable transit volumes."
     ],
-    "misprice": "Market price slightly overweights optimistic stabilization assumptions while baseline traffic patterns remain suppressed.",
-    "reason": "Current geopolitical and security conditions in the Red Sea make a 25-29 transit range plausible, aligning closely with recent depressed averages."
+    "misprice": "Market is already efficiently priced near the historical baseline for restricted Red Sea traffic.",
+    "reason": "Current maritime data and security trends strongly support a 7-day moving average staying within the 25-29 range."
    }
   },
   "6016014": {
@@ -2549,31 +2584,86 @@
    }
   },
   "6403032": {
-   "t": 1793368006.917911,
+   "t": 1793386695.3953218,
    "yes": 0.495,
    "est": {
     "p": 0.5,
     "conf": "low",
     "evidence": [
-     "Nenhuma informacao nova e concreta sobre o jogo especificado foi encontrada nas noticias recentes."
+     "Nenhuma noticia especifica ou dado sobre a partida entre Hanwha Life Esports e G2 Esports foi fornecido."
     ],
-    "misprice": "O mercado ja reflete adequadamente a linha estatistica padrao para Kills em partidas competitivas de LoL.",
-    "reason": "Como nao ha dados especificos disponiveis sobre o patch atual ou o estado das equipes para este jogo de 2026, a probabilidade permanece neutra proxima ao preco atual."
+    "misprice": "Nao ha evidencia concreta de erro no preco atual de mercado.",
+    "reason": "Como superforecaster cetico sem informacoes novas e especificas sobre o draft ou desempenho das equipes no Game 2, mantenho a probabilidade alinhada proxima ao mercado de 27.5 kills, que estatisticame"
    }
   },
   "5167212": {
-   "t": 1793368016.4224684,
-   "yes": 0.875,
+   "t": 1793386707.574154,
+   "yes": 0.89,
    "est": {
-    "p": 0.85,
+    "p": 0.82,
+    "conf": "medium",
+    "evidence": [
+     "Houthi forces claimed six attacks on Saudi airports and oil facilities on Oct 30, 2026",
+     "Saudi air defenses intercepted Houthi missiles near Riyadh on Oct 29, 2026",
+     "Active retaliatory airstrikes and drone interceptions are ongoing daily between the coalition and Yemen."
+    ],
+    "misprice": "The market slightly overprices certainty given the inherent volatility and fog of war in immediate retaliatory timelines.",
+    "reason": "High-intensity active hostilities and recent cross-border missile activity make a retaliatory Saudi strike on Yemen highly probable within the next 24 hours."
+   }
+  },
+  "4951227": {
+   "t": 1793386671.9992683,
+   "yes": 0.15,
+   "est": {
+    "p": 0.18,
     "conf": "low",
     "evidence": [
-     "The Houthis declared Egypt's military support for Saudi Arabia a 'declaration of war' on Oct 27, 2026.",
-     "Saudi Arabia cancelled its 2026 'Davos in the Desert' due to Houthi attacks on Oct 20, 2026.",
-     "Egypt's parliament backed military support for Saudi Arabia on Oct 26, 2026."
+     "Oil surges on renewed US military strike risks against Iran reported on 30 Oct 2026",
+     "Current WTI October 2026 contract nearing expiration with less than 2 days remaining in the month",
+     "Recent geopolitical volatility keeps Brent-WTI near six-month highs as of late October 2026"
     ],
-    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade de uma acao ofensiva direta saudita em apenas 24h, dado que o Egito excluiu uma ofensiva ao Iエmen.",
-    "reason": "Altas tensoes bilaterais e recentes preparativos militares regionais aumentam o risco de ataques aereos ou com mísseis, mas acoes cineticas exatas em uma janela de 24 horas continuam incertas."
+    "misprice": "O mercado pode estar subestimando a volatilidade extrema de intraday e o risco geopolítico iminente no Oriente Médio nas últimas 48 horas de Outubro.",
+    "reason": "Com o WTI próximo a máximas recentes e riscos geopolíticos agudos no dia 30 de Outubro, há uma chance não desprezível de um pico momentâneo atingir $105 antes do fechamento do mês."
+   }
+  },
+  "6256025": {
+   "t": 1793386677.835976,
+   "yes": 0.125,
+   "est": {
+    "p": 0.15,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados em tempo real sobre a contagem exata de tweets para o periodo de 29 a 31 de outubro de 2026."
+    ],
+    "misprice": "O mercado reflete uma baixa probabilidade coerente com a taxa media de postagem historica para essa faixa especifica.",
+    "reason": "Como o evento esta em Andamento e faltam menos de 24 horas para o fim, a baixa probabilidade baseia-se na volatilidade habitual e no preco atual de 12.5%."
+   }
+  },
+  "4844539": {
+   "t": 1793386689.6339622,
+   "yes": 0.09,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Republican Senate odds are currently priced at 9% on October 30, 2026.",
+     "Market requires odds to dip to or below 25% for 4 consecutive hourly values before November 1, 2026."
+    ],
+    "misprice": "O mercado já está precificado muito abaixo da linha de 25%, tornando a ocorrência do evento o cenário base provável.",
+    "reason": "Com as probabilidades atuais já bem abaixo do limiar de 25%, a chance de manter 4 leituras consecutivas abaixo desse patamar nas últimas horas é extremamente alta."
+   }
+  },
+  "6398569": {
+   "t": 1793386701.370741,
+   "yes": 0.38,
+   "est": {
+    "p": 0.38,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos ou escalacoes recentes divulgadas para o Game 1 entre Team Liquid e LOS na data de 30 de outubro de 2026."
+    ],
+    "misprice": "O mercado esta alinhado com a media historica para linhas de kills em Game 1 de LoL e nao ha razao evidente para desviar.",
+    "reason": "Como nao existem evidencias novas ou concretas para divergir, mantenho a estimativa em linha com o preco atual do mercado."
    }
   }
  },
@@ -6198,7 +6288,7 @@
    "cat": "Outros",
    "end": 1793332740.0,
    "t": 1793227562.681649,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6222,7 +6312,7 @@
    "cat": "Economia/Dados",
    "end": 1793332740.0,
    "t": 1793227576.7667937,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6246,7 +6336,7 @@
    "cat": "Outros",
    "end": 1793332740.0,
    "t": 1793239349.3836737,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6327,7 +6417,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793263440.8173907,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.17209846126616857,
@@ -6442,7 +6532,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793263442.4889143,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.36678463903113256,
@@ -6488,7 +6578,7 @@
    "cat": "Clima",
    "end": 1793275200.0,
    "t": 1793263450.6750984,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.45360469522367564,
@@ -6546,7 +6636,7 @@
    "cat": "Outros",
    "end": 1793303100.0,
    "t": 1793263513.6884406,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6558,7 +6648,7 @@
    "cat": "Outros",
    "end": 1793325600.0,
    "t": 1793263535.5642745,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6915,7 +7005,7 @@
    "cat": "Outros",
    "end": 1793325600.0,
    "t": 1793291000.9145703,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6927,7 +7017,7 @@
    "cat": "Outros",
    "end": 1793325600.0,
    "t": 1793291058.0965555,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -7673,6 +7763,341 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6378785": {
+   "q": "Will the highest temperature in Tel Aviv be 27°C on October 31?",
+   "p": 0.19667116614726665,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386618.4661307,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.25417811039391813,
+   "wx": {
+    "sid": "LLBG",
+    "mu": 26.07,
+    "sigma": 1.74,
+    "kind": "exact",
+    "a": 27,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378948": {
+   "q": "Will the highest temperature in Moscow be 11°C or higher on October 31?",
+   "p": 0.25858019654177733,
+   "yes": 0.555,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386618.8617866,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.14017176531364028,
+   "wx": {
+    "sid": "UUWW",
+    "mu": 9.27,
+    "sigma": 1.9,
+    "kind": "ge",
+    "a": 11,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378833": {
+   "q": "Will the highest temperature in Singapore be 32°C on October 31?",
+   "p": 0.2796763479107824,
+   "yes": 0.47,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386618.9328191,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4073372991982319,
+   "wx": {
+    "sid": "WSSS",
+    "mu": 31.53,
+    "sigma": 1.31,
+    "kind": "exact",
+    "a": 32,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378975": {
+   "q": "Will the highest temperature in Busan be 22°C on October 31?",
+   "p": 0.16826853393938213,
+   "yes": 0.51,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386619.4231129,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.13326816416202814,
+   "wx": {
+    "sid": "geo:busan",
+    "mu": 20.57,
+    "sigma": 1.49,
+    "kind": "exact",
+    "a": 22,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6381821": {
+   "q": "Will the highest temperature in Houston be between 82-83°F on October 31?",
+   "p": 0.19913167507263663,
+   "yes": 0.435,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386620.225079,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2611443888241578,
+   "wx": {
+    "sid": "geo:houston",
+    "mu": 80.7,
+    "sigma": 3.47,
+    "kind": "range",
+    "a": 82,
+    "b": 83,
+    "unit": "F",
+    "date": "2026-10-31"
+   }
+  },
+  "6381766": {
+   "q": "Will the highest temperature in Atlanta be between 72-73°F on October 31?",
+   "p": 0.18280047683783573,
+   "yes": 0.465,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386621.4953895,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2133695068240069,
+   "wx": {
+    "sid": "KATL",
+    "mu": 70.23,
+    "sigma": 3.52,
+    "kind": "range",
+    "a": 72,
+    "b": 73,
+    "unit": "F",
+    "date": "2026-10-31"
+   }
+  },
+  "6378722": {
+   "q": "Will the highest temperature in Paris be 15°C on October 31?",
+   "p": 0.1941512191451692,
+   "yes": 0.465,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386621.5673635,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.28039767852938235,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 14.27,
+    "sigma": 1.89,
+    "kind": "exact",
+    "a": 15,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6407544": {
+   "q": "Will the highest temperature in Cape Town be 21°C on November 1?",
+   "p": 0.1816990650040493,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793386622.4070578,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.29527666842478295,
+   "wx": {
+    "sid": "geo:cape town",
+    "mu": 21.23,
+    "sigma": 2.16,
+    "kind": "exact",
+    "a": 21,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6379071": {
+   "q": "Will the highest temperature in Manila be 33°C on October 31?",
+   "p": 0.21752450673030266,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386623.7510393,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2829877110891854,
+   "wx": {
+    "sid": "geo:manila",
+    "mu": 32.17,
+    "sigma": 1.58,
+    "kind": "exact",
+    "a": 33,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6381778": {
+   "q": "Will the highest temperature in Miami be between 84-85°F on October 31?",
+   "p": 0.15921575955001444,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386624.1468904,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.12341112040654822,
+   "wx": {
+    "sid": "KMIA",
+    "mu": 81.47,
+    "sigma": 3.13,
+    "kind": "range",
+    "a": 84,
+    "b": 85,
+    "unit": "F",
+    "date": "2026-10-31"
+   }
+  },
+  "6378864": {
+   "q": "Will the highest temperature in Warsaw be 9°C on October 31?",
+   "p": 0.22036908590928256,
+   "yes": 0.495,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386624.9389617,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3233516410859255,
+   "wx": {
+    "sid": "EPWA",
+    "mu": 9.6,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378784": {
+   "q": "Will the highest temperature in Tel Aviv be 26°C on October 31?",
+   "p": 0.22607323427380804,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793386645.0205705,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3674299941561315,
+   "wx": {
+    "sid": "LLBG",
+    "mu": 26.07,
+    "sigma": 1.74,
+    "kind": "exact",
+    "a": 26,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6407348": {
+   "q": "Will the highest temperature in Singapore be 32°C on November 1?",
+   "p": 0.20049504159718512,
+   "yes": 0.44,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793386645.020825,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3010512633747775,
+   "wx": {
+    "sid": "WSSS",
+    "mu": 31.4,
+    "sigma": 1.87,
+    "kind": "exact",
+    "a": 32,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6256025": {
+   "q": "Will Elon Musk post 115-139 tweets from October 29 to October 31, 2026?",
+   "p": 0.15,
+   "yes": 0.125,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793462400.0,
+   "t": 1793386677.8359792,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "4844539": {
+   "q": "Republican Senate odds dip to 25% by October 31?",
+   "p": 0.08,
+   "yes": 0.09,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793505540.0,
+   "t": 1793386689.633967,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6398569": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.38,
+   "yes": 0.38,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793412000.0,
+   "t": 1793386701.3707454,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -7867,6 +8292,10 @@
   {
    "t": 1793368016.422479,
    "equity": 1243.46
+  },
+  {
+   "t": 1793386707.5750217,
+   "equity": 1284.06
   }
  ],
  "llm_calls": {
@@ -7877,8 +8306,8 @@
   "2026-10-27": 44,
   "2026-10-28": 33,
   "2026-10-29": 37,
-  "2026-10-30": 22
+  "2026-10-30": 29
  },
  "killed": false,
- "cycles": 48
+ "cycles": 49
 }
