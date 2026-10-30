@@ -466,3 +466,15 @@
 2026-10-29 20:47:28Z erro previsao UUWW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-29 20:47:28Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-29 20:48:41Z ciclo 45: lidos=500 filtro=32 llm=8 clima=15 compras=3 vendas=3 descartados={'esporte_vivo': 27, 'categoria_Esportes': 130, 'cripto': 8, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1267.64
+2026-10-30 00:31:25Z SELL YES [stop-loss] Will the highest temperature in Shanghai be 24°C o @ 0.221 pnl=$-8.17
+2026-10-30 00:31:25Z SELL YES [stop-loss] Will the highest temperature in Amsterdam be 14°C  @ 0.234 pnl=$-5.85
+2026-10-30 00:31:25Z SELL YES [stop-loss] Will the highest temperature in Beijing be 22°C on @ 0.226 pnl=$-8.43
+2026-10-30 00:31:30Z BUY YES [clima] Will the highest temperature in Amsterdam be 13°C  @ 0.506 $13.10 edge=0.114 conf=medium | Modelo 0.22 vs mercado 0.47
+2026-10-30 00:31:30Z BUY YES [clima] Will the highest temperature in Paris be 15°C on O @ 0.566 $13.10 edge=0.141 conf=medium | Modelo 0.25 vs mercado 0.54
+2026-10-30 00:31:31Z BUY YES [clima] Will the highest temperature in Houston be between @ 0.476 $13.10 edge=0.116 conf=medium | Modelo 0.17 vs mercado 0.43
+2026-10-30 00:31:47Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 00:31:57Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 00:32:07Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 00:32:17Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 00:32:17Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-30 00:33:07Z ciclo 46: lidos=500 filtro=30 llm=8 clima=14 compras=3 vendas=3 descartados={'esporte_vivo': 4, 'categoria_Esportes': 101, 'cripto': 23, 'combinado': 3, 'clima_sem_modelo': 2} equity=$1247.20
