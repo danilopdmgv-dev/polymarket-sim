@@ -509,3 +509,11 @@
 2026-10-30 18:57:45Z erro previsao CYYZ: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-30 18:57:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-30 18:58:27Z ciclo 49: lidos=800 filtro=36 llm=7 clima=19 compras=1 vendas=2 descartados={'esporte_vivo': 18, 'categoria_Esportes': 257, 'cripto': 28, 'combinado': 5, 'clima_sem_modelo': 2} equity=$1284.06
+2026-10-30 22:45:54Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.968 pnl=$+13.53
+2026-10-30 22:46:03Z BUY YES [clima] Will the highest temperature in Buenos Aires be 26 @ 0.396 $13.54 edge=0.139 conf=medium | Modelo 0.05 vs mercado 0.35
+2026-10-30 22:46:17Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-30 22:46:25Z erro geocode Helsinki: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-30 22:46:35Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 22:46:46Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-30 22:46:46Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-30 22:47:22Z ciclo 50: lidos=700 filtro=43 llm=6 clima=10 compras=1 vendas=1 descartados={'esporte_vivo': 10, 'cripto': 24, 'categoria_Esportes': 173, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1289.14

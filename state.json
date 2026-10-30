@@ -1,31 +1,6 @@
 {
- "cash": 1199.0792238504507,
+ "cash": 1212.1660129828747,
  "positions": [
-  {
-   "mid": "6336455",
-   "q": "Will the highest temperature in Houston be between 78-79°F on October 30?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "8463730620921940102859102319517623756729151408030625259890789565323481427208",
-   "entry": 0.47635896745486034,
-   "fair": 0.5924477881392067,
-   "shares": 27.491119349962673,
-   "cost": 13.095641227726551,
-   "t": 1793320291.4945743,
-   "mark": 0.7,
-   "conf": "medium",
-   "llm_p": 0.17258701976798863,
-   "mkt_yes": 0.435,
-   "edge": 0.11608882068434645,
-   "evidence": [
-    "Previsao Open-Meteo geo:houston 2026-10-30: maxima 76.2F (3 modelos, sigma 3.9)"
-   ],
-   "misprice": "Modelo 0.17 vs mercado 0.43",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:houston|2026-10-30",
-   "inv": true
-  },
   {
    "mid": "6378930",
    "q": "Will the highest temperature in Shenzhen be 30°C on October 31?",
@@ -37,7 +12,7 @@
    "shares": 21.202048837604416,
    "cost": 13.056381689753671,
    "t": 1793367915.317603,
-   "mark": 0.61,
+   "mark": 0.62,
    "conf": "medium",
    "llm_p": 0.20176590325474586,
    "mkt_yes": 0.59,
@@ -62,7 +37,7 @@
    "shares": 24.609906739643247,
    "cost": 13.056381689753671,
    "t": 1793367915.558233,
-   "mark": 0.52,
+   "mark": 0.51,
    "conf": "medium",
    "llm_p": 0.21113892316199678,
    "mkt_yes": 0.51,
@@ -87,7 +62,7 @@
    "shares": 28.974763442954785,
    "cost": 13.056381689753675,
    "t": 1793367915.953283,
-   "mark": 0.48,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.21612278137936103,
    "mkt_yes": 0.425,
@@ -112,7 +87,7 @@
    "shares": 28.03180363479945,
    "cost": 13.056381689753675,
    "t": 1793367916.5148985,
-   "mark": 0.45,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.1423304478482974,
    "mkt_yes": 0.44,
@@ -137,7 +112,7 @@
    "shares": 33.187580321783344,
    "cost": 13.48261128972429,
    "t": 1793386618.4661562,
-   "mark": 0.4062547241768844,
+   "mark": 0.33,
    "conf": "medium",
    "llm_p": 0.19667116614726665,
    "mkt_yes": 0.38,
@@ -149,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "LLBG|2026-10-31",
+   "inv": true
+  },
+  {
+   "mid": "6384924",
+   "q": "Will the highest temperature in Buenos Aires be 26°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "56391038741741727729039328595358720776906675720754200751935256915151170523829",
+   "entry": 0.3962932318627427,
+   "fair": 0.535249827041808,
+   "shares": 34.156538297537836,
+   "cost": 13.53600495117481,
+   "t": 1793400363.5814881,
+   "mark": 0.3962932318627427,
+   "conf": "medium",
+   "llm_p": 0.05458362159698682,
+   "mkt_yes": 0.355,
+   "edge": 0.13895659517906533,
+   "evidence": [
+    "Previsao Open-Meteo geo:buenos aires 2026-10-31: maxima 22.4C (3 modelos, sigma 2.4)"
+   ],
+   "misprice": "Modelo 0.05 vs mercado 0.35",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:buenos aires|2026-10-31",
    "inv": true
   }
  ],
@@ -2523,92 +2523,81 @@
    "pnl": 22.651752008027252,
    "closed_t": 1793386611.3816483,
    "held_h": 12.242576508919399
+  },
+  {
+   "mid": "6336455",
+   "q": "Will the highest temperature in Houston be between 78-79°F on October 30?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "8463730620921940102859102319517623756729151408030625259890789565323481427208",
+   "entry": 0.47635896745486034,
+   "fair": 0.5924477881392067,
+   "shares": 27.491119349962673,
+   "cost": 13.095641227726551,
+   "t": 1793320291.4945743,
+   "mark": 0.999,
+   "conf": "medium",
+   "llm_p": 0.17258701976798863,
+   "mkt_yes": 0.435,
+   "edge": 0.11608882068434645,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-10-30: maxima 76.2F (3 modelos, sigma 3.9)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-10-30",
+   "inv": true,
+   "exit": 0.9684143357238337,
+   "reason": "take-profit",
+   "pnl": 13.527152855872183,
+   "closed_t": 1793400354.3333528,
+   "held_h": 22.23967743853728
   }
  ],
  "cache": {
-  "1892487": {
-   "t": 1793367992.868096,
-   "yes": 0.485,
-   "est": {
-    "p": 0.5,
-    "conf": "low",
-    "evidence": [
-     "As noticias de 30 de outubro de 2026 confirmam que a serie das Finais da WNBA entre Golden State Valkyries e Atlanta Dream esta no Jogo 6.",
-     "O relatorio do Jogo 6 indica uma vitoria recente do Atlanta Dream que forçou/manteve a disputa ativa ate o momento."
-    ],
-    "misprice": "O mercado reflete uma probabilidade quase de 50/50 em um cenario de final empatada ou em jogo decisivo, o que e racional dada a paridade na serie.",
-    "reason": "Com a serie das Finais da WNBA entre Dream e Valkyries no Jogo 6 ou decisivo, as chances estao estatisticamente proximas de 50% para cada lado."
-   }
-  },
   "5166819": {
-   "t": 1793386683.6967678,
-   "yes": 0.695,
+   "t": 1793400418.1719027,
+   "yes": 0.685,
    "est": {
-    "p": 0.7,
+    "p": 0.65,
     "conf": "low",
     "evidence": [
-     "IMF Portwatch historical 7-day moving averages for Bab el-Mandeb have hovered consistently in the high 20s through mid-2026.",
-     "Recent geopolitical risk reports from August to October 2026 indicate persistent Houthi threats maintaining suppressed yet stable transit volumes."
+     "Current market consensus sits at around 0.685 for 25 to 29 average daily transits based on recent IMF Portwatch trends.",
+     "Ongoing regional security concerns continue to suppress Bab el-Mandeb traffic below historical norms."
     ],
-    "misprice": "Market is already efficiently priced near the historical baseline for restricted Red Sea traffic.",
-    "reason": "Current maritime data and security trends strongly support a 7-day moving average staying within the 25-29 range."
-   }
-  },
-  "6016014": {
-   "t": 1793367908.1990914,
-   "yes": 0.425,
-   "est": {
-    "p": 0.99,
-    "conf": "high",
-    "evidence": [
-     "Forbes reported on Fri, 30 Oct 2026 that Vivek Ramaswamy pulled the Amy Acton mother ad after backlash",
-     "AP News confirmed on Fri, 30 Oct 2026 that the attack ad is off the air in Ohio",
-     "NBC4 WCMH-TV reported on Thu, 29 Oct 2026 that Ramaswamy confirmed the ad is no longer running"
-    ],
-    "misprice": "O mercado subestima o fato de que múltiplos veículos de imprensa já confirmaram formalmente a retirada do anúncio antes do prazo.",
-    "reason": "Múltiplas fontes de notícias confiáveis confirmam que a campanha de Vivek Ramaswamy já retirou o anúncio do ar em outubro de 2026."
-   }
-  },
-  "4844549": {
-   "t": 1793367985.7850811,
-   "yes": 0.349,
-   "est": {
-    "p": 0.35,
-    "conf": "low",
-    "evidence": [
-     "Current market price of 34.9% reflects realistic probability given the short 1.59-day window until resolution on Oct 31, 2026.",
-     "No concrete new polling or odds movement data reported between market creation and Oct 30, 2026, to justify a significant divergence."
-    ],
-    "misprice": "Market price is well-calibrated to the remaining duration and current volatility of House control odds.",
-    "reason": "Given only 1.59 days remain and current odds hover near the threshold, a 35% probability appropriately discounts the chance of hitting four consecutive hourly readings at or below 7%."
+    "misprice": "Market slightly overweights historical stability, ignoring ongoing localized maritime threat persistence.",
+    "reason": "Current indicators suggest transit volumes will likely remain constrained within the 25-29 range, aligning closely with recent averages."
    }
   },
   "6403032": {
-   "t": 1793386695.3953218,
+   "t": 1793400424.50594,
    "yes": 0.495,
    "est": {
     "p": 0.5,
     "conf": "low",
     "evidence": [
-     "Nenhuma noticia especifica ou dado sobre a partida entre Hanwha Life Esports e G2 Esports foi fornecido."
+     "Nao ha dados especificos ou noticias recentes sobre o Game 2 entre Hanwha Life Esports e G2 Esports.",
+     "O mercado atual esta cotado eficientemente em torno de 0.495 refletindo uma linha estatistica padrao de 27.5 kills.",
+     "Falta de informacoes sobre o patch atual ou estatisticas detalhadas de duracao de partida para esta serie especifica."
     ],
-    "misprice": "Nao ha evidencia concreta de erro no preco atual de mercado.",
-    "reason": "Como superforecaster cetico sem informacoes novas e especificas sobre o draft ou desempenho das equipes no Game 2, mantenho a probabilidade alinhada proxima ao mercado de 27.5 kills, que estatisticame"
+    "misprice": "O mercado esta eficientemente precificado proximo a 50-50 para uma linha estatistica padrao sem vieses claros.",
+    "reason": "Como superforecaster cetico, na ausencia de dados concretos e novas evidencias que desviem da linha estatistica, mantenho a estimativa alinhada ao preco de mercado."
    }
   },
   "5167212": {
-   "t": 1793386707.574154,
-   "yes": 0.89,
+   "t": 1793400442.3226697,
+   "yes": 0.895,
    "est": {
-    "p": 0.82,
-    "conf": "medium",
+    "p": 0.88,
+    "conf": "low",
     "evidence": [
-     "Houthi forces claimed six attacks on Saudi airports and oil facilities on Oct 30, 2026",
-     "Saudi air defenses intercepted Houthi missiles near Riyadh on Oct 29, 2026",
-     "Active retaliatory airstrikes and drone interceptions are ongoing daily between the coalition and Yemen."
+     "Saudi Arabia reported interception of Houthi drone targeting Mecca on Oct 30, 2026",
+     "Reports of 12 killed in Yemen and missile interceptions near Riyadh on Oct 29, 2026",
+     "Active cross-border strikes and air defense engagements are ongoing between Saudi-led coalition and Yemen"
     ],
-    "misprice": "The market slightly overprices certainty given the inherent volatility and fog of war in immediate retaliatory timelines.",
-    "reason": "High-intensity active hostilities and recent cross-border missile activity make a retaliatory Saudi strike on Yemen highly probable within the next 24 hours."
+    "misprice": "O mercado já precifica adequadamente a alta intensidade atual do conflito com 89.5% de probabilidade.",
+    "reason": "A escalada militar recente e os ataques cruzados contínuos mantêm a probabilidade de novas ações no dia seguinte muito alta, embora abaixo da certeza absoluta."
    }
   },
   "4951227": {
@@ -2664,6 +2653,46 @@
     ],
     "misprice": "O mercado esta alinhado com a media historica para linhas de kills em Game 1 de LoL e nao ha razao evidente para desviar.",
     "reason": "Como nao existem evidencias novas ou concretas para divergir, mantenho a estimativa em linha com o preco atual do mercado."
+   }
+  },
+  "5166884": {
+   "t": 1793400412.1035407,
+   "yes": 0.2385,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados novos ou concretos sobre a cotacao no Bonbast para a data especifica."
+    ],
+    "misprice": "O mercado reflete adequadamente a tendencia atual sem evidencias recentes de desvio.",
+    "reason": "A projecao baseia-se na taxa livre atual e volatilidade historica recente, mantendo-se proxima ao preco de mercado."
+   }
+  },
+  "5401795": {
+   "t": 1793400430.3838682,
+   "yes": 0.1,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Gulf News reported on Oct 30, 2026, that Saudi oil keeps flowing despite recent attacks.",
+     "Market currently prices the probability at 10 percent with less than 24 hours remaining until the October 31 deadline."
+    ],
+    "misprice": "O mercado subestima ligeiramente a resiliencia saudita e a falta de novos ataques confirmados nas ultimas 48 horas.",
+    "reason": "Apesar das alegacoes dos Houthis em 26 de outubro, nao ha confirmacao de novos impactos fisicos no oleoduto Leste-Oeste perto do prazo final de 31 de outubro."
+   }
+  },
+  "6403031": {
+   "t": 1793400436.2692,
+   "yes": 0.47,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "As noticias recentes nao contem dados especificos sobre o draft, estatisticas de kills ou estado atual do Game 1 entre Hanwha Life Esports e G2 Esports em 30 de outubro de 2026."
+    ],
+    "misprice": "Nao ha evidencia concreta de erro no preco atual de 0.47 dado que o mercado esta perto de 50-50 para uma linha padrao de kills no LoL.",
+    "reason": "Sem informacoes granulares em tempo real sobre a partida, a estimativa deve ancorar-se proxima ao preco eficiente atual de mercado."
    }
   }
  },
@@ -5929,7 +5958,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793211955.4881241,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.05691042985550965,
@@ -6136,7 +6165,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793227466.590172,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.19625148613695687,
@@ -6371,7 +6400,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793263439.539599,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.21262050348344452,
@@ -6555,7 +6584,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793263442.4892178,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.04946825326083559,
@@ -8098,6 +8127,122 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6384924": {
+   "q": "Will the highest temperature in Buenos Aires be 26°C on October 31?",
+   "p": 0.05458362159698682,
+   "yes": 0.355,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793400363.5814595,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.02,
+   "wx": {
+    "sid": "geo:buenos aires",
+    "mu": 22.43,
+    "sigma": 2.36,
+    "kind": "exact",
+    "a": 26,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6378820": {
+   "q": "Will the highest temperature in Shanghai be 23°C on October 31?",
+   "p": 0.17550306493288625,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793400366.5774913,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1466000038846953,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 21.63,
+    "sigma": 1.48,
+    "kind": "exact",
+    "a": 23,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6384956": {
+   "q": "Will the highest temperature in Panama City be 30°C on October 31?",
+   "p": 0.17047460809791443,
+   "yes": 0.365,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793448000.0,
+   "t": 1793400367.5075293,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2125511267147931,
+   "wx": {
+    "sid": "geo:panama city",
+    "mu": 31.13,
+    "sigma": 1.97,
+    "kind": "exact",
+    "a": 30,
+    "b": null,
+    "unit": "C",
+    "date": "2026-10-31"
+   }
+  },
+  "6407304": {
+   "q": "Will the highest temperature in Tel Aviv be 27°C on November 1?",
+   "p": 0.18872658642027962,
+   "yes": 0.595,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793400369.3182933,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.23942367081127125,
+   "wx": {
+    "sid": "LLBG",
+    "mu": 26.0,
+    "sigma": 1.79,
+    "kind": "exact",
+    "a": 27,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "5166884": {
+   "q": "Will USD be at least 2.8M Iranian rials on October 31?",
+   "p": 0.22,
+   "yes": 0.2385,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793400412.1035442,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6403031": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.5,
+   "yes": 0.47,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793422800.0,
+   "t": 1793400436.2692044,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -8296,6 +8441,10 @@
   {
    "t": 1793386707.5750217,
    "equity": 1284.06
+  },
+  {
+   "t": 1793400442.323395,
+   "equity": 1289.14
   }
  ],
  "llm_calls": {
@@ -8306,8 +8455,8 @@
   "2026-10-27": 44,
   "2026-10-28": 33,
   "2026-10-29": 37,
-  "2026-10-30": 29
+  "2026-10-30": 35
  },
  "killed": false,
- "cycles": 49
+ "cycles": 50
 }
