@@ -1,5 +1,5 @@
 {
- "cash": 1159.9624466715686,
+ "cash": 1169.0771461773215,
  "positions": [
   {
    "mid": "6384924",
@@ -12,7 +12,7 @@
    "shares": 34.156538297537836,
    "cost": 13.53600495117481,
    "t": 1793400363.5814881,
-   "mark": 0.5,
+   "mark": 0.43,
    "conf": "medium",
    "llm_p": 0.05458362159698682,
    "mkt_yes": 0.355,
@@ -27,106 +27,6 @@
    "inv": true
   },
   {
-   "mid": "6378845",
-   "q": "Will the highest temperature in Milan be 17°C on October 31?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "695041226108385945427680761433914550669650841742717199325574947332871474214",
-   "entry": 0.5758714632076566,
-   "fair": 0.692274648178054,
-   "shares": 23.233384644507257,
-   "cost": 13.379443210498694,
-   "t": 1793411807.58022,
-   "mark": 0.64,
-   "conf": "medium",
-   "llm_p": 0.2862089197032434,
-   "mkt_yes": 0.54,
-   "edge": 0.11640318497039737,
-   "evidence": [
-    "Previsao Open-Meteo LIMC 2026-10-31: maxima 16.6C (3 modelos, sigma 1.3)"
-   ],
-   "misprice": "Modelo 0.29 vs mercado 0.54",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LIMC|2026-10-31",
-   "inv": true
-  },
-  {
-   "mid": "6378722",
-   "q": "Will the highest temperature in Paris be 15°C on October 31?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "88581135584338958340140342328426582797523680001882109211843503735556486143540",
-   "entry": 0.5505055005341357,
-   "fair": 0.7115662884210951,
-   "shares": 24.303922844580303,
-   "cost": 13.379443210498694,
-   "t": 1793411807.771861,
-   "mark": 0.53,
-   "conf": "medium",
-   "llm_p": 0.24072285263150806,
-   "mkt_yes": 0.535,
-   "edge": 0.1610607878869595,
-   "evidence": [
-    "Previsao Open-Meteo LFPG 2026-10-31: maxima 14.4C (3 modelos, sigma 1.5)"
-   ],
-   "misprice": "Modelo 0.24 vs mercado 0.54",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LFPG|2026-10-31",
-   "inv": true
-  },
-  {
-   "mid": "6378854",
-   "q": "Will the highest temperature in Madrid be 22°C on October 31?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "10638043572084504806729416717889198917703000466797372103589733506206900149391",
-   "entry": 0.5659626497816825,
-   "fair": 0.7598550157414847,
-   "shares": 24.35215177975878,
-   "cost": 13.782408349157995,
-   "t": 1793433442.6367023,
-   "mark": 0.5659626497816825,
-   "conf": "medium",
-   "llm_p": 0.16024164043085898,
-   "mkt_yes": 0.535,
-   "edge": 0.19389236595980214,
-   "evidence": [
-    "Previsao Open-Meteo LEMD 2026-10-31: maxima 20.5C (3 modelos, sigma 1.4)"
-   ],
-   "misprice": "Modelo 0.16 vs mercado 0.54",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LEMD|2026-10-31",
-   "inv": true
-  },
-  {
-   "mid": "6407544",
-   "q": "Will the highest temperature in Cape Town be 21°C on November 1?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "7427604262458281600876505926633263398553701553837936576799581742819076304169",
-   "entry": 0.4106821255845258,
-   "fair": 0.5045493975944351,
-   "shares": 33.559795984647316,
-   "cost": 13.782408349157995,
-   "t": 1793433443.6107266,
-   "mark": 0.4106821255845258,
-   "conf": "medium",
-   "llm_p": 0.21241767067594164,
-   "mkt_yes": 0.395,
-   "edge": 0.0938672720099093,
-   "evidence": [
-    "Previsao Open-Meteo geo:cape town 2026-11-01: maxima 21.0C (3 modelos, sigma 1.9)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.40",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:cape town|2026-11-01",
-   "inv": true
-  },
-  {
    "mid": "6407304",
    "q": "Will the highest temperature in Tel Aviv be 27°C on November 1?",
    "cat": "Clima",
@@ -137,7 +37,7 @@
    "shares": 27.251063507551546,
    "cost": 13.782408349157995,
    "t": 1793433444.3285146,
-   "mark": 0.5057567146081748,
+   "mark": 0.6,
    "conf": "medium",
    "llm_p": 0.19700347473742397,
    "mkt_yes": 0.47,
@@ -162,7 +62,7 @@
    "shares": 111.72637666370437,
    "cost": 39.12588450768294,
    "t": 1793433503.5971758,
-   "mark": 0.3501938009271668,
+   "mark": 0.32,
    "conf": "medium",
    "llm_p": 0.52,
    "mkt_yes": 0.335,
@@ -176,7 +76,8 @@
    "version": "v3-alto-volume",
    "src": "llm",
    "event": null,
-   "inv": false
+   "inv": false,
+   "breakCount": 0
   },
   {
    "mid": "6257188",
@@ -189,7 +90,7 @@
    "shares": 143.12237440491253,
    "cost": 27.34604831182142,
    "t": 1793433526.9379237,
-   "mark": 0.19106759809934226,
+   "mark": 0.17,
    "conf": "medium",
    "llm_p": 0.35,
    "mkt_yes": 0.165,
@@ -202,7 +103,108 @@
    "version": "v3-alto-volume",
    "src": "llm",
    "event": null,
-   "inv": false
+   "inv": false,
+   "breakCount": 0
+  },
+  {
+   "mid": "6407242",
+   "q": "Will the highest temperature in Paris be 13°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "109261960063559296624679059539915559830094267139560230914163200886656949163677",
+   "entry": 0.4358567432339466,
+   "fair": 0.5481224182444551,
+   "shares": 31.68975807564428,
+   "cost": 13.812194748721975,
+   "t": 1793456263.2033458,
+   "mark": 0.4358567432339466,
+   "conf": "medium",
+   "llm_p": 0.17979596959257482,
+   "mkt_yes": 0.41,
+   "edge": 0.11226567501050855,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-11-01: maxima 12.3C (3 modelos, sigma 2.1)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.41",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6407328",
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "73493208558131888124089711574978324342402888280542745473360651182915058633540",
+   "entry": 0.5005793304402196,
+   "fair": 0.6553156099976297,
+   "shares": 27.592419240673102,
+   "cost": 13.812194748721975,
+   "t": 1793456264.3720837,
+   "mark": 0.5005793304402196,
+   "conf": "medium",
+   "llm_p": 0.20114065000395037,
+   "mkt_yes": 0.485,
+   "edge": 0.1547362795574101,
+   "evidence": [
+    "Previsao Open-Meteo VHHH 2026-11-01: maxima 28.0C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "VHHH|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6407578",
+   "q": "Will the highest temperature in Karachi be 36°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "114676724706511589933957154635676426211031781439116496897227341681681964116508",
+   "entry": 0.5057194871079762,
+   "fair": 0.6501550728914006,
+   "shares": 27.311968592922604,
+   "cost": 13.812194748721973,
+   "t": 1793456265.6513495,
+   "mark": 0.5057194871079762,
+   "conf": "medium",
+   "llm_p": 0.16974154518099893,
+   "mkt_yes": 0.47,
+   "edge": 0.14443558578342441,
+   "evidence": [
+    "Previsao Open-Meteo geo:karachi 2026-11-01: maxima 34.8C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:karachi|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6411783",
+   "q": "Will the highest temperature in Houston be between 84-85°F on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "108189282532229289302276249791285817017807006741683043594541363814493741348718",
+   "entry": 0.5057033105304313,
+   "fair": 0.6499763108535674,
+   "shares": 27.312842255737632,
+   "cost": 13.812194748721973,
+   "t": 1793456266.8880675,
+   "mark": 0.5057033105304313,
+   "conf": "medium",
+   "llm_p": 0.19670614857738744,
+   "mkt_yes": 0.48,
+   "edge": 0.14427300032313617,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-11-01: maxima 82.5F (3 modelos, sigma 3.4)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-11-01",
+   "inv": true
   }
  ],
  "closed": [
@@ -2756,94 +2758,266 @@
    "pnl": 13.968462769280038,
    "closed_t": 1793433433.4697638,
    "held_h": 18.19915412929323
+  },
+  {
+   "mid": "6378845",
+   "q": "Will the highest temperature in Milan be 17°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "695041226108385945427680761433914550669650841742717199325574947332871474214",
+   "entry": 0.5758714632076566,
+   "fair": 0.692274648178054,
+   "shares": 23.233384644507257,
+   "cost": 13.379443210498694,
+   "t": 1793411807.58022,
+   "mark": 0.924,
+   "conf": "medium",
+   "llm_p": 0.2862089197032434,
+   "mkt_yes": 0.54,
+   "edge": 0.11640318497039737,
+   "evidence": [
+    "Previsao Open-Meteo LIMC 2026-10-31: maxima 16.6C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.29 vs mercado 0.54",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LIMC|2026-10-31",
+   "inv": true,
+   "exit": 0.8461228047670235,
+   "reason": "take-profit",
+   "pnl": 6.278853369142881,
+   "closed_t": 1793456243.8160503,
+   "held_h": 12.343398841818173
+  },
+  {
+   "mid": "6378722",
+   "q": "Will the highest temperature in Paris be 15°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "88581135584338958340140342328426582797523680001882109211843503735556486143540",
+   "entry": 0.5505055005341357,
+   "fair": 0.7115662884210951,
+   "shares": 24.303922844580303,
+   "cost": 13.379443210498694,
+   "t": 1793411807.771861,
+   "mark": 0.84,
+   "conf": "medium",
+   "llm_p": 0.24072285263150806,
+   "mkt_yes": 0.535,
+   "edge": 0.1610607878869595,
+   "evidence": [
+    "Previsao Open-Meteo LFPG 2026-10-31: maxima 14.4C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.24 vs mercado 0.54",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LFPG|2026-10-31",
+   "inv": true,
+   "exit": 0.7765672835771757,
+   "reason": "take-profit",
+   "pnl": 5.494188133186297,
+   "closed_t": 1793456243.869225,
+   "held_h": 12.3433603789409
+  },
+  {
+   "mid": "6378854",
+   "q": "Will the highest temperature in Madrid be 22°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "10638043572084504806729416717889198917703000466797372103589733506206900149391",
+   "entry": 0.5659626497816825,
+   "fair": 0.7598550157414847,
+   "shares": 24.35215177975878,
+   "cost": 13.782408349157995,
+   "t": 1793433442.6367023,
+   "mark": 0.47,
+   "conf": "medium",
+   "llm_p": 0.16024164043085898,
+   "mkt_yes": 0.535,
+   "edge": 0.19389236595980214,
+   "evidence": [
+    "Previsao Open-Meteo LEMD 2026-10-31: maxima 20.5C (3 modelos, sigma 1.4)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.54",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LEMD|2026-10-31",
+   "inv": true,
+   "exit": 0.35200486992633884,
+   "reason": "stop-loss",
+   "pnl": -5.210332329497545,
+   "closed_t": 1793456243.9222913,
+   "held_h": 6.333690441449483
+  },
+  {
+   "mid": "6407544",
+   "q": "Will the highest temperature in Cape Town be 21°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "7427604262458281600876505926633263398553701553837936576799581742819076304169",
+   "entry": 0.4106821255845258,
+   "fair": 0.5045493975944351,
+   "shares": 33.559795984647316,
+   "cost": 13.782408349157995,
+   "t": 1793433443.6107266,
+   "mark": 0.53,
+   "conf": "medium",
+   "llm_p": 0.21241767067594164,
+   "mkt_yes": 0.395,
+   "edge": 0.0938672720099093,
+   "evidence": [
+    "Previsao Open-Meteo geo:cape town 2026-11-01: maxima 21.0C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.40",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:cape town|2026-11-01",
+   "inv": true,
+   "exit": 0.5142902109878719,
+   "reason": "take-profit",
+   "pnl": 3.4770662084962094,
+   "closed_t": 1793456243.9757183,
+   "held_h": 6.333434719906913
   }
  ],
  "cache": {
   "1194643": {
-   "t": 1793433497.6015222,
+   "t": 1793456315.7163074,
    "yes": 0.665,
    "est": {
-    "p": 0.68,
+    "p": 0.67,
     "conf": "low",
     "evidence": [
-     "Bulgarian presidential first round held on October 25, 2026, resulted in a run-off.",
-     "Iliana Yotova finished narrowly ahead in the first round according to reports on October 25-26, 2026.",
-     "Run-off election scheduled for Sunday, November 1, 2026."
+     "Bulgaria held the first round of the presidential election on October 25, 2026, heading to a runoff with low voter turnout.",
+     "Iliana Yotova finished narrowly ahead in the first round according to reports on October 25, 2026.",
+     "The presidential runoff is drawing active coverage regarding candidate divisions as of October 30, 2026."
     ],
-    "misprice": "O mercado já reflete adequadamente a liderança inicial de Yotova e a dinâmica de segundo turno para a eleição iminente.",
-    "reason": "Yotova entrou no segundo turno com vantagem estreita, tornando sua vitória provável mas alinhada com o preço atual de 66.5%."
+    "misprice": "O mercado já reflete adequadamente a vantagem inicial de Yotova e a incerteza padrão do segundo turno.",
+    "reason": "Yotova lidera o primeiro turno, mas a corrida para o segundo turno permanece disputada com base nas notícias recentes."
    }
   },
   "1194657": {
-   "t": 1793433503.5971527,
-   "yes": 0.335,
+   "t": 1793456250.6708677,
+   "yes": 0.325,
    "est": {
     "p": 0.52,
     "conf": "medium",
     "evidence": [
-     "Bulgarian presidential election runoff scheduled for Sunday, November 1, 2026, following the first round.",
-     "Three former PMs and two former presidents endorsed Andrey Gyurov as of October 30, 2026.",
-     "Recent debates featured Andrey Gyurov against Yotova ahead of the decisive weekend runoff."
+     "Bulgaria's 2026 presidential elections headed to a runoff after the first round on October 30, 2026.",
+     "Three former Prime Ministers and two former presidents endorsed Andrey Gyurov ahead of the runoff, according to reports on October 30, 2026.",
+     "Andrey Gyurov participated in a televised debate against Yotova on October 29, 2026, leading into Sunday's decisive vote."
     ],
-    "misprice": "Market underprices Gyurov's chances given broad establishment endorsements from former PMs and presidents heading into the runoff.",
-    "reason": "Gyurov is competitive in the imminent runoff backed by significant political endorsements, giving him a strong chance of winning."
+    "misprice": "The market underprices Gyurov given his broad institutional endorsements from multiple former PMs and presidents heading into the runoff.",
+    "reason": "Gyurov is in a competitive runoff position with significant high-level political backing just before the final vote."
    }
   },
   "6257190": {
-   "t": 1793433509.3469374,
-   "yes": 0.805,
+   "t": 1793456322.1445248,
+   "yes": 0.795,
    "est": {
-    "p": 0.85,
+    "p": 0.82,
     "conf": "low",
     "evidence": [
-     "Bulgarian presidential runoff scheduled for November 1, 2026",
-     "Historical second-round turnout in Bulgaria typically exceeds 30%",
-     "Alpha Research polls from October 2026 indicate competitive runoff dynamics"
+     "Bulgarian presidential runoff scheduled for November 1, 2026, following the first round.",
+     "Historical turnout baselines and current runoff news indicate engagement remains above the 24% threshold."
     ],
-    "misprice": "Market slightly discounts turnout risks despite historical precedents of runoff participation remaining above the 24% threshold.",
-    "reason": "Even with voter apathy and low turnout forecasts, Bulgarian presidential runoffs comfortably clear a mere 24% participation rate."
-   }
-  },
-  "5928347": {
-   "t": 1793433515.1756344,
-   "yes": 0.723,
-   "est": {
-    "p": 0.75,
-    "conf": "low",
-    "evidence": [
-     "FURIA reached the Grand Final of PGL Masters Bucharest 2026 on Oct 30, 2026",
-     "Grand Final match preview pits FURIA against Nemiga on Oct 31, 2026"
-    ],
-    "misprice": "O mercado avalia corretamente a FURIA como grande favorita na final contra a Nemiga.",
-    "reason": "A FURIA chegou à final após vencer a MOUZ em 30 de outubro de 2026 e possui favoritismo consolidado contra a Nemiga."
-   }
-  },
-  "5928356": {
-   "t": 1793433521.0002415,
-   "yes": 0.2695,
-   "est": {
-    "p": 0.35,
-    "conf": "low",
-    "evidence": [
-     "Grand Final of PGL Masters Bucharest 2026 scheduled for October 31, 2026",
-     "Nemiga playing against FURIA in the Grand Final according to Hotspawn on Oct 31, 2026"
-    ],
-    "misprice": "O mercado pode subestimar o momento recente da Nemiga que chegou a Grande Final contra a FURIA.",
-    "reason": "Como a Nemiga esta na final, suas chances reais de vitoria em uma serie MD3 contra a FURIA costumam ficar em torno de 35% dependendo dos mapas."
+    "misprice": "The market slightly underestimates the baseline mobilization typically seen in Bulgarian presidential runoffs.",
+    "reason": "Despite forecasts of low turnout, historical precedents and runoff dynamics strongly favor a turnout exceeding 24%."
    }
   },
   "6257188": {
-   "t": 1793433526.9378946,
-   "yes": 0.165,
+   "t": 1793456256.854085,
+   "yes": 0.18,
    "est": {
-    "p": 0.35,
-    "conf": "medium",
+    "p": 0.2,
+    "conf": "low",
     "evidence": [
-     "News reports from Oct 25, 2026, highlighted record low turnout in the first round of the presidential election.",
-     "The second round is scheduled for Nov 1, 2026, following a bitter runoff campaign ending Oct 30, 2026."
+     "The first round of the 2026 presidential election on October 25 already resulted in record low turnout, heading to a runoff on November 1.",
+     "Recent historical precedent in Bulgarian presidential runoff elections shows turnout hovering around low-to-mid 30s, but declining trends suggest suppressed participation."
     ],
-    "misprice": "The market underestimates the compounding effect of voter apathy and fatigue from consecutive rounds, driving expected turnout down into the 22-24% range.",
-    "reason": "First-round turnout trends and heightened political polarization suggest second-round participation will drop significantly into this specific bracket."
+    "misprice": "Market underprices the continuation of record-low engagement trends observed in the first round.",
+    "reason": "Historical runoff turnouts in Bulgaria are usually higher than 24%, but extreme voter apathy in the first round on Oct 25, 2026, pushes probabilities toward the lower brackets."
+   }
+  },
+  "6444137": {
+   "t": 1793456328.2149396,
+   "yes": 0.465,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados especificos disponiveis sobre o Game 2 da partida entre Hanwha Life Esports e Bilibili Gaming."
+    ],
+    "misprice": "O mercado reflete adequadamente a linha estatistica padrao para esports sem dados novos suficientes para divergir.",
+    "reason": "Como as noticias recentes nao fornecem informacoes concretas sobre o desempenho atual das equipes no jogo em questao, mantenho a probabilidade em 50% por falta de evidencia direcional."
+   }
+  },
+  "5330802": {
+   "t": 1793456334.9512198,
+   "yes": 0.155,
+   "est": {
+    "p": 0.16,
+    "conf": "low",
+    "evidence": [
+     "Relatorios de outubro de 2025 indicam planos de ataques a alvos militares na Venezuela ligados a narcotrafico",
+     "Prazo de resolucao expira em 31 de outubro de 2026 as 23:59 ET",
+     "Preco atual de mercado reflete baixa probabilidade de acao cinetica direta em solo estrangeiro"
+    ],
+    "misprice": "O mercado esta essencialmente correto ao precificar baixa probabilidade devido a falta de confirmacao de acao em solo ate o momento.",
+    "reason": "Apesar das tensoes crescentes e planos de ataque contra o regime de Maduro, faltam evidencias concretas de boots on the ground ou acao cinetica direta contra cartazes ja executada."
+   }
+  },
+  "6441394": {
+   "t": 1793456341.280715,
+   "yes": 0.565,
+   "est": {
+    "p": 0.54,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos ou novas noticias sobre a partida LOS vs LYON no Worlds 2026 nas fontes fornecidas."
+    ],
+    "misprice": "O preco de 0.565 esta proximo ao neutro, refletindo incerteza padrao para linhas de mata-mata em esports sem informacoes de drafts.",
+    "reason": "A media historica de aberturas em Worlds costuma girar proxima a 24-26 aberturas, mas sem dados concretos de equipes mantenho uma estimativa ligeiramente conservadora."
+   }
+  },
+  "6441390": {
+   "t": 1793456347.6798782,
+   "yes": 0.575,
+   "est": {
+    "p": 0.57,
+    "conf": "low",
+    "evidence": [
+     "O confronto entre Hanwha Life Esports e Bilibili Gaming no Worlds Group Stage esta agendado para 31 de outubro de 2026.",
+     "A linha estatistica padrao para Kills Totais em partidas eliminatorias de alto nivel no LoL Worlds costuma flutuar em torno de 26 a 28 abates."
+    ],
+    "misprice": "O mercado esta essencialmente alinhado com a media historica para o mata-mata do Worlds sem divergincias estatisticas significativas.",
+    "reason": "A linha de 27.5 kills esta muito proxima da mediana historica para partidas competitivas tier 1 entre HLE e BLG, tornando o preco atual justo."
+   }
+  },
+  "6441391": {
+   "t": 1793456353.4878094,
+   "yes": 0.585,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma noticia especifica ou dado sobre o Game 2 entre Karmine Corp e Movistar KOI foi encontrado nas fontes recentes fornecidas."
+    ],
+    "misprice": "O mercado reflete apenas estimativas padrao sem informacoes novas que justifiquem desvio significativo da media historica.",
+    "reason": "Na ausencia de dados concretos sobre as equipes para esta partida especifica, a probabilidade deve se manter proxima ao equilibrio estatistico de 24.5 kills."
+   }
+  },
+  "6439251": {
+   "t": 1793456359.3411748,
+   "yes": 0.705,
+   "est": {
+    "p": 0.71,
+    "conf": "low",
+    "evidence": [
+     "PredictionMarketOdds.com hourly data shows current Republican House control odds near or below the 6% threshold."
+    ],
+    "misprice": "The market is already heavily priced for Yes at 70.5%, reflecting the high likelihood of hitting four consecutive hours below 6% given current trends.",
+    "reason": "Current hourly readings on PredictionMarketOdds.com strongly suggest the threshold has been or will easily be met within the remaining 1.6 days."
    }
   }
  },
@@ -6643,7 +6817,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793263441.8165116,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3168721933549944,
@@ -7024,7 +7198,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793288722.2227755,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.22690045417072235,
@@ -7047,7 +7221,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793288722.6162643,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2681549527804491,
@@ -7070,7 +7244,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793288723.1027107,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.26374592750572834,
@@ -7093,7 +7267,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793290846.7137806,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.30233087058144237,
@@ -7116,7 +7290,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793290850.8227255,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.383754546855679,
@@ -7139,7 +7313,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793290851.615102,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.17839965435481175,
@@ -7162,7 +7336,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793290852.415117,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32251049072866445,
@@ -8812,6 +8986,216 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6407242": {
+   "q": "Will the highest temperature in Paris be 13°C on November 1?",
+   "p": 0.17979596959257482,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456263.2033184,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2709509426225799,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 12.33,
+    "sigma": 2.09,
+    "kind": "exact",
+    "a": 13,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407578": {
+   "q": "Will the highest temperature in Karachi be 36°C on November 1?",
+   "p": 0.16974154518099893,
+   "yes": 0.47,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456265.6513264,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.20170065421555072,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 34.8,
+    "sigma": 1.92,
+    "kind": "exact",
+    "a": 36,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6411783": {
+   "q": "Will the highest temperature in Houston be between 84-85°F on November 1?",
+   "p": 0.19670614857738744,
+   "yes": 0.48,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456266.8880434,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.24151716404634116,
+   "wx": {
+    "sid": "geo:houston",
+    "mu": 82.5,
+    "sigma": 3.37,
+    "kind": "range",
+    "a": 84,
+    "b": 85,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6407416": {
+   "q": "Will the highest temperature in Beijing be 18°C on November 1?",
+   "p": 0.17373697229902518,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456268.0416417,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.20128129279425933,
+   "wx": {
+    "sid": "geo:beijing",
+    "mu": 16.8,
+    "sigma": 1.85,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407462": {
+   "q": "Will the highest temperature in Moscow be 10°C on November 1?",
+   "p": 0.16981744351673822,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456268.3900955,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.16274079083400506,
+   "wx": {
+    "sid": "UUWW",
+    "mu": 8.63,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 10,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407461": {
+   "q": "Will the highest temperature in Moscow be 9°C on November 1?",
+   "p": 0.2290400321530403,
+   "yes": 0.4,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793456268.3904462,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3581865977264269,
+   "wx": {
+    "sid": "UUWW",
+    "mu": 8.63,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6444137": {
+   "q": "Total Kills Over/Under 30.5 in Game 2?",
+   "p": 0.5,
+   "yes": 0.465,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793509200.0,
+   "t": 1793456328.2149434,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "5330802": {
+   "q": "U.S. anti-cartel operation outside of the U.S. by October 31?",
+   "p": 0.16,
+   "yes": 0.155,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793505540.0,
+   "t": 1793456334.9512243,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6441394": {
+   "q": "Total Kills Over/Under 24.5 in Game 1?",
+   "p": 0.54,
+   "yes": 0.565,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793498400.0,
+   "t": 1793456341.2807183,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6441390": {
+   "q": "Total Kills Over/Under 27.5 in Game 2?",
+   "p": 0.57,
+   "yes": 0.575,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793509200.0,
+   "t": 1793456347.6798816,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6441391": {
+   "q": "Total Kills Over/Under 24.5 in Game 2?",
+   "p": 0.5,
+   "yes": 0.585,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793487600.0,
+   "t": 1793456353.487814,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6439251": {
+   "q": "Republican House odds dip to 6% by November 1?",
+   "p": 0.71,
+   "yes": 0.705,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793595540.0,
+   "t": 1793456359.341178,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -9022,6 +9406,10 @@
   {
    "t": 1793433526.9393349,
    "equity": 1312.61
+  },
+  {
+   "t": 1793456359.3411837,
+   "equity": 1315.45
   }
  ],
  "llm_calls": {
@@ -9033,8 +9421,8 @@
   "2026-10-28": 33,
   "2026-10-29": 37,
   "2026-10-30": 35,
-  "2026-10-31": 12
+  "2026-10-31": 22
  },
  "killed": false,
- "cycles": 52
+ "cycles": 53
 }
