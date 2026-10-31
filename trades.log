@@ -528,3 +528,17 @@
 2026-10-31 01:57:42Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-31 01:57:42Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-31 01:58:18Z ciclo 51: lidos=700 filtro=40 llm=6 clima=18 compras=2 vendas=2 descartados={'categoria_Esportes': 173, 'cripto': 15, 'combinado': 5, 'esporte_vivo': 1, 'clima_sem_modelo': 3} equity=$1274.23
+2026-10-31 07:57:13Z SELL YES [take-profit] Will the highest temperature in Shenzhen be 30°C o @ 0.835 pnl=$+4.66
+2026-10-31 07:57:13Z SELL YES [take-profit] Will the highest temperature in Tokyo be 23°C on O @ 0.949 pnl=$+14.45
+2026-10-31 07:57:13Z SELL YES [take-profit] Will the highest temperature in Singapore be 33°C  @ 0.964 pnl=$+13.97
+2026-10-31 07:57:22Z BUY YES [clima] Will the highest temperature in Madrid be 22°C on  @ 0.566 $13.78 edge=0.194 conf=medium | Modelo 0.16 vs mercado 0.54
+2026-10-31 07:57:23Z BUY YES [clima] Will the highest temperature in Cape Town be 21°C  @ 0.411 $13.78 edge=0.094 conf=medium | Modelo 0.21 vs mercado 0.40
+2026-10-31 07:57:24Z BUY YES [clima] Will the highest temperature in Tel Aviv be 27°C o @ 0.506 $13.78 edge=0.128 conf=medium | Modelo 0.20 vs mercado 0.47
+2026-10-31 07:57:40Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 07:57:50Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 07:58:01Z erro previsao KORD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 07:58:11Z erro previsao KORD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 07:58:11Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-31 07:58:23Z BUY YES [llm] Will Аndrey Gyurov win the next Bulgarian presiden @ 0.350 $39.13 edge=0.077 conf=medium | Market underprices Gyurov's chances given broad establishment endorsements from former PMs and presidents heading into the runoff.
+2026-10-31 07:58:46Z BUY YES [llm] Will voter turnout in the second round of the 2026 @ 0.191 $27.35 edge=0.066 conf=medium | The market underestimates the compounding effect of voter apathy and fatigue from consecutive rounds, driving expected turnout down into the 22-24% range.
+2026-10-31 07:58:46Z ciclo 52: lidos=900 filtro=32 llm=6 clima=14 compras=5 vendas=3 descartados={'esporte_vivo': 9, 'categoria_Esportes': 275, 'combinado': 10, 'cripto': 23, 'clima_sem_modelo': 2} equity=$1312.61
