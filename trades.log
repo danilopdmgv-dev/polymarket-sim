@@ -556,3 +556,14 @@
 2026-10-31 14:18:29Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-31 14:18:29Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-31 14:19:19Z ciclo 53: lidos=700 filtro=34 llm=8 clima=10 compras=4 vendas=4 descartados={'esporte_vivo': 34, 'categoria_Esportes': 289, 'cripto': 11, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1315.45
+2026-10-31 18:40:09Z SELL YES [take-profit] Will the highest temperature in Buenos Aires be 26 @ 0.903 pnl=$+17.29
+2026-10-31 18:40:10Z SELL YES [take-profit] Will the highest temperature in Tel Aviv be 27°C o @ 0.604 pnl=$+2.68
+2026-10-31 18:40:30Z BUY YES [clima] Will the highest temperature in Moscow be 10°C on  @ 0.451 $13.95 edge=0.135 conf=medium | Modelo 0.17 vs mercado 0.43
+2026-10-31 18:40:30Z BUY YES [clima] Will the highest temperature in Jeddah be 35°C on  @ 0.480 $13.95 edge=0.162 conf=medium | Modelo 0.16 vs mercado 0.46
+2026-10-31 18:40:44Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 18:40:54Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 18:41:04Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 18:41:14Z erro previsao KLAX: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 18:41:14Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-31 18:41:53Z erro LLM Total Kills Over/Under 27.5 in Game 2?: Invalid \uXXXX escape: line 1 column 322 (char 321)
+2026-10-31 18:42:05Z ciclo 54: lidos=700 filtro=50 llm=8 clima=11 compras=2 vendas=2 descartados={'categoria_Esportes': 169, 'esporte_vivo': 22, 'cripto': 17, 'clima_sem_modelo': 2} equity=$1328.30

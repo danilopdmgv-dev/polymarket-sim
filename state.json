@@ -1,56 +1,6 @@
 {
- "cash": 1169.0771461773215,
+ "cash": 1188.4699169687517,
  "positions": [
-  {
-   "mid": "6384924",
-   "q": "Will the highest temperature in Buenos Aires be 26°C on October 31?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "56391038741741727729039328595358720776906675720754200751935256915151170523829",
-   "entry": 0.3962932318627427,
-   "fair": 0.535249827041808,
-   "shares": 34.156538297537836,
-   "cost": 13.53600495117481,
-   "t": 1793400363.5814881,
-   "mark": 0.43,
-   "conf": "medium",
-   "llm_p": 0.05458362159698682,
-   "mkt_yes": 0.355,
-   "edge": 0.13895659517906533,
-   "evidence": [
-    "Previsao Open-Meteo geo:buenos aires 2026-10-31: maxima 22.4C (3 modelos, sigma 2.4)"
-   ],
-   "misprice": "Modelo 0.05 vs mercado 0.35",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:buenos aires|2026-10-31",
-   "inv": true
-  },
-  {
-   "mid": "6407304",
-   "q": "Will the highest temperature in Tel Aviv be 27°C on November 1?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "53034583421908876618450407445625493279474171182819360371503028806821659105136",
-   "entry": 0.5057567146081748,
-   "fair": 0.6337979151575456,
-   "shares": 27.251063507551546,
-   "cost": 13.782408349157995,
-   "t": 1793433444.3285146,
-   "mark": 0.6,
-   "conf": "medium",
-   "llm_p": 0.19700347473742397,
-   "mkt_yes": 0.47,
-   "edge": 0.12804120054937074,
-   "evidence": [
-    "Previsao Open-Meteo LLBG 2026-11-01: maxima 26.1C (3 modelos, sigma 1.8)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.47",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LLBG|2026-11-01",
-   "inv": true
-  },
   {
    "mid": "1194657",
    "q": "Will Аndrey Gyurov win the next Bulgarian presidential election?",
@@ -90,7 +40,7 @@
    "shares": 143.12237440491253,
    "cost": 27.34604831182142,
    "t": 1793433526.9379237,
-   "mark": 0.17,
+   "mark": 0.15,
    "conf": "medium",
    "llm_p": 0.35,
    "mkt_yes": 0.165,
@@ -117,7 +67,7 @@
    "shares": 31.68975807564428,
    "cost": 13.812194748721975,
    "t": 1793456263.2033458,
-   "mark": 0.4358567432339466,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.17979596959257482,
    "mkt_yes": 0.41,
@@ -142,7 +92,7 @@
    "shares": 27.592419240673102,
    "cost": 13.812194748721975,
    "t": 1793456264.3720837,
-   "mark": 0.5005793304402196,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.20114065000395037,
    "mkt_yes": 0.485,
@@ -167,7 +117,7 @@
    "shares": 27.311968592922604,
    "cost": 13.812194748721973,
    "t": 1793456265.6513495,
-   "mark": 0.5057194871079762,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.16974154518099893,
    "mkt_yes": 0.47,
@@ -192,7 +142,7 @@
    "shares": 27.312842255737632,
    "cost": 13.812194748721973,
    "t": 1793456266.8880675,
-   "mark": 0.5057033105304313,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.19670614857738744,
    "mkt_yes": 0.48,
@@ -204,6 +154,56 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "geo:houston|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6407462",
+   "q": "Will the highest temperature in Moscow be 10°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "17136314194499444594051783399257492791820481885753894265022630397251128052778",
+   "entry": 0.45065931307404006,
+   "fair": 0.586109533889957,
+   "shares": 30.948355166702534,
+   "cost": 13.947164480197582,
+   "t": 1793472030.0773592,
+   "mark": 0.45065931307404006,
+   "conf": "medium",
+   "llm_p": 0.16981744351673822,
+   "mkt_yes": 0.43,
+   "edge": 0.13545022081591696,
+   "evidence": [
+    "Previsao Open-Meteo UUWW 2026-11-01: maxima 8.6C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "UUWW|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6407532",
+   "q": "Will the highest temperature in Jeddah be 35°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "36064146047925631210707929211359644920147088384069795778386041912256806030351",
+   "entry": 0.4804829374762104,
+   "fair": 0.6427117311242453,
+   "shares": 29.027387639312646,
+   "cost": 13.94716448019758,
+   "t": 1793472030.69643,
+   "mark": 0.4804829374762104,
+   "conf": "medium",
+   "llm_p": 0.15548044812625778,
+   "mkt_yes": 0.46,
+   "edge": 0.16222879364803489,
+   "evidence": [
+    "Previsao Open-Meteo geo:jeddah 2026-11-01: maxima 34.9C (3 modelos, sigma 2.5)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:jeddah|2026-11-01",
    "inv": true
   }
  ],
@@ -2878,78 +2878,136 @@
    "pnl": 3.4770662084962094,
    "closed_t": 1793456243.9757183,
    "held_h": 6.333434719906913
+  },
+  {
+   "mid": "6384924",
+   "q": "Will the highest temperature in Buenos Aires be 26°C on October 31?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "56391038741741727729039328595358720776906675720754200751935256915151170523829",
+   "entry": 0.3962932318627427,
+   "fair": 0.535249827041808,
+   "shares": 34.156538297537836,
+   "cost": 13.53600495117481,
+   "t": 1793400363.5814881,
+   "mark": 0.988,
+   "conf": "medium",
+   "llm_p": 0.05458362159698682,
+   "mkt_yes": 0.355,
+   "edge": 0.13895659517906533,
+   "evidence": [
+    "Previsao Open-Meteo geo:buenos aires 2026-10-31: maxima 22.4C (3 modelos, sigma 2.4)"
+   ],
+   "misprice": "Modelo 0.05 vs mercado 0.35",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:buenos aires|2026-10-31",
+   "inv": true,
+   "exit": 0.9025427567520287,
+   "reason": "take-profit",
+   "pnl": 17.291731284991233,
+   "closed_t": 1793472009.9552236,
+   "held_h": 19.901770482063295
+  },
+  {
+   "mid": "6407304",
+   "q": "Will the highest temperature in Tel Aviv be 27°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "53034583421908876618450407445625493279474171182819360371503028806821659105136",
+   "entry": 0.5057567146081748,
+   "fair": 0.6337979151575456,
+   "shares": 27.251063507551546,
+   "cost": 13.782408349157995,
+   "t": 1793433444.3285146,
+   "mark": 0.62,
+   "conf": "medium",
+   "llm_p": 0.19700347473742397,
+   "mkt_yes": 0.47,
+   "edge": 0.12804120054937074,
+   "evidence": [
+    "Previsao Open-Meteo LLBG 2026-11-01: maxima 26.1C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LLBG|2026-11-01",
+   "inv": true,
+   "exit": 0.603989767632318,
+   "reason": "take-profit",
+   "pnl": 2.676955166501605,
+   "closed_t": 1793472010.1258125,
+   "held_h": 10.712721471720272
   }
  ],
  "cache": {
   "1194643": {
-   "t": 1793456315.7163074,
-   "yes": 0.665,
+   "t": 1793472081.134366,
+   "yes": 0.675,
    "est": {
-    "p": 0.67,
+    "p": 0.69,
     "conf": "low",
     "evidence": [
-     "Bulgaria held the first round of the presidential election on October 25, 2026, heading to a runoff with low voter turnout.",
-     "Iliana Yotova finished narrowly ahead in the first round according to reports on October 25, 2026.",
-     "The presidential runoff is drawing active coverage regarding candidate divisions as of October 30, 2026."
+     "Yotova finished narrowly ahead in the first round of the presidential vote held on Sunday, October 25, 2026.",
+     "Bulgarian media and news reports from October 26 to October 30 confirm the election is heading to a runoff."
     ],
-    "misprice": "O mercado já reflete adequadamente a vantagem inicial de Yotova e a incerteza padrão do segundo turno.",
-    "reason": "Yotova lidera o primeiro turno, mas a corrida para o segundo turno permanece disputada com base nas notícias recentes."
+    "misprice": "O mercado já precifica adequadamente sua posição de liderança no primeiro turno e a dinâmica esperada para o segundo turno.",
+    "reason": "Como Yotova venceu o primeiro turno por margem estreita e disputa o segundo turno, sua probabilidade base permanece em torno de 69%, refletindo sua ligeira vantagem inicial."
    }
   },
   "1194657": {
-   "t": 1793456250.6708677,
+   "t": 1793472015.9741025,
    "yes": 0.325,
    "est": {
-    "p": 0.52,
-    "conf": "medium",
+    "p": 0.32,
+    "conf": "low",
     "evidence": [
-     "Bulgaria's 2026 presidential elections headed to a runoff after the first round on October 30, 2026.",
-     "Three former Prime Ministers and two former presidents endorsed Andrey Gyurov ahead of the runoff, according to reports on October 30, 2026.",
-     "Andrey Gyurov participated in a televised debate against Yotova on October 29, 2026, leading into Sunday's decisive vote."
+     "Nenhuma nova pesquisa eleitoral ou anuncio oficial sobre a candidatura de Andrey Gyurov foi publicado recentemente.",
+     "As eleicoes presidenciais na Bulgaria estao agendadas para o outono de 2026."
     ],
-    "misprice": "The market underprices Gyurov given his broad institutional endorsements from multiple former PMs and presidents heading into the runoff.",
-    "reason": "Gyurov is in a competitive runoff position with significant high-level political backing just before the final vote."
+    "misprice": "O mercado reflete adequadamente a incerteza atual sobre a candidatura e as chances de vitoria de Gyurov.",
+    "reason": "A falta de dados concretos recentes e novas pesquisas mantem a probabilidade alinhada ao preco atual de mercado."
    }
   },
   "6257190": {
-   "t": 1793456322.1445248,
-   "yes": 0.795,
+   "t": 1793472094.5251467,
+   "yes": 0.8,
    "est": {
-    "p": 0.82,
+    "p": 0.85,
     "conf": "low",
     "evidence": [
-     "Bulgarian presidential runoff scheduled for November 1, 2026, following the first round.",
-     "Historical turnout baselines and current runoff news indicate engagement remains above the 24% threshold."
+     "Bulgaria presidential runoff scheduled for November 1, 2026, following the first round.",
+     "Historical second-round turnout in Bulgaria typically remains well above the 24% threshold."
     ],
-    "misprice": "The market slightly underestimates the baseline mobilization typically seen in Bulgarian presidential runoffs.",
-    "reason": "Despite forecasts of low turnout, historical precedents and runoff dynamics strongly favor a turnout exceeding 24%."
+    "misprice": "O mercado subestima ligeiramente a alta participação tradicionalmente observada em segundos turnos presidenciais na Bulgária.",
+    "reason": "A participação histórica e o acirrado debate geopolítico entre candidatos pró-Rússia e pró-Ocidente garantem comparecimento acima de 24%."
    }
   },
   "6257188": {
-   "t": 1793456256.854085,
-   "yes": 0.18,
+   "t": 1793472022.1675684,
+   "yes": 0.16,
    "est": {
-    "p": 0.2,
+    "p": 0.15,
     "conf": "low",
     "evidence": [
-     "The first round of the 2026 presidential election on October 25 already resulted in record low turnout, heading to a runoff on November 1.",
-     "Recent historical precedent in Bulgarian presidential runoff elections shows turnout hovering around low-to-mid 30s, but declining trends suggest suppressed participation."
+     "Bulgarian presidential runoff scheduled for November 1, 2026, following the first round.",
+     "Historical second-round turnout in Bulgaria tends to fluctuate based on political polarization."
     ],
-    "misprice": "Market underprices the continuation of record-low engagement trends observed in the first round.",
-    "reason": "Historical runoff turnouts in Bulgaria are usually higher than 24%, but extreme voter apathy in the first round on Oct 25, 2026, pushes probabilities toward the lower brackets."
+    "misprice": "O mercado já precifica adequadamente a baixa probabilidade desta faixa específica de comparecimento.",
+    "reason": "A faixa de 22-24% é historicamente estreita e improvável para um segundo turno presidencial na Bulgária, onde os eleitores costumam se abster ou concentrar em outras faixas."
    }
   },
   "6444137": {
-   "t": 1793456328.2149396,
+   "t": 1793472087.4402514,
    "yes": 0.465,
    "est": {
-    "p": 0.5,
+    "p": 0.47,
     "conf": "low",
     "evidence": [
-     "Nao ha dados especificos disponiveis sobre o Game 2 da partida entre Hanwha Life Esports e Bilibili Gaming."
+     "Nenhuma informacao nova sobre o draft ou estado das equipes para o Game 2 foi divulgada ate 2026-10-31."
     ],
-    "misprice": "O mercado reflete adequadamente a linha estatistica padrao para esports sem dados novos suficientes para divergir.",
-    "reason": "Como as noticias recentes nao fornecem informacoes concretas sobre o desempenho atual das equipes no jogo em questao, mantenho a probabilidade em 50% por falta de evidencia direcional."
+    "misprice": "O mercado reflete adequadamente a linha estatistica padrao para Kills em partidas profissionais de LoL entre HLE e BLG.",
+    "reason": "A media historica de kills em Game 2 para equipes de elite tende a flutuar proxima a 30, tornando a linha de 30.5 uma aposta muito equilibrada."
    }
   },
   "5330802": {
@@ -2968,16 +3026,16 @@
    }
   },
   "6441394": {
-   "t": 1793456341.280715,
-   "yes": 0.565,
+   "t": 1793472100.823652,
+   "yes": 0.545,
    "est": {
-    "p": 0.54,
+    "p": 0.52,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos ou novas noticias sobre a partida LOS vs LYON no Worlds 2026 nas fontes fornecidas."
+     "Nenhuma informacao nova ou concreta sobre o draft ou estatisticas recentes das equipes LOS e LYON para o Jogo 1 foi divulgada nas ultimas 24 horas."
     ],
-    "misprice": "O preco de 0.565 esta proximo ao neutro, refletindo incerteza padrao para linhas de mata-mata em esports sem informacoes de drafts.",
-    "reason": "A media historica de aberturas em Worlds costuma girar proxima a 24-26 aberturas, mas sem dados concretos de equipes mantenho uma estimativa ligeiramente conservadora."
+    "misprice": "O mercado esta ligeiramente inclinado para o Over refletindo uma media historica de abates, mas sem dados especificos da partida atual.",
+    "reason": "A linha de 24.5 abates em League of Legends e proxima a media padrao para jogos eliminatorios, justificando uma probabilidade proxima ao preco atual de mercado de 54.5%."
    }
   },
   "6441390": {
@@ -3008,16 +3066,44 @@
    }
   },
   "6439251": {
-   "t": 1793456359.3411748,
-   "yes": 0.705,
+   "t": 1793472125.2066,
+   "yes": 0.755,
    "est": {
-    "p": 0.71,
+    "p": 0.74,
     "conf": "low",
     "evidence": [
-     "PredictionMarketOdds.com hourly data shows current Republican House control odds near or below the 6% threshold."
+     "Current market price of 0.755 reflects high probability of reaching the threshold within 36 hours.",
+     "Hourly resolution data on PredictionMarketOdds.com requires 4 consecutive readings at or below 6%."
     ],
-    "misprice": "The market is already heavily priced for Yes at 70.5%, reflecting the high likelihood of hitting four consecutive hours below 6% given current trends.",
-    "reason": "Current hourly readings on PredictionMarketOdds.com strongly suggest the threshold has been or will easily be met within the remaining 1.6 days."
+    "misprice": "Market is priced efficiently near current trajectory with no new conflicting data.",
+    "reason": "Given the current high baseline, a slight downward adjustment for standard volatility is warranted, but odds are overwhelmingly likely to hit 6% soon."
+   }
+  },
+  "6441389": {
+   "t": 1793472107.1926374,
+   "yes": 0.555,
+   "est": {
+    "p": 0.53,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos recentes sobre a media de abates do Game 1 entre HLE e BLG para o cenario de 2026."
+    ],
+    "misprice": "O preco atual reflete uma linha estatistica padrao de LoL para mata-mata sem desvios significativos evidentes.",
+    "reason": "A linha de 27.5 abates esta proxima da media historica para equipes de elite no Worlds, flutuando proxima a 50-55% dependendo do ritmo do draft."
+   }
+  },
+  "6366892": {
+   "t": 1793472119.3747623,
+   "yes": 0.915,
+   "est": {
+    "p": 0.9,
+    "conf": "low",
+    "evidence": [
+     "PredictionMarketOdds.com hourly Senate odds currently price Democrats at 91.5% on October 31, 2026.",
+     "Final battleground polls published between October 27 and 30, 2026 show Democrats maintaining a strong overall advantage in key races."
+    ],
+    "misprice": "O mercado está essencialmente precificado de forma correta com base no favoritismo democrata consolidado nas vésperas da eleição.",
+    "reason": "A alta probabilidade atual reflete o favoritismo consistente dos democratas nas projeções de controle do Senado a menos de 24 horas da medição."
    }
   }
  },
@@ -5066,7 +5152,7 @@
    "cat": "Politica",
    "end": 1793159940.0,
    "t": 1793002877.806128,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5078,7 +5164,7 @@
    "cat": "Politica",
    "end": 1793159940.0,
    "t": 1793002883.930271,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6582,7 +6668,7 @@
    "cat": "Entretenimento",
    "end": 1793376000.0,
    "t": 1793227530.0011816,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6594,7 +6680,7 @@
    "cat": "Entretenimento",
    "end": 1793376000.0,
    "t": 1793227536.030745,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -7383,7 +7469,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793306806.298991,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1926438157382826,
@@ -7441,7 +7527,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793320290.1805406,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2840401282277192,
@@ -7487,7 +7573,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793320295.7687368,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.28673035623781534,
@@ -7639,7 +7725,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793342454.6017141,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2640162259194903,
@@ -7754,7 +7840,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793342457.122501,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4737805005336323,
@@ -7777,7 +7863,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793342457.4461834,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3780367832733305,
@@ -9196,6 +9282,145 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6407404": {
+   "q": "Will the highest temperature in Chongqing be 18°C on November 1?",
+   "p": 0.2650999634587946,
+   "yes": 0.18,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793472028.548497,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4211712057626372,
+   "wx": {
+    "sid": "geo:chongqing",
+    "mu": 18.2,
+    "sigma": 1.46,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407532": {
+   "q": "Will the highest temperature in Jeddah be 35°C on November 1?",
+   "p": 0.15548044812625778,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793472030.696405,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.25562401101581395,
+   "wx": {
+    "sid": "geo:jeddah",
+    "mu": 34.87,
+    "sigma": 2.55,
+    "kind": "exact",
+    "a": 35,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6410262": {
+   "q": "Will the highest temperature in Atlanta be between 62-63°F on November 1?",
+   "p": 0.20489779852050716,
+   "yes": 0.395,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793472031.5739326,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2572717002126276,
+   "wx": {
+    "sid": "KATL",
+    "mu": 60.63,
+    "sigma": 3.28,
+    "kind": "range",
+    "a": 62,
+    "b": 63,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6411750": {
+   "q": "Will the highest temperature in New York City be between 62-63°F on November 1?",
+   "p": 0.23005384936614603,
+   "yes": 0.3375,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793472032.0814588,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.31701771462830686,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 61.1,
+    "sigma": 3.09,
+    "kind": "range",
+    "a": 62,
+    "b": 63,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6410253": {
+   "q": "Will the highest temperature in Dallas be between 80-81°F on November 1?",
+   "p": 0.2179708422905282,
+   "yes": 0.36,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793472032.7218313,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.32660802591936855,
+   "wx": {
+    "sid": "KDFW",
+    "mu": 79.4,
+    "sigma": 3.43,
+    "kind": "range",
+    "a": 80,
+    "b": 81,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6441389": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.53,
+   "yes": 0.555,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793509200.0,
+   "t": 1793472107.1926422,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6366892": {
+   "q": "Democratic Senate odds >68% on November 1?",
+   "p": 0.9,
+   "yes": 0.915,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793552400.0,
+   "t": 1793472119.3747666,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -9410,6 +9635,10 @@
   {
    "t": 1793456359.3411837,
    "equity": 1315.45
+  },
+  {
+   "t": 1793472125.2066085,
+   "equity": 1328.3
   }
  ],
  "llm_calls": {
@@ -9421,8 +9650,8 @@
   "2026-10-28": 33,
   "2026-10-29": 37,
   "2026-10-30": 35,
-  "2026-10-31": 22
+  "2026-10-31": 31
  },
  "killed": false,
- "cycles": 53
+ "cycles": 54
 }
