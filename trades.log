@@ -517,3 +517,14 @@
 2026-10-30 22:46:46Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-10-30 22:46:46Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-30 22:47:22Z ciclo 50: lidos=700 filtro=43 llm=6 clima=10 compras=1 vendas=1 descartados={'esporte_vivo': 10, 'cripto': 24, 'categoria_Esportes': 173, 'combinado': 4, 'clima_sem_modelo': 3} equity=$1289.14
+2026-10-31 01:56:40Z SELL YES [stop-loss] Will the highest temperature in Wellington be 14°C @ 0.092 pnl=$-10.79
+2026-10-31 01:56:40Z SELL YES [stop-loss] Will the highest temperature in Tel Aviv be 27°C o @ 0.237 pnl=$-5.62
+2026-10-31 01:56:47Z BUY YES [clima] Will the highest temperature in Milan be 17°C on O @ 0.576 $13.38 edge=0.116 conf=medium | Modelo 0.29 vs mercado 0.54
+2026-10-31 01:56:47Z BUY YES [clima] Will the highest temperature in Paris be 15°C on O @ 0.551 $13.38 edge=0.161 conf=medium | Modelo 0.24 vs mercado 0.54
+2026-10-31 01:57:02Z erro geocode Buenos Aires: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-31 01:57:12Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 01:57:22Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 01:57:32Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 01:57:42Z erro previsao WSSS: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 01:57:42Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-31 01:58:18Z ciclo 51: lidos=700 filtro=40 llm=6 clima=18 compras=2 vendas=2 descartados={'categoria_Esportes': 173, 'cripto': 15, 'combinado': 5, 'esporte_vivo': 1, 'clima_sem_modelo': 3} equity=$1274.23
