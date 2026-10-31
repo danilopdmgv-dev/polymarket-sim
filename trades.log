@@ -567,3 +567,11 @@
 2026-10-31 18:41:14Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-31 18:41:53Z erro LLM Total Kills Over/Under 27.5 in Game 2?: Invalid \uXXXX escape: line 1 column 322 (char 321)
 2026-10-31 18:42:05Z ciclo 54: lidos=700 filtro=50 llm=8 clima=11 compras=2 vendas=2 descartados={'categoria_Esportes': 169, 'esporte_vivo': 22, 'cripto': 17, 'clima_sem_modelo': 2} equity=$1328.30
+2026-10-31 22:06:10Z SELL YES [stop-loss] Will the highest temperature in Hong Kong be 28°C  @ 0.319 pnl=$-5.02
+2026-10-31 22:06:15Z BUY YES [clima] Will the highest temperature in Tokyo be 20°C on N @ 0.521 $13.93 edge=0.111 conf=medium | Modelo 0.25 vs mercado 0.49
+2026-10-31 22:06:29Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-31 22:06:39Z erro previsao KSFO: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 22:06:49Z erro previsao KSFO: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-10-31 22:06:57Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-10-31 22:06:57Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-10-31 22:07:33Z ciclo 55: lidos=600 filtro=34 llm=6 clima=20 compras=1 vendas=1 descartados={'esporte_vivo': 18, 'categoria_Esportes': 86, 'cripto': 15, 'clima_sem_modelo': 4} equity=$1326.38

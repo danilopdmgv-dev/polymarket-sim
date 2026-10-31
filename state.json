@@ -1,5 +1,5 @@
 {
- "cash": 1188.4699169687517,
+ "cash": 1183.3342583678448,
  "positions": [
   {
    "mid": "1194657",
@@ -40,7 +40,7 @@
    "shares": 143.12237440491253,
    "cost": 27.34604831182142,
    "t": 1793433526.9379237,
-   "mark": 0.15,
+   "mark": 0.17,
    "conf": "medium",
    "llm_p": 0.35,
    "mkt_yes": 0.165,
@@ -67,7 +67,7 @@
    "shares": 31.68975807564428,
    "cost": 13.812194748721975,
    "t": 1793456263.2033458,
-   "mark": 0.49,
+   "mark": 0.48,
    "conf": "medium",
    "llm_p": 0.17979596959257482,
    "mkt_yes": 0.41,
@@ -82,31 +82,6 @@
    "inv": true
   },
   {
-   "mid": "6407328",
-   "q": "Will the highest temperature in Hong Kong be 28°C on November 1?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "73493208558131888124089711574978324342402888280542745473360651182915058633540",
-   "entry": 0.5005793304402196,
-   "fair": 0.6553156099976297,
-   "shares": 27.592419240673102,
-   "cost": 13.812194748721975,
-   "t": 1793456264.3720837,
-   "mark": 0.47,
-   "conf": "medium",
-   "llm_p": 0.20114065000395037,
-   "mkt_yes": 0.485,
-   "edge": 0.1547362795574101,
-   "evidence": [
-    "Previsao Open-Meteo VHHH 2026-11-01: maxima 28.0C (3 modelos, sigma 2.0)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.48",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "VHHH|2026-11-01",
-   "inv": true
-  },
-  {
    "mid": "6407578",
    "q": "Will the highest temperature in Karachi be 36°C on November 1?",
    "cat": "Clima",
@@ -117,7 +92,7 @@
    "shares": 27.311968592922604,
    "cost": 13.812194748721973,
    "t": 1793456265.6513495,
-   "mark": 0.47,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.16974154518099893,
    "mkt_yes": 0.47,
@@ -142,7 +117,7 @@
    "shares": 27.312842255737632,
    "cost": 13.812194748721973,
    "t": 1793456266.8880675,
-   "mark": 0.49,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.19670614857738744,
    "mkt_yes": 0.48,
@@ -167,7 +142,7 @@
    "shares": 30.948355166702534,
    "cost": 13.947164480197582,
    "t": 1793472030.0773592,
-   "mark": 0.45065931307404006,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.16981744351673822,
    "mkt_yes": 0.43,
@@ -192,7 +167,7 @@
    "shares": 29.027387639312646,
    "cost": 13.94716448019758,
    "t": 1793472030.69643,
-   "mark": 0.4804829374762104,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.15548044812625778,
    "mkt_yes": 0.46,
@@ -204,6 +179,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "geo:jeddah|2026-11-01",
+   "inv": true
+  },
+  {
+   "mid": "6407317",
+   "q": "Will the highest temperature in Tokyo be 20°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "2585505882985873615554327509812621535110209460372502159516167903385155595119",
+   "entry": 0.5205758945354582,
+   "fair": 0.6319764910200263,
+   "shares": 26.753116281534904,
+   "cost": 13.927027439871162,
+   "t": 1793484375.5995617,
+   "mark": 0.5205758945354582,
+   "conf": "medium",
+   "llm_p": 0.2533725149666227,
+   "mkt_yes": 0.49,
+   "edge": 0.11140059648456813,
+   "evidence": [
+    "Previsao Open-Meteo RJTT 2026-11-01: maxima 19.2C (3 modelos, sigma 1.3)"
+   ],
+   "misprice": "Modelo 0.25 vs mercado 0.49",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "RJTT|2026-11-01",
    "inv": true
   }
  ],
@@ -2938,63 +2938,95 @@
    "pnl": 2.676955166501605,
    "closed_t": 1793472010.1258125,
    "held_h": 10.712721471720272
+  },
+  {
+   "mid": "6407328",
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "73493208558131888124089711574978324342402888280542745473360651182915058633540",
+   "entry": 0.5005793304402196,
+   "fair": 0.6553156099976297,
+   "shares": 27.592419240673102,
+   "cost": 13.812194748721975,
+   "t": 1793456264.3720837,
+   "mark": 0.36,
+   "conf": "medium",
+   "llm_p": 0.20114065000395037,
+   "mkt_yes": 0.485,
+   "edge": 0.1547362795574101,
+   "evidence": [
+    "Previsao Open-Meteo VHHH 2026-11-01: maxima 28.0C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "VHHH|2026-11-01",
+   "inv": true,
+   "exit": 0.31861536903604404,
+   "reason": "stop-loss",
+   "pnl": -5.020825909757672,
+   "closed_t": 1793484370.3489945,
+   "held_h": 7.80721580862999
   }
  ],
  "cache": {
   "1194643": {
-   "t": 1793472081.134366,
-   "yes": 0.675,
+   "t": 1793484424.0637033,
+   "yes": 0.67,
    "est": {
-    "p": 0.69,
+    "p": 0.67,
     "conf": "low",
     "evidence": [
-     "Yotova finished narrowly ahead in the first round of the presidential vote held on Sunday, October 25, 2026.",
-     "Bulgarian media and news reports from October 26 to October 30 confirm the election is heading to a runoff."
+     "Iliana Yotova finished narrowly ahead in the first round of the Bulgarian presidential election held in late October 2026.",
+     "The election heads to a presidential runoff following the first round vote on October 25, 2026.",
+     "Recent reports from October 30, 2026 highlight that the runoff involves divisions over Russia between the remaining candidates."
     ],
-    "misprice": "O mercado já precifica adequadamente sua posição de liderança no primeiro turno e a dinâmica esperada para o segundo turno.",
-    "reason": "Como Yotova venceu o primeiro turno por margem estreita e disputa o segundo turno, sua probabilidade base permanece em torno de 69%, refletindo sua ligeira vantagem inicial."
+    "misprice": "O mercado já reflete adequadamente a vantagem inicial de Yotova e a incerteza padrão de um segundo turno presidencial.",
+    "reason": "Yotova liderou o primeiro turno, mas a disputa em segundo turno contra o opositor com divergências geopolíticas justifica a probabilidade atual em torno de 67%."
    }
   },
   "1194657": {
-   "t": 1793472015.9741025,
+   "t": 1793484363.8824883,
    "yes": 0.325,
    "est": {
-    "p": 0.32,
+    "p": 0.3,
     "conf": "low",
     "evidence": [
-     "Nenhuma nova pesquisa eleitoral ou anuncio oficial sobre a candidatura de Andrey Gyurov foi publicado recentemente.",
-     "As eleicoes presidenciais na Bulgaria estao agendadas para o outono de 2026."
+     "Bulgarian presidential elections are scheduled for the autumn of 2026.",
+     "Andrey Gyurov remains a notable political figure in Bulgaria as of late 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza atual sobre a candidatura e as chances de vitoria de Gyurov.",
-    "reason": "A falta de dados concretos recentes e novas pesquisas mantem a probabilidade alinhada ao preco atual de mercado."
+    "misprice": "O mercado avalia adequadamente a viabilidade competitiva de Gyurov dentro da margem de erro atual.",
+    "reason": "A probabilidade reflete incertezas tradicionais de segundo turno e a volatilidade do cenário político búlgaro próximo ao pleito."
    }
   },
   "6257190": {
-   "t": 1793472094.5251467,
-   "yes": 0.8,
+   "t": 1793484435.845669,
+   "yes": 0.685,
    "est": {
-    "p": 0.85,
+    "p": 0.72,
     "conf": "low",
     "evidence": [
-     "Bulgaria presidential runoff scheduled for November 1, 2026, following the first round.",
-     "Historical second-round turnout in Bulgaria typically remains well above the 24% threshold."
+     "O segundo turno das eleições presidenciais na Bulgária está agendado para 1 de novembro de 2026.",
+     "Notícias recentes indicam forte mobilização e polarização em torno do segundo turno devido a questões geopolíticas na região do Mar Negro.",
+     "O comparecimento eleitoral histórico em segundos turnos presidenciais na Bulgária geralmente supera o piso de 24%."
     ],
-    "misprice": "O mercado subestima ligeiramente a alta participação tradicionalmente observada em segundos turnos presidenciais na Bulgária.",
-    "reason": "A participação histórica e o acirrado debate geopolítico entre candidatos pró-Rússia e pró-Ocidente garantem comparecimento acima de 24%."
+    "misprice": "O mercado subestima ligeiramente a alta mobilização típica de segundos turnos presidenciais polarizados na Bulgária.",
+    "reason": "Com base no histórico de participação em turnos decisivos e no alto interesse geopolítico recente, a probabilidade de o comparecimento atingir pelo menos 24% é sólida."
    }
   },
   "6257188": {
-   "t": 1793472022.1675684,
-   "yes": 0.16,
+   "t": 1793484370.0076864,
+   "yes": 0.18,
    "est": {
-    "p": 0.15,
+    "p": 0.2,
     "conf": "low",
     "evidence": [
-     "Bulgarian presidential runoff scheduled for November 1, 2026, following the first round.",
-     "Historical second-round turnout in Bulgaria tends to fluctuate based on political polarization."
+     "The first round of the presidential election on October 25, 2026, already suffered from record low turnout.",
+     "The second round is scheduled for November 1, 2026, with current market pricing reflecting low expectations around 18%."
     ],
-    "misprice": "O mercado já precifica adequadamente a baixa probabilidade desta faixa específica de comparecimento.",
-    "reason": "A faixa de 22-24% é historicamente estreita e improvável para um segundo turno presidencial na Bulgária, onde os eleitores costumam se abster ou concentrar em outras faixas."
+    "misprice": "O mercado já precifica adequadamente a tendência de baixa histórica na participação eleitoral búlgara.",
+    "reason": "A expectativa de comparecimento continua muito baixa devido à apatia dos eleitores e ao histórico recente do primeiro turno."
    }
   },
   "6444137": {
@@ -3011,18 +3043,17 @@
    }
   },
   "5330802": {
-   "t": 1793456334.9512198,
-   "yes": 0.155,
+   "t": 1793484429.8836648,
+   "yes": 0.815,
    "est": {
-    "p": 0.16,
+    "p": 0.83,
     "conf": "low",
     "evidence": [
-     "Relatorios de outubro de 2025 indicam planos de ataques a alvos militares na Venezuela ligados a narcotrafico",
-     "Prazo de resolucao expira em 31 de outubro de 2026 as 23:59 ET",
-     "Preco atual de mercado reflete baixa probabilidade de acao cinetica direta em solo estrangeiro"
+     "Relatos de escalada militar dos EUA contra o regime de Maduro em 2026 conectam operações antidrogas na região",
+     "Discussões no Congresso sobre a estratégia antidrogas e prazos da War Powers Resolution em outubro de 2025"
     ],
-    "misprice": "O mercado esta essencialmente correto ao precificar baixa probabilidade devido a falta de confirmacao de acao em solo ate o momento.",
-    "reason": "Apesar das tensoes crescentes e planos de ataque contra o regime de Maduro, faltam evidencias concretas de boots on the ground ou acao cinetica direta contra cartazes ja executada."
+    "misprice": "O mercado já precifica corretamente a alta probabilidade com base nos preparativos e retórica agressiva contínua.",
+    "reason": "A alta probabilidade reflete o alinhamento político e as ações cinéticas iminentes focadas em cartéis e narcotráfico no exterior."
    }
   },
   "6441394": {
@@ -3036,33 +3067,6 @@
     ],
     "misprice": "O mercado esta ligeiramente inclinado para o Over refletindo uma media historica de abates, mas sem dados especificos da partida atual.",
     "reason": "A linha de 24.5 abates em League of Legends e proxima a media padrao para jogos eliminatorios, justificando uma probabilidade proxima ao preco atual de mercado de 54.5%."
-   }
-  },
-  "6441390": {
-   "t": 1793456347.6798782,
-   "yes": 0.575,
-   "est": {
-    "p": 0.57,
-    "conf": "low",
-    "evidence": [
-     "O confronto entre Hanwha Life Esports e Bilibili Gaming no Worlds Group Stage esta agendado para 31 de outubro de 2026.",
-     "A linha estatistica padrao para Kills Totais em partidas eliminatorias de alto nivel no LoL Worlds costuma flutuar em torno de 26 a 28 abates."
-    ],
-    "misprice": "O mercado esta essencialmente alinhado com a media historica para o mata-mata do Worlds sem divergincias estatisticas significativas.",
-    "reason": "A linha de 27.5 kills esta muito proxima da mediana historica para partidas competitivas tier 1 entre HLE e BLG, tornando o preco atual justo."
-   }
-  },
-  "6441391": {
-   "t": 1793456353.4878094,
-   "yes": 0.585,
-   "est": {
-    "p": 0.5,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma noticia especifica ou dado sobre o Game 2 entre Karmine Corp e Movistar KOI foi encontrado nas fontes recentes fornecidas."
-    ],
-    "misprice": "O mercado reflete apenas estimativas padrao sem informacoes novas que justifiquem desvio significativo da media historica.",
-    "reason": "Na ausencia de dados concretos sobre as equipes para esta partida especifica, a probabilidade deve se manter proxima ao equilibrio estatistico de 24.5 kills."
    }
   },
   "6439251": {
@@ -3080,30 +3084,47 @@
    }
   },
   "6441389": {
-   "t": 1793472107.1926374,
-   "yes": 0.555,
+   "t": 1793484441.902543,
+   "yes": 0.585,
    "est": {
-    "p": 0.53,
+    "p": 0.55,
     "conf": "low",
     "evidence": [
-     "Nao ha dados estatisticos especificos recentes sobre a media de abates do Game 1 entre HLE e BLG para o cenario de 2026."
+     "O confronto entre Hanwha Life Esports e Bilibili Gaming ocorre na Fase de Grupos do Worlds 2026 em 31 de outubro de 2026.",
+     "A linha de O/U para abates (kills) no Game 1 está definida em 27.5 pelo mercado atual de 0.585."
     ],
-    "misprice": "O preco atual reflete uma linha estatistica padrao de LoL para mata-mata sem desvios significativos evidentes.",
-    "reason": "A linha de 27.5 abates esta proxima da media historica para equipes de elite no Worlds, flutuando proxima a 50-55% dependendo do ritmo do draft."
+    "misprice": "O preço de mercado reflete de forma adequada a volatilidade estatística padrão para jogos eliminatórios de alto nível entre HLE e BLG.",
+    "reason": "A linha de 27.5 abates em partidas profissionais de LoL de elite tende a flutuar perto de 50-50, dependendo estritamente do ritmo inicial de rascunho (draft) e das escolhas de campeões."
    }
   },
   "6366892": {
-   "t": 1793472119.3747623,
+   "t": 1793484447.8267102,
    "yes": 0.915,
    "est": {
     "p": 0.9,
     "conf": "low",
     "evidence": [
-     "PredictionMarketOdds.com hourly Senate odds currently price Democrats at 91.5% on October 31, 2026.",
-     "Final battleground polls published between October 27 and 30, 2026 show Democrats maintaining a strong overall advantage in key races."
+     "The Senate control window resolves on 1 Nov 2026 based on PredictionMarketOdds.com data.",
+     "Recent polls and forecasts from late October 2026 show Democrats maintaining a strong advantage in Senate projections.",
+     "Current market price is 0.915, reflecting a heavy favorite status for Democratic Senate odds exceeding 68%."
     ],
-    "misprice": "O mercado está essencialmente precificado de forma correta com base no favoritismo democrata consolidado nas vésperas da eleição.",
-    "reason": "A alta probabilidade atual reflete o favoritismo consistente dos democratas nas projeções de controle do Senado a menos de 24 horas da medição."
+    "misprice": "O mercado já precifica adequadamente a probabilidade elevada com base nas projeções atuais das midterms.",
+    "reason": "As odds atuais refletem a forte probabilidade de os democratas manterem o controle projetado acima de 68% na véspera da eleição."
+   }
+  },
+  "6366898": {
+   "t": 1793484453.8470557,
+   "yes": 0.79,
+   "est": {
+    "p": 0.78,
+    "conf": "low",
+    "evidence": [
+     "PredictionMarketOdds.com hourly Senate odds are currently hovering around 79% on October 31, 2026",
+     "Battleground Senate races in Texas, Ohio, Alaska, and Maine are heavily contested ahead of November 3",
+     "Consensus forecasts from late October 2026 show Democrats as strong favorites to retain or win Senate control"
+    ],
+    "misprice": "O mercado está essencialmente correto precificando as chances democratas perto de 79 com base nas pesquisas atuais para 2026.",
+    "reason": "A probabilidade de fechar acima de 68 por cento em 2 de novembro permanece alta, mas há volatilidade de última hora nas margens das pesquisas."
    }
   }
  },
@@ -5790,7 +5811,7 @@
    "cat": "Politica",
    "end": 1793159940.0,
    "t": 1793146324.7596695,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6692,7 +6713,7 @@
    "cat": "Entretenimento",
    "end": 1793376000.0,
    "t": 1793227542.0354717,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6704,7 +6725,7 @@
    "cat": "Outros",
    "end": 1793390400.0,
    "t": 1793227548.255868,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -6764,7 +6785,7 @@
    "cat": "Entretenimento",
    "end": 1793376000.0,
    "t": 1793239310.1337469,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -7064,7 +7085,7 @@
    "cat": "Entretenimento",
    "end": 1793376000.0,
    "t": 1793263492.7945104,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -7677,7 +7698,7 @@
    "cat": "Politica",
    "end": 1793376000.0,
    "t": 1793320362.1355598,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8188,7 +8209,7 @@
    "cat": "Outros",
    "end": 1793422800.0,
    "t": 1793368006.9179156,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8535,7 +8556,7 @@
    "cat": "Outros",
    "end": 1793412000.0,
    "t": 1793386701.3707454,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8651,7 +8672,7 @@
    "cat": "Outros",
    "end": 1793422800.0,
    "t": 1793400436.2692044,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9421,6 +9442,432 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6407317": {
+   "q": "Will the highest temperature in Tokyo be 20°C on November 1?",
+   "p": 0.2533725149666227,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484375.599534,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.313906755831578,
+   "wx": {
+    "sid": "RJTT",
+    "mu": 19.23,
+    "sigma": 1.3,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407512": {
+   "q": "Will the highest temperature in Helsinki be 8°C on November 1?",
+   "p": 0.22922600006735905,
+   "yes": 0.59,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484377.0677505,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2958694868035696,
+   "wx": {
+    "sid": "geo:helsinki",
+    "mu": 8.8,
+    "sigma": 1.49,
+    "kind": "exact",
+    "a": 8,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407296": {
+   "q": "Will the highest temperature in Munich be 9°C on November 1?",
+   "p": 0.16905717563589184,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484377.2295136,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1738411794862874,
+   "wx": {
+    "sid": "EDDM",
+    "mu": 7.67,
+    "sigma": 1.76,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6446533": {
+   "q": "Will the highest temperature in Helsinki be 9°C on November 2?",
+   "p": 0.21632271577873224,
+   "yes": 0.475,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793484377.2299411,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.34788689632271536,
+   "wx": {
+    "sid": "geo:helsinki",
+    "mu": 8.77,
+    "sigma": 1.81,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6407385": {
+   "q": "Will the highest temperature in Warsaw be 9°C on November 1?",
+   "p": 0.2150781088943418,
+   "yes": 0.495,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484377.7744982,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.32494599046231026,
+   "wx": {
+    "sid": "EPWA",
+    "mu": 9.53,
+    "sigma": 1.75,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407261": {
+   "q": "Will the highest temperature in Ankara be 17°C on November 1?",
+   "p": 0.2841408063135586,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484377.9591782,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.45061979156806786,
+   "wx": {
+    "sid": "LTAC",
+    "mu": 16.83,
+    "sigma": 1.36,
+    "kind": "exact",
+    "a": 17,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407499": {
+   "q": "Will the highest temperature in Amsterdam be 11°C on November 1?",
+   "p": 0.18425905004934023,
+   "yes": 0.44,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484378.146664,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.21314739493332413,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 12.13,
+    "sigma": 1.74,
+    "kind": "exact",
+    "a": 11,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6418857": {
+   "q": "Will the highest temperature in Toronto be 17°C on November 1?",
+   "p": 0.21203212677232985,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484378.3119144,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3212583413170669,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 16.47,
+    "sigma": 1.78,
+    "kind": "exact",
+    "a": 17,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407295": {
+   "q": "Will the highest temperature in Munich be 8°C on November 1?",
+   "p": 0.21952392029548512,
+   "yes": 0.515,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484378.3122988,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3473139035289834,
+   "wx": {
+    "sid": "EDDM",
+    "mu": 7.67,
+    "sigma": 1.76,
+    "kind": "exact",
+    "a": 8,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407513": {
+   "q": "Will the highest temperature in Helsinki be 9°C on November 1?",
+   "p": 0.2612842238422611,
+   "yes": 0.3,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484378.3124325,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.415670975398564,
+   "wx": {
+    "sid": "geo:helsinki",
+    "mu": 8.8,
+    "sigma": 1.49,
+    "kind": "exact",
+    "a": 9,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6411771": {
+   "q": "Will the highest temperature in Austin be between 84-85°F on November 1?",
+   "p": 0.154196994272356,
+   "yes": 0.47,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484379.014414,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1306492991909345,
+   "wx": {
+    "sid": "geo:austin",
+    "mu": 81.4,
+    "sigma": 3.43,
+    "kind": "range",
+    "a": 84,
+    "b": 85,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6407262": {
+   "q": "Will the highest temperature in Ankara be 18°C on November 1?",
+   "p": 0.20165796783091994,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484379.0148346,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1867442841405358,
+   "wx": {
+    "sid": "LTAC",
+    "mu": 16.83,
+    "sigma": 1.36,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6411749": {
+   "q": "Will the highest temperature in New York City be between 60-61°F on November 1?",
+   "p": 0.2513803891944733,
+   "yes": 0.635,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484379.1449394,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.398186610816055,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 60.0,
+    "sigma": 3.08,
+    "kind": "range",
+    "a": 60,
+    "b": 61,
+    "unit": "F",
+    "date": "2026-11-01"
+   }
+  },
+  "6407500": {
+   "q": "Will the highest temperature in Amsterdam be 12°C on November 1?",
+   "p": 0.22607149480512012,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484379.1452973,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36609008895296163,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 12.13,
+    "sigma": 1.74,
+    "kind": "exact",
+    "a": 12,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6407478": {
+   "q": "Will the highest temperature in Istanbul be 17°C on November 1?",
+   "p": 0.19937073635486519,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793534400.0,
+   "t": 1793484380.2213655,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.20502441661626641,
+   "wx": {
+    "sid": "geo:istanbul",
+    "mu": 18.13,
+    "sigma": 1.48,
+    "kind": "exact",
+    "a": 17,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-01"
+   }
+  },
+  "6446610": {
+   "q": "Will the highest temperature in Manila be 34°C on November 2?",
+   "p": 0.19697173300525395,
+   "yes": 0.56,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793484380.9231079,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3049725219386994,
+   "wx": {
+    "sid": "geo:manila",
+    "mu": 33.5,
+    "sigma": 1.94,
+    "kind": "exact",
+    "a": 34,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6446368": {
+   "q": "Will the highest temperature in Shanghai be 21°C on November 2?",
+   "p": 0.18287453184614555,
+   "yes": 0.595,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793484381.2376592,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2059874380063058,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 19.83,
+    "sigma": 1.72,
+    "kind": "exact",
+    "a": 21,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6447569": {
+   "q": "Will the highest temperature in London be 13°C on November 2?",
+   "p": 0.18680868189687394,
+   "yes": 0.505,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793484381.4250288,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3039891575655056,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 12.8,
+    "sigma": 2.11,
+    "kind": "exact",
+    "a": 13,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6366898": {
+   "q": "Democratic Senate odds >68% on November 2?",
+   "p": 0.78,
+   "yes": 0.79,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793638800.0,
+   "t": 1793484453.84706,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -9639,6 +10086,10 @@
   {
    "t": 1793472125.2066085,
    "equity": 1328.3
+  },
+  {
+   "t": 1793484453.8477263,
+   "equity": 1326.38
   }
  ],
  "llm_calls": {
@@ -9650,8 +10101,8 @@
   "2026-10-28": 33,
   "2026-10-29": 37,
   "2026-10-30": 35,
-  "2026-10-31": 31
+  "2026-10-31": 39
  },
  "killed": false,
- "cycles": 54
+ "cycles": 55
 }
