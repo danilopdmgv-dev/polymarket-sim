@@ -592,3 +592,21 @@
 2026-11-01 07:46:32Z erro geocode Austin: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-11-01 07:46:32Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-01 07:47:02Z ciclo 57: lidos=700 filtro=30 llm=5 clima=17 compras=2 vendas=2 descartados={'categoria_Esportes': 182, 'cripto': 18, 'combinado': 6, 'esporte_vivo': 2, 'clima_sem_modelo': 4} equity=$1322.68
+2026-11-01 14:38:33Z SELL YES [stop-loss] Will Аndrey Gyurov win the next Bulgarian presiden @ 0.179 pnl=$-19.11
+2026-11-01 14:38:33Z SELL YES [take-profit] Will the highest temperature in Paris be 13°C on N @ 0.908 pnl=$+14.96
+2026-11-01 14:38:34Z SELL YES [take-profit] Will the highest temperature in Moscow be 10°C on  @ 0.961 pnl=$+15.78
+2026-11-01 14:38:34Z SELL YES [take-profit] Will the highest temperature in Jeddah be 35°C on  @ 0.958 pnl=$+13.85
+2026-11-01 14:38:34Z SELL YES [stop-loss] Will the highest temperature in Munich be 9°C on N @ 0.010 pnl=$-13.60
+2026-11-01 14:38:34Z SELL YES [stop-loss] Will the highest temperature in London be 12°C on  @ 0.010 pnl=$-13.55
+2026-11-01 14:38:38Z BUY YES [clima] Will the highest temperature in Paris be 12°C on N @ 0.496 $13.92 edge=0.136 conf=medium | Modelo 0.20 vs mercado 0.47
+2026-11-01 14:38:38Z BUY YES [clima] Will the highest temperature in Helsinki be 9°C on @ 0.646 $13.92 edge=0.219 conf=medium | Modelo 0.21 vs mercado 0.62
+2026-11-01 14:38:40Z BUY YES [clima] Will the highest temperature in Amsterdam be 13°C  @ 0.601 $13.92 edge=0.181 conf=medium | Modelo 0.23 vs mercado 0.57
+2026-11-01 14:38:41Z BUY YES [clima] Will the highest temperature in Munich be 7°C on N @ 0.541 $13.92 edge=0.171 conf=medium | Modelo 0.21 vs mercado 0.53
+2026-11-01 14:38:41Z BUY YES [clima] Will the highest temperature in London be 13°C on  @ 0.506 $13.92 edge=0.134 conf=medium | Modelo 0.21 vs mercado 0.48
+2026-11-01 14:38:52Z erro geocode Wuhan: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-01 14:39:02Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 14:39:12Z erro previsao ZSPD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 14:39:22Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 14:39:32Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 14:39:32Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-01 14:40:15Z ciclo 58: lidos=500 filtro=31 llm=7 clima=15 compras=5 vendas=6 descartados={'esporte_vivo': 19, 'categoria_Esportes': 175, 'cripto': 14, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1325.92
