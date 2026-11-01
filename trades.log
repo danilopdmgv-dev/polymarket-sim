@@ -575,3 +575,10 @@
 2026-10-31 22:06:57Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-10-31 22:06:57Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-10-31 22:07:33Z ciclo 55: lidos=600 filtro=34 llm=6 clima=20 compras=1 vendas=1 descartados={'esporte_vivo': 18, 'categoria_Esportes': 86, 'cripto': 15, 'clima_sem_modelo': 4} equity=$1326.38
+2026-11-01 01:19:02Z SELL YES [stop-loss] Will voter turnout in the second round of the 2026 @ 0.134 pnl=$-8.24
+2026-11-01 01:19:24Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 01:19:34Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 01:19:42Z erro geocode Austin: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-01 01:19:50Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-01 01:19:50Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-01 01:20:38Z ciclo 56: lidos=600 filtro=42 llm=8 clima=13 compras=0 vendas=1 descartados={'categoria_Esportes': 89, 'esporte_vivo': 4, 'cripto': 11, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1320.20
