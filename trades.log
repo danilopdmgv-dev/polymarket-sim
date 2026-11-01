@@ -610,3 +610,9 @@
 2026-11-01 14:39:32Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-01 14:39:32Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-01 14:40:15Z ciclo 58: lidos=500 filtro=31 llm=7 clima=15 compras=5 vendas=6 descartados={'esporte_vivo': 19, 'categoria_Esportes': 175, 'cripto': 14, 'combinado': 4, 'clima_sem_modelo': 4} equity=$1325.92
+2026-11-01 19:18:16Z SELL YES [stop-loss] Will the highest temperature in Houston be between @ 0.190 pnl=$-8.62
+2026-11-01 19:18:16Z SELL YES [stop-loss] Will the highest temperature in Helsinki be 9°C on @ 0.414 pnl=$-5.00
+2026-11-01 19:18:20Z BUY YES [clima] Will the highest temperature in Singapore be 32°C  @ 0.491 $13.70 edge=0.108 conf=medium | Modelo 0.26 vs mercado 0.47
+2026-11-01 19:18:21Z BUY YES [clima] Will the highest temperature in Cape Town be 21°C  @ 0.586 $13.70 edge=0.191 conf=medium | Modelo 0.21 vs mercado 0.56
+2026-11-01 19:19:06Z BUY NO [llm] Will Iliana Iotova win the second round of the 202 @ 0.119 $52.18 edge=0.349 conf=high | Market overprices the 12% threshold given current exit poll margins hovering around 9%.
+2026-11-01 19:19:12Z ciclo 59: lidos=400 filtro=23 llm=8 clima=13 compras=3 vendas=2 descartados={'categoria_Esportes': 76, 'cripto': 21, 'esporte_vivo': 18, 'combinado': 1} equity=$1304.59

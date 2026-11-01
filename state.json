@@ -1,31 +1,6 @@
 {
- "cash": 1240.7380821601064,
+ "cash": 1175.2654358904363,
  "positions": [
-  {
-   "mid": "6411783",
-   "q": "Will the highest temperature in Houston be between 84-85°F on November 1?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "108189282532229289302276249791285817017807006741683043594541363814493741348718",
-   "entry": 0.5057033105304313,
-   "fair": 0.6499763108535674,
-   "shares": 27.312842255737632,
-   "cost": 13.812194748721973,
-   "t": 1793456266.8880675,
-   "mark": 0.57,
-   "conf": "medium",
-   "llm_p": 0.19670614857738744,
-   "mkt_yes": 0.48,
-   "edge": 0.14427300032313617,
-   "evidence": [
-    "Previsao Open-Meteo geo:houston 2026-11-01: maxima 82.5F (3 modelos, sigma 3.4)"
-   ],
-   "misprice": "Modelo 0.20 vs mercado 0.48",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:houston|2026-11-01",
-   "inv": true
-  },
   {
    "mid": "6446270",
    "q": "Will the highest temperature in Paris be 12°C on November 2?",
@@ -37,7 +12,7 @@
    "shares": 28.0831130038274,
    "cost": 13.922128995864597,
    "t": 1793543918.800618,
-   "mark": 0.49574735514425244,
+   "mark": 0.41,
    "conf": "medium",
    "llm_p": 0.2006721465523943,
    "mkt_yes": 0.47,
@@ -52,31 +27,6 @@
    "inv": true
   },
   {
-   "mid": "6446533",
-   "q": "Will the highest temperature in Helsinki be 9°C on November 2?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "15569580210574558168608998031310864201307078191087765549569658415021551973266",
-   "entry": 0.6461935498662833,
-   "fair": 0.8648819633511571,
-   "shares": 21.54482816912286,
-   "cost": 13.922128995864597,
-   "t": 1793543918.8010972,
-   "mark": 0.6461935498662833,
-   "conf": "medium",
-   "llm_p": 0.21186339441473828,
-   "mkt_yes": 0.62,
-   "edge": 0.21868841348487383,
-   "evidence": [
-    "Previsao Open-Meteo geo:helsinki 2026-11-02: maxima 8.7C (3 modelos, sigma 1.8)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.62",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:helsinki|2026-11-02",
-   "inv": true
-  },
-  {
    "mid": "6446521",
    "q": "Will the highest temperature in Amsterdam be 13°C on November 2?",
    "cat": "Clima",
@@ -87,7 +37,7 @@
    "shares": 23.17831389614709,
    "cost": 13.922128995864597,
    "t": 1793543920.7016726,
-   "mark": 0.6006532251760928,
+   "mark": 0.58,
    "conf": "medium",
    "llm_p": 0.23106263166906893,
    "mkt_yes": 0.575,
@@ -112,7 +62,7 @@
    "shares": 25.75602399559716,
    "cost": 13.922128995864597,
    "t": 1793543921.0545056,
-   "mark": 0.5405387492356934,
+   "mark": 0.46,
    "conf": "medium",
    "llm_p": 0.21370892234991268,
    "mkt_yes": 0.525,
@@ -137,7 +87,7 @@
    "shares": 27.530393760700317,
    "cost": 13.922128995864597,
    "t": 1793543921.6728299,
-   "mark": 0.5057003222285349,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.21304300676438503,
    "mkt_yes": 0.48,
@@ -150,6 +100,83 @@
    "src": "clima",
    "event": "EGLC|2026-11-02",
    "inv": true
+  },
+  {
+   "mid": "6446380",
+   "q": "Will the highest temperature in Singapore be 32°C on November 2?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "106281603195188238734150979367929615820140955907276110312369516174756924160622",
+   "entry": 0.4906107787849683,
+   "fair": 0.5987190002153544,
+   "shares": 27.92069675805515,
+   "cost": 13.698194780688377,
+   "t": 1793560700.360872,
+   "mark": 0.4906107787849683,
+   "conf": "medium",
+   "llm_p": 0.2554683329744092,
+   "mkt_yes": 0.47,
+   "edge": 0.10810822143038612,
+   "evidence": [
+    "Previsao Open-Meteo WSSS 2026-11-02: maxima 31.5C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.26 vs mercado 0.47",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "WSSS|2026-11-02",
+   "inv": true
+  },
+  {
+   "mid": "6446564",
+   "q": "Will the highest temperature in Cape Town be 21°C on November 2?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "69109379311418730728771051146634389733733311955998158873185172592151371552266",
+   "entry": 0.5857877072300672,
+   "fair": 0.7767661945915451,
+   "shares": 23.384230518358127,
+   "cost": 13.698194780688373,
+   "t": 1793560701.0673325,
+   "mark": 0.5857877072300672,
+   "conf": "medium",
+   "llm_p": 0.212056342347425,
+   "mkt_yes": 0.565,
+   "edge": 0.19097848736147782,
+   "evidence": [
+    "Previsao Open-Meteo geo:cape town 2026-11-02: maxima 20.6C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.56",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:cape town|2026-11-02",
+   "inv": true
+  },
+  {
+   "mid": "6257153",
+   "q": "Will Iliana Iotova win the second round of the 2026 Bulgarian presidential election by at least 12%?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "2011435401468590232564813100658005508989805650255309543497799247539667779897",
+   "entry": 0.11862929160749057,
+   "fair": 0.4675,
+   "shares": 439.88797755943216,
+   "cost": 52.183599164527145,
+   "t": 1793560746.7970738,
+   "mark": 0.11862929160749057,
+   "conf": "high",
+   "llm_p": 0.15,
+   "mkt_yes": 0.915,
+   "edge": 0.34887070839250944,
+   "evidence": [
+    "Exit polls from The Sofia Globe on 2026-11-01 show Yotova at 52.5% and Gyurov at 43.4%, yielding a margin of 9.1%.",
+    "Reuters reported on 2026-11-01 that the first round was tight, pointing to a competitive runoff.",
+    "DW.com reported on 2026-11-01 that the presidential runoff is highly polarized."
+   ],
+   "misprice": "Market overprices the 12% threshold given current exit poll margins hovering around 9%.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false
   }
  ],
  "closed": [
@@ -3188,6 +3215,66 @@
    "pnl": -13.54580960301142,
    "closed_t": 1793543914.6780734,
    "held_h": 6.878687386115392
+  },
+  {
+   "mid": "6411783",
+   "q": "Will the highest temperature in Houston be between 84-85°F on November 1?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "108189282532229289302276249791285817017807006741683043594541363814493741348718",
+   "entry": 0.5057033105304313,
+   "fair": 0.6499763108535674,
+   "shares": 27.312842255737632,
+   "cost": 13.812194748721973,
+   "t": 1793456266.8880675,
+   "mark": 0.28,
+   "conf": "medium",
+   "llm_p": 0.19670614857738744,
+   "mkt_yes": 0.48,
+   "edge": 0.14427300032313617,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-11-01: maxima 82.5F (3 modelos, sigma 3.4)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-11-01",
+   "inv": true,
+   "exit": 0.1899670378651015,
+   "reason": "stop-loss",
+   "pnl": -8.623655009722718,
+   "closed_t": 1793560696.0849814,
+   "held_h": 29.008110253943336
+  },
+  {
+   "mid": "6446533",
+   "q": "Will the highest temperature in Helsinki be 9°C on November 2?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "15569580210574558168608998031310864201307078191087765549569658415021551973266",
+   "entry": 0.6461935498662833,
+   "fair": 0.8648819633511571,
+   "shares": 21.54482816912286,
+   "cost": 13.922128995864597,
+   "t": 1793543918.8010972,
+   "mark": 0.43,
+   "conf": "medium",
+   "llm_p": 0.21186339441473828,
+   "mkt_yes": 0.62,
+   "edge": 0.21868841348487383,
+   "evidence": [
+    "Previsao Open-Meteo geo:helsinki 2026-11-02: maxima 8.7C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.62",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:helsinki|2026-11-02",
+   "inv": true,
+   "exit": 0.413964903652221,
+   "reason": "stop-loss",
+   "pnl": -5.003326278629995,
+   "closed_t": 1793560696.4266882,
+   "held_h": 4.660451553132799
   }
  ],
  "cache": {
@@ -3262,16 +3349,18 @@
    }
   },
   "6439251": {
-   "t": 1793544009.3824122,
-   "yes": 0.43,
+   "t": 1793560752.9004245,
+   "yes": 0.09,
    "est": {
-    "p": 0.43,
+    "p": 0.08,
     "conf": "low",
     "evidence": [
-     "Nenhuma nova informacao concreta ou dados de polling adicionais disponiveis ate 2026-11-01."
+     "As eleições de meio de mandato de 2026 ocorrem em 3 dias (Yahoo, 31 de outubro de 2026).",
+     "Nate Silver elevou as chances dos democratas recentemente (Nacionale, 31 de outubro de 2026).",
+     "O preço atual de mercado para o SIM está em 0.09 com menos de um dia para o vencimento."
     ],
-    "misprice": "O preco atual reflete adequadamente a incerteza de curto prazo proxima ao limiar de 6%.",
-    "reason": "Sem evidencias novas para divergir do preco de mercado proximo ao vencimento."
+    "misprice": "O mercado já precifica adequadamente a probabilidade com base nos dados atuais das últimas horas.",
+    "reason": "Com as eleições iminentes e as chances dos republicanos já comprimidas perto do patamar exigido, a volatilidade de curto prazo ainda pode atingir o limite de 6% necessário."
    }
   },
   "4162950": {
@@ -3286,6 +3375,101 @@
     ],
     "misprice": "O mercado reflete adequadamente a incerteza estatística de uma faixa de vitória específica tão larga para democratas em Minnesota.",
     "reason": "Manter uma margem de vitória exata entre 10% e 15% é estatisticamente improvável na polarizada política atual, embora os democratas mantenham vantagem no estado."
+   }
+  },
+  "6104813": {
+   "t": 1793560710.385098,
+   "yes": 0.153,
+   "est": {
+    "p": 0.15,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos sobre o volume de tweets de Elon Musk para o periodo de outubro a novembro de 2026.",
+     "O mercado atual reflete uma probabilidade implicita de 15.3% para a faixa de 380-399 posts."
+    ],
+    "misprice": "O mercado esta alinhado com a taxa historica de volume de postagens e ausencia de evidencias fortes em contrario.",
+    "reason": "Como nao ha informacoes concretas ou novas sobre a mudanca de comportamento de postagem para este periodo especifico, mantenho-me proximo ao preco atual."
+   }
+  },
+  "6104815": {
+   "t": 1793560716.3760977,
+   "yes": 0.183,
+   "est": {
+    "p": 0.18,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados especificos sobre a frequencia de tweets de Elon Musk para o periodo de outubro a novembro de 2026."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza de longo prazo para uma faixa estreita de volume de tweets.",
+    "reason": "A faixa de 400 a 419 tweets em 7 dias exige uma media diaria de ~57 a 60 posts, o que e estatisticamente improvavel mesmo para ele sem dados de tendencia recentes."
+   }
+  },
+  "6104819": {
+   "t": 1793560722.3283896,
+   "yes": 0.15,
+   "est": {
+    "p": 0.15,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados historicos granulares especificos sobre a frequencia exata de tweets do Elon Musk para o periodo de outubro a novembro de 2026."
+    ],
+    "misprice": "O preco atual reflete adequadamente a baixa previsibilidade de volumes especificos de tweets em horizontes temporais futuros tao distantes.",
+    "reason": "A faixa estreita de 440-459 tweets em exatamente 7 dias exige uma media diaria muito especifica (aprox. 63 a 65 posts/dia), tornando o evento altamente sensivel e dificil de prever com precisao."
+   }
+  },
+  "6390075": {
+   "t": 1793560728.346741,
+   "yes": 0.255,
+   "est": {
+    "p": 0.25,
+    "conf": "low",
+    "evidence": [
+     "Nenhum dado historico especifico de contagem de tweets para este exato periodo de 48 horas foi fornecido."
+    ],
+    "misprice": "O mercado esta alinhado com a taxa base de atividade recente de Elon Musk na plataforma.",
+    "reason": "A faixa de 115-139 tweets em 48 horas exige uma media muito alta de ~58 a 70 tweets por dia, o que esta acima da media tipica mesmo para ele, tornando o ceticismo justificavel."
+   }
+  },
+  "6104817": {
+   "t": 1793560734.5370243,
+   "yes": 0.2095,
+   "est": {
+    "p": 0.21,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados historicos granulares especificos sobre a contagem exata de tweets do Elon Musk para este periodo de 7 dias em 2026."
+    ],
+    "misprice": "O mercado esta eficientemente precificado proximo a faixa historica de volume de postagens do usuario para o periodo.",
+    "reason": "A taxa diaria tipica de postagens sugere que a faixa de 420-439 tweets e plausivel, mas incerta o suficiente para justificar a probabilidade atual."
+   }
+  },
+  "6104821": {
+   "t": 1793560740.5112503,
+   "yes": 0.1175,
+   "est": {
+    "p": 0.12,
+    "conf": "low",
+    "evidence": [
+     "O mercado abrange exatamente 7 dias de postagens de 27 de outubro a 3 de novembro de 2026.",
+     "A meta exigida de 460 a 479 tweets equivale a uma média de aproximadamente 65 a 68 tweets por dia."
+    ],
+    "misprice": "Não há evidências concretas recentes sobre a frequência exata de postagens de Elon Musk para justificar um desvio significativo do preço atual.",
+    "reason": "A faixa de 460-479 tweets em uma semana representa um volume extremamente alto, acima da média recente típica para o período, tornando a probabilidade baixa."
+   }
+  },
+  "6257153": {
+   "t": 1793560746.7970514,
+   "yes": 0.915,
+   "est": {
+    "p": 0.15,
+    "conf": "high",
+    "evidence": [
+     "Exit polls from The Sofia Globe on 2026-11-01 show Yotova at 52.5% and Gyurov at 43.4%, yielding a margin of 9.1%.",
+     "Reuters reported on 2026-11-01 that the first round was tight, pointing to a competitive runoff.",
+     "DW.com reported on 2026-11-01 that the presidential runoff is highly polarized."
+    ],
+    "misprice": "Market overprices the 12% threshold given current exit poll margins hovering around 9%.",
+    "reason": "Exit polls indicate a tight race with a margin well below the required 12%."
    }
   }
  },
@@ -8183,7 +8367,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793342513.7463014,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8207,7 +8391,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793342525.6820352,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8243,7 +8427,7 @@
    "cat": "Politica",
    "end": 1793505540.0,
    "t": 1793342550.5296984,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8382,7 +8566,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793368016.4224732,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -8693,7 +8877,7 @@
    "cat": "Entretenimento",
    "end": 1793462400.0,
    "t": 1793386677.8359792,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9029,7 +9213,7 @@
    "cat": "Entretenimento",
    "end": 1793462400.0,
    "t": 1793411868.7648318,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9041,7 +9225,7 @@
    "cat": "Entretenimento",
    "end": 1793462400.0,
    "t": 1793411874.8447351,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9053,7 +9237,7 @@
    "cat": "Entretenimento",
    "end": 1793462400.0,
    "t": 1793411880.686405,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9065,7 +9249,7 @@
    "cat": "Outros",
    "end": 1793462400.0,
    "t": 1793411898.6136885,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9425,7 +9609,7 @@
    "cat": "Outros",
    "end": 1793498400.0,
    "t": 1793456341.2807183,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9449,7 +9633,7 @@
    "cat": "Outros",
    "end": 1793487600.0,
    "t": 1793456353.487814,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -10642,6 +10826,216 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6446324": {
+   "q": "Will the highest temperature in Munich be 8°C on November 2?",
+   "p": 0.2203690859092825,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793560699.6003237,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3233516410859255,
+   "wx": {
+    "sid": "EDDM",
+    "mu": 7.4,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 8,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6447568": {
+   "q": "Will the highest temperature in London be 12°C on November 2?",
+   "p": 0.22966036412730828,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793560700.1642737,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.37050681378934314,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 12.17,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 12,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6509462": {
+   "q": "Will the highest temperature in Beijing be 18°C on November 3?",
+   "p": 0.16866110069819862,
+   "yes": 0.4,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793560702.0681167,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2251659268675834,
+   "wx": {
+    "sid": "geo:beijing",
+    "mu": 16.97,
+    "sigma": 2.07,
+    "kind": "exact",
+    "a": 18,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6446367": {
+   "q": "Will the highest temperature in Shanghai be 20°C on November 2?",
+   "p": 0.2862405243346316,
+   "yes": 0.29,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793560702.3841183,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.44501156242847334,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 19.73,
+    "sigma": 1.34,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6446399": {
+   "q": "Will the highest temperature in Madrid be 20°C on November 2?",
+   "p": 0.20188673086232933,
+   "yes": 0.44,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793560703.6591027,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2625248626020513,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 19.1,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6446597": {
+   "q": "Will the highest temperature in Karachi be 34°C on November 2?",
+   "p": 0.2162477507149686,
+   "yes": 0.405,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793620800.0,
+   "t": 1793560704.3330448,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3405188337092762,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 33.63,
+    "sigma": 1.78,
+    "kind": "exact",
+    "a": 34,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-02"
+   }
+  },
+  "6104813": {
+   "q": "Will Elon Musk post 380-399 tweets from October 27 to November 3, 2026?",
+   "p": 0.15,
+   "yes": 0.153,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793725200.0,
+   "t": 1793560710.3851018,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6104815": {
+   "q": "Will Elon Musk post 400-419 tweets from October 27 to November 3, 2026?",
+   "p": 0.18,
+   "yes": 0.183,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793725200.0,
+   "t": 1793560716.3761008,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6104819": {
+   "q": "Will Elon Musk post 440-459 tweets from October 27 to November 3, 2026?",
+   "p": 0.15,
+   "yes": 0.15,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793725200.0,
+   "t": 1793560722.3283935,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6104817": {
+   "q": "Will Elon Musk post 420-439 tweets from October 27 to November 3, 2026?",
+   "p": 0.21,
+   "yes": 0.2095,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793725200.0,
+   "t": 1793560734.5370276,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6104821": {
+   "q": "Will Elon Musk post 460-479 tweets from October 27 to November 3, 2026?",
+   "p": 0.12,
+   "yes": 0.1175,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1793725200.0,
+   "t": 1793560740.5112543,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6257153": {
+   "q": "Will Iliana Iotova win the second round of the 2026 Bulgarian presidential election by at least 12%?",
+   "p": 0.15,
+   "yes": 0.915,
+   "conf": "high",
+   "cat": "Politica",
+   "end": 1793595540.0,
+   "t": 1793560746.7970543,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -10876,6 +11270,10 @@
   {
    "t": 1793544015.5710807,
    "equity": 1325.92
+  },
+  {
+   "t": 1793560752.9011133,
+   "equity": 1304.59
   }
  ],
  "llm_calls": {
@@ -10888,8 +11286,8 @@
   "2026-10-29": 37,
   "2026-10-30": 35,
   "2026-10-31": 39,
-  "2026-11-01": 22
+  "2026-11-01": 30
  },
  "killed": false,
- "cycles": 58
+ "cycles": 59
 }
