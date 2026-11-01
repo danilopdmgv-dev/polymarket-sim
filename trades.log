@@ -582,3 +582,13 @@
 2026-11-01 01:19:50Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
 2026-11-01 01:19:50Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-01 01:20:38Z ciclo 56: lidos=600 filtro=42 llm=8 clima=13 compras=0 vendas=1 descartados={'categoria_Esportes': 89, 'esporte_vivo': 4, 'cripto': 11, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1320.20
+2026-11-01 07:45:46Z SELL YES [stop-loss] Will the highest temperature in Karachi be 36°C on @ 0.119 pnl=$-10.56
+2026-11-01 07:45:46Z SELL YES [take-profit] Will the highest temperature in Tokyo be 20°C on N @ 0.953 pnl=$+11.57
+2026-11-01 07:45:50Z BUY YES [clima] Will the highest temperature in Munich be 9°C on N @ 0.481 $13.89 edge=0.126 conf=medium | Modelo 0.20 vs mercado 0.46
+2026-11-01 07:45:51Z BUY YES [clima] Will the highest temperature in London be 12°C on  @ 0.406 $13.89 edge=0.087 conf=medium | Modelo 0.19 vs mercado 0.38
+2026-11-01 07:46:06Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 07:46:16Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 07:46:24Z erro geocode Beijing: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-01 07:46:32Z erro geocode Austin: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-01 07:46:32Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-01 07:47:02Z ciclo 57: lidos=700 filtro=30 llm=5 clima=17 compras=2 vendas=2 descartados={'categoria_Esportes': 182, 'cripto': 18, 'combinado': 6, 'esporte_vivo': 2, 'clima_sem_modelo': 4} equity=$1322.68
