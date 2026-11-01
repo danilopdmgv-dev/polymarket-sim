@@ -616,3 +616,12 @@
 2026-11-01 19:18:21Z BUY YES [clima] Will the highest temperature in Cape Town be 21°C  @ 0.586 $13.70 edge=0.191 conf=medium | Modelo 0.21 vs mercado 0.56
 2026-11-01 19:19:06Z BUY NO [llm] Will Iliana Iotova win the second round of the 202 @ 0.119 $52.18 edge=0.349 conf=high | Market overprices the 12% threshold given current exit poll margins hovering around 9%.
 2026-11-01 19:19:12Z ciclo 59: lidos=400 filtro=23 llm=8 clima=13 compras=3 vendas=2 descartados={'categoria_Esportes': 76, 'cripto': 21, 'esporte_vivo': 18, 'combinado': 1} equity=$1304.59
+2026-11-01 22:56:24Z SELL YES [stop-loss] Will the highest temperature in Paris be 12°C on N @ 0.252 pnl=$-6.84
+2026-11-01 22:56:55Z SELL NO [stop-loss] Will Iliana Iotova win the second round of the 202 @ 0.010 pnl=$-47.78
+2026-11-01 22:56:59Z BUY YES [clima] Will the highest temperature in Miami be between 8 @ 0.471 $13.14 edge=0.129 conf=medium | Modelo 0.19 vs mercado 0.45
+2026-11-01 22:57:15Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 22:57:25Z erro previsao EPWA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 22:57:35Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 22:57:45Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-01 22:57:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-01 22:58:21Z ciclo 60: lidos=500 filtro=25 llm=6 clima=11 compras=1 vendas=2 descartados={'categoria_Esportes': 75, 'esporte_vivo': 12, 'cripto': 18, 'clima_sem_modelo': 2} equity=$1251.42
