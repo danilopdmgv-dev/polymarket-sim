@@ -635,3 +635,17 @@
 2026-11-02 09:45:13Z BUY YES [llm] Will the Republicans win the Texas Senate race in  @ 0.260 $37.39 edge=0.252 conf=medium | The market overreacts to late Democratic enthusiasm and polls, underestimating the durable structural advantage Republicans hold in statewide Texas elections.
 2026-11-02 09:47:08Z BUY NO [llm] Will the Democrats win the Texas Senate race in 20 @ 0.250 $37.39 edge=0.252 conf=medium | O mercado superestima a onda democrata nacional ignorando o histórico republicano profundo do Texas.
 2026-11-02 09:47:28Z ciclo 62: lidos=800 filtro=219 llm=8 clima=15 compras=3 vendas=1 descartados={'combinado': 6, 'esporte_vivo': 10, 'categoria_Esportes': 139, 'cripto': 20} equity=$1246.31
+2026-11-02 19:54:46Z SELL YES [stop-loss] Will the highest temperature in Amsterdam be 13°C  @ 0.010 pnl=$-13.69
+2026-11-02 19:54:46Z SELL YES [take-profit] Will the highest temperature in Cape Town be 21°C  @ 0.966 pnl=$+8.88
+2026-11-02 19:54:46Z SELL YES [stop-loss] Will the highest temperature in Miami be between 8 @ 0.010 pnl=$-12.86
+2026-11-02 19:54:46Z SELL YES [stop-loss] Will the highest temperature in Austin be between  @ 0.143 pnl=$-9.79
+2026-11-02 19:56:22Z BUY YES [clima] Will the highest temperature in Tel Aviv be 27°C o @ 0.411 $12.67 edge=0.091 conf=medium | Modelo 0.22 vs mercado 0.40
+2026-11-02 19:56:22Z BUY YES [clima] Will the highest temperature in New York City be b @ 0.406 $12.67 edge=0.081 conf=medium | Modelo 0.19 vs mercado 0.38
+2026-11-02 19:56:22Z BUY YES [clima] Will the highest temperature in Dallas be between  @ 0.441 $12.67 edge=0.093 conf=medium | Modelo 0.23 vs mercado 0.42
+2026-11-02 19:56:23Z BUY YES [clima] Will the highest temperature in Madrid be 16°C on  @ 0.361 $12.67 edge=0.108 conf=medium | Modelo 0.14 vs mercado 0.34
+2026-11-02 19:56:38Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-02 19:56:48Z erro previsao geo:helsinki: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-02 19:56:58Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-02 19:57:08Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-02 19:57:08Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-02 20:01:34Z ciclo 63: lidos=1000 filtro=251 llm=8 clima=20 compras=4 vendas=4 descartados={'combinado': 2, 'categoria_Esportes': 260, 'esporte_vivo': 5, 'cripto': 18, 'clima_sem_modelo': 2} equity=$1206.53
