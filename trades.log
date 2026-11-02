@@ -625,3 +625,8 @@
 2026-11-01 22:57:45Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-01 22:57:45Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-01 22:58:21Z ciclo 60: lidos=500 filtro=25 llm=6 clima=11 compras=1 vendas=2 descartados={'categoria_Esportes': 75, 'esporte_vivo': 12, 'cripto': 18, 'clima_sem_modelo': 2} equity=$1251.42
+2026-11-02 02:02:29Z SELL YES [stop-loss] Will the highest temperature in Munich be 7°C on N @ 0.278 pnl=$-6.76
+2026-11-02 02:02:29Z SELL YES [stop-loss] Will the highest temperature in Singapore be 32°C  @ 0.326 pnl=$-4.60
+2026-11-02 02:02:32Z BUY YES [clima] Will the highest temperature in Austin be between  @ 0.571 $13.05 edge=0.185 conf=medium | Modelo 0.19 vs mercado 0.55
+2026-11-02 02:02:33Z BUY YES [clima] Will the highest temperature in Busan be 18°C on N @ 0.406 $13.05 edge=0.093 conf=medium | Modelo 0.20 vs mercado 0.39
+2026-11-02 02:03:22Z ciclo 61: lidos=600 filtro=26 llm=8 clima=3 compras=2 vendas=2 descartados={'esporte_vivo': 12, 'categoria_Esportes': 74, 'cripto': 16, 'combinado': 3} equity=$1243.27
