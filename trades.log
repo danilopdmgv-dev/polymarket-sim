@@ -630,3 +630,8 @@
 2026-11-02 02:02:32Z BUY YES [clima] Will the highest temperature in Austin be between  @ 0.571 $13.05 edge=0.185 conf=medium | Modelo 0.19 vs mercado 0.55
 2026-11-02 02:02:33Z BUY YES [clima] Will the highest temperature in Busan be 18°C on N @ 0.406 $13.05 edge=0.093 conf=medium | Modelo 0.20 vs mercado 0.39
 2026-11-02 02:03:22Z ciclo 61: lidos=600 filtro=26 llm=8 clima=3 compras=2 vendas=2 descartados={'esporte_vivo': 12, 'categoria_Esportes': 74, 'cripto': 16, 'combinado': 3} equity=$1243.27
+2026-11-02 09:44:19Z SELL YES [stop-loss] Will the highest temperature in London be 13°C on  @ 0.352 pnl=$-4.24
+2026-11-02 09:44:24Z BUY YES [clima] Will the highest temperature in Hong Kong be 28°C  @ 0.526 $13.09 edge=0.132 conf=medium | Modelo 0.21 vs mercado 0.49
+2026-11-02 09:45:13Z BUY YES [llm] Will the Republicans win the Texas Senate race in  @ 0.260 $37.39 edge=0.252 conf=medium | The market overreacts to late Democratic enthusiasm and polls, underestimating the durable structural advantage Republicans hold in statewide Texas elections.
+2026-11-02 09:47:08Z BUY NO [llm] Will the Democrats win the Texas Senate race in 20 @ 0.250 $37.39 edge=0.252 conf=medium | O mercado superestima a onda democrata nacional ignorando o histórico republicano profundo do Texas.
+2026-11-02 09:47:28Z ciclo 62: lidos=800 filtro=219 llm=8 clima=15 compras=3 vendas=1 descartados={'combinado': 6, 'esporte_vivo': 10, 'categoria_Esportes': 139, 'cripto': 20} equity=$1246.31

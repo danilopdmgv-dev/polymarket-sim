@@ -1,5 +1,5 @@
 {
- "cash": 1163.760485513567,
+ "cash": 1085.5786387796065,
  "positions": [
   {
    "mid": "6446521",
@@ -12,7 +12,7 @@
    "shares": 23.17831389614709,
    "cost": 13.922128995864597,
    "t": 1793543920.7016726,
-   "mark": 0.71,
+   "mark": 0.7,
    "conf": "medium",
    "llm_p": 0.23106263166906893,
    "mkt_yes": 0.575,
@@ -27,31 +27,6 @@
    "inv": true
   },
   {
-   "mid": "6447569",
-   "q": "Will the highest temperature in London be 13°C on November 2?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "39770690683478201329809607960615966181463512896402931573242785371658843312486",
-   "entry": 0.5057003222285349,
-   "fair": 0.6401741959413689,
-   "shares": 27.530393760700317,
-   "cost": 13.922128995864597,
-   "t": 1793543921.6728299,
-   "mark": 0.41,
-   "conf": "medium",
-   "llm_p": 0.21304300676438503,
-   "mkt_yes": 0.48,
-   "edge": 0.13447387371283404,
-   "evidence": [
-    "Previsao Open-Meteo EGLC 2026-11-02: maxima 12.3C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.48",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EGLC|2026-11-02",
-   "inv": true
-  },
-  {
    "mid": "6446564",
    "q": "Will the highest temperature in Cape Town be 21°C on November 2?",
    "cat": "Clima",
@@ -62,7 +37,7 @@
    "shares": 23.384230518358127,
    "cost": 13.698194780688373,
    "t": 1793560701.0673325,
-   "mark": 0.5,
+   "mark": 0.65,
    "conf": "medium",
    "llm_p": 0.212056342347425,
    "mkt_yes": 0.565,
@@ -87,7 +62,7 @@
    "shares": 27.921635146381163,
    "cost": 13.139861537496847,
    "t": 1793573819.3737378,
-   "mark": 0.5,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.18782880790624645,
    "mkt_yes": 0.445,
@@ -112,7 +87,7 @@
    "shares": 22.877719689187572,
    "cost": 13.054293736330873,
    "t": 1793584952.808625,
-   "mark": 0.5706116655717471,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.1943130027443828,
    "mkt_yes": 0.545,
@@ -137,7 +112,7 @@
    "shares": 32.14364804691758,
    "cost": 13.054293736330871,
    "t": 1793584953.607483,
-   "mark": 0.4061235898699654,
+   "mark": 0.42,
    "conf": "medium",
    "llm_p": 0.19543126596625754,
    "mkt_yes": 0.385,
@@ -150,6 +125,84 @@
    "src": "clima",
    "event": "geo:busan|2026-11-03",
    "inv": true
+  },
+  {
+   "mid": "6509366",
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 3?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "100562877725396931124324103719054799545950744943256525506135423182343636550982",
+   "entry": 0.5258534736775872,
+   "fair": 0.6579829077053665,
+   "shares": 24.885702047875352,
+   "cost": 13.086232866780698,
+   "t": 1793612664.4943678,
+   "mark": 0.5258534736775872,
+   "conf": "medium",
+   "llm_p": 0.21002848715772238,
+   "mkt_yes": 0.49,
+   "edge": 0.13212943402777932,
+   "evidence": [
+    "Previsao Open-Meteo VHHH 2026-11-03: maxima 27.7C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.49",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "VHHH|2026-11-03",
+   "inv": true
+  },
+  {
+   "mid": "630964",
+   "q": "Will the Republicans win the Texas Senate race in 2026?",
+   "cat": "Politica",
+   "side": "YES",
+   "token": "21265207456609426291246075480390336499088453711419597084147957999650569091884",
+   "entry": 0.2600207552728392,
+   "fair": 0.5125,
+   "shares": 143.79327805196985,
+   "cost": 37.389236762230574,
+   "t": 1793612713.130715,
+   "mark": 0.2600207552728392,
+   "conf": "medium",
+   "llm_p": 0.78,
+   "mkt_yes": 0.245,
+   "edge": 0.25247924472716077,
+   "evidence": [
+    "The Washington Post reported on Nov 2, 2026, that the Texas GOP is relying on independent voters in the final stretch.",
+    "PBS reported on Oct 31, 2026, featuring Paxton and Talarico in the Texas Senate race just days before the election.",
+    "BBC noted on Nov 1, 2026, that Democrats face historical difficulties in statewide Texas races despite strong mobilization by Talarico."
+   ],
+   "misprice": "The market overreacts to late Democratic enthusiasm and polls, underestimating the durable structural advantage Republicans hold in statewide Texas elections.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false
+  },
+  {
+   "mid": "630963",
+   "q": "Will the Democrats win the Texas Senate race in 2026?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "25172545206000541692667496253531562288536270988826888609620735617040533835056",
+   "entry": 0.2500277431886863,
+   "fair": 0.5025,
+   "shares": 149.54035214409927,
+   "cost": 37.38923676223057,
+   "t": 1793612828.6386762,
+   "mark": 0.2500277431886863,
+   "conf": "medium",
+   "llm_p": 0.23,
+   "mkt_yes": 0.765,
+   "edge": 0.25247225681131363,
+   "evidence": [
+    "Texas remains a historically Republican state where Democrats have consistently faced defeat in statewide elections for decades.",
+    "Polling leading up to November 2, 2026, shows a tight tussle between the Republican and Democratic candidates in a deeply entrenched conservative electorate."
+   ],
+   "misprice": "O mercado superestima a onda democrata nacional ignorando o histórico republicano profundo do Texas.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false
   }
  ],
  "closed": [
@@ -3370,155 +3423,151 @@
    "pnl": -4.60295274717304,
    "closed_t": 1793584949.800892,
    "held_h": 6.735955561200778
+  },
+  {
+   "mid": "6447569",
+   "q": "Will the highest temperature in London be 13°C on November 2?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "39770690683478201329809607960615966181463512896402931573242785371658843312486",
+   "entry": 0.5057003222285349,
+   "fair": 0.6401741959413689,
+   "shares": 27.530393760700317,
+   "cost": 13.922128995864597,
+   "t": 1793543921.6728299,
+   "mark": 0.39,
+   "conf": "medium",
+   "llm_p": 0.21304300676438503,
+   "mkt_yes": 0.48,
+   "edge": 0.13447387371283404,
+   "evidence": [
+    "Previsao Open-Meteo EGLC 2026-11-02: maxima 12.3C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.48",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EGLC|2026-11-02",
+   "inv": true,
+   "exit": 0.35171526210075105,
+   "reason": "stop-loss",
+   "pnl": -4.239269338583004,
+   "closed_t": 1793612659.3673584,
+   "held_h": 19.093804035782814
   }
  ],
  "cache": {
-  "6104813": {
-   "t": 1793584978.8690386,
-   "yes": 0.089,
+  "6274257": {
+   "t": 1793612736.2855527,
+   "yes": 0.315,
    "est": {
-    "p": 0.09,
+    "p": 0.28,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo especificado."
+     "As eleicoes para o Senado dos EUA em 2026 estao agendadas para 3 de novembro de 2026.",
+     "O mercado exige que os republicanos percam especificamente o controle de todos os sete estados listados (Alasca, Iowa, Kansas, Maine, Michigan, Ohio e Texas).",
+     "Pesquisas finais de 2 de novembro de 2026 apontam uma disputa acirrada sem garantia de varredura oposicionista em todos esses redutos."
     ],
-    "misprice": "O mercado esta eficientemente precificado refletindo a baixa taxa base historica para esta faixa especifica de volume em uma semana.",
-    "reason": "A faixa de 380-399 tweets em uma semana exige uma media diaria de ~54-57 posts, o que esta ligeiramente acima da mediana habitual de Elon Musk, tornando o ceticismo justificavel."
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade de uma derrota republicana sincronizada em todos esses sete estados simultaneamente.",
+    "reason": "Embora haja uma onda democrata relatada em reta final, a probabilidade conjunta de perder todos os sete estados listados, incluindo redutos seguros, permanece baixa."
    }
   },
-  "6104815": {
-   "t": 1793584984.8604038,
-   "yes": 0.184,
+  "562794": {
+   "t": 1793612690.9492,
+   "yes": 0.285,
    "est": {
-    "p": 0.15,
+    "p": 0.28,
     "conf": "low",
     "evidence": [
-     "Elon Musk's baseline posting frequency historically averages 50-70 posts per day, which over a 7-day period projects to roughly 350-490 total posts including reposts."
+     "Pesquisas finais do NYT/Siena em 02/11/2026 mostram os Democratas liderando em quase todos os sete estados decisivos para o Senado.",
+     "O mercado precifica o SIM (controle republicano) em 28,5% no dia da eleição (02/11/2026)."
     ],
-    "misprice": "The market is slightly overpricing the specific 400-419 bin given the high variance in Musk's weekly activity.",
-    "reason": "While historical rates overlap with this range, predicting exact 20-tweet buckets years or months in advance carries high dispersion."
+    "misprice": "O mercado está essencialmente alinhado com as últimas pesquisas indicando vantagem democrata nas disputas chave do Senado.",
+    "reason": "As evidências das pesquisas finais de 02/11/2026 apontam para um forte ímpeto democrata nos estados decisivos, tornando a maioria republicana improvável."
    }
   },
-  "6104819": {
-   "t": 1793584990.659962,
-   "yes": 0.1985,
+  "630964": {
+   "t": 1793612713.1306915,
+   "yes": 0.245,
    "est": {
-    "p": 0.2,
+    "p": 0.78,
+    "conf": "medium",
+    "evidence": [
+     "The Washington Post reported on Nov 2, 2026, that the Texas GOP is relying on independent voters in the final stretch.",
+     "PBS reported on Oct 31, 2026, featuring Paxton and Talarico in the Texas Senate race just days before the election.",
+     "BBC noted on Nov 1, 2026, that Democrats face historical difficulties in statewide Texas races despite strong mobilization by Talarico."
+    ],
+    "misprice": "The market overreacts to late Democratic enthusiasm and polls, underestimating the durable structural advantage Republicans hold in statewide Texas elections.",
+    "reason": "Despite a competitive challenge from Talarico, Texas remains a fundamentally lean-Republican state for statewide federal elections."
+   }
+  },
+  "562793": {
+   "t": 1793612758.2020857,
+   "yes": 0.725,
+   "est": {
+    "p": 0.7,
     "conf": "low",
     "evidence": [
-     "The target range is 440-459 tweets over a 7-day period (October 27 to November 3, 2026), requiring a high daily average of roughly 63 to 66 posts."
+     "Final polls on Nov 2, 2026 show strong Democratic momentum in key Senate races.",
+     "Market currently prices Democratic control at 72.5% just before election day."
     ],
-    "misprice": "N/A",
-    "reason": "A faixa de 440-459 tweets em 7 dias exige uma media diaria muito alta, o que e estatisticamente improvavel mesmo para o ritmo acelerado de Elon Musk."
+    "misprice": "Market slightly overweights the final blue wave polling surge without discounting historical polling errors.",
+    "reason": "While Democrats are favored in final pre-election projections, high uncertainty in close Senate maps justifies a slight downward adjustment from market consensus."
    }
   },
-  "6104817": {
-   "t": 1793573889.494205,
-   "yes": 0.2325,
+  "630805": {
+   "t": 1793612785.2030404,
+   "yes": 0.795,
+   "est": {
+    "p": 0.78,
+    "conf": "low",
+    "evidence": [
+     "New York Times poll aggregate on Nov 2, 2026, shows Democrats leading in key Senate races.",
+     "Market price is currently at 0.795 on Nov 2, 2026."
+    ],
+    "misprice": "Market slightly overprices Democratic stability given reported primary friction and unexpected endorsements in Michigan.",
+    "reason": "While national momentum favors Democrats in the final days of the 2026 midterms, internal Michigan party fractures introduce unpriced volatility."
+   }
+  },
+  "630806": {
+   "t": 1793612807.9319549,
+   "yes": 0.205,
+   "est": {
+    "p": 0.28,
+    "conf": "medium",
+    "evidence": [
+     "Notícias de 02 Nov 2026 indicam uma séria divisão interna entre os democratas em Michigan, destacada por uma surpreendente divergência/endosso envolvendo Haley Stevens e Abdul El-Sayed.",
+     "O preço atual de mercado para o SIM está em 0.205 a apenas dois dias da eleição de meio de mandato de 2026, refletindo um viés histórico democrata que pode estar subestimando o impacto de conflitos internos recentes."
+    ],
+    "misprice": "O mercado subestima o potencial de virada gerado pela desordem pública e endossos cruzados no campo democrata a poucos dias da votação.",
+    "reason": "Apesar do histórico favorável aos democratas em Michigan, a turbulência interna recente aumenta a volatilidade e as chances republicanas ligeiramente acima do preço atual."
+   }
+  },
+  "630963": {
+   "t": 1793612828.6386416,
+   "yes": 0.765,
    "est": {
     "p": 0.23,
-    "conf": "low",
+    "conf": "medium",
     "evidence": [
-     "O mercado resolve em 3 de novembro de 2026 e o preenchimento parcial atual depende do historico de atividade de Elon Musk."
+     "Texas remains a historically Republican state where Democrats have consistently faced defeat in statewide elections for decades.",
+     "Polling leading up to November 2, 2026, shows a tight tussle between the Republican and Democratic candidates in a deeply entrenched conservative electorate."
     ],
-    "misprice": "O preco atual reflete adequadamente a taxa media de postagem esperada para uma janela de uma semana.",
-    "reason": "A estimativa baseia-se na taxa historica de tweets por semana de Elon Musk, sem evidencia nova para divergir do mercado."
+    "misprice": "O mercado superestima a onda democrata nacional ignorando o histórico republicano profundo do Texas.",
+    "reason": "Apesar do otimismo democrata geral nas eleições de meio de mandato de 2026, o Texas continua sendo um reduto republicano difícil de virar."
    }
   },
-  "6104821": {
-   "t": 1793573895.2232258,
-   "yes": 0.1295,
+  "629691": {
+   "t": 1793612848.6531234,
+   "yes": 0.6445,
    "est": {
-    "p": 0.12,
+    "p": 0.65,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo de 27 de outubro a 3 de novembro de 2026."
+     "Greg Abbott and Gina Hinojosa posted final leg fundraising hauls reported on Oct 28, 2026.",
+     "The Texas gubernatorial election features Greg Abbott vs. Gina Hinojosa on Nov. 3, 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a baixa probabilidade historica de um volume especifico e medio-alto de postagens em uma janela curta.",
-    "reason": "Falta de dados concretos sobre a atividade recente de Musk no X impede uma divergencia forte em relacao ao preco atual."
-   }
-  },
-  "4644057": {
-   "t": 1793573901.6943324,
-   "yes": 0.255,
-   "est": {
-    "p": 0.22,
-    "conf": "low",
-    "evidence": [
-     "NBC News live results on Nov 1, 2026, show active reporting for the Alaska Senate primary/first round.",
-     "Recent NYT and PBS reports from Oct 29-30, 2026, highlight intense controversy over the ballot and Dan Sullivan name dispute."
-    ],
-    "misprice": "The market prices Peltola winning by a tight 0%-3% margin fairly efficiently given ongoing high-volatility election results.",
-    "reason": "Current partial tallies and late-breaking ballot controversies suggest a competitive race, but a narrow 0-3% victory band remains a specific and statistically volatile outcome."
-   }
-  },
-  "6274257": {
-   "t": 1793584960.347356,
-   "yes": 0.255,
-   "est": {
-    "p": 0.22,
-    "conf": "low",
-    "evidence": [
-     "The New York Times reported on Nov 2, 2026, that Democrats are showing late strength in final days of Senate races.",
-     "General elections for the specified Senate seats are scheduled for November 3, 2026."
-    ],
-    "misprice": "O mercado pode estar subestimando a resiliência republicana em estados historicamente vermelhos como Kansas, Alaska e Texas.",
-    "reason": "Embora haja volatilidade de última hora, a probabilidade de perder simultaneamente todas essas 7 cadeiras específicas é baixa devido aos fundamentos partidários de cada estado."
-   }
-  },
-  "6274077": {
-   "t": 1793584966.5808694,
-   "yes": 0.115,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "As eleições para o Senado dos EUA ocorrem em 3 de novembro de 2026, conforme cronograma oficial.",
-     "O mercado atual precifica o evento complexo em 11.5%, refletindo a baixa probabilidade simultânea de todos os estados seguirem exatamente este padrão."
-    ],
-    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade conjunta devido à correlação regional em estados como Texas e Ohio.",
-    "reason": "A exigência de múltiplos resultados específicos simultâneos torna o evento altamente improvável, justificado pelo ceticismo estatístico."
-   }
-  },
-  "6274182": {
-   "t": 1793584973.0105317,
-   "yes": 0.1065,
-   "est": {
-    "p": 0.08,
-    "conf": "low",
-    "evidence": [
-     "The Senate general elections across Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas are scheduled for November 3, 2026.",
-     "Recent polling aggregation from Silver Bulletin and major news outlets on November 1-2, 2026, highlights competitive dynamics in multiple targeted states."
-    ],
-    "misprice": "Market reflects a slightly higher baseline probability due to the complexity of requiring an exact parlay across seven specific Senate outcomes.",
-    "reason": "The precise combination of Republicans winning Iowa while simultaneously losing Alaska, Kansas, Maine, Michigan, Ohio, and Texas has an extremely narrow path given partisan baselines."
-   }
-  },
-  "4641987": {
-   "t": 1793584997.0454054,
-   "yes": 0.615,
-   "est": {
-    "p": 0.58,
-    "conf": "low",
-    "evidence": [
-     "As of November 2, 2026, final polling aggregates indicate a competitive Democratic advantage in key Senate battlegrounds.",
-     "The 2026 midterm elections are scheduled for November 3, 2026, with Maine, Michigan, and Texas as critical contests."
-    ],
-    "misprice": "The market may be slightly overpricing the joint probability of sweeping all three disparate seats given historical polling error risks in Texas and Maine.",
-    "reason": "While Democrats lead in late polls across several key races, winning all three specific states simultaneously remains a narrow hurdle."
-   }
-  },
-  "6390074": {
-   "t": 1793585002.9541283,
-   "yes": 0.42,
-   "est": {
-    "p": 0.45,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados historicos especificos suficientes para isolar o volume de tweets em fins de semana de outono de 2026."
-    ],
-    "misprice": "O mercado pode estar subestimando a volatilidade tipica do comportamento de postagem de Elon Musk em periodos curtos de 48 horas.",
-    "reason": "A media historica de Elon Musk se alinha proxima ao limite inferior ou medio da faixa proposta, tornando a probabilidade ligeiramente abaixo de 50% mas proxima ao preco atual."
+    "misprice": "O preço atual de 0.644 reflete razoavelmente a forte vantagem histórica republicana no Texas combinada com a reta final da eleição.",
+    "reason": "O Texas continua sendo um estado de lean republicano para o governo estadual, mantendo o favorito tradicional com alta probabilidade de vitória."
    }
   }
  },
@@ -4765,7 +4814,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792824352.5178473,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -4777,7 +4826,7 @@
    "cat": "Politica",
    "end": 1792987140.0,
    "t": 1792842424.6692934,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -7249,7 +7298,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793263440.1879828,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.165578658374691,
@@ -7456,7 +7505,7 @@
    "cat": "Clima",
    "end": 1793361600.0,
    "t": 1793263470.881402,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.23239978118783128,
@@ -8511,7 +8560,7 @@
    "cat": "Clima",
    "end": 1793448000.0,
    "t": 1793367918.0504987,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3176476542957418,
@@ -8534,7 +8583,7 @@
    "cat": "Clima",
    "end": 1793448000.0,
    "t": 1793367918.1335938,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.19625658305055427,
@@ -9054,7 +9103,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793400412.1035442,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -9356,7 +9405,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793433448.2311985,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3823632375705864,
@@ -9402,7 +9451,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793433449.5231564,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3080210063196707,
@@ -9519,7 +9568,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793456265.6513264,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.20170065421555072,
@@ -9542,7 +9591,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793456266.8880434,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.24151716404634116,
@@ -9565,7 +9614,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793456268.0416417,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.20128129279425933,
@@ -9588,7 +9637,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793456268.3900955,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.16274079083400506,
@@ -9611,7 +9660,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793456268.3904462,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3581865977264269,
@@ -9706,7 +9755,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793472028.548497,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4211712057626372,
@@ -9729,7 +9778,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793472030.696405,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.25562401101581395,
@@ -9752,7 +9801,7 @@
    "cat": "Clima",
    "end": 1793534400.0,
    "t": 1793472031.5739326,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2572717002126276,
@@ -11364,6 +11413,412 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6509366": {
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 3?",
+   "p": 0.21002848715772238,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612664.494345,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3370768767583231,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 27.73,
+    "sigma": 1.86,
+    "kind": "exact",
+    "a": 28,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6511610": {
+   "q": "Will the highest temperature in Dallas be between 74-75°F on November 3?",
+   "p": 0.22107074144216232,
+   "yes": 0.5,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612665.0219324,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2846562240478817,
+   "wx": {
+    "sid": "KDFW",
+    "mu": 72.83,
+    "sigma": 3.08,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-11-03"
+   }
+  },
+  "6509367": {
+   "q": "Will the highest temperature in Hong Kong be 29°C on November 3?",
+   "p": 0.16909608407230914,
+   "yes": 0.41,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612665.022202,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.18930302173009883,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 27.73,
+    "sigma": 1.86,
+    "kind": "exact",
+    "a": 29,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509528": {
+   "q": "Will the highest temperature in Busan be 19°C on November 3?",
+   "p": 0.16816236316841504,
+   "yes": 0.51,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612665.791774,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.19595746992524699,
+   "wx": {
+    "sid": "geo:busan",
+    "mu": 17.77,
+    "sigma": 1.92,
+    "kind": "exact",
+    "a": 19,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509463": {
+   "q": "Will the highest temperature in Beijing be 19°C on November 3?",
+   "p": 0.1475246478597655,
+   "yes": 0.5,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612666.8910358,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1567118212304699,
+   "wx": {
+    "sid": "geo:beijing",
+    "mu": 17.5,
+    "sigma": 2.07,
+    "kind": "exact",
+    "a": 19,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509331": {
+   "q": "Will the highest temperature in Munich be 6°C on November 3?",
+   "p": 0.20913188917431147,
+   "yes": 0.44,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612667.1558154,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.28938251034173024,
+   "wx": {
+    "sid": "EDDM",
+    "mu": 6.77,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 6,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6524053": {
+   "q": "Will the highest temperature in Toronto be 21°C on November 3?",
+   "p": 0.21304300676438503,
+   "yes": 0.235,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612667.3719065,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.30257094952044505,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 20.3,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 21,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509354": {
+   "q": "Will the highest temperature in Tokyo be 19°C on November 3?",
+   "p": 0.221809746328823,
+   "yes": 0.52,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612667.8723319,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.332957573849039,
+   "wx": {
+    "sid": "RJTT",
+    "mu": 18.47,
+    "sigma": 1.69,
+    "kind": "exact",
+    "a": 19,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6511600": {
+   "q": "Will the highest temperature in New York City be between 70-71°F on November 3?",
+   "p": 0.19166934781278033,
+   "yes": 0.395,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612668.4279933,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.21928020445493468,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 68.3,
+    "sigma": 3.31,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-11-03"
+   }
+  },
+  "6524054": {
+   "q": "Will the highest temperature in Toronto be 22°C or higher on November 3?",
+   "p": 0.24013065137671163,
+   "yes": 0.715,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612668.4283216,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1197034393983949,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 20.3,
+    "sigma": 1.7,
+    "kind": "ge",
+    "a": 22,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509615": {
+   "q": "Will the highest temperature in Karachi be 36°C on November 3?",
+   "p": 0.18068647889325107,
+   "yes": 0.455,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612669.1820736,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2256706908483468,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 34.93,
+    "sigma": 1.86,
+    "kind": "exact",
+    "a": 36,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509561": {
+   "q": "Will the highest temperature in Kuala Lumpur be 34°C on November 3?",
+   "p": 0.12513144870950843,
+   "yes": 0.375,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612669.9815123,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.0910184767614799,
+   "wx": {
+    "sid": "geo:kuala lumpur",
+    "mu": 32.07,
+    "sigma": 1.94,
+    "kind": "exact",
+    "a": 34,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509614": {
+   "q": "Will the highest temperature in Karachi be 35°C on November 3?",
+   "p": 0.21211717559576443,
+   "yes": 0.485,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612669.981809,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.34579017428270187,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 34.93,
+    "sigma": 1.86,
+    "kind": "exact",
+    "a": 35,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "6509539": {
+   "q": "Will the highest temperature in Amsterdam be 11°C on November 3?",
+   "p": 0.22966036412730828,
+   "yes": 0.6,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793707200.0,
+   "t": 1793612670.2887857,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.37050681378934314,
+   "wx": {
+    "sid": "EHAM",
+    "mu": 11.17,
+    "sigma": 1.7,
+    "kind": "exact",
+    "a": 11,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-03"
+   }
+  },
+  "562794": {
+   "q": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+   "p": 0.28,
+   "yes": 0.285,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612690.9492037,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "630964": {
+   "q": "Will the Republicans win the Texas Senate race in 2026?",
+   "p": 0.78,
+   "yes": 0.245,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612713.130695,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "562793": {
+   "q": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+   "p": 0.7,
+   "yes": 0.725,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612758.202089,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "630805": {
+   "q": "Will the Democrats win the Michigan Senate race in 2026?",
+   "p": 0.78,
+   "yes": 0.795,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612785.2030427,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "630806": {
+   "q": "Will the Republicans win the Michigan Senate race in 2026?",
+   "p": 0.28,
+   "yes": 0.205,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612807.9319582,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "630963": {
+   "q": "Will the Democrats win the Texas Senate race in 2026?",
+   "p": 0.23,
+   "yes": 0.765,
+   "conf": "medium",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612828.638645,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "629691": {
+   "q": "Will the Republicans win the Texas governor race in 2026?",
+   "p": 0.65,
+   "yes": 0.6445,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1793768340.0,
+   "t": 1793612848.6531267,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -11610,6 +12065,10 @@
   {
    "t": 1793585002.9547796,
    "equity": 1243.27
+  },
+  {
+   "t": 1793612848.6539435,
+   "equity": 1246.31
   }
  ],
  "llm_calls": {
@@ -11623,8 +12082,8 @@
   "2026-10-30": 35,
   "2026-10-31": 39,
   "2026-11-01": 36,
-  "2026-11-02": 8
+  "2026-11-02": 16
  },
  "killed": false,
- "cycles": 61
+ "cycles": 62
 }
