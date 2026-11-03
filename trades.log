@@ -668,3 +668,11 @@
 2026-11-03 08:57:27Z BUY YES [clima] Will the highest temperature in Paris be 11°C on N @ 0.401 $12.50 edge=0.096 conf=medium | Modelo 0.19 vs mercado 0.38
 2026-11-03 08:58:20Z erro LLM Will the Democrats win the Texas governo: Expecting property name enclosed in double quotes: line 1 column 172 (char 171)
 2026-11-03 08:58:20Z ciclo 65: lidos=1000 filtro=263 llm=8 clima=10 compras=5 vendas=6 descartados={'combinado': 6, 'esporte_vivo': 9, 'categoria_Esportes': 116, 'cripto': 17, 'clima_sem_modelo': 1} equity=$1190.55
+2026-11-03 16:50:18Z SELL YES [take-profit] Will the highest temperature in Tel Aviv be 28°C o @ 0.967 pnl=$+6.29
+2026-11-03 16:50:25Z BUY YES [clima] Will the highest temperature in Hong Kong be 28°C  @ 0.560 $12.60 edge=0.139 conf=medium | Modelo 0.25 vs mercado 0.53
+2026-11-03 16:50:41Z erro previsao geo:beijing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-03 16:50:51Z erro previsao geo:beijing: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-03 16:51:01Z erro previsao LEMD: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-03 16:51:12Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-03 16:51:22Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-03 16:52:41Z ciclo 66: lidos=1000 filtro=271 llm=8 clima=17 compras=1 vendas=1 descartados={'combinado': 9, 'categoria_Esportes': 172, 'cripto': 9, 'esporte_vivo': 10, 'clima_sem_modelo': 4} equity=$1199.98
