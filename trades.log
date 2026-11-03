@@ -649,3 +649,9 @@
 2026-11-02 19:57:08Z erro previsao NZWN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-02 19:57:08Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-02 20:01:34Z ciclo 63: lidos=1000 filtro=251 llm=8 clima=20 compras=4 vendas=4 descartados={'combinado': 2, 'categoria_Esportes': 260, 'esporte_vivo': 5, 'cripto': 18, 'clima_sem_modelo': 2} equity=$1206.53
+2026-11-03 01:56:28Z SELL YES [stop-loss] Will the highest temperature in Tel Aviv be 27°C o @ 0.277 pnl=$-4.11
+2026-11-03 01:56:29Z SELL YES [stop-loss] Will the highest temperature in Madrid be 16°C on  @ 0.172 pnl=$-6.61
+2026-11-03 01:56:33Z BUY YES [clima] Will the highest temperature in London be 13°C on  @ 0.520 $12.64 edge=0.113 conf=medium | Modelo 0.26 vs mercado 0.49
+2026-11-03 01:56:34Z BUY YES [clima] Will the highest temperature in Tel Aviv be 28°C o @ 0.646 $12.64 edge=0.177 conf=medium | Modelo 0.27 vs mercado 0.61
+2026-11-03 01:57:22Z BUY YES [llm] US x Iran ceasefire continues through November 2? @ 0.508 $48.14 edge=0.212 conf=high | The market is lagging behind the literal expiration time, failing to fully price in that the deadline has already passed without a strike.
+2026-11-03 01:57:28Z ciclo 64: lidos=900 filtro=265 llm=8 clima=12 compras=3 vendas=2 descartados={'combinado': 3, 'esporte_vivo': 14, 'categoria_Esportes': 65, 'cripto': 13} equity=$1203.51
