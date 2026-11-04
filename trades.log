@@ -708,3 +708,6 @@
 2026-11-04 18:08:56Z BUY YES [clima] Will the highest temperature in New York City be b @ 0.520 $11.34 edge=0.153 conf=medium | Modelo 0.21 vs mercado 0.50
 2026-11-04 18:08:56Z BUY YES [clima] Will the highest temperature in Miami be between 8 @ 0.410 $11.34 edge=0.086 conf=medium | Modelo 0.19 vs mercado 0.38
 2026-11-04 18:11:32Z ciclo 69: lidos=500 filtro=17 llm=8 clima=5 compras=5 vendas=6 descartados={'categoria_Esportes': 155, 'cripto': 12, 'esporte_vivo': 5, 'clima_sem_modelo': 1} equity=$1080.25
+2026-11-04 23:50:10Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.964 pnl=$+9.68
+2026-11-04 23:50:16Z BUY YES [clima] Will the highest temperature in Lucknow be 31°C on @ 0.411 $11.37 edge=0.088 conf=medium | Modelo 0.18 vs mercado 0.38
+2026-11-04 23:50:55Z ciclo 70: lidos=400 filtro=18 llm=6 clima=11 compras=1 vendas=1 descartados={'esporte_vivo': 13, 'cripto': 13, 'categoria_Esportes': 71, 'combinado': 1, 'clima_sem_modelo': 1} equity=$1083.20

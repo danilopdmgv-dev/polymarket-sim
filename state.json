@@ -1,31 +1,6 @@
 {
- "cash": 1011.0376956036266,
+ "cash": 1021.1844448139993,
  "positions": [
-  {
-   "mid": "6569666",
-   "q": "Will the highest temperature in Houston be between 78-79°F on November 4?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "92289415998527706379914683864633033398366153272139179704517977666264785436720",
-   "entry": 0.5304067848059494,
-   "fair": 0.6987854269180479,
-   "shares": 22.325018568113713,
-   "cost": 11.841341319446315,
-   "t": 1793759439.0264783,
-   "mark": 0.56,
-   "conf": "medium",
-   "llm_p": 0.16869095513658683,
-   "mkt_yes": 0.5,
-   "edge": 0.16837864211209852,
-   "evidence": [
-    "Previsao Open-Meteo geo:houston 2026-11-04: maxima 75.8F (3 modelos, sigma 3.4)"
-   ],
-   "misprice": "Modelo 0.17 vs mercado 0.50",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:houston|2026-11-04",
-   "inv": true
-  },
   {
    "mid": "6629286",
    "q": "Will the highest temperature in Houston be between 82-83°F on November 5?",
@@ -37,7 +12,7 @@
    "shares": 24.114767135397038,
    "cost": 11.342656372578986,
    "t": 1793815734.3867795,
-   "mark": 0.47036143077366005,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.1045074599474568,
    "mkt_yes": 0.45,
@@ -62,7 +37,7 @@
    "shares": 18.280856685178115,
    "cost": 11.342656372578984,
    "t": 1793815735.7189112,
-   "mark": 0.620466347278761,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.22276032519653144,
    "mkt_yes": 0.6,
@@ -87,7 +62,7 @@
    "shares": 19.21082804853656,
    "cost": 11.342656372578984,
    "t": 1793815736.0028448,
-   "mark": 0.5904303731167405,
+   "mark": 0.51,
    "conf": "medium",
    "llm_p": 0.18038336498959195,
    "mkt_yes": 0.57,
@@ -112,7 +87,7 @@
    "shares": 21.796593524424342,
    "cost": 11.34265637257898,
    "t": 1793815736.2901595,
-   "mark": 0.5203866539910872,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.21025675723038062,
    "mkt_yes": 0.5,
@@ -137,7 +112,7 @@
    "shares": 27.632006068503465,
    "cost": 11.34265637257898,
    "t": 1793815736.9431448,
-   "mark": 0.41048979015345494,
+   "mark": 0.38,
    "conf": "medium",
    "llm_p": 0.18586006711185243,
    "mkt_yes": 0.38,
@@ -149,6 +124,31 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "KMIA|2026-11-05",
+   "inv": true
+  },
+  {
+   "mid": "6626654",
+   "q": "Will the highest temperature in Lucknow be 31°C on November 5?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "54946087148675338679566938020730614925940672395827049449730181249393238920472",
+   "entry": 0.41052364673568875,
+   "fair": 0.49870898507366845,
+   "shares": 27.705224581266084,
+   "cost": 11.373649828732598,
+   "t": 1793836216.5974636,
+   "mark": 0.41052364673568875,
+   "conf": "medium",
+   "llm_p": 0.18215169154388589,
+   "mkt_yes": 0.38,
+   "edge": 0.0881853383379797,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-11-05: maxima 29.7C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.38",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-11-05",
    "inv": true
   }
  ],
@@ -4158,48 +4158,78 @@
    "pnl": -33.83240376984662,
    "closed_t": 1793815730.3030446,
    "held_h": 15.60906643331051
+  },
+  {
+   "mid": "6569666",
+   "q": "Will the highest temperature in Houston be between 78-79°F on November 4?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "92289415998527706379914683864633033398366153272139179704517977666264785436720",
+   "entry": 0.5304067848059494,
+   "fair": 0.6987854269180479,
+   "shares": 22.325018568113713,
+   "cost": 11.841341319446315,
+   "t": 1793759439.0264783,
+   "mark": 0.998,
+   "conf": "medium",
+   "llm_p": 0.16869095513658683,
+   "mkt_yes": 0.5,
+   "edge": 0.16837864211209852,
+   "evidence": [
+    "Previsao Open-Meteo geo:houston 2026-11-04: maxima 75.8F (3 modelos, sigma 3.4)"
+   ],
+   "misprice": "Modelo 0.17 vs mercado 0.50",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:houston|2026-11-04",
+   "inv": true,
+   "exit": 0.9639588416666487,
+   "reason": "take-profit",
+   "pnl": 9.679057719659003,
+   "closed_t": 1793836210.984437,
+   "held_h": 21.325543877416187
   }
  ],
  "cache": {
   "6288566": {
-   "t": 1793815752.0274878,
-   "yes": 0.109,
+   "t": 1793836225.4028332,
+   "yes": 0.1905,
    "est": {
-    "p": 0.11,
+    "p": 0.18,
     "conf": "low",
     "evidence": [
-     "Nao ha dados historicos especificos para esta semana de outubro/novembro de 2026."
+     "O mercado monitora a contagem de tweets de Elon Musk entre 30 de outubro e 6 de novembro de 2026.",
+     "Faltam apenas 1.72 dias para o encerramento do mercado em 4 de novembro de 2026."
     ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade desta faixa especifica de volume de tweets.",
-    "reason": "A faixa de 280-299 tweets em uma semana representa uma media de 40 a 43 tweets por dia, o que e um pouco acima da mediana historica recente de Musk, mas estatisticamente plausivel."
+    "misprice": "O mercado avalia adequadamente a baixa probabilidade desta faixa estreita de volume de postagens.",
+    "reason": "A faixa de 280-299 tweets em uma semana representa uma media muito especifica que diverge do seu padrao habitual de atividade."
    }
   },
   "3388092": {
-   "t": 1793815763.963961,
-   "yes": 0.291,
-   "est": {
-    "p": 0.28,
-    "conf": "low",
-    "evidence": [
-     "O Banco do México encerrou seu ciclo de afrouxamento em maio de 2026 segundo notícias recentes.",
-     "A taxa overnight está em patamares restritivos devido à inflação persistente na América Latina.",
-     "A reunião de novembro de 2026 ocorre em 5 de novembro sem dados macroeconômicos recentes que forcem um corte de 25 bps."
-    ],
-    "misprice": "O mercado já precifica adequadamente a probabilidade de manutenção ou corte com base na postura prudente do banco central.",
-    "reason": "A probabilidade implícita de 29% reflete de forma realista a chance de um corte menor de 25 bps em um cenário de cautela inflacionária."
-   }
-  },
-  "6288570": {
-   "t": 1793815786.1996105,
-   "yes": 0.26,
+   "t": 1793836237.833545,
+   "yes": 0.245,
    "est": {
     "p": 0.25,
     "conf": "low",
     "evidence": [
-     "No recent news or historical tweet volume data available for the exact Oct 30 - Nov 6, 2026 window."
+     "O Banco do México encerrou seu ciclo de afrouxamento monetário em maio de 2026 segundo o Reuters de 07 de maio de 2026.",
+     "A taxa de juros anterior à reunião de novembro de 2026 reflete um ambiente de estabilização monetária."
     ],
-    "misprice": "Market price reflects a standard baseline probability for a specific narrow bin of Elon Musk's historical posting ranges.",
-    "reason": "Given the lack of specific activity data for this future window, the probability remains low as 300-319 tweets in a week represents a very specific volume."
+    "misprice": "O mercado já precifica adequadamente a baixa probabilidade de um novo corte de 25 bps logo após o fim do ciclo anterior.",
+    "reason": "A política monetária recente do Banco do México indica cautela e manutenção de taxas, tornando um corte em novembro improvável."
+   }
+  },
+  "6288570": {
+   "t": 1793836231.8940175,
+   "yes": 0.345,
+   "est": {
+    "p": 0.32,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados em tempo real sobre a contagem exata de tweets para o periodo de 30 de outubro a 6 de novembro de 2026."
+    ],
+    "misprice": "O mercado esta ligeiramente ineficiente devido a falta de dados recentes de rastreamento publico.",
+    "reason": "A faixa estreita de 20 tweets tem baixa probabilidade intrinseca, alinhando-se com a premissa cetica."
    }
   },
   "6288583": {
@@ -4216,29 +4246,29 @@
    }
   },
   "6288579": {
-   "t": 1793815835.2084723,
-   "yes": 0.195,
+   "t": 1793836243.8362386,
+   "yes": 0.115,
    "est": {
-    "p": 0.19,
+    "p": 0.12,
     "conf": "low",
     "evidence": [
-     "Nao ha dados especificos sobre a taxa de publicacao de Elon Musk para o periodo de outubro a novembro de 2026."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo de 30 de outubro a 6 de novembro de 2026."
     ],
-    "misprice": "O mercado reflete adequadamente a incrustada volatilidade e a baixa probabilidade historica de um intervalo tao especifico de tweets.",
-    "reason": "Como nao ha dados concretos recentes sobre a atividade futura em 2026, mantenho-me proximo ao preco atual do mercado com viés cético."
+    "misprice": "O mercado esta ligeiramente ineficiente devido a falta de liquidez, refletindo bem a probabilidade baixa historica.",
+    "reason": "A media de postagens de Elon Musk varia, mas o intervalo restrito de 340-359 em exatamente uma semana e estatisticamente pouco provavel."
    }
   },
   "6288574": {
-   "t": 1793815850.7355955,
-   "yes": 0.29,
+   "t": 1793836250.0931108,
+   "yes": 0.245,
    "est": {
-    "p": 0.29,
+    "p": 0.25,
     "conf": "low",
     "evidence": [
-     "Sem dados recentes disponiveis sobre a contagem exata de tweets no periodo especificado de 30 de outubro a 6 de novembro de 2026."
+     "Nao ha dados especificos sobre a frequencia de tweets de Elon Musk para o periodo de outubro a novembro de 2026."
     ],
-    "misprice": "Nao ha evidencia nova ou concreta para divergir do preco atual do mercado.",
-    "reason": "A falta de dados especificos sobre a frequencia de postagens recente mantem a probabilidade alinhada com a avaliacao atual do mercado."
+    "misprice": "O mercado esta alinhado com a taxa historica de atividade dele para intervalos similares de 7 dias.",
+    "reason": "A faixa de 320-339 tweets em uma semana representa uma media de 45 a 48 posts por dia, o que e estatisticamente possivel mas ligeiramente acima da mediana recente."
    }
   },
   "6634118": {
@@ -4267,6 +4297,19 @@
     ],
     "misprice": "O mercado está calibrado de forma eficiente próximo a 44.5% com base nas médias históricas e no metajogo de LoL para o confronto.",
     "reason": "A ausência de informações concretas e específicas sobre o draft ou o estado atual das equipes impede um desvio significativo da probabilidade implícita do mercado."
+   }
+  },
+  "6658219": {
+   "t": 1793836255.93964,
+   "yes": 0.555,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "As noticias recentes nao contem dados especificos sobre o jogo 3 entre Gen.G e LYON em 2026."
+    ],
+    "misprice": "O mercado esta perto de 0.55, o que reflete incerteza padrao para linhas de O/U em esports sem desvios estatisticos extremos.",
+    "reason": "A linha de 24.5 kills e proxima da media historica para o cenario competitivo atual de League of Legends."
    }
   }
  },
@@ -11770,7 +11813,7 @@
    "cat": "Entretenimento",
    "end": 1793725200.0,
    "t": 1793560710.3851018,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12619,7 +12662,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649384.2769809,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.02129414200221369,
@@ -12642,7 +12685,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649384.4350703,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3618227046048869,
@@ -12665,7 +12708,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649384.60998,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.24888649831642085,
@@ -12688,7 +12731,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649384.7757509,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.30671096960228494,
@@ -12711,7 +12754,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649385.4456906,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3198554290477172,
@@ -12734,7 +12777,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649386.080093,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.40303642711550886,
@@ -12757,7 +12800,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649386.2251112,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.263380638052902,
@@ -12780,7 +12823,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649387.2323387,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2264381487570586,
@@ -12803,7 +12846,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793649387.737285,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4089770620861237,
@@ -12838,7 +12881,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793670996.0537677,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4012849549591158,
@@ -12953,7 +12996,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793670998.339719,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.11681639441926128,
@@ -13011,7 +13054,7 @@
    "cat": "Clima",
    "end": 1793707200.0,
    "t": 1793696247.3261602,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.500298624394534,
@@ -13977,6 +14020,248 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6627699": {
+   "q": "Will the highest temperature in London be 10°C on November 5?",
+   "p": 0.19644283287734454,
+   "yes": 0.37,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836213.9710982,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2743645440823405,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 10.8,
+    "sigma": 1.83,
+    "kind": "exact",
+    "a": 10,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6629285": {
+   "q": "Will the highest temperature in Houston be between 80-81°F on November 5?",
+   "p": 0.19485718331799107,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836215.0277977,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2638607463753655,
+   "wx": {
+    "sid": "geo:houston",
+    "mu": 78.77,
+    "sigma": 3.61,
+    "kind": "range",
+    "a": 80,
+    "b": 81,
+    "unit": "F",
+    "date": "2026-11-05"
+   }
+  },
+  "6629240": {
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on November 5?",
+   "p": 0.2389002589299964,
+   "yes": 0.36,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836215.5578613,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3666644303073884,
+   "wx": {
+    "sid": "KATL",
+    "mu": 73.67,
+    "sigma": 3.18,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-11-05"
+   }
+  },
+  "6667180": {
+   "q": "Will the highest temperature in Milan be 11°C on November 6?",
+   "p": 0.20906530667703638,
+   "yes": 0.465,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793836217.1034904,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3356460135879693,
+   "wx": {
+    "sid": "LIMC",
+    "mu": 10.73,
+    "sigma": 1.87,
+    "kind": "exact",
+    "a": 11,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-06"
+   }
+  },
+  "6626838": {
+   "q": "Will the highest temperature in Moscow be 4°C on November 5?",
+   "p": 0.2884083899272623,
+   "yes": 0.39,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836217.2914197,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4440186446490075,
+   "wx": {
+    "sid": "UUWW",
+    "mu": 4.3,
+    "sigma": 1.32,
+    "kind": "exact",
+    "a": 4,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6634016": {
+   "q": "Will the highest temperature in Toronto be 17°C on November 5?",
+   "p": 0.2209076752886714,
+   "yes": 0.565,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836217.9417248,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.33544300701069596,
+   "wx": {
+    "sid": "CYYZ",
+    "mu": 16.5,
+    "sigma": 1.71,
+    "kind": "exact",
+    "a": 17,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6626742": {
+   "q": "Will the highest temperature in Madrid be 16°C on November 5?",
+   "p": 0.2417792023729789,
+   "yes": 0.6,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836218.4773006,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2905844190481862,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 15.17,
+    "sigma": 1.34,
+    "kind": "exact",
+    "a": 16,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6629241": {
+   "q": "Will the highest temperature in Atlanta be between 76-77°F on November 5?",
+   "p": 0.16814044255880922,
+   "yes": 0.405,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836218.4775786,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.14596232613347726,
+   "wx": {
+    "sid": "KATL",
+    "mu": 73.67,
+    "sigma": 3.18,
+    "kind": "range",
+    "a": 76,
+    "b": 77,
+    "unit": "F",
+    "date": "2026-11-05"
+   }
+  },
+  "6634006": {
+   "q": "Will the highest temperature in Buenos Aires be 27°C on November 5?",
+   "p": 0.1574574022270031,
+   "yes": 0.535,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836219.1703138,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.17499276906970163,
+   "wx": {
+    "sid": "geo:buenos aires",
+    "mu": 25.63,
+    "sigma": 1.99,
+    "kind": "exact",
+    "a": 27,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6631067": {
+   "q": "Will the highest temperature in San Francisco be between 70-71°F on November 5?",
+   "p": 0.20259427225536009,
+   "yes": 0.385,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793836219.338123,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2905724798839592,
+   "wx": {
+    "sid": "KSFO",
+    "mu": 69.07,
+    "sigma": 3.6,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-11-05"
+   }
+  },
+  "6658219": {
+   "q": "Total Kills Over/Under 24.5 in Game 3?",
+   "p": 0.52,
+   "yes": 0.555,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793851500.0,
+   "t": 1793836255.9396443,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -14255,6 +14540,10 @@
   {
    "t": 1793815892.6714628,
    "equity": 1080.25
+  },
+  {
+   "t": 1793836255.940071,
+   "equity": 1083.2
   }
  ],
  "llm_calls": {
@@ -14270,8 +14559,8 @@
   "2026-11-01": 36,
   "2026-11-02": 26,
   "2026-11-03": 39,
-  "2026-11-04": 16
+  "2026-11-04": 22
  },
  "killed": false,
- "cycles": 69
+ "cycles": 70
 }
