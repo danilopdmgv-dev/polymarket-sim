@@ -688,3 +688,11 @@
 2026-11-03 22:11:16Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-03 22:11:16Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-03 22:12:05Z ciclo 67: lidos=800 filtro=273 llm=8 clima=12 compras=3 vendas=3 descartados={'combinado': 2, 'esporte_vivo': 17, 'categoria_Esportes': 77, 'cripto': 15, 'clima_sem_modelo': 3} equity=$1184.58
+2026-11-04 02:30:31Z SELL YES [stop-loss] Will the Republicans win the Texas Senate race in  @ 0.010 pnl=$-35.95
+2026-11-04 02:30:31Z SELL NO [stop-loss] Will the Democrats win the Texas Senate race in 20 @ 0.010 pnl=$-35.89
+2026-11-04 02:30:31Z SELL YES [take-profit] Will the highest temperature in Tel Aviv be 28°C o @ 0.634 pnl=$+4.01
+2026-11-04 02:30:39Z BUY YES [clima] Will the highest temperature in Houston be between @ 0.530 $11.84 edge=0.168 conf=medium | Modelo 0.17 vs mercado 0.50
+2026-11-04 02:30:55Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-04 02:31:06Z erro previsao geo:austin: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-04 02:32:17Z BUY NO [llm] Will the Democrats win the Iowa Senate race in 202 @ 0.151 $33.83 edge=0.354 conf=medium | O mercado esta ligeiramente ineficiente ao precificar os democratas com 87% de chance, superestimando uma improbable virada.
+2026-11-04 02:32:47Z ciclo 68: lidos=1000 filtro=73 llm=8 clima=14 compras=2 vendas=3 descartados={'esporte_vivo': 11, 'categoria_Esportes': 90, 'cripto': 14, 'combinado': 2, 'clima_sem_modelo': 1} equity=$1127.75
