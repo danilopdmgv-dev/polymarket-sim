@@ -1,5 +1,5 @@
 {
- "cash": 1021.1844448139993,
+ "cash": 1011.1112027246816,
  "positions": [
   {
    "mid": "6629286",
@@ -12,7 +12,7 @@
    "shares": 24.114767135397038,
    "cost": 11.342656372578986,
    "t": 1793815734.3867795,
-   "mark": 0.45,
+   "mark": 0.57,
    "conf": "medium",
    "llm_p": 0.1045074599474568,
    "mkt_yes": 0.45,
@@ -37,7 +37,7 @@
    "shares": 18.280856685178115,
    "cost": 11.342656372578984,
    "t": 1793815735.7189112,
-   "mark": 0.53,
+   "mark": 0.66,
    "conf": "medium",
    "llm_p": 0.22276032519653144,
    "mkt_yes": 0.6,
@@ -62,7 +62,7 @@
    "shares": 19.21082804853656,
    "cost": 11.342656372578984,
    "t": 1793815736.0028448,
-   "mark": 0.51,
+   "mark": 0.55,
    "conf": "medium",
    "llm_p": 0.18038336498959195,
    "mkt_yes": 0.57,
@@ -87,7 +87,7 @@
    "shares": 21.796593524424342,
    "cost": 11.34265637257898,
    "t": 1793815736.2901595,
-   "mark": 0.45,
+   "mark": 0.47,
    "conf": "medium",
    "llm_p": 0.21025675723038062,
    "mkt_yes": 0.5,
@@ -112,7 +112,7 @@
    "shares": 27.632006068503465,
    "cost": 11.34265637257898,
    "t": 1793815736.9431448,
-   "mark": 0.38,
+   "mark": 0.4,
    "conf": "medium",
    "llm_p": 0.18586006711185243,
    "mkt_yes": 0.38,
@@ -127,28 +127,28 @@
    "inv": true
   },
   {
-   "mid": "6626654",
-   "q": "Will the highest temperature in Lucknow be 31°C on November 5?",
+   "mid": "6667180",
+   "q": "Will the highest temperature in Milan be 11°C on November 6?",
    "cat": "Clima",
    "side": "YES",
-   "token": "54946087148675338679566938020730614925940672395827049449730181249393238920472",
-   "entry": 0.41052364673568875,
-   "fair": 0.49870898507366845,
-   "shares": 27.705224581266084,
-   "cost": 11.373649828732598,
-   "t": 1793836216.5974636,
-   "mark": 0.41052364673568875,
+   "token": "28721802449316208866660825821197310335094658676848043292437107135633066351771",
+   "entry": 0.4603505826293673,
+   "fair": 0.5712727411588192,
+   "shares": 24.636284528652425,
+   "cost": 11.34132793658801,
+   "t": 1793853051.1436493,
+   "mark": 0.4603505826293673,
    "conf": "medium",
-   "llm_p": 0.18215169154388589,
-   "mkt_yes": 0.38,
-   "edge": 0.0881853383379797,
+   "llm_p": 0.2078787647353012,
+   "mkt_yes": 0.435,
+   "edge": 0.11092215852945198,
    "evidence": [
-    "Previsao Open-Meteo geo:lucknow 2026-11-05: maxima 29.7C (3 modelos, sigma 1.5)"
+    "Previsao Open-Meteo LIMC 2026-11-06: maxima 11.6C (3 modelos, sigma 1.8)"
    ],
-   "misprice": "Modelo 0.18 vs mercado 0.38",
+   "misprice": "Modelo 0.21 vs mercado 0.43",
    "version": "v3-alto-volume",
    "src": "clima",
-   "event": "geo:lucknow|2026-11-05",
+   "event": "LIMC|2026-11-06",
    "inv": true
   }
  ],
@@ -4188,21 +4188,50 @@
    "pnl": 9.679057719659003,
    "closed_t": 1793836210.984437,
    "held_h": 21.325543877416187
+  },
+  {
+   "mid": "6626654",
+   "q": "Will the highest temperature in Lucknow be 31°C on November 5?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "54946087148675338679566938020730614925940672395827049449730181249393238920472",
+   "entry": 0.41052364673568875,
+   "fair": 0.49870898507366845,
+   "shares": 27.705224581266084,
+   "cost": 11.373649828732598,
+   "t": 1793836216.5974636,
+   "mark": 0.1,
+   "conf": "medium",
+   "llm_p": 0.18215169154388589,
+   "mkt_yes": 0.38,
+   "edge": 0.0881853383379797,
+   "evidence": [
+    "Previsao Open-Meteo geo:lucknow 2026-11-05: maxima 29.7C (3 modelos, sigma 1.5)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.38",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:lucknow|2026-11-05",
+   "inv": true,
+   "exit": 0.04577063952506713,
+   "reason": "stop-loss",
+   "pnl": -10.105563981462439,
+   "closed_t": 1793853045.4197383,
+   "held_h": 4.674672854145368
   }
  ],
  "cache": {
   "6288566": {
-   "t": 1793836225.4028332,
-   "yes": 0.1905,
+   "t": 1793853102.645618,
+   "yes": 0.257,
    "est": {
-    "p": 0.18,
+    "p": 0.25,
     "conf": "low",
     "evidence": [
-     "O mercado monitora a contagem de tweets de Elon Musk entre 30 de outubro e 6 de novembro de 2026.",
-     "Faltam apenas 1.72 dias para o encerramento do mercado em 4 de novembro de 2026."
+     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo especificado de 30 de outubro a 6 de novembro de 2026."
     ],
-    "misprice": "O mercado avalia adequadamente a baixa probabilidade desta faixa estreita de volume de postagens.",
-    "reason": "A faixa de 280-299 tweets em uma semana representa uma media muito especifica que diverge do seu padrao habitual de atividade."
+    "misprice": "O mercado ja reflete adequadamente a taxa media historica de postagens de Elon Musk para um intervalo de 7 dias.",
+    "reason": "A faixa de 280-299 tweets em uma semana representa uma media de 40 a 43 posts por dia, ligeiramente acima do padrao tipico, tornando o cenario plausivel mas nao o mais provavel."
    }
   },
   "3388092": {
@@ -4220,83 +4249,43 @@
    }
   },
   "6288570": {
-   "t": 1793836231.8940175,
-   "yes": 0.345,
+   "t": 1793853113.5105538,
+   "yes": 0.375,
    "est": {
-    "p": 0.32,
+    "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets para o periodo de 30 de outubro a 6 de novembro de 2026."
+     "No recent news available regarding Elon Musk's posting habits for late 2026.",
+     "Market is currently priced at 0.375 for the 300-319 range."
     ],
-    "misprice": "O mercado esta ligeiramente ineficiente devido a falta de dados recentes de rastreamento publico.",
-    "reason": "A faixa estreita de 20 tweets tem baixa probabilidade intrinseca, alinhando-se com a premissa cetica."
+    "misprice": "The market price reflects a reasonable baseline distribution for his typical weekly activity without contradictory data.",
+    "reason": "Historical tweet volume variance makes a specific narrow bin of 20 tweets unlikely to be significantly mispriced by the current odds."
    }
   },
-  "6288583": {
-   "t": 1793815809.8626926,
-   "yes": 0.095,
+  "6288579": {
+   "t": 1793853136.0618246,
+   "yes": 0.085,
    "est": {
     "p": 0.08,
     "conf": "low",
     "evidence": [
-     "Nao ha dados historicos especificos para o volume exato de tweets neste periodo de 7 dias em 2026."
+     "O mercado fecha em 6 de novembro de 2026, data distante da atualidade em novembro de 2024."
     ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade desta faixa especifica de volume de postagens.",
-    "reason": "A faixa de 360-379 tweets em uma semana representa uma media diaria muito especifica que diverge do comportamento tipico recente."
-   }
-  },
-  "6288579": {
-   "t": 1793836243.8362386,
-   "yes": 0.115,
-   "est": {
-    "p": 0.12,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo de 30 de outubro a 6 de novembro de 2026."
-    ],
-    "misprice": "O mercado esta ligeiramente ineficiente devido a falta de liquidez, refletindo bem a probabilidade baixa historica.",
-    "reason": "A media de postagens de Elon Musk varia, mas o intervalo restrito de 340-359 em exatamente uma semana e estatisticamente pouco provavel."
+    "misprice": "O mercado atual reflete a taxa base histórica de volume de tweets de Elon Musk para um período de 7 dias.",
+    "reason": "A alta incerteza sobre a rotina e o comportamento futuro de Elon Musk em 2026 justifica uma probabilidade baixa alinhada ao preço atual."
    }
   },
   "6288574": {
-   "t": 1793836250.0931108,
-   "yes": 0.245,
+   "t": 1793853124.4109952,
+   "yes": 0.195,
    "est": {
-    "p": 0.25,
+    "p": 0.19,
     "conf": "low",
     "evidence": [
-     "Nao ha dados especificos sobre a frequencia de tweets de Elon Musk para o periodo de outubro a novembro de 2026."
+     "Nao ha dados historicos especificos para esta janela de 7 dias em outubro-novembro de 2026."
     ],
-    "misprice": "O mercado esta alinhado com a taxa historica de atividade dele para intervalos similares de 7 dias.",
-    "reason": "A faixa de 320-339 tweets em uma semana representa uma media de 45 a 48 posts por dia, o que e estatisticamente possivel mas ligeiramente acima da mediana recente."
-   }
-  },
-  "6634118": {
-   "t": 1793815873.799179,
-   "yes": 0.25,
-   "est": {
-    "p": 0.22,
-    "conf": "low",
-    "evidence": [
-     "Nvidia stock rose 2.3% as chip stocks rebounded on Nov 3, 2026.",
-     "Current market price for YES is sitting at 0.250 with resolution on Nov 4, 2026."
-    ],
-    "misprice": "O mercado pode estar subestimando a volatilidade de curto prazo após o recente repique de alta nas techs.",
-    "reason": "A probabilidade implícita reflete um movimento diário significativo necessário para fechar acima de $205, mantendo o ceticismo característico de previsões de curto prazo."
-   }
-  },
-  "6658216": {
-   "t": 1793815892.6709101,
-   "yes": 0.445,
-   "est": {
-    "p": 0.45,
-    "conf": "low",
-    "evidence": [
-     "As notícias recentes não contêm dados específicos sobre a partida entre Gen.G e LYON nas quartas de final do Worlds de 2026.",
-     "O mercado reflete uma linha padrão de Over/Under 24.5 kills para o Game 1 baseada em estatísticas gerais do metajogo atual."
-    ],
-    "misprice": "O mercado está calibrado de forma eficiente próximo a 44.5% com base nas médias históricas e no metajogo de LoL para o confronto.",
-    "reason": "A ausência de informações concretas e específicas sobre o draft ou o estado atual das equipes impede um desvio significativo da probabilidade implícita do mercado."
+    "misprice": "O mercado ja reflete adequadamente a taxa media de postagem de Elon Musk.",
+    "reason": "A faixa de 320-339 tweets em 7 dias exige uma media diaria de ~45 a 48 tweets, o que esta ligeiramente acima da mediana historica recente."
    }
   },
   "6658219": {
@@ -4310,6 +4299,21 @@
     ],
     "misprice": "O mercado esta perto de 0.55, o que reflete incerteza padrao para linhas de O/U em esports sem desvios estatisticos extremos.",
     "reason": "A linha de 24.5 kills e proxima da media historica para o cenario competitivo atual de League of Legends."
+   }
+  },
+  "6436904": {
+   "t": 1793853147.9967134,
+   "yes": 0.0825,
+   "est": {
+    "p": 0.04,
+    "conf": "medium",
+    "evidence": [
+     "WTI dropped to $87 on Nov 5, 2026, as Trump ruled out immediate Iran strikes.",
+     "Global oil prices plunged for a second consecutive day amid US-Iran diplomacy hopes.",
+     "Current WTI trading levels remain comfortably above the $80 threshold during the specified week."
+    ],
+    "misprice": "The market slightly overestimates the tail risk of a sudden crash to $80 given current stabilizing geopolitical news.",
+    "reason": "With WTI trading around $87 and geopolitical risk premiums deflating due to US-Iran diplomacy, a drop to $80 within the remaining hours is unlikely."
    }
   }
  },
@@ -9255,7 +9259,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793342538.1061914,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -11825,7 +11829,7 @@
    "cat": "Entretenimento",
    "end": 1793725200.0,
    "t": 1793560716.3761008,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -11837,7 +11841,7 @@
    "cat": "Entretenimento",
    "end": 1793725200.0,
    "t": 1793560722.3283935,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -11849,7 +11853,7 @@
    "cat": "Entretenimento",
    "end": 1793725200.0,
    "t": 1793560734.5370276,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -11861,7 +11865,7 @@
    "cat": "Entretenimento",
    "end": 1793725200.0,
    "t": 1793560740.5112543,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12116,7 +12120,7 @@
    "cat": "Outros",
    "end": 1793750340.0,
    "t": 1793584966.580873,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12128,7 +12132,7 @@
    "cat": "Outros",
    "end": 1793750340.0,
    "t": 1793584973.0105343,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12140,7 +12144,7 @@
    "cat": "Politica",
    "end": 1793750340.0,
    "t": 1793584997.0454082,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12486,7 +12490,7 @@
    "cat": "Politica",
    "end": 1793768340.0,
    "t": 1793612690.9492037,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12498,7 +12502,7 @@
    "cat": "Politica",
    "end": 1793768340.0,
    "t": 1793612713.130695,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12510,7 +12514,7 @@
    "cat": "Politica",
    "end": 1793768340.0,
    "t": 1793612758.202089,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12522,7 +12526,7 @@
    "cat": "Politica",
    "end": 1793768340.0,
    "t": 1793612785.2030427,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -12534,7 +12538,7 @@
    "cat": "Politica",
    "end": 1793768340.0,
    "t": 1793612807.9319582,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -14262,6 +14266,133 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6626741": {
+   "q": "Will the highest temperature in Madrid be 15°C on November 5?",
+   "p": 0.2865286645022428,
+   "yes": 0.315,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793853049.8573773,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4487420518695191,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 15.23,
+    "sigma": 1.34,
+    "kind": "exact",
+    "a": 15,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6634044": {
+   "q": "Will the highest temperature in Panama City be 31°C on November 5?",
+   "p": 0.20321463354760422,
+   "yes": 0.385,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793853052.4221714,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.33015660930025437,
+   "wx": {
+    "sid": "geo:panama city",
+    "mu": 31.17,
+    "sigma": 1.93,
+    "kind": "exact",
+    "a": 31,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6668727": {
+   "q": "Will the highest temperature in London be 12°C on November 6?",
+   "p": 0.20685533759600672,
+   "yes": 0.37,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793853052.7203872,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.27697746793649825,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 11.17,
+    "sigma": 1.69,
+    "kind": "exact",
+    "a": 12,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-06"
+   }
+  },
+  "6634045": {
+   "q": "Will the highest temperature in Panama City be 32°C or higher on November 5?",
+   "p": 0.43159636942438073,
+   "yes": 0.525,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793880000.0,
+   "t": 1793853053.305318,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.38698509358330324,
+   "wx": {
+    "sid": "geo:panama city",
+    "mu": 31.17,
+    "sigma": 1.93,
+    "kind": "ge",
+    "a": 32,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-05"
+   }
+  },
+  "6667363": {
+   "q": "Will the highest temperature in Cape Town be 20°C on November 6?",
+   "p": 0.21152014690856852,
+   "yes": 0.395,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793853054.5251074,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.34485995139857906,
+   "wx": {
+    "sid": "geo:cape town",
+    "mu": 19.93,
+    "sigma": 1.86,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-06"
+   }
+  },
+  "6436904": {
+   "q": "Will WTI Crude Oil (WTI) hit (LOW) $80 Week of November 2 2026?",
+   "p": 0.04,
+   "yes": 0.0825,
+   "conf": "medium",
+   "cat": "Economia/Dados",
+   "end": 1794006000.0,
+   "t": 1793853147.9967186,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -14544,6 +14675,10 @@
   {
    "t": 1793836255.940071,
    "equity": 1083.2
+  },
+  {
+   "t": 1793853147.9978683,
+   "equity": 1080.13
   }
  ],
  "llm_calls": {
@@ -14559,8 +14694,9 @@
   "2026-11-01": 36,
   "2026-11-02": 26,
   "2026-11-03": 39,
-  "2026-11-04": 22
+  "2026-11-04": 22,
+  "2026-11-05": 5
  },
  "killed": false,
- "cycles": 70
+ "cycles": 71
 }

@@ -711,3 +711,11 @@
 2026-11-04 23:50:10Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.964 pnl=$+9.68
 2026-11-04 23:50:16Z BUY YES [clima] Will the highest temperature in Lucknow be 31°C on @ 0.411 $11.37 edge=0.088 conf=medium | Modelo 0.18 vs mercado 0.38
 2026-11-04 23:50:55Z ciclo 70: lidos=400 filtro=18 llm=6 clima=11 compras=1 vendas=1 descartados={'esporte_vivo': 13, 'cripto': 13, 'categoria_Esportes': 71, 'combinado': 1, 'clima_sem_modelo': 1} equity=$1083.20
+2026-11-05 04:30:45Z SELL YES [stop-loss] Will the highest temperature in Lucknow be 31°C on @ 0.046 pnl=$-10.11
+2026-11-05 04:30:51Z BUY YES [clima] Will the highest temperature in Milan be 11°C on N @ 0.460 $11.34 edge=0.111 conf=medium | Modelo 0.21 vs mercado 0.43
+2026-11-05 04:31:02Z erro geocode Lucknow: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-05 04:31:10Z erro geocode Buenos Aires: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-05 04:31:21Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 04:31:31Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 04:31:31Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-05 04:32:27Z ciclo 71: lidos=500 filtro=24 llm=5 clima=12 compras=1 vendas=1 descartados={'cripto': 12, 'categoria_Esportes': 73, 'combinado': 2, 'clima_sem_modelo': 4} equity=$1080.13
