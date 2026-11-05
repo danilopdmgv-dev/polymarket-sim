@@ -736,3 +736,15 @@
 2026-11-05 12:53:53Z LLM com limite/instabilidade: pulando as consultas restantes deste ciclo.
 2026-11-05 12:53:53Z erro LLM Will Elon Musk post 280-299 tweets from : Error code: 503
 2026-11-05 12:53:53Z ciclo 72: lidos=500 filtro=30 llm=1 clima=11 compras=4 vendas=4 descartados={'categoria_Esportes': 143, 'cripto': 15, 'combinado': 4, 'esporte_vivo': 7, 'clima_sem_modelo': 3} equity=$1057.46
+2026-11-05 20:25:40Z SELL YES [take-profit] Will the highest temperature in Miami be between 8 @ 0.944 pnl=$+14.73
+2026-11-05 20:25:40Z SELL YES [stop-loss] Will the highest temperature in Amsterdam be 10°C  @ 0.246 pnl=$-4.59
+2026-11-05 20:25:41Z SELL YES [stop-loss] Will the highest temperature in Busan be 17°C on N @ 0.114 pnl=$-8.24
+2026-11-05 20:25:47Z BUY YES [clima] Will the highest temperature in Atlanta be between @ 0.450 $11.10 edge=0.165 conf=medium | Modelo 0.12 vs mercado 0.43
+2026-11-05 20:25:49Z BUY YES [clima] Will the highest temperature in San Francisco be b @ 0.480 $11.10 edge=0.125 conf=medium | Modelo 0.20 vs mercado 0.46
+2026-11-05 20:25:50Z BUY YES [clima] Will the highest temperature in London be 12°C on  @ 0.371 $11.10 edge=0.070 conf=medium | Modelo 0.19 vs mercado 0.34
+2026-11-05 20:26:04Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 20:26:14Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 20:26:24Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 20:26:34Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 20:26:34Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-05 20:27:36Z ciclo 73: lidos=500 filtro=27 llm=8 clima=12 compras=3 vendas=3 descartados={'esporte_vivo': 19, 'categoria_Esportes': 138, 'cripto': 24, 'combinado': 1, 'clima_sem_modelo': 3} equity=$1057.41

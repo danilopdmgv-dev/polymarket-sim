@@ -1,31 +1,6 @@
 {
- "cash": 993.7413394729414,
+ "cash": 995.8835856161363,
  "positions": [
-  {
-   "mid": "6629252",
-   "q": "Will the highest temperature in Miami be between 84-85°F on November 5?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "108163651763667031243764601856022175800362710515264692490111304755427679922513",
-   "entry": 0.41048979015345494,
-   "fair": 0.49648395973288845,
-   "shares": 27.632006068503465,
-   "cost": 11.34265637257898,
-   "t": 1793815736.9431448,
-   "mark": 0.36,
-   "conf": "medium",
-   "llm_p": 0.18586006711185243,
-   "mkt_yes": 0.38,
-   "edge": 0.08599416957943351,
-   "evidence": [
-    "Previsao Open-Meteo KMIA 2026-11-05: maxima 82.1F (3 modelos, sigma 3.2)"
-   ],
-   "misprice": "Modelo 0.19 vs mercado 0.38",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KMIA|2026-11-05",
-   "inv": true
-  },
   {
    "mid": "6667180",
    "q": "Will the highest temperature in Milan be 11°C on November 6?",
@@ -37,7 +12,7 @@
    "shares": 24.636284528652425,
    "cost": 11.34132793658801,
    "t": 1793853051.1436493,
-   "mark": 0.38,
+   "mark": 0.39,
    "conf": "medium",
    "llm_p": 0.2078787647353012,
    "mkt_yes": 0.435,
@@ -62,7 +37,7 @@
    "shares": 17.61084490127821,
    "cost": 11.103373510098278,
    "t": 1793883142.7732053,
-   "mark": 0.6304849978715323,
+   "mark": 0.56,
    "conf": "medium",
    "llm_p": 0.11684153760982885,
    "mkt_yes": 0.605,
@@ -77,56 +52,6 @@
    "inv": true
   },
   {
-   "mid": "6667321",
-   "q": "Will the highest temperature in Amsterdam be 10°C on November 6?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "73607772963502420753223169487669870895079013481794173550317326938388105644073",
-   "entry": 0.420320940424402,
-   "fair": 0.514426611809232,
-   "shares": 26.41641765191879,
-   "cost": 11.103373510098278,
-   "t": 1793883144.8268235,
-   "mark": 0.420320940424402,
-   "conf": "medium",
-   "llm_p": 0.1826223136512799,
-   "mkt_yes": 0.39,
-   "edge": 0.09410567138483006,
-   "evidence": [
-    "Previsao Open-Meteo EHAM 2026-11-06: maxima 9.0C (3 modelos, sigma 1.9)"
-   ],
-   "misprice": "Modelo 0.18 vs mercado 0.39",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EHAM|2026-11-06",
-   "inv": true
-  },
-  {
-   "mid": "6667311",
-   "q": "Will the highest temperature in Busan be 17°C on November 6?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "41047484212225579884858111054307954582043272364702950339614933166706050293689",
-   "entry": 0.44045627564879924,
-   "fair": 0.6061118071695941,
-   "shares": 25.20879852090387,
-   "cost": 11.103373510098278,
-   "t": 1793883145.9015286,
-   "mark": 0.44045627564879924,
-   "conf": "medium",
-   "llm_p": 0.09648032138400975,
-   "mkt_yes": 0.415,
-   "edge": 0.16565553152079493,
-   "evidence": [
-    "Previsao Open-Meteo geo:busan 2026-11-06: maxima 14.6C (3 modelos, sigma 2.0)"
-   ],
-   "misprice": "Modelo 0.10 vs mercado 0.41",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "geo:busan|2026-11-06",
-   "inv": true
-  },
-  {
    "mid": "6667363",
    "q": "Will the highest temperature in Cape Town be 20°C on November 6?",
    "cat": "Clima",
@@ -137,7 +62,7 @@
    "shares": 21.33715365253808,
    "cost": 11.103373510098278,
    "t": 1793883146.636527,
-   "mark": 0.5203774454132741,
+   "mark": 0.41,
    "conf": "medium",
    "llm_p": 0.21231731114743374,
    "mkt_yes": 0.495,
@@ -149,6 +74,81 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "geo:cape town|2026-11-06",
+   "inv": true
+  },
+  {
+   "mid": "6669906",
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "22107682021835004391787491846924550351745779071495675793376140532777618686210",
+   "entry": 0.45043972771688884,
+   "fair": 0.6150465663927067,
+   "shares": 24.64882486875731,
+   "cost": 11.10280996242432,
+   "t": 1793910347.6376019,
+   "mark": 0.45043972771688884,
+   "conf": "medium",
+   "llm_p": 0.1215890560121553,
+   "mkt_yes": 0.43,
+   "edge": 0.16460683867581793,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-11-06: maxima 70.6F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.12 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-11-06",
+   "inv": true
+  },
+  {
+   "mid": "6672827",
+   "q": "Will the highest temperature in San Francisco be between 70-71°F on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "76463306592647831582067905009195966459804377319777615636657099315250601326561",
+   "entry": 0.48040567023659264,
+   "fair": 0.6058860228500373,
+   "shares": 23.11132163980569,
+   "cost": 11.10280996242432,
+   "t": 1793910349.7312486,
+   "mark": 0.48040567023659264,
+   "conf": "medium",
+   "llm_p": 0.2035232952499375,
+   "mkt_yes": 0.455,
+   "edge": 0.1254803526134447,
+   "evidence": [
+    "Previsao Open-Meteo KSFO 2026-11-06: maxima 69.2F (3 modelos, sigma 3.6)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KSFO|2026-11-06",
+   "inv": true
+  },
+  {
+   "mid": "6668727",
+   "q": "Will the highest temperature in London be 12°C on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "41118439787396252388375523933069257675472275163026960680488501498259627091523",
+   "entry": 0.3705337109391606,
+   "fair": 0.4407427802629959,
+   "shares": 29.964372025106602,
+   "cost": 11.10280996242432,
+   "t": 1793910350.7943892,
+   "mark": 0.3705337109391606,
+   "conf": "medium",
+   "llm_p": 0.18542869956167374,
+   "mkt_yes": 0.345,
+   "edge": 0.0702090693238353,
+   "evidence": [
+    "Previsao Open-Meteo EGLC 2026-11-06: maxima 11.2C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EGLC|2026-11-06",
    "inv": true
   }
  ],
@@ -4338,9 +4338,207 @@
    "pnl": -7.249251535418705,
    "closed_t": 1793883138.936278,
    "held_h": 18.722957255178027
+  },
+  {
+   "mid": "6629252",
+   "q": "Will the highest temperature in Miami be between 84-85°F on November 5?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "108163651763667031243764601856022175800362710515264692490111304755427679922513",
+   "entry": 0.41048979015345494,
+   "fair": 0.49648395973288845,
+   "shares": 27.632006068503465,
+   "cost": 11.34265637257898,
+   "t": 1793815736.9431448,
+   "mark": 0.989,
+   "conf": "medium",
+   "llm_p": 0.18586006711185243,
+   "mkt_yes": 0.38,
+   "edge": 0.08599416957943351,
+   "evidence": [
+    "Previsao Open-Meteo KMIA 2026-11-05: maxima 82.1F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.19 vs mercado 0.38",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KMIA|2026-11-05",
+   "inv": true,
+   "exit": 0.9436200017360644,
+   "reason": "take-profit",
+   "pnl": 14.7314572417532,
+   "closed_t": 1793910340.3868074,
+   "held_h": 26.278734350734286
+  },
+  {
+   "mid": "6667321",
+   "q": "Will the highest temperature in Amsterdam be 10°C on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "73607772963502420753223169487669870895079013481794173550317326938388105644073",
+   "entry": 0.420320940424402,
+   "fair": 0.514426611809232,
+   "shares": 26.41641765191879,
+   "cost": 11.103373510098278,
+   "t": 1793883144.8268235,
+   "mark": 0.29,
+   "conf": "medium",
+   "llm_p": 0.1826223136512799,
+   "mkt_yes": 0.39,
+   "edge": 0.09410567138483006,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-11-06: maxima 9.0C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.39",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-11-06",
+   "inv": true,
+   "exit": 0.24641084090036897,
+   "reason": "stop-loss",
+   "pnl": -4.594081822913619,
+   "closed_t": 1793910340.9593751,
+   "held_h": 7.554481264352798
+  },
+  {
+   "mid": "6667311",
+   "q": "Will the highest temperature in Busan be 17°C on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "41047484212225579884858111054307954582043272364702950339614933166706050293689",
+   "entry": 0.44045627564879924,
+   "fair": 0.6061118071695941,
+   "shares": 25.20879852090387,
+   "cost": 11.103373510098278,
+   "t": 1793883145.9015286,
+   "mark": 0.17,
+   "conf": "medium",
+   "llm_p": 0.09648032138400975,
+   "mkt_yes": 0.415,
+   "edge": 0.16565553152079493,
+   "evidence": [
+    "Previsao Open-Meteo geo:busan 2026-11-06: maxima 14.6C (3 modelos, sigma 2.0)"
+   ],
+   "misprice": "Modelo 0.10 vs mercado 0.41",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:busan|2026-11-06",
+   "inv": true,
+   "exit": 0.11374087212342007,
+   "reason": "stop-loss",
+   "pnl": -8.236102781147089,
+   "closed_t": 1793910341.1482084,
+   "held_h": 7.554235188828574
   }
  ],
- "cache": {},
+ "cache": {
+  "6288574": {
+   "t": 1793910400.706995,
+   "yes": 0.085,
+   "est": {
+    "p": 0.09,
+    "conf": "low",
+    "evidence": [
+     "The market implies a low base rate for this specific high-volume bin based on historical posting averages."
+    ],
+    "misprice": "Market is accurately reflecting the low probability of hitting this specific narrow range.",
+    "reason": "Elon Musk's historical tweet volume rarely falls precisely into this 320-339 range over a 7-day window."
+   }
+  },
+  "6699049": {
+   "t": 1793910415.5305903,
+   "yes": 0.56,
+   "est": {
+    "p": 0.5,
+    "conf": "low",
+    "evidence": [
+     "As noticias recentes nao contem dados especificos sobre a partida entre Dplus KIA e Bilibili Gaming em novembro de 2026."
+    ],
+    "misprice": "Ausencia de informacoes novas impede identificar divergencia estatistica relevante em relacao ao preco atual.",
+    "reason": "Sem dados recentes especificos sobre o mata-mata, a probabilidade permanece neutra proxima ao preco de mercado."
+   }
+  },
+  "6699054": {
+   "t": 1793910421.374819,
+   "yes": 0.395,
+   "est": {
+    "p": 0.4,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados especificos disponiveis sobre o placar de abates do Jogo 1 entre Dplus KIA e Bilibili Gaming nas noticias recentes fornecidas."
+    ],
+    "misprice": "O mercado reflete adequadamente a incognita estatistica padrao para o total de abates em um unico mapa competitivo de LoL sem informacoes divergentes.",
+    "reason": "A ausencia de dados especificos e estatisticas recentes sobre o confronto impede qualquer desvio significativo do preco atual do mercado."
+   }
+  },
+  "6179487": {
+   "t": 1793910429.344604,
+   "yes": 0.09,
+   "est": {
+    "p": 0.08,
+    "conf": "low",
+    "evidence": [
+     "Partida agendada para 07.11.2026 às 12:30 ET entre CA Osasuna e Athletic Club.",
+     "Histórico recente de confrontos em 2026 inclui placares apertados como 1-0 e 1-1.",
+     "Preço implícito atual de 9% reflete a probabilidade base baixa típica para um placar exato de 0-0."
+    ],
+    "misprice": "O mercado reflete adequadamente a probabilidade estatística para um empate sem gols em confrontos equilibrados da La Liga.",
+    "reason": "Placares de 0-0 são estatisticamente raros e o preço de 9% está alinhado com a baixa previsibilidade de gols exatos na partida."
+   }
+  },
+  "6587955": {
+   "t": 1793910435.936992,
+   "yes": 0.25,
+   "est": {
+    "p": 0.22,
+    "conf": "low",
+    "evidence": [
+     "Nao ha dados estatisticos especificos sobre a frequencia de tweets de Elon Musk para o periodo exato de novembro de 2026."
+    ],
+    "misprice": "O mercado esta ligeiramente ineficiente devido a incerteza sobre o comportamento futuro de Musk na plataforma X.",
+    "reason": "A faixa de 90 a 114 tweets em 48 horas exige uma media de 45 a 57 tweets por dia, o que e estatisticamente alto mesmo para os padroes dele."
+   }
+  },
+  "6710226": {
+   "t": 1793910442.586572,
+   "yes": 0.105,
+   "est": {
+    "p": 0.12,
+    "conf": "low",
+    "evidence": [
+     "Amazon stock closed up 6% following US election results on Nov 4, 2026.",
+     "Current market implied probability for AMZN closing above $270 is around 10.5%."
+    ],
+    "misprice": "O preço de mercado já reflete adequadamente a volatilidade implícita e a distância necessária até a meta de $270 em apenas um pregão.",
+    "reason": "Embora tenha havido alta recente, a probabilidade de um movimento acentuado de alta adicional para superar $270 em um único dia permanece estatisticamente baixa."
+   }
+  },
+  "6699051": {
+   "t": 1793910450.5908093,
+   "yes": 0.585,
+   "est": {
+    "p": 0.52,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma informacao nova e concreta sobre o Game 3 desta partida especifica foi encontrada nas noticias recentes."
+    ],
+    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade do 'Over' com base em medias gerais de abates sem dados especificos dos drafts.",
+    "reason": "Como nao ha evidencias novas e concretas suficientes para divergir fortemente, mantenho a estimativa proxima ao preco atual com um leve ceticismo quanto a volatilidade de kills em jogos unicos."
+   }
+  },
+  "6699052": {
+   "t": 1793910456.6101987,
+   "yes": 0.59,
+   "est": {
+    "p": 0.58,
+    "conf": "low",
+    "evidence": [
+     "Nenhuma nova informacao concreta ou estatistica especifica para o Jogo 2 foi divulgada ate 2026-11-05."
+    ],
+    "misprice": "O preco atual de 0.59 reflete adequadamente a linha estatistica de 24.5 para equipes de alto nivel como Dplus KIA e BLG.",
+    "reason": "A ausencia de dados adicionais e escalacoes confirmadas mantem a probabilidade muito proxima da cotacao atual de mercado."
+   }
+  }
+ },
  "estimates": {
   "6035863": {
    "q": "Will the highest temperature in London be 16°C on October 24?",
@@ -12955,7 +13153,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793670996.8750591,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.27372108415708296,
@@ -12978,7 +13176,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793670997.5285916,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.16563026280048665,
@@ -13001,7 +13199,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793670997.6583092,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.23307385438242711,
@@ -13105,7 +13303,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793696247.707047,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.12384017060417096,
@@ -13128,7 +13326,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793696248.312211,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.038111255769133545,
@@ -13151,7 +13349,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793696249.1991384,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3687030802500585,
@@ -13174,7 +13372,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793696250.1214247,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3506390894508954,
@@ -13197,7 +13395,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793724625.0264046,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3918697865898173,
@@ -13220,7 +13418,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793724625.5448775,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34418401638998564,
@@ -13243,7 +13441,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793724626.7836053,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.30403514652566166,
@@ -13266,7 +13464,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793724627.6517482,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.335638290921057,
@@ -14647,6 +14845,228 @@
     "unit": "C",
     "date": "2026-11-06"
    }
+  },
+  "6669906": {
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on November 6?",
+   "p": 0.1215890560121553,
+   "yes": 0.43,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910347.6375773,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.06397538418483573,
+   "wx": {
+    "sid": "KATL",
+    "mu": 70.63,
+    "sigma": 3.24,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-11-06"
+   }
+  },
+  "6667287": {
+   "q": "Will the highest temperature in Moscow be 3°C on November 6?",
+   "p": 0.21584942743131463,
+   "yes": 0.525,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910351.5810955,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3098816813966968,
+   "wx": {
+    "sid": "UUWW",
+    "mu": 2.33,
+    "sigma": 1.69,
+    "kind": "exact",
+    "a": 3,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-06"
+   }
+  },
+  "6669938": {
+   "q": "Will the highest temperature in Austin be between 74-75°F on November 6?",
+   "p": 0.22974654344062018,
+   "yes": 0.44,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910353.1251247,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.36602475487106584,
+   "wx": {
+    "sid": "geo:austin",
+    "mu": 73.97,
+    "sigma": 3.38,
+    "kind": "range",
+    "a": 74,
+    "b": 75,
+    "unit": "F",
+    "date": "2026-11-06"
+   }
+  },
+  "6668726": {
+   "q": "Will the highest temperature in London be 11°C on November 6?",
+   "p": 0.20012077876898654,
+   "yes": 0.48,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910353.125469,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3245110037170875,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 11.2,
+    "sigma": 1.96,
+    "kind": "exact",
+    "a": 11,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-06"
+   }
+  },
+  "6669893": {
+   "q": "Will the highest temperature in Dallas be between 70-71°F on November 6?",
+   "p": 0.17561166434953146,
+   "yes": 0.34,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910353.558686,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.18082692404823697,
+   "wx": {
+    "sid": "KDFW",
+    "mu": 67.93,
+    "sigma": 3.39,
+    "kind": "range",
+    "a": 70,
+    "b": 71,
+    "unit": "F",
+    "date": "2026-11-06"
+   }
+  },
+  "6669894": {
+   "q": "Will the highest temperature in Dallas be between 72-73°F on November 6?",
+   "p": 0.09609105275386254,
+   "yes": 0.34,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1793966400.0,
+   "t": 1793910353.5589778,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.03666061461438641,
+   "wx": {
+    "sid": "KDFW",
+    "mu": 67.93,
+    "sigma": 3.39,
+    "kind": "range",
+    "a": 72,
+    "b": 73,
+    "unit": "F",
+    "date": "2026-11-06"
+   }
+  },
+  "6699049": {
+   "q": "Total Kills Over/Under 24.5 in Game 1?",
+   "p": 0.5,
+   "yes": 0.56,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793937600.0,
+   "t": 1793910415.5305939,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6699054": {
+   "q": "Total Kills Over/Under 27.5 in Game 1?",
+   "p": 0.4,
+   "yes": 0.395,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793937600.0,
+   "t": 1793910421.3748233,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6179487": {
+   "q": "Exact Score: CA Osasuna 0 - 0 Athletic Club?",
+   "p": 0.08,
+   "yes": 0.09,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1794072600.0,
+   "t": 1793910429.3446088,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6587955": {
+   "q": "Will Elon Musk post 90-114 tweets from November 5 to November 7, 2026?",
+   "p": 0.22,
+   "yes": 0.25,
+   "conf": "low",
+   "cat": "Entretenimento",
+   "end": 1794070800.0,
+   "t": 1793910435.9369977,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6710226": {
+   "q": "Will Amazon (AMZN) close above $270 on November 6?",
+   "p": 0.12,
+   "yes": 0.105,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793998800.0,
+   "t": 1793910442.5865762,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6699051": {
+   "q": "Total Kills Over/Under 24.5 in Game 3?",
+   "p": 0.52,
+   "yes": 0.585,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793937600.0,
+   "t": 1793910450.590812,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "6699052": {
+   "q": "Total Kills Over/Under 24.5 in Game 2?",
+   "p": 0.58,
+   "yes": 0.59,
+   "conf": "low",
+   "cat": "Outros",
+   "end": 1793937600.0,
+   "t": 1793910456.6102018,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -14937,6 +15357,10 @@
   {
    "t": 1793883233.9252543,
    "equity": 1057.46
+  },
+  {
+   "t": 1793910456.6107204,
+   "equity": 1057.41
   }
  ],
  "llm_calls": {
@@ -14953,8 +15377,8 @@
   "2026-11-02": 26,
   "2026-11-03": 39,
   "2026-11-04": 22,
-  "2026-11-05": 5
+  "2026-11-05": 13
  },
  "killed": false,
- "cycles": 72
+ "cycles": 73
 }
