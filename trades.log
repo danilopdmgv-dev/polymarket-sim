@@ -719,3 +719,20 @@
 2026-11-05 04:31:31Z erro previsao KMIA: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-05 04:31:31Z Open-Meteo falhando/lento: pausando o clima neste ciclo
 2026-11-05 04:32:27Z ciclo 71: lidos=500 filtro=24 llm=5 clima=12 compras=1 vendas=1 descartados={'cripto': 12, 'categoria_Esportes': 73, 'combinado': 2, 'clima_sem_modelo': 4} equity=$1080.13
+2026-11-05 12:52:18Z SELL YES [take-profit] Will the highest temperature in Houston be between @ 0.614 pnl=$+3.47
+2026-11-05 12:52:18Z SELL YES [stop-loss] Will the highest temperature in London be 11°C on  @ 0.029 pnl=$-10.82
+2026-11-05 12:52:18Z SELL YES [stop-loss] Will the highest temperature in Dallas be between  @ 0.396 pnl=$-3.73
+2026-11-05 12:52:18Z SELL YES [stop-loss] Will the highest temperature in New York City be b @ 0.188 pnl=$-7.25
+2026-11-05 12:52:22Z BUY YES [clima] Will the highest temperature in Miami be between 8 @ 0.630 $11.10 edge=0.267 conf=medium | Modelo 0.12 vs mercado 0.60
+2026-11-05 12:52:24Z BUY YES [clima] Will the highest temperature in Amsterdam be 10°C  @ 0.420 $11.10 edge=0.094 conf=medium | Modelo 0.18 vs mercado 0.39
+2026-11-05 12:52:25Z BUY YES [clima] Will the highest temperature in Busan be 17°C on N @ 0.440 $11.10 edge=0.166 conf=medium | Modelo 0.10 vs mercado 0.41
+2026-11-05 12:52:26Z BUY YES [clima] Will the highest temperature in Cape Town be 20°C  @ 0.520 $11.10 edge=0.144 conf=medium | Modelo 0.21 vs mercado 0.49
+2026-11-05 12:52:39Z erro previsao KDFW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 12:52:49Z erro previsao KDFW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 12:52:57Z erro geocode Karachi: HTTPSConnectionPool(host='geocoding-api.open-meteo.com', port=443): Read timed out. (read timeout=8)
+2026-11-05 12:53:08Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 12:53:18Z erro previsao KATL: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-05 12:53:18Z Open-Meteo falhando/lento: pausando o clima neste ciclo
+2026-11-05 12:53:53Z LLM com limite/instabilidade: pulando as consultas restantes deste ciclo.
+2026-11-05 12:53:53Z erro LLM Will Elon Musk post 280-299 tweets from : Error code: 503
+2026-11-05 12:53:53Z ciclo 72: lidos=500 filtro=30 llm=1 clima=11 compras=4 vendas=4 descartados={'categoria_Esportes': 143, 'cripto': 15, 'combinado': 4, 'esporte_vivo': 7, 'clima_sem_modelo': 3} equity=$1057.46
