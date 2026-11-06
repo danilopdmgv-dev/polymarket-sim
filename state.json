@@ -1,56 +1,6 @@
 {
- "cash": 984.30110699412,
+ "cash": 949.5289393454292,
  "positions": [
-  {
-   "mid": "6667180",
-   "q": "Will the highest temperature in Milan be 11°C on November 6?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "28721802449316208866660825821197310335094658676848043292437107135633066351771",
-   "entry": 0.4603505826293673,
-   "fair": 0.5712727411588192,
-   "shares": 24.636284528652425,
-   "cost": 11.34132793658801,
-   "t": 1793853051.1436493,
-   "mark": 0.43,
-   "conf": "medium",
-   "llm_p": 0.2078787647353012,
-   "mkt_yes": 0.435,
-   "edge": 0.11092215852945198,
-   "evidence": [
-    "Previsao Open-Meteo LIMC 2026-11-06: maxima 11.6C (3 modelos, sigma 1.8)"
-   ],
-   "misprice": "Modelo 0.21 vs mercado 0.43",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "LIMC|2026-11-06",
-   "inv": true
-  },
-  {
-   "mid": "6669916",
-   "q": "Will the highest temperature in Miami be between 86-87°F on November 6?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "1253968821965877688804216296366087092963511194548035916891013134149861436558",
-   "entry": 0.6304849978715323,
-   "fair": 0.8978950774341026,
-   "shares": 17.61084490127821,
-   "cost": 11.103373510098278,
-   "t": 1793883142.7732053,
-   "mark": 0.67,
-   "conf": "medium",
-   "llm_p": 0.11684153760982885,
-   "mkt_yes": 0.605,
-   "edge": 0.2674100795625702,
-   "evidence": [
-    "Previsao Open-Meteo KMIA 2026-11-06: maxima 82.5F (3 modelos, sigma 3.4)"
-   ],
-   "misprice": "Modelo 0.12 vs mercado 0.60",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KMIA|2026-11-06",
-   "inv": true
-  },
   {
    "mid": "6669906",
    "q": "Will the highest temperature in Atlanta be between 74-75°F on November 6?",
@@ -62,7 +12,7 @@
    "shares": 24.64882486875731,
    "cost": 11.10280996242432,
    "t": 1793910347.6376019,
-   "mark": 0.57,
+   "mark": 0.45,
    "conf": "medium",
    "llm_p": 0.1215890560121553,
    "mkt_yes": 0.43,
@@ -87,7 +37,7 @@
    "shares": 23.52861431893405,
    "cost": 11.066401609504522,
    "t": 1793952576.486896,
-   "mark": 0.47033800883884264,
+   "mark": 0.49,
    "conf": "medium",
    "llm_p": 0.19621043141843908,
    "mkt_yes": 0.45,
@@ -112,7 +62,7 @@
    "shares": 19.748691578959303,
    "cost": 11.066401609504522,
    "t": 1793952577.0358994,
-   "mark": 0.5603612555929991,
+   "mark": 0.5,
    "conf": "medium",
    "llm_p": 0.1795969064112437,
    "mkt_yes": 0.53,
@@ -137,7 +87,7 @@
    "shares": 18.742995250550674,
    "cost": 11.066401609504522,
    "t": 1793952578.2817261,
-   "mark": 0.5904286620986786,
+   "mark": 0.56,
    "conf": "medium",
    "llm_p": 0.1410375993296331,
    "mkt_yes": 0.56,
@@ -150,6 +100,82 @@
    "src": "clima",
    "event": "geo:busan|2026-11-07",
    "inv": true
+  },
+  {
+   "mid": "6707122",
+   "q": "Will the highest temperature in Chicago be between 48-49°F on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "80416406789906439058120854710882036739443821205561761640824093585719053159969",
+   "entry": 0.4803569949006791,
+   "fair": 0.6057115051387643,
+   "shares": 23.10462955174914,
+   "cost": 11.098470419771642,
+   "t": 1793981103.4279306,
+   "mark": 0.4803569949006791,
+   "conf": "medium",
+   "llm_p": 0.21714749143539258,
+   "mkt_yes": 0.46,
+   "edge": 0.1253545102380852,
+   "evidence": [
+    "Previsao Open-Meteo KORD 2026-11-07: maxima 47.4F (3 modelos, sigma 3.5)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.46",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KORD|2026-11-07",
+   "inv": true
+  },
+  {
+   "mid": "6707100",
+   "q": "Will the highest temperature in Atlanta be between 64-65°F on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "109004316001497344961575347441451570176300555926773488019015312849115873346610",
+   "entry": 0.47035422654708237,
+   "fair": 0.561694097145923,
+   "shares": 23.595983183241767,
+   "cost": 11.098470419771644,
+   "t": 1793981103.991958,
+   "mark": 0.47035422654708237,
+   "conf": "medium",
+   "llm_p": 0.25050983809012806,
+   "mkt_yes": 0.445,
+   "edge": 0.09133987059884063,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-11-07: maxima 64.7F (3 modelos, sigma 3.1)"
+   ],
+   "misprice": "Modelo 0.25 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-11-07",
+   "inv": true
+  },
+  {
+   "mid": "6367378",
+   "q": "Israel x Iran ceasefire continues through November 7?",
+   "cat": "Politica",
+   "side": "NO",
+   "token": "95218737879821071926194781477946013279807762514353560074338565580948718279183",
+   "entry": 0.10777689632034317,
+   "fair": 0.47225000000000006,
+   "shares": 392.29082258732063,
+   "cost": 42.27988731341579,
+   "t": 1793981135.4452775,
+   "mark": 0.10777689632034317,
+   "conf": "high",
+   "llm_p": 0.15,
+   "mkt_yes": 0.9055,
+   "edge": 0.3644731036796569,
+   "evidence": [
+    "Dawn reported live updates on November 6, 2026, stating that war has returned to Iran with Israel and US strikes.",
+    "CBS News reported on November 6, 2026, that more ships were attacked in the Persian Gulf."
+   ],
+   "misprice": "O mercado subestima a gravidade dos ataques recem-reportados de Israel e EUA em 6 de novembro.",
+   "version": "v3-alto-volume",
+   "src": "llm",
+   "event": null,
+   "inv": false
   }
  ],
  "closed": [
@@ -4518,120 +4544,181 @@
    "pnl": -4.042861675708008,
    "closed_t": 1793926840.2766025,
    "held_h": 4.580411726037661
+  },
+  {
+   "mid": "6667180",
+   "q": "Will the highest temperature in Milan be 11°C on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "28721802449316208866660825821197310335094658676848043292437107135633066351771",
+   "entry": 0.4603505826293673,
+   "fair": 0.5712727411588192,
+   "shares": 24.636284528652425,
+   "cost": 11.34132793658801,
+   "t": 1793853051.1436493,
+   "mark": 0.995,
+   "conf": "medium",
+   "llm_p": 0.2078787647353012,
+   "mkt_yes": 0.435,
+   "edge": 0.11092215852945198,
+   "evidence": [
+    "Previsao Open-Meteo LIMC 2026-11-06: maxima 11.6C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.21 vs mercado 0.43",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "LIMC|2026-11-06",
+   "inv": true,
+   "exit": 0.9573094576353884,
+   "reason": "take-profit",
+   "pnl": 12.243220243687352,
+   "closed_t": 1793981096.0876663,
+   "held_h": 35.56804000470373
+  },
+  {
+   "mid": "6669916",
+   "q": "Will the highest temperature in Miami be between 86-87°F on November 6?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "1253968821965877688804216296366087092963511194548035916891013134149861436558",
+   "entry": 0.6304849978715323,
+   "fair": 0.8978950774341026,
+   "shares": 17.61084490127821,
+   "cost": 11.103373510098278,
+   "t": 1793883142.7732053,
+   "mark": 0.4,
+   "conf": "medium",
+   "llm_p": 0.11684153760982885,
+   "mkt_yes": 0.605,
+   "edge": 0.2674100795625702,
+   "evidence": [
+    "Previsao Open-Meteo KMIA 2026-11-06: maxima 82.5F (3 modelos, sigma 3.4)"
+   ],
+   "misprice": "Modelo 0.12 vs mercado 0.60",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KMIA|2026-11-06",
+   "inv": true,
+   "exit": 0.34751951756434973,
+   "reason": "stop-loss",
+   "pnl": -4.983261186105486,
+   "closed_t": 1793981096.1624553,
+   "held_h": 27.20927479174402
   }
  ],
  "cache": {
-  "6288574": {
-   "t": 1793952619.8091288,
-   "yes": 0.0845,
-   "est": {
-    "p": 0.09,
-    "conf": "low",
-    "evidence": [
-     "Historical posting frequency for @elonmusk averages around 40-60 posts per day.",
-     "The current market price implies a low baseline probability for this specific 320-339 range."
-    ],
-    "misprice": "O mercado ja reflete adequadamente a volatilidade historica de postagens do perfil no periodo especificado.",
-    "reason": "A faixa de 320 a 339 tweets em exatamente 7 dias exigiria uma media diaria proxima a 48-48 posts, o que esta ligeiramente acima da mediana habitual do usuario, tornando o cenario improvavel porem prox"
-   }
-  },
-  "6179487": {
-   "t": 1793952662.4842489,
-   "yes": 0.095,
-   "est": {
-    "p": 0.09,
-    "conf": "low",
-    "evidence": [
-     "O jogo entre CA Osasuna e Athletic Club está agendado para 07.11.2026 conforme dados da LaLiga.",
-     "O preço atual do mercado para o placar exato de 0-0 é de 0.095 refletindo a probabilidade base para empates sem gols."
-    ],
-    "misprice": "O mercado está eficientemente precificado para um resultado estatisticamente raro como o 0-0 no confronto direto.",
-    "reason": "Historicamente, confrontos entre Osasuna e Athletic Bilbao possuem média moderada de gols, tornando o 0-0 plausível mas inferior a 10%."
-   }
-  },
-  "6587955": {
-   "t": 1793952643.8957183,
-   "yes": 0.225,
-   "est": {
-    "p": 0.2,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados especificos sobre a frequencia de tweets de Elon Musk para o periodo de novembro de 2026."
-    ],
-    "misprice": "O mercado esta ligeiramente acima da taxa historica tipica para uma janela de exatamente 48 horas.",
-    "reason": "A media diaria de Elon Musk flutua, mas 90-114 tweets em 2 dias (45-57 por dia) e um volume alto, tornando o SIM um cenario menos provavel."
-   }
-  },
   "2116494": {
-   "t": 1793952625.8613544,
-   "yes": 0.37,
+   "t": 1793981141.337179,
+   "yes": 0.365,
    "est": {
     "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Al Jazeera reported on Thu, 05 Nov 2026 that New Zealand is bracing for a knife-edge election.",
-     "Reuters noted on Wed, 04 Nov 2026 that the main parties are fiercely vying to form the next government."
+     "Al Jazeera reported on Thu, 05 Nov 2026 that New Zealand braces for a knife-edge election.",
+     "Reuters noted on Wed, 04 Nov 2026 that the main parties are closely vying to form the next government."
     ],
-    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição extremamente apertada na Nova Zelândia.",
-    "reason": "As pesquisas recentes apontam para um pleito muito disputado, sem clara vantagem matemática para o Labour."
+    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição extremamente apertada com base nas notícias recentes.",
+    "reason": "As pesquisas pré-eleitorais mostram uma disputa acirrada em que a liderança em cadeiras permanece altamente incerta para o Partido Trabalhista."
    }
   },
   "2116493": {
-   "t": 1793952631.721529,
-   "yes": 0.615,
+   "t": 1793981147.5543125,
+   "yes": 0.625,
    "est": {
     "p": 0.6,
     "conf": "low",
     "evidence": [
-     "Roy Morgan Poll on Nov 4, 2026 shows National-led government ahead at 47.5% vs 44%."
+     "Roy Morgan Poll published on Nov 4, 2026 shows National-led bloc ahead at 47.5% vs 44%.",
+     "News reports on Nov 5, 2026 describe the election as a knife-edge cliffhanger."
     ],
-    "misprice": "O mercado já reflete adequadamente a disputa acirrada mostrada pelas pesquisas recentes.",
-    "reason": "Apesar da liderança nas pesquisas, a eleição é descrita como um 'knife-edge' com alto grau de incerteza."
+    "misprice": "O mercado pode estar ligeiramente sobrestimando as chances do National devido ao viés de incumbência parcial, ignorando a volatilidade de última hora apontada pelas pesquisas.",
+    "reason": "Embora o National lidere nas pesquisas recentes de novembro de 2026, a eleição é descrita como extremamente apertada, justificando uma probabilidade ligeiramente abaixo do preço atual de mercado."
    }
   },
   "2116541": {
-   "t": 1793952638.0523365,
-   "yes": 0.43,
+   "t": 1793981153.9321446,
+   "yes": 0.44,
    "est": {
-    "p": 0.42,
+    "p": 0.43,
     "conf": "low",
     "evidence": [
-     "As eleições gerais na Nova Zelândia estão marcadas para 7 de novembro de 2026, conforme o cronograma oficial.",
-     "O mercado atual negocia o SIM a 0,43 em uma disputa acirrada entre os principais partidos liderados por figuras chamadas Chris.",
-     "Notícias recentes de 06 de novembro de 2026 destacam a incerteza de uma eleição extremamente apertada na véspera do pleito."
+     "General election scheduled for November 7, 2026, creating a knife-edge contest according to reports on November 5, 2026.",
+     "Recent media on November 5 and 6, 2026, highlights a tight race between the main parties where either Chris could win."
     ],
-    "misprice": "O mercado reflete adequadamente a incerteza de uma eleição extremamente equilibrada na véspera do pleito.",
-    "reason": "Com a eleição ocorrendo amanhã e concorrentes em pé de igualdade, a probabilidade de Hipkins assumir permanece próxima da avaliação atual de mercado."
+    "misprice": "Market is efficiently pricing the coin-flip nature of the upcoming knife-edge election.",
+    "reason": "Current polling and news indicate a very close election tomorrow, making Chris Hipkins' chances roughly equal to his competitor's."
    }
   },
   "2118145": {
-   "t": 1793952650.0932076,
-   "yes": 0.635,
+   "t": 1793981159.7880316,
+   "yes": 0.655,
    "est": {
     "p": 0.65,
     "conf": "low",
     "evidence": [
-     "Roy Morgan New Zealand Poll on Wed, 04 Nov 2026 shows National-led Government ahead of Labour-led opposition (47.5% vs 44%)",
-     "New Zealand general election is scheduled for November 7, 2026",
-     "Market currently prices Labour at 0.635 to win the second-most seats"
+     "As eleições gerais na Nova Zelândia estão agendadas para 7 de novembro de 2026.",
+     "Notícias de novembro de 2026 indicam uma eleição extremamente disputada (knife-edge election) entre os principais partidos."
     ],
-    "misprice": "O mercado avalia adequadamente a alta probabilidade de o Labour assegurar o segundo lugar no sistema MMP da Nova Zelândia.",
-    "reason": "As pesquisas recentes de novembro de 2026 mantêm o Partido Trabalhista firmemente como o segundo maior bloco atrás do National."
+    "misprice": "O mercado reflete adequadamente a incerteza atual e a probabilidade de o Partido Trabalhista ficar com o segundo maior número de assentos.",
+    "reason": "A proximidade do pleito e a indefinição nas pesquisas mantêm o cenário alinhado com o preço atual de 65,5%."
    }
   },
   "2118144": {
-   "t": 1793952656.3032084,
-   "yes": 0.34,
+   "t": 1793981173.058905,
+   "yes": 0.35,
    "est": {
-    "p": 0.35,
+    "p": 0.33,
     "conf": "low",
     "evidence": [
-     "Roy Morgan poll on Wed, 04 Nov 2026 shows National-led bloc ahead at 47.5% vs Labour's 44%",
-     "Al Jazeera report on Thu, 05 Nov 2026 highlights a knife-edge election just before voting",
-     "Market price stands at 0.340 with resolution tied to final seat counts in November 2026"
+     "As eleições gerais na Nova Zelândia estão agendadas para 7 de novembro de 2026, conforme o cronograma oficial.",
+     "Notícias de 05 de novembro de 2026 indicam uma disputa acirrada ('knife-edge election') entre os principais partidos.",
+     "O mercado atual negocia o SIM a 0.35, refletindo incerteza significativa na distribuição exata do segundo lugar."
     ],
-    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição acirrada onde o National pode terminar em primeiro ou segundo.",
-    "reason": "As pesquisas recentes mostram o partido National competitivo na disputa principal, mantendo chances significativas de conquistar o segundo lugar dependendo da distribuição de assentos."
+    "misprice": "O mercado está razoavelmente calibrado para uma eleição de margem estreita onde o segundo lugar depende de oscilações finais de voto.",
+    "reason": "A probabilidade reflete a incerteza inerente em eleições disputadas na Nova Zelândia, mantendo-se próxima ao preço de mercado devido à falta de dados definitivos pré-eleitorais."
+   }
+  },
+  "6367378": {
+   "t": 1793981135.4452567,
+   "yes": 0.9055,
+   "est": {
+    "p": 0.15,
+    "conf": "high",
+    "evidence": [
+     "Dawn reported live updates on November 6, 2026, stating that war has returned to Iran with Israel and US strikes.",
+     "CBS News reported on November 6, 2026, that more ships were attacked in the Persian Gulf."
+    ],
+    "misprice": "O mercado subestima a gravidade dos ataques recem-reportados de Israel e EUA em 6 de novembro.",
+    "reason": "Acoes militares ativas invalidam o cessar-fogo a menos de dois dias do prazo final."
+   }
+  },
+  "6734829": {
+   "t": 1793981166.8578482,
+   "yes": 0.575,
+   "est": {
+    "p": 0.55,
+    "conf": "low",
+    "evidence": [
+     "O mercado de LoL para a linha de 24.5 kills em Game 1 reflete a volatilidade padronizada de playoffs entre Karmine Corp e T1 em novembro de 2026.",
+     "As noticias recuperadas nao contem dados estatisticos especificos ou escalacoes recentes sobre esta partida especifica para justificar uma forte divergencia."
+    ],
+    "misprice": "O preco atual de 0.575 esta levemente inclinado para o Over, mas a ausencia de dados novos impede detectar uma distorcao significativa.",
+    "reason": "Mantendo-se cético e proximo ao prior de mercado devido a falta de novas evidencias concretas sobre a partida."
+   }
+  },
+  "2116540": {
+   "t": 1793981179.7152307,
+   "yes": 0.565,
+   "est": {
+    "p": 0.55,
+    "conf": "low",
+    "evidence": [
+     "A general election in New Zealand is scheduled to be held on November 7, 2026.",
+     "Recent news reports from November 4-6, 2026, describe the election contest as a knife-edge race.",
+     "The market currently prices Christopher Luxon at 0.565 just days before the vote."
+    ],
+    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição extremamente apertada na véspera do pleito.",
+    "reason": "Com a eleição acirrada ocorrendo em iminência e sem dados definitivos de boca de urna consolidados, a probabilidade permanece próxima à precificação atual de mercado."
    }
   }
  },
@@ -14140,7 +14227,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793815734.3867564,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.04834675882995998,
@@ -14163,7 +14250,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793815735.718887,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3623116182795822,
@@ -14186,7 +14273,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793815736.0028255,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1804270317749238,
@@ -14209,7 +14296,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793815736.2901394,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3340774492510027,
@@ -14232,7 +14319,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793815736.9431229,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1955418580003806,
@@ -14351,7 +14438,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836213.9710982,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2743645440823405,
@@ -14374,7 +14461,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836215.0277977,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2638607463753655,
@@ -14397,7 +14484,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836215.5578613,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3666644303073884,
@@ -14443,7 +14530,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836217.2914197,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4440186446490075,
@@ -14466,7 +14553,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836217.9417248,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.33544300701069596,
@@ -14489,7 +14576,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793836218.4773006,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2905844190481862,
@@ -15477,6 +15564,191 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6706175": {
+   "q": "Will the highest temperature in Lucknow be 31°C on November 7?",
+   "p": 0.17499769792278974,
+   "yes": 0.28,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981103.2786608,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.21880709311772195,
+   "wx": {
+    "sid": "geo:lucknow",
+    "mu": 29.9,
+    "sigma": 1.92,
+    "kind": "exact",
+    "a": 31,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6707122": {
+   "q": "Will the highest temperature in Chicago be between 48-49°F on November 7?",
+   "p": 0.21714749143539258,
+   "yes": 0.46,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981103.427906,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3274292322800839,
+   "wx": {
+    "sid": "KORD",
+    "mu": 47.43,
+    "sigma": 3.46,
+    "kind": "range",
+    "a": 48,
+    "b": 49,
+    "unit": "F",
+    "date": "2026-11-07"
+   }
+  },
+  "6707100": {
+   "q": "Will the highest temperature in Atlanta be between 64-65°F on November 7?",
+   "p": 0.25050983809012806,
+   "yes": 0.445,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981103.9919348,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.4044738051332181,
+   "wx": {
+    "sid": "KATL",
+    "mu": 64.67,
+    "sigma": 3.13,
+    "kind": "range",
+    "a": 64,
+    "b": 65,
+    "unit": "F",
+    "date": "2026-11-07"
+   }
+  },
+  "6707123": {
+   "q": "Will the highest temperature in Chicago be between 50-51°F on November 7?",
+   "p": 0.15522027917472814,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981104.5189688,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1346920069060289,
+   "wx": {
+    "sid": "KORD",
+    "mu": 47.43,
+    "sigma": 3.46,
+    "kind": "range",
+    "a": 50,
+    "b": 51,
+    "unit": "F",
+    "date": "2026-11-07"
+   }
+  },
+  "6706264": {
+   "q": "Will the highest temperature in Madrid be 19°C on November 7?",
+   "p": 0.13441354874453648,
+   "yes": 0.37,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981104.740775,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.0937790289111321,
+   "wx": {
+    "sid": "LEMD",
+    "mu": 17.2,
+    "sigma": 1.75,
+    "kind": "exact",
+    "a": 19,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706468": {
+   "q": "Will the highest temperature in Karachi be 37°C on November 7?",
+   "p": 0.17492348219993736,
+   "yes": 0.575,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981107.3863964,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.22383745578506076,
+   "wx": {
+    "sid": "geo:karachi",
+    "mu": 35.93,
+    "sigma": 1.95,
+    "kind": "exact",
+    "a": 37,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706382": {
+   "q": "Will the highest temperature in Busan be 13°C on November 7?",
+   "p": 0.2289813735467564,
+   "yes": 0.33,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793981108.5801284,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3629004218939929,
+   "wx": {
+    "sid": "geo:busan",
+    "mu": 12.7,
+    "sigma": 1.69,
+    "kind": "exact",
+    "a": 13,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6367378": {
+   "q": "Israel x Iran ceasefire continues through November 7?",
+   "p": 0.15,
+   "yes": 0.9055,
+   "conf": "high",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793981135.4452605,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2116540": {
+   "q": "Will Christopher Luxon be the next Prime Minister of New Zealand after the 2026 elections?",
+   "p": 0.55,
+   "yes": 0.565,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793981179.7152355,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -15779,6 +16051,10 @@
   {
    "t": 1793952662.4849775,
    "equity": 1053.94
+  },
+  {
+   "t": 1793981179.7158892,
+   "equity": 1057.0
   }
  ],
  "llm_calls": {
@@ -15796,8 +16072,8 @@
   "2026-11-03": 39,
   "2026-11-04": 22,
   "2026-11-05": 13,
-  "2026-11-06": 14
+  "2026-11-06": 22
  },
  "killed": false,
- "cycles": 75
+ "cycles": 76
 }

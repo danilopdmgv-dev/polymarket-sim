@@ -757,3 +757,11 @@
 2026-11-06 08:09:37Z BUY YES [clima] Will the highest temperature in Tokyo be 20°C on N @ 0.560 $11.07 edge=0.180 conf=medium | Modelo 0.18 vs mercado 0.53
 2026-11-06 08:09:38Z BUY YES [clima] Will the highest temperature in Busan be 14°C on N @ 0.590 $11.07 edge=0.221 conf=medium | Modelo 0.14 vs mercado 0.56
 2026-11-06 08:11:02Z ciclo 75: lidos=700 filtro=33 llm=8 clima=11 compras=3 vendas=0 descartados={'esporte_vivo': 11, 'categoria_Esportes': 158, 'cripto': 23, 'combinado': 2} equity=$1053.94
+2026-11-06 16:04:56Z SELL YES [take-profit] Will the highest temperature in Milan be 11°C on N @ 0.957 pnl=$+12.24
+2026-11-06 16:04:56Z SELL YES [stop-loss] Will the highest temperature in Miami be between 8 @ 0.348 pnl=$-4.98
+2026-11-06 16:05:03Z BUY YES [clima] Will the highest temperature in Chicago be between @ 0.480 $11.10 edge=0.125 conf=medium | Modelo 0.22 vs mercado 0.46
+2026-11-06 16:05:03Z BUY YES [clima] Will the highest temperature in Atlanta be between @ 0.470 $11.10 edge=0.091 conf=medium | Modelo 0.25 vs mercado 0.45
+2026-11-06 16:05:19Z erro previsao geo:shenzhen: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 16:05:29Z erro previsao geo:shenzhen: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 16:05:35Z BUY NO [llm] Israel x Iran ceasefire continues through November @ 0.108 $42.28 edge=0.364 conf=high | O mercado subestima a gravidade dos ataques recem-reportados de Israel e EUA em 6 de novembro.
+2026-11-06 16:06:19Z ciclo 76: lidos=600 filtro=32 llm=8 clima=7 compras=3 vendas=2 descartados={'categoria_Esportes': 241, 'esporte_vivo': 16, 'combinado': 8, 'cripto': 6, 'clima_sem_modelo': 2} equity=$1057.00
