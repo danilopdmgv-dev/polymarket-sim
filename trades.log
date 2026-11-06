@@ -765,3 +765,13 @@
 2026-11-06 16:05:29Z erro previsao geo:shenzhen: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-06 16:05:35Z BUY NO [llm] Israel x Iran ceasefire continues through November @ 0.108 $42.28 edge=0.364 conf=high | O mercado subestima a gravidade dos ataques recem-reportados de Israel e EUA em 6 de novembro.
 2026-11-06 16:06:19Z ciclo 76: lidos=600 filtro=32 llm=8 clima=7 compras=3 vendas=2 descartados={'categoria_Esportes': 241, 'esporte_vivo': 16, 'combinado': 8, 'cripto': 6, 'clima_sem_modelo': 2} equity=$1057.00
+2026-11-06 21:41:52Z SELL YES [take-profit] Will the highest temperature in Atlanta be between @ 0.956 pnl=$+12.45
+2026-11-06 21:41:53Z SELL YES [stop-loss] Will the highest temperature in Chicago be between @ 0.228 pnl=$-5.84
+2026-11-06 21:41:53Z SELL NO [stop-loss] Israel x Iran ceasefire continues through November @ 0.040 pnl=$-26.54
+2026-11-06 21:42:02Z BUY YES [clima] Will the highest temperature in New York City be b @ 0.440 $10.85 edge=0.076 conf=medium | Modelo 0.26 vs mercado 0.42
+2026-11-06 21:42:03Z BUY YES [clima] Will the highest temperature in Houston be between @ 0.370 $10.85 edge=0.068 conf=medium | Modelo 0.20 vs mercado 0.35
+2026-11-06 21:42:18Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 21:42:29Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 21:42:39Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 21:42:49Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-06 21:43:37Z ciclo 77: lidos=700 filtro=35 llm=8 clima=13 compras=2 vendas=3 descartados={'esporte_vivo': 24, 'categoria_Esportes': 251, 'cripto': 8, 'combinado': 2, 'clima_sem_modelo': 3} equity=$1033.54
