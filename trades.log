@@ -753,3 +753,7 @@
 2026-11-06 01:00:40Z SELL YES [stop-loss] Will the highest temperature in London be 12°C on  @ 0.236 pnl=$-4.04
 2026-11-06 01:01:23Z erro LLM Total Kills Over/Under 24.5 in Game 4?: Expecting property name enclosed in double quotes: line 1 column 180 (char 179)
 2026-11-06 01:01:29Z ciclo 74: lidos=500 filtro=7 llm=7 clima=0 compras=0 vendas=3 descartados={'esporte_vivo': 1, 'categoria_Esportes': 98, 'cripto': 20, 'combinado': 1} equity=$1047.39
+2026-11-06 08:09:36Z BUY YES [clima] Will the highest temperature in Hong Kong be 28°C  @ 0.470 $11.07 edge=0.132 conf=medium | Modelo 0.20 vs mercado 0.45
+2026-11-06 08:09:37Z BUY YES [clima] Will the highest temperature in Tokyo be 20°C on N @ 0.560 $11.07 edge=0.180 conf=medium | Modelo 0.18 vs mercado 0.53
+2026-11-06 08:09:38Z BUY YES [clima] Will the highest temperature in Busan be 14°C on N @ 0.590 $11.07 edge=0.221 conf=medium | Modelo 0.14 vs mercado 0.56
+2026-11-06 08:11:02Z ciclo 75: lidos=700 filtro=33 llm=8 clima=11 compras=3 vendas=0 descartados={'esporte_vivo': 11, 'categoria_Esportes': 158, 'cripto': 23, 'combinado': 2} equity=$1053.94

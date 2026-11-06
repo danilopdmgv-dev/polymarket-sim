@@ -1,5 +1,5 @@
 {
- "cash": 1017.5003118226335,
+ "cash": 984.30110699412,
  "positions": [
   {
    "mid": "6667180",
@@ -12,7 +12,7 @@
    "shares": 24.636284528652425,
    "cost": 11.34132793658801,
    "t": 1793853051.1436493,
-   "mark": 0.38,
+   "mark": 0.43,
    "conf": "medium",
    "llm_p": 0.2078787647353012,
    "mkt_yes": 0.435,
@@ -37,7 +37,7 @@
    "shares": 17.61084490127821,
    "cost": 11.103373510098278,
    "t": 1793883142.7732053,
-   "mark": 0.55,
+   "mark": 0.67,
    "conf": "medium",
    "llm_p": 0.11684153760982885,
    "mkt_yes": 0.605,
@@ -62,7 +62,7 @@
    "shares": 24.64882486875731,
    "cost": 11.10280996242432,
    "t": 1793910347.6376019,
-   "mark": 0.44,
+   "mark": 0.57,
    "conf": "medium",
    "llm_p": 0.1215890560121553,
    "mkt_yes": 0.43,
@@ -74,6 +74,81 @@
    "version": "v3-alto-volume",
    "src": "clima",
    "event": "KATL|2026-11-06",
+   "inv": true
+  },
+  {
+   "mid": "6706219",
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "46768148375998131310658540869693040191912844751995010263752317928111839927264",
+   "entry": 0.47033800883884264,
+   "fair": 0.6022737411489365,
+   "shares": 23.52861431893405,
+   "cost": 11.066401609504522,
+   "t": 1793952576.486896,
+   "mark": 0.47033800883884264,
+   "conf": "medium",
+   "llm_p": 0.19621043141843908,
+   "mkt_yes": 0.45,
+   "edge": 0.13193573231009392,
+   "evidence": [
+    "Previsao Open-Meteo VHHH 2026-11-07: maxima 27.2C (3 modelos, sigma 1.8)"
+   ],
+   "misprice": "Modelo 0.20 vs mercado 0.45",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "VHHH|2026-11-07",
+   "inv": true
+  },
+  {
+   "mid": "6706208",
+   "q": "Will the highest temperature in Tokyo be 20°C on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "2635665091486011020887119580646496852313391232077170599422621404627221628930",
+   "entry": 0.5603612555929991,
+   "fair": 0.7402418561532538,
+   "shares": 19.748691578959303,
+   "cost": 11.066401609504522,
+   "t": 1793952577.0358994,
+   "mark": 0.5603612555929991,
+   "conf": "medium",
+   "llm_p": 0.1795969064112437,
+   "mkt_yes": 0.53,
+   "edge": 0.17988060056025468,
+   "evidence": [
+    "Previsao Open-Meteo RJTT 2026-11-07: maxima 18.9C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.18 vs mercado 0.53",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "RJTT|2026-11-07",
+   "inv": true
+  },
+  {
+   "mid": "6706383",
+   "q": "Will the highest temperature in Busan be 14°C on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "33292024749116572184784303577317030844518258900168115094372339975245641398228",
+   "entry": 0.5904286620986786,
+   "fair": 0.8113774404022203,
+   "shares": 18.742995250550674,
+   "cost": 11.066401609504522,
+   "t": 1793952578.2817261,
+   "mark": 0.5904286620986786,
+   "conf": "medium",
+   "llm_p": 0.1410375993296331,
+   "mkt_yes": 0.56,
+   "edge": 0.2209487783035416,
+   "evidence": [
+    "Previsao Open-Meteo geo:busan 2026-11-07: maxima 12.3C (3 modelos, sigma 1.9)"
+   ],
+   "misprice": "Modelo 0.14 vs mercado 0.56",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "geo:busan|2026-11-07",
    "inv": true
   }
  ],
@@ -4447,163 +4522,116 @@
  ],
  "cache": {
   "6288574": {
-   "t": 1793910400.706995,
-   "yes": 0.085,
+   "t": 1793952619.8091288,
+   "yes": 0.0845,
    "est": {
     "p": 0.09,
     "conf": "low",
     "evidence": [
-     "The market implies a low base rate for this specific high-volume bin based on historical posting averages."
+     "Historical posting frequency for @elonmusk averages around 40-60 posts per day.",
+     "The current market price implies a low baseline probability for this specific 320-339 range."
     ],
-    "misprice": "Market is accurately reflecting the low probability of hitting this specific narrow range.",
-    "reason": "Elon Musk's historical tweet volume rarely falls precisely into this 320-339 range over a 7-day window."
-   }
-  },
-  "6699049": {
-   "t": 1793910415.5305903,
-   "yes": 0.56,
-   "est": {
-    "p": 0.5,
-    "conf": "low",
-    "evidence": [
-     "As noticias recentes nao contem dados especificos sobre a partida entre Dplus KIA e Bilibili Gaming em novembro de 2026."
-    ],
-    "misprice": "Ausencia de informacoes novas impede identificar divergencia estatistica relevante em relacao ao preco atual.",
-    "reason": "Sem dados recentes especificos sobre o mata-mata, a probabilidade permanece neutra proxima ao preco de mercado."
-   }
-  },
-  "6699054": {
-   "t": 1793910421.374819,
-   "yes": 0.395,
-   "est": {
-    "p": 0.4,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados especificos disponiveis sobre o placar de abates do Jogo 1 entre Dplus KIA e Bilibili Gaming nas noticias recentes fornecidas."
-    ],
-    "misprice": "O mercado reflete adequadamente a incognita estatistica padrao para o total de abates em um unico mapa competitivo de LoL sem informacoes divergentes.",
-    "reason": "A ausencia de dados especificos e estatisticas recentes sobre o confronto impede qualquer desvio significativo do preco atual do mercado."
+    "misprice": "O mercado ja reflete adequadamente a volatilidade historica de postagens do perfil no periodo especificado.",
+    "reason": "A faixa de 320 a 339 tweets em exatamente 7 dias exigiria uma media diaria proxima a 48-48 posts, o que esta ligeiramente acima da mediana habitual do usuario, tornando o cenario improvavel porem prox"
    }
   },
   "6179487": {
-   "t": 1793926877.0293171,
-   "yes": 0.09,
+   "t": 1793952662.4842489,
+   "yes": 0.095,
    "est": {
-    "p": 0.08,
+    "p": 0.09,
     "conf": "low",
     "evidence": [
-     "Partida de La Liga agendada para 07.11.2026 entre CA Osasuna e Athletic Club conforme dados de calendario de novembro de 2026.",
-     "Preco atual de mercado reflete probabilidade implicita de 9% para o empate exato de 0-0."
+     "O jogo entre CA Osasuna e Athletic Club está agendado para 07.11.2026 conforme dados da LaLiga.",
+     "O preço atual do mercado para o placar exato de 0-0 é de 0.095 refletindo a probabilidade base para empates sem gols."
     ],
-    "misprice": "O mercado esta eficientemente precificado para um resultado de baixa frequencia como o empate sem gols em La Liga.",
-    "reason": "Empates em 0-0 sao estatisticamente raros e o preco atual de 9% esta proximo da media historica para este tipo de confronto."
+    "misprice": "O mercado está eficientemente precificado para um resultado estatisticamente raro como o 0-0 no confronto direto.",
+    "reason": "Historicamente, confrontos entre Osasuna e Athletic Bilbao possuem média moderada de gols, tornando o 0-0 plausível mas inferior a 10%."
    }
   },
   "6587955": {
-   "t": 1793926870.6381824,
-   "yes": 0.16,
-   "est": {
-    "p": 0.18,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados em tempo real sobre a contagem exata de tweets no periodo."
-    ],
-    "misprice": "O mercado ja reflete adequadamente a baixa probabilidade historica dessa faixa especifica de volume para o usuario.",
-    "reason": "Como nao ha informacao nova concreta sobre a atividade recente de Elon Musk no periodo especificado, mantenho uma estimativa conservadora perto do preco atual."
-   }
-  },
-  "6710226": {
-   "t": 1793910442.586572,
-   "yes": 0.105,
-   "est": {
-    "p": 0.12,
-    "conf": "low",
-    "evidence": [
-     "Amazon stock closed up 6% following US election results on Nov 4, 2026.",
-     "Current market implied probability for AMZN closing above $270 is around 10.5%."
-    ],
-    "misprice": "O preço de mercado já reflete adequadamente a volatilidade implícita e a distância necessária até a meta de $270 em apenas um pregão.",
-    "reason": "Embora tenha havido alta recente, a probabilidade de um movimento acentuado de alta adicional para superar $270 em um único dia permanece estatisticamente baixa."
-   }
-  },
-  "6699051": {
-   "t": 1793910450.5908093,
-   "yes": 0.585,
-   "est": {
-    "p": 0.52,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma informacao nova e concreta sobre o Game 3 desta partida especifica foi encontrada nas noticias recentes."
-    ],
-    "misprice": "O mercado pode estar ligeiramente sobrestimando a probabilidade do 'Over' com base em medias gerais de abates sem dados especificos dos drafts.",
-    "reason": "Como nao ha evidencias novas e concretas suficientes para divergir fortemente, mantenho a estimativa proxima ao preco atual com um leve ceticismo quanto a volatilidade de kills em jogos unicos."
-   }
-  },
-  "6699052": {
-   "t": 1793910456.6101987,
-   "yes": 0.59,
-   "est": {
-    "p": 0.58,
-    "conf": "low",
-    "evidence": [
-     "Nenhuma nova informacao concreta ou estatistica especifica para o Jogo 2 foi divulgada ate 2026-11-05."
-    ],
-    "misprice": "O preco atual de 0.59 reflete adequadamente a linha estatistica de 24.5 para equipes de alto nivel como Dplus KIA e BLG.",
-    "reason": "A ausencia de dados adicionais e escalacoes confirmadas mantem a probabilidade muito proxima da cotacao atual de mercado."
-   }
-  },
-  "6667466": {
-   "t": 1793926851.1417503,
-   "yes": 0.92,
-   "est": {
-    "p": 0.94,
-    "conf": "low",
-    "evidence": [
-     "Current date is November 6, 2026, with only roughly 23 hours remaining until resolution at 11:59 PM Iran Standard Time.",
-     "Recent diplomatic statements from November 2-4, 2026, indicate a cooling off period and pushback against further escalation after midterm election results.",
-     "No qualifying US air strikes or surface-to-surface missile strikes have been reported since the September 2, 2026 incident."
-    ],
-    "misprice": "O mercado pode estar subestimando ligeiramente a probabilidade de um cessar-fogo se manter dado o curtíssimo prazo restante (apenas 23 horas).",
-    "reason": "Com menos de um dia para o fim do mercado e ausência recente de ataques militares diretos dos EUA ao Irã, a probabilidade de permanência do status quo é extremamente alta."
-   }
-  },
-  "6288566": {
-   "t": 1793926857.4519615,
-   "yes": 0.6675,
-   "est": {
-    "p": 0.65,
-    "conf": "low",
-    "evidence": [
-     "Nao ha dados novos disponiveis sobre a taxa de postagem exata de Elon Musk para este periodo especifico em 2026."
-    ],
-    "misprice": "O mercado pode estar ligeiramente sobrestimando a precisao da faixa estreita de 20 tweets devido a variabilidade habitual do usuario.",
-    "reason": "A faixa de 280-299 tweets em 7 dias equivale a uma media de 40 a 43 posts por dia, o que e proximo da atividade historica recente, mas altamente variavel."
-   }
-  },
-  "6288570": {
-   "t": 1793926864.552836,
+   "t": 1793952643.8957183,
    "yes": 0.225,
    "est": {
     "p": 0.2,
     "conf": "low",
     "evidence": [
-     "Nao ha dados em tempo real sobre a contagem atual de tweets para este periodo especifico."
+     "Nao ha dados especificos sobre a frequencia de tweets de Elon Musk para o periodo de novembro de 2026."
     ],
-    "misprice": "O mercado avalia adequadamente a taxa media historica de postagens do Elon Musk para uma janela de 7 dias.",
-    "reason": "A faixa de 300-319 tweets em 7 dias exige uma media diaria de ~43 a 45 postagens, o que esta acima da mediana recente dele, tornando o cenario improvavel mas possivel."
+    "misprice": "O mercado esta ligeiramente acima da taxa historica tipica para uma janela de exatamente 48 horas.",
+    "reason": "A media diaria de Elon Musk flutua, mas 90-114 tweets em 2 dias (45-57 por dia) e um volume alto, tornando o SIM um cenario menos provavel."
    }
   },
-  "6734829": {
-   "t": 1793926889.383309,
-   "yes": 0.565,
+  "2116494": {
+   "t": 1793952625.8613544,
+   "yes": 0.37,
    "est": {
-    "p": 0.55,
+    "p": 0.35,
     "conf": "low",
     "evidence": [
-     "Nenhuma informação nova e concreta específica sobre o Jogo 1 entre Karmine Corp e T1 foi encontrada nas notícias recentes."
+     "Al Jazeera reported on Thu, 05 Nov 2026 that New Zealand is bracing for a knife-edge election.",
+     "Reuters noted on Wed, 04 Nov 2026 that the main parties are fiercely vying to form the next government."
     ],
-    "misprice": "O mercado está muito próximo do preço base e não há evidências concretas suficientes para justificar um desvio significativo.",
-    "reason": "A linha de 24.5 kills é estatisticamente equilibrada para o meta atual de Worlds em partidas eliminatórias de alto nível."
+    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição extremamente apertada na Nova Zelândia.",
+    "reason": "As pesquisas recentes apontam para um pleito muito disputado, sem clara vantagem matemática para o Labour."
+   }
+  },
+  "2116493": {
+   "t": 1793952631.721529,
+   "yes": 0.615,
+   "est": {
+    "p": 0.6,
+    "conf": "low",
+    "evidence": [
+     "Roy Morgan Poll on Nov 4, 2026 shows National-led government ahead at 47.5% vs 44%."
+    ],
+    "misprice": "O mercado já reflete adequadamente a disputa acirrada mostrada pelas pesquisas recentes.",
+    "reason": "Apesar da liderança nas pesquisas, a eleição é descrita como um 'knife-edge' com alto grau de incerteza."
+   }
+  },
+  "2116541": {
+   "t": 1793952638.0523365,
+   "yes": 0.43,
+   "est": {
+    "p": 0.42,
+    "conf": "low",
+    "evidence": [
+     "As eleições gerais na Nova Zelândia estão marcadas para 7 de novembro de 2026, conforme o cronograma oficial.",
+     "O mercado atual negocia o SIM a 0,43 em uma disputa acirrada entre os principais partidos liderados por figuras chamadas Chris.",
+     "Notícias recentes de 06 de novembro de 2026 destacam a incerteza de uma eleição extremamente apertada na véspera do pleito."
+    ],
+    "misprice": "O mercado reflete adequadamente a incerteza de uma eleição extremamente equilibrada na véspera do pleito.",
+    "reason": "Com a eleição ocorrendo amanhã e concorrentes em pé de igualdade, a probabilidade de Hipkins assumir permanece próxima da avaliação atual de mercado."
+   }
+  },
+  "2118145": {
+   "t": 1793952650.0932076,
+   "yes": 0.635,
+   "est": {
+    "p": 0.65,
+    "conf": "low",
+    "evidence": [
+     "Roy Morgan New Zealand Poll on Wed, 04 Nov 2026 shows National-led Government ahead of Labour-led opposition (47.5% vs 44%)",
+     "New Zealand general election is scheduled for November 7, 2026",
+     "Market currently prices Labour at 0.635 to win the second-most seats"
+    ],
+    "misprice": "O mercado avalia adequadamente a alta probabilidade de o Labour assegurar o segundo lugar no sistema MMP da Nova Zelândia.",
+    "reason": "As pesquisas recentes de novembro de 2026 mantêm o Partido Trabalhista firmemente como o segundo maior bloco atrás do National."
+   }
+  },
+  "2118144": {
+   "t": 1793952656.3032084,
+   "yes": 0.34,
+   "est": {
+    "p": 0.35,
+    "conf": "low",
+    "evidence": [
+     "Roy Morgan poll on Wed, 04 Nov 2026 shows National-led bloc ahead at 47.5% vs Labour's 44%",
+     "Al Jazeera report on Thu, 05 Nov 2026 highlights a knife-edge election just before voting",
+     "Market price stands at 0.340 with resolution tied to final seat counts in November 2026"
+    ],
+    "misprice": "O mercado avalia adequadamente a incerteza de uma eleição acirrada onde o National pode terminar em primeiro ou segundo.",
+    "reason": "As pesquisas recentes mostram o partido National competitivo na disputa principal, mantendo chances significativas de conquistar o segundo lugar dependendo da distribuição de assentos."
    }
   }
  },
@@ -13808,7 +13836,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793743834.5617237,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.39896048558489233,
@@ -13831,7 +13859,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793743834.7545884,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.23409008749807958,
@@ -13878,7 +13906,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793759439.026453,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.16462869149334414,
@@ -13901,7 +13929,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793759440.4482014,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3528006805907019,
@@ -13924,7 +13952,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793759444.047144,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.2857309756417936,
@@ -13947,7 +13975,7 @@
    "cat": "Clima",
    "end": 1793793600.0,
    "t": 1793759445.2535307,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.34694061360052747,
@@ -13970,7 +13998,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793759466.4618986,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.17723479026000755,
@@ -13993,7 +14021,7 @@
    "cat": "Clima",
    "end": 1793880000.0,
    "t": 1793759466.4621987,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1335474666641583,
@@ -14299,7 +14327,7 @@
    "cat": "Outros",
    "end": 1793826000.0,
    "t": 1793815873.799183,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -14311,7 +14339,7 @@
    "cat": "Outros",
    "end": 1793851200.0,
    "t": 1793815892.6709137,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -14553,7 +14581,7 @@
    "cat": "Outros",
    "end": 1793851500.0,
    "t": 1793836255.9396443,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -15159,6 +15187,296 @@
    "resolved": null,
    "version": "v3-alto-volume",
    "src": "llm"
+  },
+  "6706219": {
+   "q": "Will the highest temperature in Hong Kong be 28°C on November 7?",
+   "p": 0.19621043141843908,
+   "yes": 0.45,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952576.4868734,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.2696263925053358,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 27.17,
+    "sigma": 1.81,
+    "kind": "exact",
+    "a": 28,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706208": {
+   "q": "Will the highest temperature in Tokyo be 20°C on November 7?",
+   "p": 0.1795969064112437,
+   "yes": 0.53,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952577.0358756,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.225379554273904,
+   "wx": {
+    "sid": "RJTT",
+    "mu": 18.93,
+    "sigma": 1.87,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706218": {
+   "q": "Will the highest temperature in Hong Kong be 27°C on November 7?",
+   "p": 0.21665192399426558,
+   "yes": 0.355,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952577.0363746,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3507688215435265,
+   "wx": {
+    "sid": "VHHH",
+    "mu": 27.17,
+    "sigma": 1.81,
+    "kind": "exact",
+    "a": 27,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706383": {
+   "q": "Will the highest temperature in Busan be 14°C on November 7?",
+   "p": 0.1410375993296331,
+   "yes": 0.56,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952578.2817051,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.1164192270708202,
+   "wx": {
+    "sid": "geo:busan",
+    "mu": 12.3,
+    "sigma": 1.85,
+    "kind": "exact",
+    "a": 14,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6707078": {
+   "q": "Will the highest temperature in New York City be between 62-63°F on November 7?",
+   "p": 0.21038233651016813,
+   "yes": 0.365,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952579.267841,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.3237418625043191,
+   "wx": {
+    "sid": "KLGA",
+    "mu": 61.53,
+    "sigma": 3.62,
+    "kind": "range",
+    "a": 62,
+    "b": 63,
+    "unit": "F",
+    "date": "2026-11-07"
+   }
+  },
+  "6706118": {
+   "q": "Will the highest temperature in London be 10°C on November 7?",
+   "p": 0.17776397051415588,
+   "yes": 0.38,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952579.5620017,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.25407296264376433,
+   "wx": {
+    "sid": "EGLC",
+    "mu": 10.83,
+    "sigma": 2.05,
+    "kind": "exact",
+    "a": 10,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706349": {
+   "q": "Will the highest temperature in Shenzhen be 30°C on November 7?",
+   "p": 0.14868294453204012,
+   "yes": 0.49,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952580.7192771,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.140240420718995,
+   "wx": {
+    "sid": "geo:shenzhen",
+    "mu": 28.43,
+    "sigma": 1.91,
+    "kind": "exact",
+    "a": 30,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706231": {
+   "q": "Will the highest temperature in Shanghai be 20°C on November 7?",
+   "p": 0.16696918275875983,
+   "yes": 0.585,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952581.5637734,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.15639660333835748,
+   "wx": {
+    "sid": "ZSPD",
+    "mu": 18.6,
+    "sigma": 1.68,
+    "kind": "exact",
+    "a": 20,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706174": {
+   "q": "Will the highest temperature in Lucknow be 30°C on November 7?",
+   "p": 0.201308737097476,
+   "yes": 0.605,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952582.4582393,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.32721535354310294,
+   "wx": {
+    "sid": "geo:lucknow",
+    "mu": 29.83,
+    "sigma": 1.95,
+    "kind": "exact",
+    "a": 30,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "6706133": {
+   "q": "Will the highest temperature in Paris be 12°C on November 7?",
+   "p": 0.13959570270898647,
+   "yes": 0.355,
+   "conf": "medium",
+   "cat": "Clima",
+   "end": 1794052800.0,
+   "t": 1793952583.009506,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "p_alt": 0.13935411741893677,
+   "wx": {
+    "sid": "LFPG",
+    "mu": 10.37,
+    "sigma": 2.11,
+    "kind": "exact",
+    "a": 12,
+    "b": null,
+    "unit": "C",
+    "date": "2026-11-07"
+   }
+  },
+  "2116494": {
+   "q": "Will Labour Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+   "p": 0.35,
+   "yes": 0.37,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793952625.8613586,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2116493": {
+   "q": "Will National Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+   "p": 0.6,
+   "yes": 0.615,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793952631.7215323,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2116541": {
+   "q": "Will Chris Hipkins be the next Prime Minister of New Zealand after the 2026 elections?",
+   "p": 0.42,
+   "yes": 0.43,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793952638.0523398,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2118145": {
+   "q": "Will Labour Party win the second-most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+   "p": 0.65,
+   "yes": 0.635,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793952650.0932105,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
+  },
+  "2118144": {
+   "q": "Will National Party win the second-most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+   "p": 0.35,
+   "yes": 0.34,
+   "conf": "low",
+   "cat": "Politica",
+   "end": 1794113940.0,
+   "t": 1793952656.303211,
+   "resolved": null,
+   "version": "v3-alto-volume",
+   "src": "llm"
   }
  },
  "history": [
@@ -15457,6 +15775,10 @@
   {
    "t": 1793926889.3837895,
    "equity": 1047.39
+  },
+  {
+   "t": 1793952662.4849775,
+   "equity": 1053.94
   }
  ],
  "llm_calls": {
@@ -15474,8 +15796,8 @@
   "2026-11-03": 39,
   "2026-11-04": 22,
   "2026-11-05": 13,
-  "2026-11-06": 6
+  "2026-11-06": 14
  },
  "killed": false,
- "cycles": 74
+ "cycles": 75
 }
