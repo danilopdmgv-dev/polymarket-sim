@@ -1,31 +1,6 @@
 {
- "cash": 965.8488107756942,
+ "cash": 970.9624653648975,
  "positions": [
-  {
-   "mid": "6743399",
-   "q": "Will the highest temperature in New York City be between 62-63°F on November 8?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "39041798960195011479451440838091616993544734051864111077768085622126502863894",
-   "entry": 0.36051702283318954,
-   "fair": 0.4478569804590501,
-   "shares": 29.25093454238942,
-   "cost": 10.545459836310739,
-   "t": 1794037120.5473273,
-   "mark": 0.32,
-   "conf": "medium",
-   "llm_p": 0.16023836590158336,
-   "mkt_yes": 0.34,
-   "edge": 0.08733995762586055,
-   "evidence": [
-    "Previsao Open-Meteo KLGA 2026-11-08: maxima 59.5F (3 modelos, sigma 3.2)"
-   ],
-   "misprice": "Modelo 0.16 vs mercado 0.34",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KLGA|2026-11-08",
-   "inv": true
-  },
   {
    "mid": "6740922",
    "q": "Will the highest temperature in Amsterdam be 10°C on November 8?",
@@ -37,7 +12,7 @@
    "shares": 19.883929197246985,
    "cost": 10.545459836310739,
    "t": 1794037122.4494112,
-   "mark": 0.52,
+   "mark": 0.53,
    "conf": "medium",
    "llm_p": 0.2162631930192399,
    "mkt_yes": 0.505,
@@ -4869,6 +4844,36 @@
    "pnl": -4.847906140629778,
    "closed_t": 1794078798.0774822,
    "held_h": 17.7304023610221
+  },
+  {
+   "mid": "6743399",
+   "q": "Will the highest temperature in New York City be between 62-63°F on November 8?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "39041798960195011479451440838091616993544734051864111077768085622126502863894",
+   "entry": 0.36051702283318954,
+   "fair": 0.4478569804590501,
+   "shares": 29.25093454238942,
+   "cost": 10.545459836310739,
+   "t": 1794037120.5473273,
+   "mark": 0.21,
+   "conf": "medium",
+   "llm_p": 0.16023836590158336,
+   "mkt_yes": 0.34,
+   "edge": 0.08733995762586055,
+   "evidence": [
+    "Previsao Open-Meteo KLGA 2026-11-08: maxima 59.5F (3 modelos, sigma 3.2)"
+   ],
+   "misprice": "Modelo 0.16 vs mercado 0.34",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KLGA|2026-11-08",
+   "inv": true,
+   "exit": 0.17482021238646991,
+   "reason": "stop-loss",
+   "pnl": -5.431805247107492,
+   "closed_t": 1794091939.8174744,
+   "held_h": 15.227575040856998
   }
  ],
  "cache": {},
@@ -9802,7 +9807,7 @@
    "cat": "Outros",
    "end": 1793505540.0,
    "t": 1793342531.883833,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -15838,7 +15843,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793981107.3863964,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.22383745578506076,
@@ -15861,7 +15866,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793981108.5801284,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3629004218939929,
@@ -16747,6 +16752,10 @@
   {
    "t": 1794078798.4211876,
    "equity": 985.55
+  },
+  {
+   "t": 1794091939.9500868,
+   "equity": 981.5
   }
  ],
  "llm_calls": {
@@ -16768,5 +16777,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 81
+ "cycles": 82
 }
