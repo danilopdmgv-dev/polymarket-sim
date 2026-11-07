@@ -793,3 +793,8 @@
 2026-11-07 07:38:41Z BUY YES [clima] Will the highest temperature in Chongqing be 17°C  @ 0.380 $10.55 edge=0.064 conf=medium | Modelo 0.22 vs mercado 0.36
 2026-11-07 07:38:42Z BUY YES [clima] Will the highest temperature in Amsterdam be 10°C  @ 0.530 $10.55 edge=0.148 conf=medium | Modelo 0.22 vs mercado 0.51
 2026-11-07 07:39:34Z ciclo 79: lidos=800 filtro=14 llm=7 clima=7 compras=3 vendas=3 descartados={'esporte_vivo': 4, 'categoria_Esportes': 305, 'cripto': 12, 'combinado': 7} equity=$1004.33
+2026-11-07 14:33:30Z SELL YES [stop-loss] Will the highest temperature in Chicago be between @ 0.047 pnl=$-9.32
+2026-11-07 14:33:30Z SELL YES [stop-loss] Will the highest temperature in Madrid be 19°C on  @ 0.067 pnl=$-9.50
+2026-11-07 14:33:31Z SELL YES [take-profit] Will the highest temperature in Chongqing be 17°C  @ 0.505 pnl=$+3.46
+2026-11-07 14:33:31Z KILL SWITCH: equity $989.22 < $1000.0
+2026-11-07 14:33:31Z ciclo 80: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=3 descartados={} equity=$989.22
