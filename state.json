@@ -1,31 +1,6 @@
 {
- "cash": 959.9853851479681,
+ "cash": 965.8488107756942,
  "positions": [
-  {
-   "mid": "6707101",
-   "q": "Will the highest temperature in Atlanta be between 66-67°F on November 7?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "101684375624109180489318521744036145358134496691762162298859455557016612004805",
-   "entry": 0.5603960228824391,
-   "fair": 0.7194178524556787,
-   "shares": 19.11386114637523,
-   "cost": 10.711331768355855,
-   "t": 1794014968.6289825,
-   "mark": 0.54,
-   "conf": "medium",
-   "llm_p": 0.22763691257386903,
-   "mkt_yes": 0.535,
-   "edge": 0.15902182957323963,
-   "evidence": [
-    "Previsao Open-Meteo KATL 2026-11-07: maxima 65.6F (3 modelos, sigma 3.3)"
-   ],
-   "misprice": "Modelo 0.23 vs mercado 0.54",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "KATL|2026-11-07",
-   "inv": true
-  },
   {
    "mid": "6743399",
    "q": "Will the highest temperature in New York City be between 62-63°F on November 8?",
@@ -37,7 +12,7 @@
    "shares": 29.25093454238942,
    "cost": 10.545459836310739,
    "t": 1794037120.5473273,
-   "mark": 0.3,
+   "mark": 0.32,
    "conf": "medium",
    "llm_p": 0.16023836590158336,
    "mkt_yes": 0.34,
@@ -62,7 +37,7 @@
    "shares": 19.883929197246985,
    "cost": 10.545459836310739,
    "t": 1794037122.4494112,
-   "mark": 0.51,
+   "mark": 0.52,
    "conf": "medium",
    "llm_p": 0.2162631930192399,
    "mkt_yes": 0.505,
@@ -4864,6 +4839,36 @@
    "pnl": 3.4590842888099598,
    "closed_t": 1794062011.0470328,
    "held_h": 6.913684904707803
+  },
+  {
+   "mid": "6707101",
+   "q": "Will the highest temperature in Atlanta be between 66-67°F on November 7?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "101684375624109180489318521744036145358134496691762162298859455557016612004805",
+   "entry": 0.5603960228824391,
+   "fair": 0.7194178524556787,
+   "shares": 19.11386114637523,
+   "cost": 10.711331768355855,
+   "t": 1794014968.6289825,
+   "mark": 0.38,
+   "conf": "medium",
+   "llm_p": 0.22763691257386903,
+   "mkt_yes": 0.535,
+   "edge": 0.15902182957323963,
+   "evidence": [
+    "Previsao Open-Meteo KATL 2026-11-07: maxima 65.6F (3 modelos, sigma 3.3)"
+   ],
+   "misprice": "Modelo 0.23 vs mercado 0.54",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "KATL|2026-11-07",
+   "inv": true,
+   "exit": 0.3067630126024026,
+   "reason": "stop-loss",
+   "pnl": -4.847906140629778,
+   "closed_t": 1794078798.0774822,
+   "held_h": 17.7304023610221
   }
  ],
  "cache": {},
@@ -15451,7 +15456,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952577.0358756,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.225379554273904,
@@ -15497,7 +15502,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952578.2817051,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1164192270708202,
@@ -15566,7 +15571,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952580.7192771,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.140240420718995,
@@ -15589,7 +15594,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952581.5637734,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.15639660333835748,
@@ -15612,7 +15617,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952582.4582393,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.32721535354310294,
@@ -15718,7 +15723,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793981103.2786608,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.21880709311772195,
@@ -16738,6 +16743,10 @@
   {
    "t": 1794062011.2344089,
    "equity": 989.22
+  },
+  {
+   "t": 1794078798.4211876,
+   "equity": 985.55
   }
  ],
  "llm_calls": {
@@ -16759,5 +16768,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 80
+ "cycles": 81
 }

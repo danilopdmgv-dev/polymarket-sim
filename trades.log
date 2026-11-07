@@ -798,3 +798,5 @@
 2026-11-07 14:33:31Z SELL YES [take-profit] Will the highest temperature in Chongqing be 17°C  @ 0.505 pnl=$+3.46
 2026-11-07 14:33:31Z KILL SWITCH: equity $989.22 < $1000.0
 2026-11-07 14:33:31Z ciclo 80: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=3 descartados={} equity=$989.22
+2026-11-07 19:13:18Z SELL YES [stop-loss] Will the highest temperature in Atlanta be between @ 0.307 pnl=$-4.85
+2026-11-07 19:13:18Z ciclo 81: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=1 descartados={} equity=$985.55
