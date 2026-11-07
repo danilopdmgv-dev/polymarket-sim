@@ -775,3 +775,14 @@
 2026-11-06 21:42:39Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-06 21:42:49Z erro previsao LFPG: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
 2026-11-06 21:43:37Z ciclo 77: lidos=700 filtro=35 llm=8 clima=13 compras=2 vendas=3 descartados={'esporte_vivo': 24, 'categoria_Esportes': 251, 'cripto': 8, 'combinado': 2, 'clima_sem_modelo': 3} equity=$1033.54
+2026-11-07 01:29:17Z SELL YES [stop-loss] Will the highest temperature in Busan be 14°C on N @ 0.406 pnl=$-3.47
+2026-11-07 01:29:17Z SELL YES [stop-loss] Will the highest temperature in Atlanta be between @ 0.087 pnl=$-9.05
+2026-11-07 01:29:17Z SELL YES [stop-loss] Will the highest temperature in Houston be between @ 0.199 pnl=$-5.03
+2026-11-07 01:29:27Z BUY YES [clima] Will the highest temperature in Chicago be between @ 0.360 $10.71 edge=0.095 conf=medium | Modelo 0.13 vs mercado 0.34
+2026-11-07 01:29:27Z BUY YES [clima] Will the highest temperature in Madrid be 19°C on  @ 0.591 $10.71 edge=0.210 conf=medium | Modelo 0.19 vs mercado 0.57
+2026-11-07 01:29:28Z BUY YES [clima] Will the highest temperature in Atlanta be between @ 0.560 $10.71 edge=0.159 conf=medium | Modelo 0.23 vs mercado 0.54
+2026-11-07 01:29:44Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-07 01:29:54Z erro previsao geo:karachi: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-07 01:30:04Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-07 01:30:14Z erro previsao LIMC: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)
+2026-11-07 01:31:19Z ciclo 78: lidos=700 filtro=28 llm=8 clima=13 compras=3 vendas=3 descartados={'esporte_vivo': 4, 'categoria_Esportes': 214, 'cripto': 7, 'combinado': 3, 'clima_sem_modelo': 2} equity=$1020.13
