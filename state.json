@@ -12,7 +12,7 @@
    "shares": 19.883929197246985,
    "cost": 10.545459836310739,
    "t": 1794037122.4494112,
-   "mark": 0.53,
+   "mark": 0.57,
    "conf": "medium",
    "llm_p": 0.2162631930192399,
    "mkt_yes": 0.505,
@@ -15553,7 +15553,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952579.5620017,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.25407296264376433,
@@ -15645,7 +15645,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793952583.009506,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.13935411741893677,
@@ -15820,7 +15820,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1793981104.740775,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.0937790289111321,
@@ -15982,7 +15982,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1794001325.39153,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.31049134953029234,
@@ -16756,6 +16756,10 @@
   {
    "t": 1794091939.9500868,
    "equity": 981.5
+  },
+  {
+   "t": 1794103094.6772242,
+   "equity": 982.3
   }
  ],
  "llm_calls": {
@@ -16777,5 +16781,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 82
+ "cycles": 83
 }
