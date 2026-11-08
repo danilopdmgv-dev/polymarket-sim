@@ -803,3 +803,4 @@
 2026-11-07 22:52:19Z SELL YES [stop-loss] Will the highest temperature in New York City be b @ 0.175 pnl=$-5.43
 2026-11-07 22:52:19Z ciclo 82: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=1 descartados={} equity=$981.50
 2026-11-08 01:58:14Z ciclo 83: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=0 descartados={} equity=$982.30
+2026-11-08 08:40:06Z ciclo 84: lidos=0 filtro=0 llm=0 clima=0 compras=0 vendas=0 descartados={} equity=$984.09

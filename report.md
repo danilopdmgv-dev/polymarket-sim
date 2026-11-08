@@ -1,7 +1,7 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-11-08 01:58 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-11-08 08:40 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $982.30 (-50.9%) | **Cash:** $970.96 | **Abertas:** 1 | **Ciclos:** 83 | **KILL SWITCH ATIVO**
+**Equity:** $984.09 (-50.8%) | **Cash:** $970.96 | **Abertas:** 1 | **Ciclos:** 84 | **KILL SWITCH ATIVO**
 **Fechadas:** 161 | **Win rate:** 30% | **PnL realizado:** $-1018.49
 **Chamadas ao LLM hoje:** 0
 
@@ -16,20 +16,20 @@ _Atualizado 2026-11-08 01:58 UTC. SIMULACAO, sem dinheiro real._
 - Politica: 16 trades, win 31%, PnL $-139.83
 - **Clima INVERSO (compra o lado oposto ao modelo):** 94 trades, win 36%, PnL $-166.29
 
-## Calibracao do LLM vs mercado (603 mercados resolvidos)
-- Brier LLM: 0.2948 | Brier mercado: 0.2166 (menor e melhor)
+## Calibracao do LLM vs mercado (613 mercados resolvidos)
+- Brier LLM: 0.2938 | Brier mercado: 0.2169 (menor e melhor)
 - **LLM esta PERDENDO do mercado.**
-  - Clima (443): LLM 0.3359 vs mercado 0.2337
+  - Clima (453): LLM 0.3336 vs mercado 0.2338
   - Economia/Dados (9): LLM 0.1526 vs mercado 0.1521
   - Entretenimento (36): LLM 0.1442 vs mercado 0.1478
   - Outros (53): LLM 0.1725 vs mercado 0.1731
   - Politica (62): LLM 0.2142 vs mercado 0.1807
-- Fonte clima (443): modelo 0.3359 vs mercado 0.2337 -> PERDENDO
+- Fonte clima (453): modelo 0.3336 vs mercado 0.2338 -> PERDENDO
 - Fonte llm (160): modelo 0.1812 vs mercado 0.1691 -> PERDENDO
-- Clima (424): sigma largo 0.3394 | sigma estreito 0.3147 | mercado 0.2346
+- Clima (434): sigma largo 0.3369 | sigma estreito 0.3130 | mercado 0.2347
 
 ## Posicoes abertas
-- YES Will the highest temperature in Amsterdam be 10°C on Novembe | entrada 0.53, agora 0.57, LLM 0.22, edge 0.15, medium | Modelo 0.22 vs mercado 0.51
+- YES Will the highest temperature in Amsterdam be 10°C on Novembe | entrada 0.53, agora 0.66, LLM 0.22, edge 0.15, medium | Modelo 0.22 vs mercado 0.51
 
 ## Ultimas 10 fechadas
 - YES Will the highest temperature in New York City be b | stop-loss | $-5.43 | 15.2h
