@@ -1,32 +1,6 @@
 {
- "cash": 970.9624653648975,
- "positions": [
-  {
-   "mid": "6740922",
-   "q": "Will the highest temperature in Amsterdam be 10°C on November 8?",
-   "cat": "Clima",
-   "side": "YES",
-   "token": "94809421858723793361624610834235169600444462794269231813243383427029244810735",
-   "entry": 0.5303509045772906,
-   "fair": 0.678242084188456,
-   "shares": 19.883929197246985,
-   "cost": 10.545459836310739,
-   "t": 1794037122.4494112,
-   "mark": 0.66,
-   "conf": "medium",
-   "llm_p": 0.2162631930192399,
-   "mkt_yes": 0.505,
-   "edge": 0.14789117961116538,
-   "evidence": [
-    "Previsao Open-Meteo EHAM 2026-11-08: maxima 9.4C (3 modelos, sigma 1.7)"
-   ],
-   "misprice": "Modelo 0.22 vs mercado 0.51",
-   "version": "v3-alto-volume",
-   "src": "clima",
-   "event": "EHAM|2026-11-08",
-   "inv": true
-  }
- ],
+ "cash": 990.1436487945014,
+ "positions": [],
  "closed": [
   {
    "mid": "6003553",
@@ -4874,6 +4848,36 @@
    "pnl": -5.431805247107492,
    "closed_t": 1794091939.8174744,
    "held_h": 15.227575040856998
+  },
+  {
+   "mid": "6740922",
+   "q": "Will the highest temperature in Amsterdam be 10°C on November 8?",
+   "cat": "Clima",
+   "side": "YES",
+   "token": "94809421858723793361624610834235169600444462794269231813243383427029244810735",
+   "entry": 0.5303509045772906,
+   "fair": 0.678242084188456,
+   "shares": 19.883929197246985,
+   "cost": 10.545459836310739,
+   "t": 1794037122.4494112,
+   "mark": 0.998,
+   "conf": "medium",
+   "llm_p": 0.2162631930192399,
+   "mkt_yes": 0.505,
+   "edge": 0.14789117961116538,
+   "evidence": [
+    "Previsao Open-Meteo EHAM 2026-11-08: maxima 9.4C (3 modelos, sigma 1.7)"
+   ],
+   "misprice": "Modelo 0.22 vs mercado 0.51",
+   "version": "v3-alto-volume",
+   "src": "clima",
+   "event": "EHAM|2026-11-08",
+   "inv": true,
+   "exit": 0.9646576005842742,
+   "reason": "take-profit",
+   "pnl": 8.63572359329313,
+   "closed_t": 1794152487.980363,
+   "held_h": 32.045980820059775
   }
  ],
  "cache": {},
@@ -15354,7 +15358,7 @@
    "cat": "Outros",
    "end": 1794072600.0,
    "t": 1793910429.3446088,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -15366,7 +15370,7 @@
    "cat": "Entretenimento",
    "end": 1794070800.0,
    "t": 1793910435.9369977,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16005,7 +16009,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1794001327.5484962,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3111981798206622,
@@ -16074,7 +16078,7 @@
    "cat": "Entretenimento",
    "end": 1794070800.0,
    "t": 1794001375.5890994,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16086,7 +16090,7 @@
    "cat": "Entretenimento",
    "end": 1794070800.0,
    "t": 1794001381.55739,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16168,7 +16172,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1794014971.2488394,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.30997977495617474,
@@ -16214,7 +16218,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1794014973.2770872,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.39013241595868076,
@@ -16330,7 +16334,7 @@
    "cat": "Clima",
    "end": 1794052800.0,
    "t": 1794037121.087511,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.4753674408409474,
@@ -16764,6 +16768,10 @@
   {
    "t": 1794127206.0048954,
    "equity": 984.09
+  },
+  {
+   "t": 1794152487.9805636,
+   "equity": 990.14
   }
  ],
  "llm_calls": {
@@ -16785,5 +16793,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 84
+ "cycles": 85
 }
