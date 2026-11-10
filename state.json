@@ -15418,7 +15418,7 @@
    "cat": "Politica",
    "end": 1794027540.0,
    "t": 1793926851.1417542,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16241,7 +16241,7 @@
    "cat": "Clima",
    "end": 1794139200.0,
    "t": 1794014973.5654733,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.3381069954318734,
@@ -16792,6 +16792,10 @@
   {
    "t": 1794263758.0154836,
    "equity": 990.14
+  },
+  {
+   "t": 1794284793.9438217,
+   "equity": 990.14
   }
  ],
  "llm_calls": {
@@ -16813,5 +16817,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 90
+ "cycles": 91
 }
