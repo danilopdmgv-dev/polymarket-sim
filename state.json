@@ -16288,7 +16288,7 @@
    "cat": "Clima",
    "end": 1794139200.0,
    "t": 1794037119.9779234,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.7921681422537036,
@@ -16311,7 +16311,7 @@
    "cat": "Clima",
    "end": 1794139200.0,
    "t": 1794037120.5473018,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "clima",
    "p_alt": 0.1307721715444582,
@@ -16796,6 +16796,10 @@
   {
    "t": 1794284793.9438217,
    "equity": 990.14
+  },
+  {
+   "t": 1794315115.805961,
+   "equity": 990.14
   }
  ],
  "llm_calls": {
@@ -16817,5 +16821,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 91
+ "cycles": 92
 }
