@@ -1,7 +1,7 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-11-13 15:37 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-11-13 21:44 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $990.14 (-50.5%) | **Cash:** $990.14 | **Abertas:** 0 | **Ciclos:** 103 | **KILL SWITCH ATIVO**
+**Equity:** $990.14 (-50.5%) | **Cash:** $990.14 | **Abertas:** 0 | **Ciclos:** 104 | **KILL SWITCH ATIVO**
 **Fechadas:** 162 | **Win rate:** 30% | **PnL realizado:** $-1009.86
 **Chamadas ao LLM hoje:** 0
 
