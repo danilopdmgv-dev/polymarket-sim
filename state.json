@@ -5190,7 +5190,7 @@
    "cat": "Outros",
    "end": 1792886340.0,
    "t": 1792727758.9904764,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -5304,7 +5304,7 @@
    "cat": "Outros",
    "end": 1792886340.0,
    "t": 1792728237.9501667,
-   "resolved": null,
+   "resolved": "NO",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16944,6 +16944,10 @@
   {
    "t": 1795192599.3042727,
    "equity": 990.14
+  },
+  {
+   "t": 1795215195.1127238,
+   "equity": 990.14
   }
  ],
  "llm_calls": {
@@ -16965,5 +16969,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 128
+ "cycles": 129
 }

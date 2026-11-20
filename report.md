@@ -1,7 +1,7 @@
 # Polymarket Survival Sim (v3-alto-volume)
-_Atualizado 2026-11-20 16:36 UTC. SIMULACAO, sem dinheiro real._
+_Atualizado 2026-11-20 22:53 UTC. SIMULACAO, sem dinheiro real._
 
-**Equity:** $990.14 (-50.5%) | **Cash:** $990.14 | **Abertas:** 0 | **Ciclos:** 128 | **KILL SWITCH ATIVO**
+**Equity:** $990.14 (-50.5%) | **Cash:** $990.14 | **Abertas:** 0 | **Ciclos:** 129 | **KILL SWITCH ATIVO**
 **Fechadas:** 162 | **Win rate:** 30% | **PnL realizado:** $-1009.86
 **Chamadas ao LLM hoje:** 0
 
@@ -16,16 +16,16 @@ _Atualizado 2026-11-20 16:36 UTC. SIMULACAO, sem dinheiro real._
 - Politica: 16 trades, win 31%, PnL $-139.83
 - **Clima INVERSO (compra o lado oposto ao modelo):** 95 trades, win 37%, PnL $-157.65
 
-## Calibracao do LLM vs mercado (637 mercados resolvidos)
-- Brier LLM: 0.2926 | Brier mercado: 0.2170 (menor e melhor)
+## Calibracao do LLM vs mercado (639 mercados resolvidos)
+- Brier LLM: 0.2920 | Brier mercado: 0.2164 (menor e melhor)
 - **LLM esta PERDENDO do mercado.**
   - Clima (466): LLM 0.3313 vs mercado 0.2340
   - Economia/Dados (9): LLM 0.1526 vs mercado 0.1521
   - Entretenimento (39): LLM 0.1502 vs mercado 0.1523
-  - Outros (54): LLM 0.1695 vs mercado 0.1700
+  - Outros (56): LLM 0.1672 vs mercado 0.1642
   - Politica (69): LLM 0.2260 vs mercado 0.1846
 - Fonte clima (466): modelo 0.3313 vs mercado 0.2340 -> PERDENDO
-- Fonte llm (171): modelo 0.1870 vs mercado 0.1709 -> PERDENDO
+- Fonte llm (173): modelo 0.1861 vs mercado 0.1690 -> PERDENDO
 - Clima (447): sigma largo 0.3344 | sigma estreito 0.3110 | mercado 0.2349
 
 ## Posicoes abertas
