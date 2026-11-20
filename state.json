@@ -12231,7 +12231,7 @@
    "cat": "Politica",
    "end": 1793707200.0,
    "t": 1793544015.5705402,
-   "resolved": null,
+   "resolved": "YES",
    "version": "v3-alto-volume",
    "src": "llm"
   },
@@ -16932,6 +16932,10 @@
   {
    "t": 1795111596.843013,
    "equity": 990.14
+  },
+  {
+   "t": 1795135527.5171883,
+   "equity": 990.14
   }
  ],
  "llm_calls": {
@@ -16953,5 +16957,5 @@
   "2026-11-07": 15
  },
  "killed": true,
- "cycles": 125
+ "cycles": 126
 }
